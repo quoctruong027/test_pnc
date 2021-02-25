@@ -1,0 +1,38 @@
+.xt_woofc{
+
+  // Angel Paypal For WooCommerce
+  .wc-proceed-to-checkout {
+
+    .angelleye_smart_button_bottom {
+      margin-top: 10px;
+    }
+  }
+  // Hide Angel Paypal payment method button in checkout form,
+  // woofc place order will take care of paypal redirection
+  .angelleye_smart_button_checkout_bottom{
+    display: none!important;
+  }
+
+  #checkout_paypal_message {
+    text-align: center;
+    margin-bottom:0!important;
+
+    + div {
+      margin-bottom:0!important;
+    }
+
+    *{
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    &:before {
+      display: none;
+    }
+  }
+
+  // XT Woo Points Rewards
+  .xt_woopr_alert{
+      margin-bottom: 5px!important;
+  }
+}

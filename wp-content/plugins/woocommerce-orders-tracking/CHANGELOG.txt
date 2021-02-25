@@ -1,0 +1,48 @@
+/**v1.0.6 - 2020.12.19**/
+- Fixed: Short link created but not sent in sms in several cases
+- Fixed: Display duplicate order items in track info email when bulk add tracking number
+- Added: Compatibility with WooCommerce Email Template Customizer Premium/Email Template Customizer for WooCommerce by VillaTheme
+- Added: Option to send email when syncing AliExpress orders
+- Added: Export fields: item quantity, order note, customer note
+
+/**v1.0.5 - 2020.12.11**/
+- Fixed: Can not select shipping carrier since WP5.6
+- Fixed: Link to email/sms settings from admin order page
+- Updated: Compatible with WP5.6 and WC4.8
+- Added: Option to use unicode message for Nexmo
+
+/**v1.0.4 - 2020.08.15**/
+- Added: Compatibility with Email customizer plugin
+- Added: Compatibility with WP5.5 and WC4.3
+
+/**v1.0.3 - 2020.06.12**/
+- Added: Schedule update tracking data
+- Added: Support webhook to automatically update tracking data
+- Added: Automatically change order status when shipment statuses of all tracking numbers of an order change to delivered
+- Added: Option to include tracking of all order items instead of only changed item in email
+- Added: Able to use display name of carriers instead of real name, good for dropshipping
+- Added: Able to track without tracking number
+- Added: Able to customize tracking in email with multilingual supported
+- Added: Compatibility with WooCommerce order status manager plugin
+
+/**v1.0.2.3 - 2020.05.09**/
+- Fixed: Add tracking to PayPal when importing via CSV for orders paid with PayPal Checkout
+- Fixed: Unwanted characters in export file
+- Updated: Compatible with WooCommerce 4.1
+
+/**v1.0.2.2 - 2020.04.29**/
+- Fixed: PayPal issue with some users when importing tracking numbers
+- Added: Multilingual support: email, sms
+- Added: Option to set cache time
+- Added: Tracking number on My account/orders
+
+/**v1.0.2.1 - 2020.04.03**/
+- Added: Compatibility with WooCommerce Status Actions plugin for including tracking in custom statuses email
+- Added: Shortcode [woocommerce_orders_tracking_info_woo_email] to use with email customizer plugins
+
+/**v1.0.1 - 2020.03.31**/
+- Fixed: Save filter options
+- Fixed: Send SMS with Plivo
+
+/**v1.0.0 - 2020.03.20**/
+- The first release

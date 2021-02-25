@@ -1,0 +1,37 @@
+
+	<?php $get_hash = $this->get_localstorage_hash( 'gad' ); ?>
+	var wfocugadHash = '<?php echo $get_hash."$k"; ?>';
+	var wfocugadResult = false;
+	try {
+
+		if ('1' === localStorage.getItem("wfocuH_" + wfocugadHash)) {
+			wfocugadResult = true;
+		}
+
+	} catch (exception) {
+
+	}
+	if (false === wfocugadResult) {
+		var wfocuvarGadPurchaseData = <?php echo wp_json_encode( $data['gad'] ); ?>;
+		<?php
+
+		?>
+		wfocuvarGadPurchaseData.send_to = '<?php echo esc_js( $gad_code ); ?>';
+
+		<?php if(false !== $gad_label) {
+		?>
+
+		wfocuvarGadPurchaseData.send_to = '<?php echo esc_js( $gad_code ); ?>/<?php echo esc_js( $gad_label ) ?>';
+
+		<?php
+		}?>
+		gtag('event', 'purchase', wfocuvarGadPurchaseData);
+		try {
+
+			localStorage.setItem("wfocuH_" + wfocugadHash, "1");
+
+		} catch (exception) {
+
+		}
+
+	}

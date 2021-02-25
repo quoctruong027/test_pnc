@@ -1,0 +1,2184 @@
+# Copyright (C) 2020 SomewhereWarm
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Recommendations 1.4.7\n"
+"Report-Msgid-Bugs-To: https://woocommerce.com/my-account/create-a-ticket/\n"
+"POT-Creation-Date: 2020-10-01 14:38:33+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/admin/class-wc-prl-admin-ajax.php:82
+msgid "Failed to save deployment. Please refresh your browser and try again."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-ajax.php:125
+#: includes/admin/class-wc-prl-admin-ajax.php:158
+msgid "Deployment not found."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-ajax.php:176
+msgid "Deployment not found. Please refresh the page and try again."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-ajax.php:202
+msgid "No deployments found for regeneration."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-ajax.php:266
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:66
+#: includes/admin/reports/class-wc-prl-report.php:148
+#: includes/class-wc-prl-deployments.php:267
+msgid "(no title)"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-deploy.php:40
+msgid "Please choose a Location."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-deploy.php:47
+msgid "Ops! Something went wrong while trying to save a Location for this Engine."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-deploy.php:54
+#: includes/admin/class-wc-prl-admin-deploy.php:148
+msgid "Engine not found."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-deploy.php:94
+msgid "Deployment edited successfully."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-deploy.php:97
+msgid ""
+"Engine deployed successfully. Your recommendations will be generated "
+"shortly after the first time they are requested, and will be refreshed "
+"every %s."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-deploy.php:108
+msgid ""
+"This deployment generates dynamic/personalized recommendations that some "
+"visitors <a href=\"%1$s\" target=\"_blank\">may not be able to see "
+"correctly</a>, as the page that contains them appears to be served from a "
+"cache. As a workaround, you may enable <strong>Deployments rendering > Use "
+"AJAX</strong> under <strong>WooCommerce > Settings > "
+"Recommendations</strong> &ndash; but please be aware that doing so will "
+"have an impact on server utilization and user experience."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-deploy.php:110
+msgid ""
+"The engine you just deployed generates dynamic/personalized recommendations "
+"that some visitors <a href=\"%1$s\" target=\"_blank\">may not be able to "
+"see correctly</a>, as the page that contains them appears to be served from "
+"a cache. As a workaround, you may enable <strong>Deployments rendering > "
+"Use AJAX</strong> under <strong>WooCommerce > Settings > "
+"Recommendations</strong> &ndash; but please be aware that doing so will "
+"have an impact on server utilization and user experience."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-hooks.php:93
+msgid "Deployments saved."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-locations.php:60
+msgid "Deployment deleted."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-menus.php:85
+#: includes/admin/class-wc-prl-admin-menus.php:280
+#: includes/admin/class-wc-prl-admin-menus.php:283
+#: includes/admin/class-wc-prl-admin-reports.php:68
+#: includes/admin/settings/class-wc-prl-admin-settings.php:31
+msgid "Recommendations"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-menus.php:100
+#: includes/admin/class-wc-prl-admin-menus.php:188
+#: includes/admin/class-wc-prl-admin-menus.php:283
+#: includes/admin/class-wc-prl-admin-menus.php:372
+#: includes/admin/views/html-admin-hooks.php:16
+#: includes/admin/views/html-admin-locations.php:16
+msgid "Locations"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-menus.php:119
+msgid "View Location"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-menus.php:131
+#: includes/admin/class-wc-prl-admin-menus.php:183
+#: includes/class-wc-prl-post-types.php:82
+#: includes/class-wc-prl-post-types.php:84
+msgid "Engines"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-menus.php:142
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-menus.php:152
+msgid "Edit Engine"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-menus.php:177
+#: includes/admin/class-wc-prl-admin-menus.php:280
+#: includes/admin/views/html-admin-performance.php:17
+msgid "Performance"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-menus.php:384
+#: includes/admin/list-tables/class-wc-prl-admin-list-engines.php:225
+msgid "Deploy engine"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:343
+msgid ""
+"<strong>WooCommerce Product Recommendations</strong> is updating your "
+"database.%s"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:348
+msgid ""
+"<strong>WooCommerce Product Recommendations</strong> has been updated! To "
+"keep things running smoothly, your database needs to be updated, as well."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:349
+msgid ""
+"Before you proceed, please take a few minutes to <a href=\"%s\" "
+"target=\"_blank\">learn more</a> about best practices when updating."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:354
+msgid ""
+"<strong>WooCommerce Product Recommendations</strong> has not finished "
+"updating your database.%s"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:363
+msgid ""
+"<strong>WooCommerce Product Recommendations</strong> database update "
+"complete. Thank you for updating to the latest version!"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:390
+#: includes/class-wc-prl-post-types.php:134
+msgid "Ready to offer some product recommendations?"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:391
+msgid "Thank you for installing WooCommerce Product Recommendations."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:391
+msgid "Let's get started by creating your first recommendation Engine."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:392
+msgid "Let's go!"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:460
+msgid "Loopback test passed!"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:462
+msgid "Loopback test failed!"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:487
+msgid ""
+"Product Recommendations ran a quick check-up on your site, and found that "
+"loopback requests might be failing to complete. Loopback requests are used "
+"by WooCommerce to run scheduled events, such as database upgrades. To keep "
+"your site in top shape, please ask the host or administrator of your server "
+"to look into this for you."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:488
+msgid "Repeat test"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:523
+msgid ""
+"Product Recommendations ran a quick check-up on your site, and found that "
+"your catalog pages are probably served from a full page cache. While this "
+"ensures a snappier experience for your visitors, it also prevents <a "
+"href=\"%1$s\" target=\"_blank\">some advanced features</a> in Product "
+"Recommendations from working correctly. As a workaround, you may enable "
+"<strong>Deployments rendering > Use AJAX</strong> under <strong>WooCommerce "
+"> Settings > Recommendations</strong> &ndash; but please be aware that "
+"doing so will have an impact on server utilization and user experience."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:559
+msgid ""
+"Product Recommendations ran a quick check-up on your site, and found that "
+"the task scheduler built into WooCommerce might be failing to process "
+"certain tasks in time. To keep your site in top shape, please ask the host "
+"or administrator of your server to look into this for you."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:572
+msgid "Update database"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:590
+msgid "run it manually"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:591
+msgid ""
+" The process seems to be taking a little longer than usual, so let's try to "
+"%s."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:604
+msgid "get in touch with us"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:605
+msgid "If this message persists, please restore your database from a backup, or %s."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:732
+msgid "<strong>Product Recommendations</strong> just got smarter!"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:733
+msgid ""
+"Add a pinch of intelligence to your catalog, with automated \"Bought "
+"Together\" and \"Others Also Bought\" recommendations."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:740
+msgid "A pinch of intelligence to grow your sales"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-notices.php:749
+msgid "Learn more"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-performance.php:294
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:107
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:120
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:126
+msgid "N/A"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-post-types.php:88
+#: includes/admin/list-tables/class-wc-prl-admin-list-engines.php:116
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-post-types.php:90
+msgid "Create"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-post-types.php:108
+msgid "Engine title"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-post-types.php:129
+#: includes/admin/class-wc-prl-admin-post-types.php:130
+msgid "Engine updated."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-post-types.php:132
+#. translators: %s: date and time of the revision
+msgid "Engine restored to revision from %s"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-post-types.php:133
+msgid "Engine created."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-post-types.php:134
+msgid "Engine saved."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-post-types.php:135
+msgid "Engine submitted."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-post-types.php:136
+msgid "Engine draft updated."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-post-types.php:153
+#. translators: %s: engine count
+msgid "%s engine permanently deleted."
+msgid_plural "%s engines permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-prl-admin-post-types.php:155
+#. translators: %s: engine count
+msgid "%s engine moved to Trash."
+msgid_plural "%s engines moved to Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-prl-admin-post-types.php:157
+#. translators: %s: engine count
+msgid "%s engine restored from Trash."
+msgid_plural "%s engines restored from Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-prl-admin-reports.php:71
+#: includes/admin/views/html-admin-performance.php:175
+#: includes/admin/views/html-admin-performance.php:267
+msgid "Revenue"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-reports.php:77
+msgid "Events"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin-reports.php:83
+#: includes/admin/views/html-admin-performance.php:233
+#: includes/admin/views/html-admin-performance.php:319
+msgid "Conversion"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:160
+msgid ""
+"The installed version of <strong>Product Recommendations</strong> is not "
+"compatible with the <code>selectSW</code> library found on your system. "
+"Please update Product Recommendations to the latest version."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:242
+msgid ""
+"WooCommerce Product Recommendations uses cookies to track the following "
+"visitor activity:"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:245
+msgid "Viewed products."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:246
+msgid "Viewed recommendations."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:247
+msgid "Clicked products in recommendations."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:250
+msgid ""
+"The extension also stores aggregate information based on the "
+"recommendations that visitors view and click while browsing your site. This "
+"information cannot be used to personally identify any visitor."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:252
+msgid ""
+"Please make sure that your cookie and analytics policies are updated to "
+"reflect this information."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:253
+msgid "Cookies"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:254
+msgid ""
+"<strong>Suggested text:</strong> While browsing our site, we will set "
+"temporary cookies to track:"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:256
+msgid "Recommendations you have viewed."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:257
+msgid "Product recommendations you have clicked."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:259
+msgid "These cookies contain no personal data and expire after 1 day."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:260
+msgid "Analytics"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:261
+msgid ""
+"<strong>Suggested text:</strong> We store aggregate information based on "
+"the recommendations you view and click while browsing our site. This "
+"information cannot be used to personally identify you."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:292
+msgid ""
+"Engine cache cleared. Recommendations will be regenerated shortly after the "
+"first time they are requested."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:293
+msgid ""
+"Cache cleared. Recommendations will be regenerated shortly after the first "
+"time they are requested."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:295
+msgid "The conditions you have added will be deleted. Are you sure?"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:296
+msgid "The filters and amplifiers you have added will be deleted. Are you sure?"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:297
+msgid "This deployment will be permanently deleted from your system. Are you sure?"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:356
+msgid "Reschedule page cache test"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:357
+msgid "Reschedule"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:358
+msgid ""
+"This will reschedule the page cache test routine in Product Recommendations "
+"and update notices as needed. Useful if you have just made changes to your "
+"server and don't want to wait for the next scheduled test run."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:379
+msgid "Could not reschedule page cache test: %s"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:385
+msgid "Page cache test rescheduled successfully."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:399
+msgid "Clear Product Recommendations queue"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:400
+msgid "Clear queue"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:401
+msgid ""
+"This will clear the regeneration queue of Product Recommendations. Useful "
+"if the queue appears to be stuck due to server errors or conflicts."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:422
+msgid "Product Recommendations queue cleared successfully."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:61
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:157
+#: includes/admin/views/html-admin-deploy.php:51
+#: includes/class-wc-prl-post-types.php:88
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:62
+msgid "Regenerate"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:63
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:159
+#: includes/class-wc-prl-deployments.php:228
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:69
+msgid "inactive"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:75
+msgid "&#8220;%s&#8221; (Edit)"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:89
+msgid "Select %s"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:146
+#: includes/class-wc-prl-post-types.php:89
+msgid "Edit engine"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:146
+#: includes/admin/views/html-admin-deploy.php:18
+#: includes/admin/views/html-admin-deploy.php:50
+msgid "(untitled)"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:157
+#: includes/admin/views/html-admin-deploy.php:22
+msgid "Edit deployment"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:158
+#: includes/admin/list-tables/class-wc-prl-admin-list-engines.php:224
+msgid "Regenerate recommendations"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:159
+msgid "Delete deployment"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:194
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:210
+msgid "Deployments deleted."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:261
+msgid "Ready to start your Engines?"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:264
+msgid ""
+"Deploy an Engine now to offer product recommendations at a Location of your "
+"store."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:267
+#: includes/admin/views/html-admin-locations.php:29
+#: includes/class-wc-prl-deployments.php:263
+msgid "Search for an Engine&hellip;"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:274
+#: includes/class-wc-prl-post-types.php:131
+msgid "Create an Engine"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:277
+msgid "Want to add product recommendations to a Location of your store?"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:279
+msgid "Start by creating an Engine &mdash; then, return here to deploy it."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:281
+#: includes/class-wc-prl-post-types.php:138
+msgid "Create engine"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-engines.php:112
+#: includes/admin/views/html-admin-deploy.php:74
+#: includes/class-wc-prl-deployments.php:242
+msgid "Title"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-engines.php:113
+msgid "Type"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-engines.php:114
+msgid "Deployments"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-engines.php:115
+#: includes/admin/reports/class-wc-prl-report.php:83
+#: includes/conditions/class-wc-prl-condition-date.php:27
+msgid "Date"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-engines.php:184
+msgid "Filter by type"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-engines.php:225
+#: includes/admin/meta-boxes/class-wc-prl-meta-box-engine-configuration.php:75
+#: includes/admin/views/html-admin-deploy.php:157
+msgid "Deploy"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-prl-meta-box-engine-configuration.php:74
+msgid ""
+"This engine has not been deployed to any locations yet. Deploy this engine "
+"now?"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-prl-meta-box-engine-configuration.php:89
+#: includes/admin/meta-boxes/class-wc-prl-meta-box-engine-configuration.php:177
+msgid "Engine Configuration"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-prl-meta-box-engine-configuration.php:128
+msgid "Engine Type"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-prl-meta-box-engine-configuration.php:129
+msgid ""
+"Each engine type is designed to generate recommendations at specific "
+"locations of your store."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-prl-meta-box-engine-configuration.php:142
+msgid ""
+"Choose an engine type to see a list of supported locations. When you deploy "
+"this engine, you will be able to choose its precise location."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-prl-meta-box-engine-configuration.php:157
+msgid "Supported locations:"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-prl-meta-box-engine-configuration.php:178
+msgid ""
+"Configure filters and amplifiers to generate product recommendations. Add "
+"filters to narrow down results. Use amplifiers to control their order."
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-prl-meta-box-engine-configuration.php:186
+msgid "Create and deploy"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-prl-meta-box-engine-configuration.php:186
+msgid "Update and deploy"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-conversions.php:129
+#. translators: %s: clicks per view
+msgid "%s clicks per view"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-conversions.php:142
+#. translators: %s: conversion rate
+msgid "%s conversion rate"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-conversions.php:158
+#: includes/admin/reports/class-wc-prl-report-events.php:164
+#: includes/admin/reports/class-wc-prl-report-sales.php:187
+msgid "Year"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-conversions.php:159
+#: includes/admin/reports/class-wc-prl-report-events.php:165
+#: includes/admin/reports/class-wc-prl-report-sales.php:188
+msgid "Last month"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-conversions.php:160
+#: includes/admin/reports/class-wc-prl-report-events.php:166
+#: includes/admin/reports/class-wc-prl-report-sales.php:189
+msgid "This month"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-conversions.php:161
+#: includes/admin/reports/class-wc-prl-report-events.php:167
+#: includes/admin/reports/class-wc-prl-report-sales.php:190
+#: includes/admin/views/html-admin-performance.php:19
+msgid "Last 7 days"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-conversions.php:260
+#: includes/amplifiers/class-wc-prl-amplifier-conversion-rate.php:28
+msgid "Conversion Rate"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-conversions.php:268
+msgid "conversion rate"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-conversions.php:272
+#: includes/admin/views/html-admin-performance.php:126
+msgid "Clicks per view"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-conversions.php:279
+msgid "clicks per view"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-events.php:125
+#. translators: %s: views
+msgid "%s unique views"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-events.php:138
+#. translators: %s: total orders
+msgid "%s unique clicks"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-events.php:148
+#. translators: %s: total orders
+msgid "%s conversions"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-events.php:225
+#: includes/admin/views/html-admin-performance.php:66
+msgid "Unique Views"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-events.php:232
+msgid "unique views"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-events.php:236
+#: includes/admin/views/html-admin-performance.php:86
+msgid "Unique Clicks"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-events.php:243
+msgid "unique clicks"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-events.php:246
+#: includes/admin/views/html-admin-performance.php:106
+msgid "Conversions"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-events.php:253
+msgid "conversions"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-sales.php:118
+#. translators: %s: average total sales
+msgid "%s average gross daily sales"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-sales.php:123
+#. translators: %s: average sales
+msgid "%s average net daily sales"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-sales.php:131
+#. translators: %s: average total sales
+msgid "%s average gross monthly sales"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-sales.php:136
+#. translators: %s: average sales
+msgid "%s average net monthly sales"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-sales.php:145
+#. translators: %s: total sales
+msgid "%s gross sales in this period"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-sales.php:148
+msgid ""
+"This is the sum of the order totals after any refunds and including "
+"shipping and taxes."
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-sales.php:163
+#. translators: %s: net sales
+msgid "%s net sales in this period"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-sales.php:166
+msgid ""
+"This is the sum of the order totals after any refunds and excluding "
+"shipping and taxes."
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-sales.php:256
+msgid "Gross sales amount"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-sales.php:266
+msgid "Average gross sales amount"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-sales.php:276
+msgid "Net sales amount"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report-sales.php:286
+msgid "Average net sales amount"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report.php:87
+msgid "Export CSV"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report.php:185
+msgid "Showing reports for:"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report.php:217
+#: includes/admin/reports/class-wc-prl-report.php:269
+#: includes/admin/views/html-admin-deploy.php:109
+#: includes/admin/views/html-admin-performance.php:266
+#: includes/admin/views/html-admin-performance.php:292
+#: includes/admin/views/html-admin-performance.php:318
+msgid "Location"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report.php:231
+#: includes/admin/reports/class-wc-prl-report.php:298
+#: includes/admin/views/html-admin-locations.php:34
+msgid "Engine Deployments"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report.php:248
+#: includes/admin/reports/class-wc-prl-report.php:305
+msgid "Products"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report.php:253
+msgid "Reset"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report.php:265
+#: includes/class-wc-prl-filters.php:137
+msgid "Filters"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report.php:270
+msgid "Select Location&hellip;"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report.php:299
+msgid "Select deployments&hellip;"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report.php:306
+msgid "Search for products&hellip;"
+msgstr ""
+
+#: includes/admin/reports/class-wc-prl-report.php:318
+msgid "Show"
+msgstr ""
+
+#: includes/admin/settings/class-wc-prl-admin-settings.php:53
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/settings/class-wc-prl-admin-settings.php:59
+msgid "Tracking session (hours)"
+msgstr ""
+
+#: includes/admin/settings/class-wc-prl-admin-settings.php:60
+msgid ""
+"Period of visitor inactivity that must elapse before tracking cookies "
+"expire. Used by Product Recommendations to record Unique Views for "
+"recommendation blocks."
+msgstr ""
+
+#: includes/admin/settings/class-wc-prl-admin-settings.php:72
+msgid "View tracking threshold (seconds)"
+msgstr ""
+
+#: includes/admin/settings/class-wc-prl-admin-settings.php:73
+msgid ""
+"Controls the time that a recommendation block must remain within the "
+"browser's viewport before a &quot;view&quot; event will be recorded."
+msgstr ""
+
+#: includes/admin/settings/class-wc-prl-admin-settings.php:85
+msgid "Cache regeneration period (hours)"
+msgstr ""
+
+#: includes/admin/settings/class-wc-prl-admin-settings.php:86
+msgid ""
+"Time that must elapse before Product Recommendations will invalidate the "
+"content of a cached recommendation block."
+msgstr ""
+
+#: includes/admin/settings/class-wc-prl-admin-settings.php:98
+msgid "Visible Deployments (per Location)"
+msgstr ""
+
+#: includes/admin/settings/class-wc-prl-admin-settings.php:99
+msgid ""
+"Use this setting to control the maximum number of recommendation blocks "
+"that a visitor may see in a single Location."
+msgstr ""
+
+#: includes/admin/settings/class-wc-prl-admin-settings.php:111
+msgid "Deployments rendering"
+msgstr ""
+
+#: includes/admin/settings/class-wc-prl-admin-settings.php:112
+msgid "Use AJAX"
+msgstr ""
+
+#: includes/admin/settings/class-wc-prl-admin-settings.php:116
+msgid ""
+"Recommendation blocks will be rendered asynchronously using AJAX. Must be "
+"enabled in order to bypass HTML caching."
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:18
+msgid "Product Recommendations"
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:23
+msgid "Database version"
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:24
+msgid ""
+"The version of Product Recommendations reported by the database. This "
+"should be the same as the plugin version."
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:31
+msgid "Database version mismatch."
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:37
+msgid "Loopback test"
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:38
+msgid ""
+"Loopback requests are used by Product Recommendations to regenerate "
+"recommendations in the background."
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:47
+msgid "Loopback test failed."
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:53
+msgid "Task queueing test"
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:54
+msgid ""
+"The task queue built into WooCommerce must be operating properly to process "
+"scheduled tasks and events."
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:61
+msgid "Task queueing test failed."
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:67
+msgid "Page cache test"
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:68
+msgid ""
+"Using a page cache ensures a snappier experience for your visitors, but "
+"also prevents some advanced features in Product Recommendations from "
+"working correctly. As a workaround, you may enable <strong>Deployments "
+"rendering > Use AJAX</strong> under <strong>WooCommerce > Settings > "
+"Recommendations</strong> – but please be aware that doing so will have an "
+"impact on server utilization and user experience."
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:73
+msgid "Cache in use"
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:75
+msgid "No cache detected"
+msgstr ""
+
+#: includes/admin/status/views/html-admin-page-status-report.php:77
+msgid "Test failed."
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:18
+msgid "Deploy &quot;%s&quot;</span>"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:19
+msgid "Back"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:23
+msgid "All deployments"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:44
+#: includes/class-wc-prl-deployments.php:260
+#: includes/class-wc-prl-post-types.php:83
+#: includes/data-stores/class-wc-prl-engine-data-store-cpt.php:62
+msgid "Engine"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:58
+msgid "Configure Display Settings"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:58
+msgid "Display Settings"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:64
+msgid "Active"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:77
+#: includes/class-wc-prl-deployments.php:245
+msgid "e.g. &quot;You may also like&hellip;&quot;"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:83
+#: includes/class-wc-prl-deployments.php:251
+msgid "Description"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:92
+#: includes/class-wc-prl-deployments.php:281
+msgid "Product columns"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:101
+#: includes/class-wc-prl-deployments.php:290
+msgid "Product rows"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:109
+msgid "Choose Location"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:136
+msgid "Add Visibility Conditions"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:136
+msgid "Visibility Conditions"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:137
+msgid "(optional)"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:158
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/views/html-admin-deploy.php:161
+#: includes/admin/views/html-admin-hooks.php:107
+msgid "Save changes"
+msgstr ""
+
+#: includes/admin/views/html-admin-hooks.php:36
+msgid "Deployments: %s"
+msgstr ""
+
+#: includes/admin/views/html-admin-hooks.php:46
+msgid "Expand all"
+msgstr ""
+
+#: includes/admin/views/html-admin-hooks.php:47
+msgid "Close all"
+msgstr ""
+
+#: includes/admin/views/html-admin-hooks.php:86
+msgid ""
+"This deployment generates dynamic/personalized recommendations that some "
+"visitors may not be able to see correctly. As a workaround, you may enable "
+"<strong>Deployments rendering > Use AJAX</strong> under <strong>WooCommerce "
+"> Settings > Recommendations</strong> &ndash; but please be aware that "
+"doing so will have an impact on server utilization and user experience."
+msgstr ""
+
+#: includes/admin/views/html-admin-hooks.php:98
+msgid "No Engines found"
+msgstr ""
+
+#: includes/admin/views/html-admin-hooks.php:99
+msgid "You have not added Engines to this location. Deploy an Engine now?"
+msgstr ""
+
+#: includes/admin/views/html-admin-hooks.php:106
+msgid "Deploy an Engine"
+msgstr ""
+
+#: includes/admin/views/html-admin-locations.php:24
+msgid "Deploy Engine"
+msgstr ""
+
+#: includes/admin/views/html-admin-locations.php:25
+msgid ""
+"To display product recommendations, deploy an Engine to a Location or "
+"create a <a href=\"%s\">new Engine</a>."
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:19
+msgid "%1$s (%2$s &mdash; %3$s) vs. previous week"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:29
+msgid "Gross Revenue"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:33
+#: includes/admin/views/html-admin-performance.php:51
+#: includes/admin/views/html-admin-performance.php:70
+#: includes/admin/views/html-admin-performance.php:90
+#: includes/admin/views/html-admin-performance.php:110
+#: includes/admin/views/html-admin-performance.php:130
+#: includes/admin/views/html-admin-performance.php:150
+msgid "Previous week:"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:39
+msgid "Gross Revenue in last 7 days"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:47
+msgid "Net Revenue"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:57
+msgid "Net Revenue in last 7 days"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:76
+msgid "Unique Views in last 7 days"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:96
+msgid "Unique Clicks in last 7 days"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:116
+msgid "Conversions in last 7 days"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:136
+msgid "Clicks per View in last 7 days"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:146
+msgid "Conversion rate"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:156
+msgid "Conversion Rate in last 7 days"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:165
+msgid "Top Products"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:171
+#: includes/admin/views/html-admin-performance.php:263
+msgid "Top Grossing"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:174
+#: includes/admin/views/html-admin-performance.php:203
+#: includes/admin/views/html-admin-performance.php:232
+#: includes/conditions/class-wc-prl-condition-cart-product.php:27
+#: includes/conditions/class-wc-prl-condition-order-product.php:27
+#: includes/conditions/class-wc-prl-condition-product-id.php:27
+#: includes/filters/class-wc-prl-filter-product.php:29
+#: includes/locations/class-wc-prl-location-product-details.php:29
+#: includes/wc-prl-functions.php:25
+msgid "Product"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:192
+#: includes/admin/views/html-admin-performance.php:221
+#: includes/admin/views/html-admin-performance.php:250
+#: includes/admin/views/html-admin-performance.php:281
+#: includes/admin/views/html-admin-performance.php:307
+#: includes/admin/views/html-admin-performance.php:333
+msgid "No data recorded in the last 7 days."
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:200
+#: includes/admin/views/html-admin-performance.php:289
+msgid "Most Clicked"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:204
+#: includes/admin/views/html-admin-performance.php:293
+msgid "Clicks"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:229
+#: includes/admin/views/html-admin-performance.php:315
+msgid "Highest Converting"
+msgstr ""
+
+#: includes/admin/views/html-admin-performance.php:257
+msgid "Top Locations"
+msgstr ""
+
+#: includes/amplifiers/class-wc-prl-amplifier-frequently-bought-together.php:28
+msgid "Bought Together"
+msgstr ""
+
+#: includes/amplifiers/class-wc-prl-amplifier-freshness.php:28
+msgid "Freshness"
+msgstr ""
+
+#: includes/amplifiers/class-wc-prl-amplifier-others-also-bought.php:28
+msgid "Others Also Bought"
+msgstr ""
+
+#: includes/amplifiers/class-wc-prl-amplifier-popularity.php:28
+msgid "Popularity"
+msgstr ""
+
+#: includes/amplifiers/class-wc-prl-amplifier-price.php:28
+#: includes/filters/class-wc-prl-filter-price.php:29
+msgid "Price"
+msgstr ""
+
+#: includes/amplifiers/class-wc-prl-amplifier-random.php:28
+msgid "Random"
+msgstr ""
+
+#: includes/amplifiers/class-wc-prl-amplifier-rating.php:28
+msgid "Rating"
+msgstr ""
+
+#: includes/class-wc-prl-ajax.php:53 includes/class-wc-prl-ajax.php:93
+msgid "Event missing attributes"
+msgstr ""
+
+#: includes/class-wc-prl-ajax.php:132
+msgid "Locations not found"
+msgstr ""
+
+#: includes/class-wc-prl-amplifiers.php:34
+#: includes/class-wc-prl-amplifiers.php:41
+#: includes/class-wc-prl-conditions.php:34
+#: includes/class-wc-prl-conditions.php:41
+#: includes/class-wc-prl-deployments.php:48
+#: includes/class-wc-prl-deployments.php:55
+#: includes/class-wc-prl-filters.php:34 includes/class-wc-prl-filters.php:41
+#: includes/class-wc-prl-locations.php:34
+#: includes/class-wc-prl-locations.php:41
+#: includes/class-wc-prl-templates.php:33
+#: includes/class-wc-prl-templates.php:40 includes/db/class-wc-prl-db.php:48
+#: includes/db/class-wc-prl-db.php:55
+#: includes/db/class-wc-prl-deployment-db.php:24
+#: includes/db/class-wc-prl-deployment-db.php:31
+#: includes/db/class-wc-prl-frequencies-db.php:26
+#: includes/db/class-wc-prl-frequencies-db.php:33
+#: includes/db/class-wc-prl-tracking-db.php:26
+#: includes/db/class-wc-prl-tracking-db.php:33
+#: woocommerce-product-recommendations.php:105
+#: woocommerce-product-recommendations.php:112
+msgid "Foul!"
+msgstr ""
+
+#: includes/class-wc-prl-amplifiers.php:136
+msgid "Amplifiers"
+msgstr ""
+
+#: includes/class-wc-prl-amplifiers.php:137
+msgid ""
+"Use amplifiers to adjust the display order of filtered recommendations. Add "
+"multiple weighted amplifiers to perform advanced sort operations."
+msgstr ""
+
+#: includes/class-wc-prl-amplifiers.php:148
+msgid "No amplifiers found. Add one now?"
+msgstr ""
+
+#: includes/class-wc-prl-amplifiers.php:172
+#: includes/class-wc-prl-amplifiers.php:265
+#: includes/class-wc-prl-conditions.php:184
+#: includes/class-wc-prl-conditions.php:278
+#: includes/class-wc-prl-filters.php:173 includes/class-wc-prl-filters.php:266
+msgid "Remove"
+msgstr ""
+
+#: includes/class-wc-prl-amplifiers.php:184
+#: includes/class-wc-prl-amplifiers.php:273
+msgid "Add amplifier"
+msgstr ""
+
+#: includes/class-wc-prl-background-generator.php:112
+msgid "Every %d Minutes"
+msgstr ""
+
+#: includes/class-wc-prl-conditions.php:147
+msgid "Visibility conditions"
+msgstr ""
+
+#: includes/class-wc-prl-conditions.php:148
+msgid ""
+"Some Locations work with multiple Engine Types. The conditions available "
+"here may change depending on the Type of the selected Engine."
+msgstr ""
+
+#: includes/class-wc-prl-conditions.php:159
+msgid "Add conditions to control the visibility of these product recommendations."
+msgstr ""
+
+#: includes/class-wc-prl-conditions.php:160
+msgid "To add visibility conditions, an Engine must be selected."
+msgstr ""
+
+#: includes/class-wc-prl-conditions.php:196
+msgid "Add condition"
+msgstr ""
+
+#: includes/class-wc-prl-conditions.php:286
+msgid "Add new condition"
+msgstr ""
+
+#: includes/class-wc-prl-deployments.php:226
+msgid "Click to toggle"
+msgstr ""
+
+#: includes/class-wc-prl-deployments.php:227
+msgid "Drag and drop to set order"
+msgstr ""
+
+#: includes/class-wc-prl-deployments.php:273
+msgid "Supported Engine Types: %s"
+msgstr ""
+
+#: includes/class-wc-prl-deployments.php:397
+msgid ""
+"The regeneration queue of WooCommerce Product Recommendations is full. This "
+"will prevent engines from regenerating recommendations. Please contact "
+"support for assistance."
+msgstr ""
+
+#: includes/class-wc-prl-filters.php:138
+msgid "Add filters to narrow down recommendation results."
+msgstr ""
+
+#: includes/class-wc-prl-filters.php:149
+msgid "No filters found. Add one now?"
+msgstr ""
+
+#: includes/class-wc-prl-filters.php:185 includes/class-wc-prl-filters.php:274
+msgid "Add filter"
+msgstr ""
+
+#: includes/class-wc-prl-install.php:592
+msgid "Documentation"
+msgstr ""
+
+#: includes/class-wc-prl-install.php:593
+msgid "Support"
+msgstr ""
+
+#: includes/class-wc-prl-notices.php:111
+msgid "WooCommerce does not support task queueing."
+msgstr ""
+
+#: includes/class-wc-prl-notices.php:117
+msgid "Your system may not be able to perform loopback requests at this time."
+msgstr ""
+
+#: includes/class-wc-prl-post-data.php:55
+#: includes/class-wc-prl-post-data.php:82
+msgid "Engine #%d has active deployments and cannot be deleted."
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:86
+msgid "Create new"
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:87
+msgid "Create new engine"
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:90
+msgid "New engine"
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:91
+msgid "View engine"
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:92
+msgid "View engines"
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:93
+msgid "Search engines"
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:95
+msgid "No engines found in Trash"
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:96
+msgid "Parent engine"
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:97
+msgid "Engine image"
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:98
+msgid "Set engine image"
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:99
+msgid "Filter engines"
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:100
+msgid "Engines navigation"
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:101
+msgid "Engines list"
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:103
+msgid "Create and deploy Engines to display product recommendations on your store."
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:136
+msgid ""
+"Start by creating an Engine. Then, deploy it to one of the available "
+"Locations."
+msgstr ""
+
+#: includes/class-wc-prl-templates.php:256
+msgid ""
+"No products found to recommend in %s. The specified engine Filters or "
+"Amplifiers did not generate any results. Most amplifiers require a history "
+"of data to work. To ensure that some results will be generated when using "
+"these Amplifiers, please add a low-weight Freshness amplifier as fallback. "
+"<strong>Note:</strong> This message is visible to store managers only."
+msgstr ""
+
+#: includes/class-wc-prl-templates.php:257
+#: includes/class-wc-prl-templates.php:281
+msgid "Deployment #%d"
+msgstr ""
+
+#: includes/class-wc-prl-templates.php:280
+msgid ""
+"Now generating %s recommendations in the background. <strong>Note:</strong> "
+"This message is visible to store managers only."
+msgstr ""
+
+#: includes/compatibility/class-wc-prl-compatibility.php:144
+msgid "Product Bundles"
+msgstr ""
+
+#: includes/compatibility/class-wc-prl-compatibility.php:145
+msgid "WooCommerce Product Bundles"
+msgstr ""
+
+#: includes/compatibility/class-wc-prl-compatibility.php:147
+#: includes/compatibility/class-wc-prl-compatibility.php:161
+msgid ""
+"The installed version of <strong>%1$s</strong> is not supported by "
+"<strong>Product Recommendations</strong>. Please update <a href=\"%2$s\" "
+"target=\"_blank\">%3$s</a> to version <strong>%4$s</strong> or higher."
+msgstr ""
+
+#: includes/compatibility/class-wc-prl-compatibility.php:158
+msgid "Composite Products"
+msgstr ""
+
+#: includes/compatibility/class-wc-prl-compatibility.php:159
+msgid "WooCommerce Composite Products"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-archive-category.php:27
+msgid "Archive category"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-archive-category.php:117
+#: includes/conditions/class-wc-prl-condition-cart-category.php:160
+#: includes/conditions/class-wc-prl-condition-order-category.php:174
+#: includes/conditions/class-wc-prl-condition-product-category.php:132
+#: includes/conditions/class-wc-prl-condition-recent-category.php:147
+#: includes/filters/class-wc-prl-filter-category.php:114
+msgid "Select categories&hellip;"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-archive-tag.php:27
+msgid "Archive tag"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-archive-tag.php:117
+#: includes/conditions/class-wc-prl-condition-cart-tag.php:156
+#: includes/conditions/class-wc-prl-condition-order-tag.php:170
+#: includes/conditions/class-wc-prl-condition-product-tag.php:128
+#: includes/conditions/class-wc-prl-condition-recent-tag.php:134
+#: includes/filters/class-wc-prl-filter-tag.php:111
+msgid "Select tags&hellip;"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-category.php:27
+#: includes/conditions/class-wc-prl-condition-order-category.php:27
+#: includes/filters/class-wc-prl-filter-category.php:29
+msgid "Category"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-item-value.php:27
+msgid "Cart item value"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-item-value.php:141
+#: includes/conditions/class-wc-prl-condition-order-item-value.php:155
+msgid "Enter amount&hellip;\""
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-product.php:125
+#: includes/conditions/class-wc-prl-condition-order-product.php:139
+#: includes/conditions/class-wc-prl-condition-product-id.php:116
+#: includes/conditions/class-wc-prl-condition-recent-product.php:134
+#: includes/filters/class-wc-prl-filter-product.php:118
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-tag.php:27
+#: includes/conditions/class-wc-prl-condition-order-tag.php:27
+#: includes/filters/class-wc-prl-filter-tag.php:29
+msgid "Tag"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-total.php:27
+msgid "Cart total"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-total.php:117
+#: includes/conditions/class-wc-prl-condition-order-total.php:128
+msgid "Enter cart total&hellip;\""
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-date.php:117
+#. translators: 1: month number (01, 02, etc.), 2: month abbreviation
+msgid "%1$s-%2$s"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-geolocate.php:27
+msgid "Geolocated country"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-geolocate.php:105
+msgid "Select countries&hellip;"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-geolocate.php:113
+#: includes/filters/class-wc-prl-filter-attribute.php:159
+#: includes/filters/class-wc-prl-filter-tag-context.php:166
+#: includes/filters/class-wc-prl-filter-tag.php:119
+msgid "All"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-geolocate.php:114
+#: includes/filters/class-wc-prl-filter-attribute.php:160
+#: includes/filters/class-wc-prl-filter-tag-context.php:167
+#: includes/filters/class-wc-prl-filter-tag.php:120
+msgid "None"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-guest.php:27
+msgid "Customer"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-order-item-value.php:27
+msgid "Order item value"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-order-total.php:27
+msgid "Order total"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-product-category.php:27
+msgid "Product category"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-product-price.php:27
+msgid "Product price"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-product-price.php:106
+msgid "Enter product price&hellip;\""
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-product-stock-status.php:27
+msgid "Product stock status"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-product-tag.php:27
+msgid "Product tag"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-recent-category.php:27
+msgid "Recently viewed category"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-recent-product.php:27
+msgid "Recently viewed product"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-recent-tag.php:27
+msgid "Recently viewed tag"
+msgstr ""
+
+#: includes/data-stores/class-wc-prl-engine-data-store-cpt.php:102
+#: includes/db/class-wc-prl-deployment-db.php:231
+#: includes/db/class-wc-prl-deployment-db.php:285
+msgid "Invalid engine."
+msgstr ""
+
+#: includes/data-stores/class-wc-prl-engine-data-store-cpt.php:295
+msgid ""
+"There are active deployments using this engine. Engine type change is not "
+"allowed."
+msgstr ""
+
+#: includes/db/class-wc-prl-deployment-db.php:225
+#: includes/db/class-wc-prl-deployment-db.php:279
+msgid "Missing engine attributes."
+msgstr ""
+
+#: includes/db/class-wc-prl-deployment-db.php:237
+#: includes/db/class-wc-prl-deployment-db.php:291
+msgid "Invalid location."
+msgstr ""
+
+#: includes/db/class-wc-prl-deployment-db.php:241
+#: includes/db/class-wc-prl-deployment-db.php:295
+msgid "Invalid engine type."
+msgstr ""
+
+#: includes/db/class-wc-prl-frequencies-db.php:167
+msgid "Missing record attributes."
+msgstr ""
+
+#: includes/db/class-wc-prl-tracking-db.php:550
+#: includes/db/class-wc-prl-tracking-db.php:597
+#: includes/db/class-wc-prl-tracking-db.php:649
+msgid "Missing event attributes."
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-attribute-context.php:29
+msgid "Current Attribute"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-attribute-context.php:171
+#: includes/filters/class-wc-prl-filter-attribute.php:140
+msgid "Select attribute&hellip;"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-attribute.php:29
+msgid "Attribute"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-attribute.php:149
+msgid "Select terms&hellip;"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-bundle-context.php:29
+msgid "Product Bundle"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-category-context.php:29
+msgid "Current Category"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-category-context.php:162
+msgid "Limit current categories to&hellip;"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-featured.php:29
+msgid "Featured"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-freshness.php:29
+msgid "Created"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-price-context.php:29
+msgid "Relative Price"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-price-context.php:134
+msgid "Enter a value&hellip;\""
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-price-context.php:135
+msgid "% of current product"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-price.php:106
+msgid "Enter a price&hellip;\""
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-recently-viewed.php:29
+msgid "Recently Viewed"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-sales.php:29
+msgid "On Sale"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-stock-status.php:29
+msgid "Stock Status"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-tag-context.php:29
+msgid "Current Tag"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-tag-context.php:158
+msgid "Limit current tags to&hellip;"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-vendor-context.php:29
+msgid "Current Vendor"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-vendor-context.php:147
+msgid "Limit current vendors to&hellip;"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-vendor.php:29
+msgid "Vendor"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-vendor.php:111
+msgid "Select vendors&hellip;"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-cart-page.php:29
+msgid "Cart"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-cart-page.php:61
+msgid "Before Cart Table"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-cart-page.php:67
+msgid "After Cart Table"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-cart-page.php:72
+msgid "Cart Collaterals"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-cart-page.php:78
+msgid "After Cart Totals"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-cart-page.php:83
+msgid "Empty Cart"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-checkout.php:29
+msgid "Checkout"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-checkout.php:61
+msgid "Before Checkout Form"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-checkout.php:66
+msgid "After Place-Order Button"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-checkout.php:72
+msgid "After Checkout Form"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-order-received.php:29
+msgid "Order Received"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-order-received.php:61
+msgid "Before Order Details"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-order-received.php:67
+msgid "After Order Details"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-order-received.php:73
+msgid "After Customer Details"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-pay-page.php:29
+msgid "Order Pay"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-pay-page.php:61
+msgid "After Pay Button"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-product-archive.php:29
+#: includes/wc-prl-functions.php:24
+msgid "Product Archive"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-product-archive.php:60
+#: includes/locations/class-wc-prl-location-shop.php:89
+msgid "Before Products"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-product-archive.php:66
+#: includes/locations/class-wc-prl-location-shop.php:95
+msgid "After Products"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-product-archive.php:72
+#: includes/locations/class-wc-prl-location-shop.php:101
+msgid "No Products Found"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-product-details.php:60
+msgid "After Add-To-Cart Button"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-product-details.php:66
+msgid "After Product Meta"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-product-details.php:72
+msgid "Before Tabs"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-product-details.php:78
+msgid "After Tabs"
+msgstr ""
+
+#: includes/locations/class-wc-prl-location-shop.php:29
+msgid "Shop"
+msgstr ""
+
+#: includes/wc-prl-functions.php:23
+msgid "Generic"
+msgstr ""
+
+#: includes/wc-prl-functions.php:26
+msgid "Order"
+msgstr ""
+
+#: woocommerce-product-recommendations.php:203
+msgid ""
+"WooCommerce Product Recommendations requires at least WooCommerce "
+"<strong>%s</strong>."
+msgstr ""
+
+#: woocommerce-product-recommendations.php:211
+msgid ""
+"WooCommerce Product Recommendations requires at least PHP "
+"<strong>%1$s</strong>. Learn <a href=\"%2$s\">how to update PHP</a>."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Product Recommendations"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://woocommerce.com/products/product-recommendations/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create smarter up-sells and cross-sells, place them anywhere, and measure "
+"their impact with in-depth analytics."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SomewhereWarm"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://somewherewarm.com/"
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:285
+msgctxt "attributes_form"
+msgid "Something went wrong. Please refresh your browser and try again."
+msgstr ""
+
+#: includes/admin/class-wc-prl-admin.php:294
+msgctxt "active toggler"
+msgid "Something went wrong. Please refresh your browser and try again."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:172
+msgctxt "column_name"
+msgid "Title"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:173
+msgctxt "column_name"
+msgid "Page"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:174
+msgctxt "column_name"
+msgid "Location"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:175
+msgctxt "column_name"
+msgid "Engine"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-prl-admin-list-deployments.php:176
+msgctxt "column_name"
+msgid "Actions"
+msgstr ""
+
+#: includes/amplifiers/class-wc-prl-amplifier-conversion-rate.php:30
+#: includes/amplifiers/class-wc-prl-amplifier-popularity.php:31
+#: includes/amplifiers/class-wc-prl-amplifier-price.php:31
+#: includes/amplifiers/class-wc-prl-amplifier-rating.php:30
+msgctxt "prl_modifiers"
+msgid "high to low"
+msgstr ""
+
+#: includes/amplifiers/class-wc-prl-amplifier-freshness.php:30
+msgctxt "prl_modifiers"
+msgid "old to new"
+msgstr ""
+
+#: includes/amplifiers/class-wc-prl-amplifier-freshness.php:31
+msgctxt "prl_modifiers"
+msgid "new to old"
+msgstr ""
+
+#: includes/amplifiers/class-wc-prl-amplifier-popularity.php:30
+#: includes/amplifiers/class-wc-prl-amplifier-price.php:30
+msgctxt "prl_modifiers"
+msgid "low to high"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-archive-category.php:29
+#: includes/conditions/class-wc-prl-condition-archive-tag.php:29
+#: includes/conditions/class-wc-prl-condition-geolocate.php:29
+#: includes/conditions/class-wc-prl-condition-product-category.php:29
+#: includes/conditions/class-wc-prl-condition-product-id.php:29
+#: includes/conditions/class-wc-prl-condition-product-tag.php:29
+#: includes/conditions/class-wc-prl-condition-recent-category.php:29
+#: includes/conditions/class-wc-prl-condition-recent-product.php:29
+#: includes/conditions/class-wc-prl-condition-recent-tag.php:29
+#: includes/filters/class-wc-prl-filter-attribute-context.php:31
+#: includes/filters/class-wc-prl-filter-attribute.php:31
+#: includes/filters/class-wc-prl-filter-category-context.php:33
+#: includes/filters/class-wc-prl-filter-category.php:31
+#: includes/filters/class-wc-prl-filter-freshness.php:31
+#: includes/filters/class-wc-prl-filter-product.php:31
+#: includes/filters/class-wc-prl-filter-recently-viewed.php:31
+#: includes/filters/class-wc-prl-filter-tag-context.php:33
+#: includes/filters/class-wc-prl-filter-tag.php:31
+#: includes/filters/class-wc-prl-filter-vendor-context.php:33
+#: includes/filters/class-wc-prl-filter-vendor.php:31
+msgctxt "prl_modifiers"
+msgid "in"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-archive-category.php:30
+#: includes/conditions/class-wc-prl-condition-archive-tag.php:30
+#: includes/conditions/class-wc-prl-condition-geolocate.php:30
+#: includes/conditions/class-wc-prl-condition-product-category.php:30
+#: includes/conditions/class-wc-prl-condition-product-id.php:30
+#: includes/conditions/class-wc-prl-condition-product-tag.php:30
+#: includes/conditions/class-wc-prl-condition-recent-category.php:30
+#: includes/conditions/class-wc-prl-condition-recent-product.php:30
+#: includes/conditions/class-wc-prl-condition-recent-tag.php:30
+#: includes/filters/class-wc-prl-filter-attribute-context.php:32
+#: includes/filters/class-wc-prl-filter-attribute.php:32
+#: includes/filters/class-wc-prl-filter-category-context.php:34
+#: includes/filters/class-wc-prl-filter-category.php:32
+#: includes/filters/class-wc-prl-filter-product.php:32
+#: includes/filters/class-wc-prl-filter-recently-viewed.php:32
+#: includes/filters/class-wc-prl-filter-tag-context.php:34
+#: includes/filters/class-wc-prl-filter-tag.php:32
+#: includes/filters/class-wc-prl-filter-vendor-context.php:34
+#: includes/filters/class-wc-prl-filter-vendor.php:32
+msgctxt "prl_modifiers"
+msgid "not in"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-category.php:29
+#: includes/conditions/class-wc-prl-condition-cart-product.php:29
+#: includes/conditions/class-wc-prl-condition-cart-tag.php:29
+msgctxt "prl_modifiers"
+msgid "in cart"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-category.php:30
+#: includes/conditions/class-wc-prl-condition-cart-tag.php:30
+msgctxt "prl_modifiers"
+msgid "all in cart"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-category.php:31
+#: includes/conditions/class-wc-prl-condition-cart-product.php:30
+#: includes/conditions/class-wc-prl-condition-cart-tag.php:31
+msgctxt "prl_modifiers"
+msgid "not in cart"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-category.php:32
+#: includes/conditions/class-wc-prl-condition-cart-tag.php:32
+msgctxt "prl_modifiers"
+msgid "not all in cart"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-item-value.php:29
+#: includes/conditions/class-wc-prl-condition-order-item-value.php:29
+msgctxt "prl_modifiers"
+msgid "min item price >="
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-item-value.php:30
+#: includes/conditions/class-wc-prl-condition-order-item-value.php:30
+msgctxt "prl_modifiers"
+msgid "min item price <"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-item-value.php:31
+#: includes/conditions/class-wc-prl-condition-order-item-value.php:31
+msgctxt "prl_modifiers"
+msgid "max item price >="
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-item-value.php:32
+#: includes/conditions/class-wc-prl-condition-order-item-value.php:32
+msgctxt "prl_modifiers"
+msgid "max item price <"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-item-value.php:33
+#: includes/conditions/class-wc-prl-condition-order-item-value.php:33
+msgctxt "prl_modifiers"
+msgid "average item price >="
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-item-value.php:34
+#: includes/conditions/class-wc-prl-condition-order-item-value.php:34
+msgctxt "prl_modifiers"
+msgid "average item price <"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-total.php:29
+#: includes/conditions/class-wc-prl-condition-date.php:29
+#: includes/conditions/class-wc-prl-condition-order-total.php:29
+#: includes/conditions/class-wc-prl-condition-product-price.php:29
+#: includes/filters/class-wc-prl-filter-price-context.php:31
+#: includes/filters/class-wc-prl-filter-price.php:31
+msgctxt "prl_modifiers"
+msgid ">="
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-cart-total.php:30
+#: includes/conditions/class-wc-prl-condition-date.php:30
+#: includes/conditions/class-wc-prl-condition-order-total.php:30
+#: includes/conditions/class-wc-prl-condition-product-price.php:30
+#: includes/filters/class-wc-prl-filter-price-context.php:32
+#: includes/filters/class-wc-prl-filter-price.php:32
+msgctxt "prl_modifiers"
+msgid "<"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-guest.php:29
+msgctxt "prl_modifiers"
+msgid "is guest"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-guest.php:30
+msgctxt "prl_modifiers"
+msgid "is not guest"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-order-category.php:29
+#: includes/conditions/class-wc-prl-condition-order-product.php:29
+#: includes/conditions/class-wc-prl-condition-order-tag.php:29
+msgctxt "prl_modifiers"
+msgid "in order"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-order-category.php:30
+#: includes/conditions/class-wc-prl-condition-order-tag.php:30
+msgctxt "prl_modifiers"
+msgid "all in order"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-order-category.php:31
+#: includes/conditions/class-wc-prl-condition-order-product.php:30
+#: includes/conditions/class-wc-prl-condition-order-tag.php:31
+msgctxt "prl_modifiers"
+msgid "not in order"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-order-category.php:32
+#: includes/conditions/class-wc-prl-condition-order-tag.php:32
+msgctxt "prl_modifiers"
+msgid "not all in order"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-product-stock-status.php:29
+#: includes/filters/class-wc-prl-filter-featured.php:31
+#: includes/filters/class-wc-prl-filter-sales.php:31
+#: includes/filters/class-wc-prl-filter-stock-status.php:31
+msgctxt "prl_modifiers"
+msgid "is"
+msgstr ""
+
+#: includes/conditions/class-wc-prl-condition-product-stock-status.php:30
+#: includes/filters/class-wc-prl-filter-featured.php:32
+#: includes/filters/class-wc-prl-filter-sales.php:32
+#: includes/filters/class-wc-prl-filter-stock-status.php:32
+msgctxt "prl_modifiers"
+msgid "is not"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-bundle-context.php:31
+msgctxt "prl_modifiers"
+msgid "containing current"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-category-context.php:31
+#: includes/filters/class-wc-prl-filter-tag-context.php:31
+#: includes/filters/class-wc-prl-filter-vendor-context.php:31
+msgctxt "prl_modifiers"
+msgid "any"
+msgstr ""
+
+#: includes/filters/class-wc-prl-filter-category-context.php:32
+#: includes/filters/class-wc-prl-filter-tag-context.php:32
+#: includes/filters/class-wc-prl-filter-vendor-context.php:32
+msgctxt "prl_modifiers"
+msgid "none"
+msgstr ""
+
+#: includes/class-wc-prl-post-types.php:85
+msgctxt "Admin menu name"
+msgid "Engines"
+msgstr ""
+
+#: includes/data-stores/class-wc-prl-engine-data-store-cpt.php:505
+#. Translators: This is a comma-separated list of very common words that should
+#. be excluded from a search, like a, an, and the. These are usually called
+#. "stopwords". You should not simply translate these individual words into
+#. your language. Instead, look for and provide commonly accepted stopwords in
+#. your language.
+msgctxt "Comma-separated list of search stopwords in your language"
+msgid ""
+"about,an,are,as,at,be,by,com,for,from,how,in,is,it,of,on,or,that,the,this,"
+"to,was,what,when,where,who,will,with,www"
+msgstr ""
+
+#: includes/wc-prl-functions.php:423
+msgctxt "term separator"
+msgid "%1$s&nbsp;&gt;&nbsp;%2$s"
+msgstr ""
+
+#: includes/wc-prl-functions.php:445
+msgctxt "many terms separator"
+msgid "%1$s&nbsp;&gt;&nbsp;&hellip;&nbsp;&gt;&nbsp;%2$s"
+msgstr ""

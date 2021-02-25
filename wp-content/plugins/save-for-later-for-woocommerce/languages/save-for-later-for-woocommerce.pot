@@ -1,0 +1,223 @@
+# Copyright (C) 2019 Save For Later For WooCommerce
+# This file is distributed under the same license as the Save For Later For WooCommerce package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Save For Later For WooCommerce 1.5.0\n"
+"Report-Msgid-Bugs-To: https://www.storeapps.org/support/contact-us/\n"
+"POT-Creation-Date: 2020-06-20 06:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: StoreApps <support@storeapps.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. translators: 1. Title of message  2. Link to WordPress Upgrade page
+#: includes/class-sa-save-for-later.php:119
+#, php-format
+msgid ""
+"%1$s Save For Later is active but it will only work with WooCommerce 2.5+. "
+"%2$s."
+msgstr ""
+
+#: includes/class-sa-save-for-later.php:119
+msgid "Important"
+msgstr ""
+
+#: includes/class-sa-save-for-later.php:119
+msgid "Please update WooCommerce to the latest version"
+msgstr ""
+
+#: includes/class-sa-save-for-later.php:169
+msgid "Item"
+msgstr ""
+
+#. translators: 1. Removed item's name   2. Anchor tag start for undoing save
+#. for later action   3. Anchor tag close for undoing save for later action
+#: includes/class-sa-save-for-later.php:175
+#, php-format
+msgid "%1$s saved for later. %2$sUndo?%3$s"
+msgstr ""
+
+#. translators: Removed item's name
+#: includes/class-sa-save-for-later.php:178
+#, php-format
+msgid "%s saved for later."
+msgstr ""
+
+#. translators: Product's name
+#: includes/class-sa-save-for-later.php:358
+#, php-format
+msgid "Moved %s to cart"
+msgstr ""
+
+#. translators: number of saved items in list
+#: includes/class-sa-save-for-later.php:628 
+#: includes/class-sa-save-for-later.php:630 templates/saved-items-list.php:75
+msgid "Saved for later"
+msgstr ""
+
+#: includes/class-sa-save-for-later.php:630
+msgid "items"
+msgstr ""
+
+#: includes/class-sa-save-for-later.php:633
+msgid "Error"
+msgstr ""
+
+#: includes/class-sa-save-for-later.php:845 
+#: includes/class-sa-save-for-later.php:848 
+#: includes/class-sa-save-for-later.php:854 
+#: includes/class-sa-save-for-later.php:857
+msgid "Delete from cart"
+msgstr ""
+
+#: includes/class-sa-save-for-later.php:864 
+#: includes/class-sa-save-for-later.php:866 
+#: includes/class-sa-save-for-later.php:981 
+#: includes/class-sa-save-for-later.php:1240
+msgid "Save for later"
+msgstr ""
+
+#: includes/class-sa-save-for-later.php:1256 
+#: includes/class-sa-save-for-later.php:1318
+msgid "Settings"
+msgstr ""
+
+#: includes/class-sa-save-for-later.php:1262
+msgid "Show \"Save For Later\" as?"
+msgstr ""
+
+#: includes/class-sa-save-for-later.php:1263
+msgid ""
+"Check to show save for later button on hover of remove on the cart page."
+msgstr ""
+
+#: includes/class-sa-save-for-later.php:1264
+msgid "Uncheck to show save for later link under each cart item."
+msgstr ""
+
+#. translators: Plugin's name
+#: includes/class-sa-save-for-later-privacy.php:52
+#, php-format
+msgid "%s - Saved Items Exporter"
+msgstr ""
+
+#. translators: Plugin's name
+#: includes/class-sa-save-for-later-privacy.php:55
+#, php-format
+msgid "%s - Saved Items Eraser"
+msgstr ""
+
+#: includes/class-sa-save-for-later-privacy.php:108
+msgid "Save For Later (on Cart)"
+msgstr ""
+
+#: includes/class-sa-save-for-later-privacy.php:109
+msgid "What we store?"
+msgstr ""
+
+#: includes/class-sa-save-for-later-privacy.php:110
+msgid ""
+"When you are on the Cart page and move products from \"Cart\" to \"Saved For "
+"Later\" list (using the button \"Save For Later\"), we store product ids "
+"with their prices"
+msgstr ""
+
+#: includes/class-sa-save-for-later-privacy.php:111
+msgid "Where we store?"
+msgstr ""
+
+#: includes/class-sa-save-for-later-privacy.php:113
+msgid "If you are logged in: We store it in database & map it to your account"
+msgstr ""
+
+#: includes/class-sa-save-for-later-privacy.php:114
+msgid "If you are a visitor: We store it in database & map it to your cookies"
+msgstr ""
+
+#: includes/class-sa-save-for-later-privacy.php:116
+msgid "Export/Delete Personal Data"
+msgstr ""
+
+#: includes/class-sa-save-for-later-privacy.php:117
+msgid ""
+"Exporting personal data is available for the registered user only. "
+"Export/delete of personal data for registered user will be processed only "
+"after receiving confirmation about it. For deleting personal data, a visitor "
+"can simply delete cookies from his/her browser."
+msgstr ""
+
+#. translators: The serial number or position of the saved item
+#: includes/class-sa-save-for-later-privacy.php:144
+#, php-format
+msgid "Saved Item %d"
+msgstr ""
+
+#: includes/class-sa-save-for-later-privacy.php:150
+msgid "Saved For Later Items"
+msgstr ""
+
+#. translators: 1. The plugin's name   2. Saved item's descriptions
+#: includes/class-sa-save-for-later-privacy.php:235
+#, php-format
+msgid "%1$s - Removed Saved Item:%2$s"
+msgstr ""
+
+#: templates/saved-items-list.php:75
+msgid " item"
+msgid_plural " items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/saved-items-list.php:93
+msgid "Product"
+msgstr ""
+
+#: templates/saved-items-list.php:113
+msgid "Available on backorder"
+msgstr ""
+
+#: templates/saved-items-list.php:129
+msgid "Delete this item from Saved for later list"
+msgstr ""
+
+#: templates/saved-items-list.php:131
+msgid "Delete"
+msgstr ""
+
+#: templates/saved-items-list.php:136
+msgid "Move this item to cart"
+msgstr ""
+
+#: templates/saved-items-list.php:138
+msgid "Move to cart"
+msgstr ""
+
+#: templates/saved-items-list.php:148
+msgid "Price"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Save For Later For WooCommerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Allow your customer to save products from cart for later use."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.storeapps.org/product/save-for-later-for-woocommerce/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "StoreApps"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.storeapps.org/"
+msgstr ""

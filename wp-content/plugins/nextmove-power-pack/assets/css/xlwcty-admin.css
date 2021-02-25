@@ -1,0 +1,9 @@
+/* NextMove Power Pack*/
+input[name="submit-cmb"].button-primary {margin-top: 11px;}
+.xlwcty_pos_rel{position: relative}
+.xlwcty-help-half-left.xlwcty-power-pack-wrap{width:100%;padding:0}
+.xlwcty-help-half-left.xlwcty-power-pack-wrap > .inside {display: block;padding-right: 550px}
+.xlwcty-power-pack-link-wrap {position: absolute;right:-550px;width:520px;top:-135px}
+.xlwcty-power-pack-coupon-wrap {position: absolute;right:-550px;width:520px;top:-135px}
+.xlwcty-pp-sett-before-head{margin: 10px 0;font-size:16px;font-weight:500;}
+.xlwcty-pp-preview-desc{font-style: italic;padding-bottom: 15px;}

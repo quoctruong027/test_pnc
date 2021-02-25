@@ -1,0 +1,290 @@
+<?php
+defined( 'ABSPATH' ) || exit;
+
+$customer_emails = XLWCTY_PP_Common::get_wc_customer_emails();
+
+return apply_filters( 'xlwcty_power_pack_setting', array(
+	array(
+		'name'        => __( 'Embed Coupon', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email',
+		'desc'        => __( 'By choosing \'YES\', the coupon will be inserted below the order\'s summary.', 'nextmove-power-pack' ),
+		'row_classes' => array( 'xlwcty_no_border' ),
+		'default'     => '',
+		'type'        => 'radio_inline',
+		'options'     => array(
+			'yes' => __( 'Yes', 'nextmove-power-pack' ),
+			'no'  => __( 'No', 'nextmove-power-pack' ),
+		),
+		'before_row'  => '<h3 class="coupon_settings_heading">' . __( 'Coupons', 'nextmove-power-pack' ) . '</h3>',
+	),
+	array(
+		'name'              => __( 'Append to following order status emails', 'nextmove-power-pack' ),
+		'id'                => 'append_coupon_order_status_email',
+		'row_classes'       => array( 'xlwcty_no_border', 'xlwcty_hide_label', 'xlwcty_pt0', 'xlwcty_pos_rel' ),
+		'type'              => 'multicheck_inline',
+		'options'           => $customer_emails,
+		'before_field'      => '<p>' . __( 'Select customer emails for which you want to embed Coupons', 'nextmove-power-pack' ) . '</p>',
+		'before'            => array( 'XLWCTY_PP_Common', 'get_preview_coupon_html' ),
+		'after'             => array( 'XLWCTY_PP_Common', 'get_preview_coupon_script' ),
+		'select_all_button' => false,
+		'attributes'        => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Coupon Box Text', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email_heading',
+		'desc'        => '<a href="javascript:void(0);" onclick="xlwcty_show_tb(\'Merge Tags\',\'xlwcty_merge_tags_invenotry_bar_help\');">Dynamic merge tags list</a>',
+		'type'        => 'text',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_pb0' ),
+		'before'      => '<div class="xlwcty-pp-sett-before-head">' . __( 'Text when coupon is unlocked', 'nextmove-power-pack' ) . '</div><p>' . __( 'Heading', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Description', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email_desc',
+		'desc'        => '<a href="javascript:void(0);" onclick="xlwcty_show_tb(\'Merge Tags\',\'xlwcty_merge_tags_invenotry_bar_help\');">Dynamic merge tags list</a>',
+		'type'        => 'textarea_small',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label', 'xlwcty_pb0' ),
+		'before'      => '<p>' . __( 'Description', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Button Text', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email_btn_text',
+		'type'        => 'text',
+		'desc'        => '<a href="javascript:void(0);" onclick="xlwcty_show_tb(\'Merge Tags\',\'xlwcty_merge_tags_invenotry_bar_help\');">Dynamic merge tags list</a>',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label' ),
+		'before'      => '<p>' . __( 'Coupon Button Text', 'nextmove-power-pack', 'xlwcty_pb0' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Button Link', 'nextmove-power-pack' ),
+		'desc'        => __( 'Use ', 'nextmove-power-pack' ) . ' {{home_url}}, {{shop_url}} ' . __( 'for dynamic links.', XLWCTY_TEXTDOMAIN ),
+		'id'          => 'append_coupons_in_email_btn_link',
+		'desc'        => '<p>' . __( 'Available merge tags: ', 'nextmove-power-pack' ) . '{{shop_url}}, {{home_url}}</p>',
+		'type'        => 'text',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label' ),
+		'before'      => '<p>' . __( 'Coupon Button Link', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Coupon Box Text', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email_heading_lock',
+		'desc'        => '<a href="javascript:void(0);" onclick="xlwcty_show_tb(\'Merge Tags\',\'xlwcty_merge_tags_invenotry_bar_help\');">Dynamic merge tags list</a>',
+		'type'        => 'text',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_pb0' ),
+		'before'      => '<div class="xlwcty-pp-sett-before-head">' . __( 'Text when coupon is locked', 'nextmove-power-pack' ) . '</div><p>' . __( 'Heading', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Description', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email_desc_lock',
+		'desc'        => '<a href="javascript:void(0);" onclick="xlwcty_show_tb(\'Merge Tags\',\'xlwcty_merge_tags_invenotry_bar_help\');">Dynamic merge tags list</a>',
+		'type'        => 'textarea_small',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label', 'xlwcty_pb0' ),
+		'before'      => '<p>' . __( 'Description', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Button Text', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email_btn_text_lock',
+		'type'        => 'text',
+		'desc'        => '<a href="javascript:void(0);" onclick="xlwcty_show_tb(\'Merge Tags\',\'xlwcty_merge_tags_invenotry_bar_help\');">Dynamic merge tags list</a>',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label' ),
+		'before'      => '<p>' . __( 'Coupon Button Text', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Appearance Color', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email_section_bg_color',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_change_event', 'xlwcty_combine_2_field_start' ),
+		'type'        => 'colorpicker',
+		'before'      => '<p>' . __( 'Section BG Color', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Heading Color', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email_heading_color',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label', 'xlwcty_change_event', 'xlwcty_combine_2_field_end' ),
+		'type'        => 'colorpicker',
+		'before'      => '<p>' . __( 'Heading Color', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Content Color', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email_content_color',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label', 'xlwcty_pt0', 'xlwcty_change_event', 'xlwcty_combine_2_field_start' ),
+		'type'        => 'colorpicker',
+		'before'      => '<p>' . __( 'Description Color', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Coupon Border Color', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email_coupon_border_color',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label', 'xlwcty_pt0', 'xlwcty_change_event', 'xlwcty_combine_2_field_end' ),
+		'type'        => 'colorpicker',
+		'before'      => '<p>' . __( 'Coupon Border Color', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Coupon Background Color', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email_coupon_bg_color',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label', 'xlwcty_pt0', 'xlwcty_change_event', 'xlwcty_combine_2_field_start' ),
+		'type'        => 'colorpicker',
+		'before'      => '<p>' . __( 'Coupon BG Color', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Coupon Text Color', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email_coupon_text_color',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label', 'xlwcty_pt0', 'xlwcty_change_event', 'xlwcty_combine_2_field_end' ),
+		'type'        => 'colorpicker',
+		'before'      => '<p>' . __( 'Coupon Text Color', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Button Background Color', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email_coupon_button_bg_color',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label', 'xlwcty_pt0', 'xlwcty_change_event', 'xlwcty_combine_2_field_start' ),
+		'type'        => 'colorpicker',
+		'before'      => '<p>' . __( 'Button BG Color', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Button Text Color', 'nextmove-power-pack' ),
+		'id'          => 'append_coupons_in_email_coupon_button_text_color',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label', 'xlwcty_pt0', 'xlwcty_change_event', 'xlwcty_combine_2_field_end' ),
+		'type'        => 'colorpicker',
+		'before'      => '<p>' . __( 'Button Text Color', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_coupons_in_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+
+	array(
+		'name'        => __( 'Embed Button', 'nextmove-power-pack' ),
+		'id'          => 'append_user_track_order_email',
+		'desc'        => __( 'By choosing \'YES\', the button will be inserted below the order\'s summary.', 'nextmove-power-pack' ),
+		'row_classes' => array( 'xlwcty_no_border' ),
+		'default'     => '',
+		'type'        => 'radio_inline',
+		'options'     => array(
+			'yes' => __( 'Yes', 'nextmove-power-pack' ),
+			'no'  => __( 'No', 'nextmove-power-pack' ),
+		),
+		'before_row'  => '<h3 class="order_receipt_link_heading">' . __( 'Order Receipt URL', 'nextmove-power-pack' ) . '</h3>',
+	),
+	array(
+		'name'              => __( 'Append to following order status emails', 'nextmove-power-pack' ),
+		'id'                => 'append_user_track_order_status_email',
+		'row_classes'       => array( 'xlwcty_no_border', 'xlwcty_hide_label', 'xlwcty_pt0', 'xlwcty_pos_rel' ),
+		'type'              => 'multicheck_inline',
+		'options'           => $customer_emails,
+		'before'            => array( 'XLWCTY_PP_Common', 'get_preview_link_html' ),
+		'after'             => array( 'XLWCTY_PP_Common', 'get_preview_link_script' ),
+		'before_field'      => '<p>' . __( 'Select customer emails for which you want to embed Button', 'nextmove-power-pack' ) . '</p>',
+		'select_all_button' => false,
+		'attributes'        => array(
+			'data-conditional-id'    => 'append_user_track_order_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Track Order Button Text', 'nextmove-power-pack' ),
+		'id'          => 'append_user_track_order_email_button_text',
+		'type'        => 'text',
+		'before'      => '<p>' . __( 'Button Text', 'nextmove-power-pack' ) . '</p>',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label' ),
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_user_track_order_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Section Background Color', 'nextmove-power-pack' ),
+		'id'          => 'append_user_track_order_email_section_bg_color',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label', 'xlwcty_pt0', 'xlwcty_change_event', 'xlwcty_combine_2_field_start' ),
+		'type'        => 'colorpicker',
+		'before'      => '<p>' . __( 'Section BG Color', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_user_track_order_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Background Color', 'nextmove-power-pack' ),
+		'id'          => 'append_user_track_order_email_bg_color',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label', 'xlwcty_pt0', 'xlwcty_change_event', 'xlwcty_combine_2_field_end' ),
+		'type'        => 'colorpicker',
+		'before'      => '<p>' . __( 'Button BG Color', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_user_track_order_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+	array(
+		'name'        => __( 'Text Color', 'nextmove-power-pack' ),
+		'id'          => 'append_user_track_order_email_text_color',
+		'row_classes' => array( 'xlwcty_no_border', 'xlwcty_hide_label', 'xlwcty_pt0', 'xlwcty_change_event' ),
+		'type'        => 'colorpicker',
+		'before'      => '<p>' . __( 'Text Color', 'nextmove-power-pack' ) . '</p>',
+		'attributes'  => array(
+			'data-conditional-id'    => 'append_user_track_order_email',
+			'data-conditional-value' => 'yes',
+		),
+	),
+
+	array(
+		'name'       => '_wpnonce',
+		'id'         => '_wpnonce',
+		'type'       => 'hidden',
+		'attributes' => array(
+			'value' => wp_create_nonce( 'woocommerce-settings' ),
+		),
+	),
+) );

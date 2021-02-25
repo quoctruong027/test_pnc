@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){var self;self={queriedPost:new wp.customize.Value};wp.customize.bind("ready",function(){wp.customize.previewer.bind("queried-post",function(queriedPost){self.queriedPost.set(queriedPost||false)})});self.queriedPost.bind(function(newPost,oldPost){window.xirkiPost=false;if(newPost||oldPost){window.xirkiPost=newPost?newPost:oldPost}})});

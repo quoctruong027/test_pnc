@@ -1,0 +1,195 @@
+.xtfw-admin-tabs-page{
+
+  .xtfw-panel-settings-type {
+
+    padding:10px;
+
+    .xtfw-settings-form {
+
+      border: 1px solid #eaeaea;
+
+      .xtfw-settings-title {
+        background: transparent;
+        border: 0;
+        border-radius: 0;
+        padding: 10px 0 10px 20px;
+        font-size: 16px;
+        font-weight: 500;
+        border-bottom: 1px solid #eaeaea;
+        border-top:1px solid transparent;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+        will-change: auto;
+        margin: 0;
+        color:#777;
+
+        .ui-accordion-header-icon {
+          left: initial;
+          right: .5em;
+          top: 50%;
+          transform: translateY(-50%);
+          margin-top: 0;
+          color:#777;
+          transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+        }
+
+        &:not(.ui-accordion-header-active):hover{
+          box-shadow: 0 0 5px rgba(40,40,40,0.15);
+          color:#000;
+
+          .ui-accordion-header-icon {
+            color:#000;
+          }
+        }
+
+        &.ui-accordion-header-active{
+          background: #eaeaea;
+          color:#000;
+          .ui-accordion-header-icon {
+            color:#000;
+          }
+          + .xtfw-settings-panel + .xtfw-settings-title{
+            border-top:1px solid #eaeaea;
+          }
+        }
+      }
+
+      .xtfw-settings-panel {
+        border: 0;
+        padding: 0 20px 10px 20px;
+        display: none;
+
+        &:last-of-type{
+          border-bottom:1px solid #eaeaea;
+        }
+      }
+
+      input[type="submit"] {
+        margin: 20px;
+      }
+
+      .form-table {
+
+        .inline-block {
+          display: inline-block;
+        }
+
+        th {
+
+          label {
+            position: relative;
+            display: block;
+            width: 96%;
+            font-size: 13px;
+          }
+        }
+
+        td {
+          margin-bottom: 9px;
+          padding: 15px 0;
+          line-height: 32px;
+          vertical-align: middle;
+        }
+
+        + div > p {
+          color: #444;
+          font-style: italic;
+          background: #ffffdc;
+          padding: 8px 12px;
+        }
+
+        small {
+          font-weight: initial;
+          color: #444;
+        }
+
+        input.regular-input,
+        input[type=date],
+        input[type=datetime-local],
+        input[type=datetime],
+        input[type=email],
+        input[type=number],
+        input[type=password],
+        input[type=tel],
+        input[type=text],
+        input[type=time],
+        input[type=url],
+        input[type=week],
+        textarea {
+          min-width:inherit!important;
+          width:100%!important;
+          margin: 0;
+          padding: 6px;
+          box-sizing: border-box;
+          vertical-align: middle;
+          display: block;
+          font-size: 0.9em;
+
+          @media screen and (min-width: 783px) {
+            width:400px!important;
+            &.inline-input {
+              display: inline-block;
+            }
+          }
+        }
+
+        select {
+          width: 380px;
+        }
+
+        input.hasDatepicker {
+          width: 250px !important;
+          display: inline-block !important;
+        }
+
+        .ui-datepicker-trigger {
+          margin-left: 5px;
+        }
+
+        .xtfw-settings-image{
+          display:none;
+        }
+        .xtfw-settings-image-mobile{
+          display:block;
+        }
+
+        @media screen and (min-width: 783px) {
+          th {
+            width: 350px;
+          }
+          td {
+            padding: 15px 10px;
+          }
+          .small-text-input {
+            max-width: 100px;
+          }
+          .medium-text-input {
+            max-width: 45%;
+          }
+
+          .xtfw-settings-image{
+            display:block;
+            max-width: 1065px;
+          }
+          .xtfw-settings-image-mobile{
+            display:none;
+          }
+        }
+
+      }
+
+      .xtfw-help-tip {
+        right: -5px;
+        top: -1px;
+        position: absolute;
+      }
+
+      .description {
+        color: #666!important;
+        font-size: 13px!important;
+        margin-top:10px;
+      }
+
+    }
+  }
+}

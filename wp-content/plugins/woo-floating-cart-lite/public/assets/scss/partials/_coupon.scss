@@ -1,0 +1,94 @@
+.woocommerce,
+.woocommerce-page,
+body{
+  .xt_woofc {
+
+    .woocommerce-form-coupon-toggle{
+      display:none!important;
+    }
+
+    .xt_woofc-coupon-form {
+
+      border: 0;
+      padding: 15px;
+      margin: 0;
+      border-radius: 0;
+      width: 100%;
+
+      &.processing{
+        opacity:0.7;
+      }
+
+      p {
+        font-size: 11px;
+        margin-bottom: 10px;
+      }
+
+      .form-row {
+        margin: 0;
+        padding: 0;
+        float: none;
+        display: inline-block;
+      }
+      .form-row-first {
+        width: 70%;
+        margin: 0;
+        float: left;
+        padding-right:5px;
+      }
+      .form-row-last {
+        width: 30%;
+        margin: 0;
+        float: left;
+        padding-left:5px;
+      }
+
+      [name=coupon_code] {
+        border: var(--xt-woofc-border);
+        padding: 9px 0.50rem!important;;
+        height: 30px;
+        border-radius:3px;
+        width:100%;
+        outline: initial;
+      }
+      .button {
+        vertical-align: initial;
+        line-height: 15px;
+        padding: 0.428571429rem 0.50rem;
+        border: var(--xt-woofc-border);
+        background: #fff;
+        height: 30px;
+        border-radius:3px;
+        color: var(--xt-woofc-primary-color);
+        &:hover{
+          background: #eaeaea;
+        }
+        &[name=apply_coupon] {
+          padding: 0.428571429rem 0.50rem;
+          width:100%;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+
+      @include MQ_MAX(S) {
+        & {
+          .form-row-first, .form-row-last {
+            display: block;
+            margin: 0 auto;
+            padding:0;
+            width: 100%;
+          }
+          .form-row-first {
+            margin-bottom: 10px;
+          }
+          .button[name=apply_coupon] {
+            width: 100%;
+            padding: 10px 5px;
+          }
+        }
+      }
+    }
+  }
+}

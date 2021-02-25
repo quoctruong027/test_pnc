@@ -1,0 +1,43 @@
+<?php
+
+$properties = '';
+
+$properties .= 'public $full_name = \'UpStroke PowerPack\';';
+$properties .= "\n\t";
+$properties .= 'public $is_license_needed = true;';
+$properties .= "\n\t";
+$properties .= 'public $license_instance;';
+$properties .= "\n\t";
+$properties .= 'protected $encoded_basename = \'\';';
+$properties .= "\n";
+
+
+$after_construct = '';
+$after_construct .= '$this->encoded_basename = sha1( WF_UPSTROKE_POWERPACK_BASENAME );';
+$after_construct .= "\n\t\t";
+$after_construct .= '$this->full_name = __( \'UpStroke PowerPack\', \'woofunnels-upstroke-power-pack\' );';
+$after_construct .= "\n\t\t";
+$after_construct .= 'add_filter( \'woofunnels_plugins_license_needed\', array( $this, \'add_license_support\' ), 10 );';
+$after_construct .= "\n\t\t";
+$after_construct .= 'add_action( \'init\', array( $this, \'init_licensing\' ), 12 );';
+$after_construct .= "\n\t\t";
+$after_construct .= 'add_action( \'woofunnels_licenses_submitted\', array( $this, \'process_licensing_form\' ) );';
+$after_construct .= "\n\t\t";
+$after_construct .= 'add_action( \'woofunnels_deactivate_request\', array( $this, \'maybe_process_deactivation\' ) );';
+$after_construct .= "\n\t\t";
+
+
+return array(
+	'{{{PROPERTIES}}}'         => $properties,
+	'{{{AFTER_CONSTRUCT}}}'    => $after_construct,
+	'{{{IS_LICENSE_PRESENT}}}' => '$plugins = WooFunnels_License_check::get_plugins();
+
+		if ( ! isset( $plugins[ $this->encoded_basename ] ) ) {
+			return false;
+		}
+
+		return true;',
+	'{{{WOOFUNNELS_PAGE}}}'    => 'license',
+	'{{{CLASS_FUNCTIONS}}}'    => file_get_contents( __DIR__ . '/license-functions.txt' ),
+
+);

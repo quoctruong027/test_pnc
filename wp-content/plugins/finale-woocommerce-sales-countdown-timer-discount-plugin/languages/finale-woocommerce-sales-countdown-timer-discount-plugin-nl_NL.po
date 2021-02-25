@@ -1,0 +1,2864 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: finale-woocommerce-sales-countdown-timer-discount-"
+"plugin\n"
+"POT-Creation-Date: 2019-11-14 21:13+0530\n"
+"PO-Revision-Date: 2019-11-14 21:14+0530\n"
+"Last-Translator: \n"
+"Language-Team: XLPlugins <support@xlplugins.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: xl\n"
+"X-Poedit-SearchPathExcluded-3: admin/includes/cmb2\n"
+"X-Poedit-SearchPathExcluded-4: admin/includes/cmb2-addons\n"
+
+#: WCCT_EDD_License_Handler.php:142
+#, php-format
+msgid "<p> Plugin <strong>%s</strong> successfully activated. </p>"
+msgstr "<p> Plugin <strong>%s</strong> met succes geactiveerd. </p>"
+
+#: WCCT_EDD_SL_Plugin_Updater.php:209
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Er is een nieuwe versie van  %1$s  beschikbaar. %2$sBekijk versie %3$s "
+"gegevens%4$s."
+
+#: WCCT_EDD_SL_Plugin_Updater.php:211
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Er is een nieuwe versie van  %1$s  beschikbaar. %2$sBekijk versie %3$s "
+"gegevens%4$s  of %5$supdate nu%6$s."
+
+#: WCCT_EDD_SL_Plugin_Updater.php:401
+msgid "You do not have permission to install plugin updates"
+msgstr "U heeft geen permissie on deze update te installeren"
+
+#: WCCT_EDD_SL_Plugin_Updater.php:401
+msgid "Error"
+msgstr "Fout"
+
+#: admin/class-wcct-wizard.php:27
+msgid "Welcome"
+msgstr "Welkom"
+
+#: admin/class-wcct-wizard.php:31 includes/wcct-common.php:930
+msgid "Activate"
+msgstr "Activeren"
+
+#: admin/class-wcct-wizard.php:35
+msgid "Ready"
+msgstr "Klaar"
+
+#: admin/class-wcct-wizard.php:94
+msgid "Plugin &rsaquo; Setup Wizard"
+msgstr "Plugin &rsaquo; Setup Hulp"
+
+#: admin/class-wcct-wizard.php:142
+msgid "Return to the WordPress Dashboard"
+msgstr "Terug naar het Wordpress Dashboard"
+
+#: admin/class-wcct-wizard.php:155
+msgid "Thank you for choosing Finale from XLPlugins."
+msgstr "Bedankt voor het kiezen van Finale van XLPlugins."
+
+#: admin/class-wcct-wizard.php:156
+msgid ""
+"This wizard will help you activate your license and tell you about important "
+"links & support options."
+msgstr ""
+"Deze setup hulphelpt u met het activeren van uw licentie en vertelt "
+"belangrijke links & support opties."
+
+#: admin/class-wcct-wizard.php:160
+msgid "Let's Go!"
+msgstr "Kom!"
+
+#: admin/class-wcct-wizard.php:168
+#, php-format
+msgid "Thank You For Activating %s"
+msgstr "Bedankt voor het activeren %s"
+
+#: admin/class-wcct-wizard.php:169
+msgid "You are all set to start your first campaign."
+msgstr "U bent klaar voor uw eerste campagne."
+
+#: admin/class-wcct-wizard.php:170
+msgid "Few Important Links -"
+msgstr "Een paar belangrijke links -"
+
+#: admin/class-wcct-wizard.php:197
+msgid "Go to Campaigns"
+msgstr "Ga naar campagnes"
+
+#: admin/includes/cmb2-countdown-meta-config.php:6
+msgid ""
+"One Time option allows you to run single campaign between two fixed dates."
+msgstr ""
+"One Time optie laat u een enkele campagne starten tussen twee vaste datums."
+
+#: admin/includes/cmb2-countdown-meta-config.php:8
+msgid "Need Help with setting up One-Time campaign?"
+msgstr "Heeft u hulp nodig met het opzetten van One-Time campaign?"
+
+#: admin/includes/cmb2-countdown-meta-config.php:15
+#: admin/includes/cmb2-countdown-meta-config.php:27
+#: admin/includes/cmb2-countdown-meta-config.php:39
+#: admin/includes/cmb2-countdown-meta-config.php:51
+#: admin/includes/cmb2-countdown-meta-config.php:75
+#: admin/includes/cmb2-countdown-meta-config.php:87
+#: admin/includes/cmb2-countdown-meta-config.php:99
+#: admin/includes/cmb2-countdown-meta-config.php:111
+#: admin/includes/cmb2-countdown-meta-config.php:123
+#: admin/includes/cmb2-countdown-meta-config.php:135
+#: admin/includes/cmb2-countdown-meta-config.php:147
+#: admin/includes/cmb2-countdown-meta-config.php:159
+msgid "Watch Video or Read Docs"
+msgstr "Kijk video’s of lees documenten"
+
+#: admin/includes/cmb2-countdown-meta-config.php:18
+msgid "Recurring option allows you to run recurring campaign for set duration."
+msgstr ""
+"Met de terugkerende optie kunt u een terugkerende campagne uitvoeren voor de "
+"ingestelde duur."
+
+#: admin/includes/cmb2-countdown-meta-config.php:20
+msgid "Need Help with setting up Recurring campaign?"
+msgstr "Hulp nodig met het opzetten van de terugkerende campagne?"
+
+#: admin/includes/cmb2-countdown-meta-config.php:30
+msgid "Enable this to set up sale on your products for the campaign duration."
+msgstr ""
+"Schakel dit in om verkoop voor uw producten in te stellen voor de duur van "
+"de campagne."
+
+#: admin/includes/cmb2-countdown-meta-config.php:32
+msgid "Need Help with setting up Discounts?"
+msgstr "Help nodig met het opzetten van kortingen?"
+
+#: admin/includes/cmb2-countdown-meta-config.php:42
+msgid "Enable this to define units of item to be sold during campaign."
+msgstr ""
+"Schakel dit in om eenheden van items te definiëren die tijdens de campagne "
+"worden verkocht."
+
+#: admin/includes/cmb2-countdown-meta-config.php:44
+#: admin/includes/cmb2-countdown-meta-config.php:68
+msgid "Need Help with setting up Inventory?"
+msgstr "Heeft u hulp nodig met het opzetten van de inventaris?"
+
+#: admin/includes/cmb2-countdown-meta-config.php:54
+msgid "Select Positions for Single Product Page."
+msgstr "Selecteer positie voor een enkele product pagina."
+
+#: admin/includes/cmb2-countdown-meta-config.php:56
+msgid "Unable to see this element on product page? Follow this quick "
+msgstr ""
+
+#: admin/includes/cmb2-countdown-meta-config.php:63
+msgid "troubleshooting guide"
+msgstr ""
+
+#: admin/includes/cmb2-countdown-meta-config.php:66
+msgid "Enable this to set up coupons for the campaign duration."
+msgstr ""
+"Schakel dit in om kortingsbonnen voor de duur van de campagne in te stellen."
+
+#: admin/includes/cmb2-countdown-meta-config.php:78
+msgid "Enable this to show Countdown Timer."
+msgstr "Schakel dit in om Countdown Timer te tonen."
+
+#: admin/includes/cmb2-countdown-meta-config.php:80
+msgid "Need Help with setting up Countdown Timer?"
+msgstr "Heeft u hulp nodig bij het opzetten van de Coutdown Timer?"
+
+#: admin/includes/cmb2-countdown-meta-config.php:90
+msgid ""
+"Enable this to show Counter Bar.<br/><strong>Inventory Goal</strong> should "
+"be <strong>enabled</strong> to display the Counter Bar."
+msgstr ""
+"Zet dit aan om de Counter Bar te zien.<br/><strong>Voorraad doell</strong> "
+"moet zijn <strong>aan</strong> om de Counter Bar te zien."
+
+#: admin/includes/cmb2-countdown-meta-config.php:92
+msgid "Need Help with setting up Counter Bar?"
+msgstr "Heeft u hulp nodig bij het opzetten van de Counter Bar?"
+
+#: admin/includes/cmb2-countdown-meta-config.php:102
+msgid ""
+" Note: These skins are indicative designs. The counter bar would "
+"automatically move once a purchase is made during the campaign. However, you "
+"can adjust sold units using Events to give campaigns a kickstart."
+msgstr ""
+
+#: admin/includes/cmb2-countdown-meta-config.php:104
+msgid "Learn more about Events here."
+msgstr ""
+
+#: admin/includes/cmb2-countdown-meta-config.php:114
+msgid "Enable this to show Sticky Header on the site."
+msgstr "Schakel dit in om Sticky Header op de site te tonen."
+
+#: admin/includes/cmb2-countdown-meta-config.php:116
+msgid "Need Help with setting up Sticky Header?"
+msgstr "Heeft u hulp nodig met het opzetten van de Sticky Header?"
+
+#: admin/includes/cmb2-countdown-meta-config.php:126
+msgid "Enable this to show Sticky Footer on the site."
+msgstr "Zet dit aan om Sticky Footer op de site te zien."
+
+#: admin/includes/cmb2-countdown-meta-config.php:128
+msgid "Need Help with setting up Sticky Footer?"
+msgstr "Heeftu  hulp nodig bij het opzetten van Sticky Footer?"
+
+#: admin/includes/cmb2-countdown-meta-config.php:138
+msgid "Enable this to show Custom Text."
+msgstr "Zet dit aan om de Custom Text te zien."
+
+#: admin/includes/cmb2-countdown-meta-config.php:140
+msgid "Need Help with setting up Custom Text?"
+msgstr "Heeft u hulp nodig bij het opzetten van Custom Text?"
+
+#: admin/includes/cmb2-countdown-meta-config.php:150
+msgid "Want Some Ideas On Using Events? "
+msgstr "Wilt u een aantal ideeën over het gebruik van Events? "
+
+#: admin/includes/cmb2-countdown-meta-config.php:150
+msgid "Some Ideas On Using Events"
+msgstr "Enkele ideeën over het gebruik van Events"
+
+#: admin/includes/cmb2-countdown-meta-config.php:150
+msgid "Click Here"
+msgstr "Klik hier"
+
+#: admin/includes/cmb2-countdown-meta-config.php:152
+msgid "Need Help with setting up Events?"
+msgstr "Heeft u hulp nodig met het opzetten van Events?"
+
+#: admin/includes/cmb2-countdown-meta-config.php:164
+msgid "<i class=\"flicon flicon-weekly-calendar\"></i> Schedule"
+msgstr "<i class=“flicon flicon-weekly-calendar”></i> Planning"
+
+#: admin/includes/cmb2-countdown-meta-config.php:168
+#: admin/includes/wcct-post-table.php:102
+msgid "Type"
+msgstr "Type"
+
+#: admin/includes/cmb2-countdown-meta-config.php:173
+msgid "One Time"
+msgstr "Eenmalig"
+
+#: admin/includes/cmb2-countdown-meta-config.php:174
+#: admin/includes/wcct-post-table.php:97 includes/wcct-common.php:1721
+msgid "Recurring"
+msgstr "Terugkeerend"
+
+#: admin/includes/cmb2-countdown-meta-config.php:199
+msgid "Start Date & Time"
+msgstr "Start datum & tijd"
+
+#: admin/includes/cmb2-countdown-meta-config.php:210
+msgid "Start Time"
+msgstr "Start tijd"
+
+#: admin/includes/cmb2-countdown-meta-config.php:221
+#: admin/includes/cmb2-countdown-meta-config.php:389
+msgid "End Date & Time"
+msgstr "Eind datum & tijd"
+
+#: admin/includes/cmb2-countdown-meta-config.php:233
+#: admin/includes/cmb2-countdown-meta-config.php:402
+msgid "End Time"
+msgstr "Eind tijd"
+
+#: admin/includes/cmb2-countdown-meta-config.php:244
+#: admin/includes/wcct-post-table.php:115
+msgid "Duration"
+msgstr "Looptijd"
+
+#: admin/includes/cmb2-countdown-meta-config.php:248
+#: admin/includes/cmb2-countdown-meta-config.php:290
+msgid "days"
+msgstr "dagen"
+
+#: admin/includes/cmb2-countdown-meta-config.php:258
+msgid "Duration Hrs"
+msgstr "Looptijd Uren"
+
+#: admin/includes/cmb2-countdown-meta-config.php:262
+#: admin/includes/cmb2-countdown-meta-config.php:306
+msgid "hrs"
+msgstr "uren"
+
+#: admin/includes/cmb2-countdown-meta-config.php:273
+msgid "Duration Min"
+msgstr "Looptijd Min"
+
+#: admin/includes/cmb2-countdown-meta-config.php:277
+#: admin/includes/cmb2-countdown-meta-config.php:321
+msgid "mins"
+msgstr "mins"
+
+#: admin/includes/cmb2-countdown-meta-config.php:288
+msgid "Pause Period"
+msgstr "Pauzeperiode"
+
+#: admin/includes/cmb2-countdown-meta-config.php:302
+msgid "Pause Period Hrs"
+msgstr "Pauzeperiode Uur"
+
+#: admin/includes/cmb2-countdown-meta-config.php:317
+msgid "Pause Period Mins"
+msgstr "Pauzeperiode Min"
+
+#: admin/includes/cmb2-countdown-meta-config.php:332
+msgid ""
+"Pauses campaign for set duration and <strong>restart</strong> automatically "
+"after Pause Period elapses. If you want to immediately restart campaign "
+"without a break, set days/ hours to zero."
+msgstr ""
+"Pauzeert de campagne voor ingestelde duur en <strong> herstart </ strong> "
+"automatisch nadat de pauzeperiode is verstreken. Als u de campagne "
+"onmiddellijk zonder pauze opnieuw wilt starten, stelt u dagen / uren in op "
+"nul."
+
+#: admin/includes/cmb2-countdown-meta-config.php:348
+msgid "Ends"
+msgstr "Eind"
+
+#: admin/includes/cmb2-countdown-meta-config.php:353
+msgid "Never"
+msgstr "Nooit"
+
+#: admin/includes/cmb2-countdown-meta-config.php:354
+msgid "After Set Recurrences"
+msgstr "Na het instellen van herhalingen"
+
+#: admin/includes/cmb2-countdown-meta-config.php:355
+msgid "At Specific Time"
+msgstr "Op specifieke tijd"
+
+#: admin/includes/cmb2-countdown-meta-config.php:363
+msgid ""
+"Sets Recurring Campaigns to go on forever, or end after certain repetitions "
+"or end at a specific date."
+msgstr ""
+"Stelt terugkerende campagnes in om eindeloos door te gaan, of te eindigen na "
+"bepaalde herhalingen of te eindigen op een specifieke datum."
+
+#: admin/includes/cmb2-countdown-meta-config.php:373
+msgid "Number of Recurrences"
+msgstr "Nummer of herhalingen"
+
+#: admin/includes/cmb2-countdown-meta-config.php:376
+msgid "times"
+msgstr "tijden"
+
+#: admin/includes/cmb2-countdown-meta-config.php:417
+msgid "<i class=\"flicon flicon-money-bill-of-one\"></i> Discount"
+msgstr "<i class=“flicon flicon-money-bill-of-one”></i> Korting"
+
+#: admin/includes/cmb2-countdown-meta-config.php:421
+#: admin/includes/cmb2-countdown-meta-config.php:564
+#: admin/includes/cmb2-countdown-meta-config.php:836
+#: admin/includes/cmb2-countdown-meta-config.php:2148
+#: admin/includes/cmb2-countdown-meta-config.php:2675
+msgid "Enable"
+msgstr "Aan"
+
+#: admin/includes/cmb2-countdown-meta-config.php:426
+#: admin/includes/cmb2-countdown-meta-config.php:568
+#: admin/includes/cmb2-countdown-meta-config.php:801
+#: admin/includes/cmb2-countdown-meta-config.php:818
+#: admin/includes/cmb2-countdown-meta-config.php:841
+#: admin/includes/cmb2-countdown-meta-config.php:924
+#: admin/includes/cmb2-countdown-meta-config.php:937
+#: admin/includes/cmb2-countdown-meta-config.php:1025
+#: admin/includes/cmb2-countdown-meta-config.php:2936
+#: admin/includes/wcct-admin-countdown-options.php:105
+#: admin/includes/wcct-admin-countdown-options.php:116
+#: admin/includes/wcct-admin-countdown-options.php:127
+#: admin/includes/wcct-admin-countdown-options.php:138
+msgid "Yes"
+msgstr ""
+
+#: admin/includes/cmb2-countdown-meta-config.php:427
+#: admin/includes/cmb2-countdown-meta-config.php:569
+#: admin/includes/cmb2-countdown-meta-config.php:802
+#: admin/includes/cmb2-countdown-meta-config.php:819
+#: admin/includes/cmb2-countdown-meta-config.php:842
+#: admin/includes/cmb2-countdown-meta-config.php:925
+#: admin/includes/cmb2-countdown-meta-config.php:938
+#: admin/includes/cmb2-countdown-meta-config.php:1026
+#: admin/includes/cmb2-countdown-meta-config.php:2937
+#: admin/includes/wcct-admin-countdown-options.php:106
+#: admin/includes/wcct-admin-countdown-options.php:117
+#: admin/includes/wcct-admin-countdown-options.php:128
+#: admin/includes/wcct-admin-countdown-options.php:139
+msgid "No"
+msgstr "Nee"
+
+#: admin/includes/cmb2-countdown-meta-config.php:429
+#: admin/includes/cmb2-countdown-meta-config.php:844
+msgid "Pricing Discount"
+msgstr "Prijzen korting"
+
+#: admin/includes/cmb2-countdown-meta-config.php:439
+msgid "Discount Mode"
+msgstr "Kortingsmodus"
+
+#: admin/includes/cmb2-countdown-meta-config.php:450
+#: admin/includes/cmb2-countdown-meta-config.php:453
+msgid "Amount"
+msgstr "Aantal"
+
+#: admin/includes/cmb2-countdown-meta-config.php:472
+msgid "Advanced Discount Setup"
+msgstr "Geavanceerde kortingsinstellingen"
+
+#: admin/includes/cmb2-countdown-meta-config.php:482
+#: admin/includes/cmb2-countdown-meta-config.php:621
+#: admin/includes/cmb2-countdown-meta-config.php:669
+#: admin/includes/wcct-post-table.php:169
+msgid "Range"
+msgstr "Reeks"
+
+#: admin/includes/cmb2-countdown-meta-config.php:483
+msgid "Add Discount Range"
+msgstr "Kortingbereik toevoegen"
+
+#: admin/includes/cmb2-countdown-meta-config.php:490
+msgid "From Regular Price"
+msgstr "Van normale prijs"
+
+#: admin/includes/cmb2-countdown-meta-config.php:495
+#: admin/includes/cmb2-countdown-meta-config.php:682
+msgid "0"
+msgstr "0"
+
+#: admin/includes/cmb2-countdown-meta-config.php:502
+#: admin/includes/cmb2-countdown-meta-config.php:689
+msgid "to"
+msgstr "naar"
+
+#: admin/includes/cmb2-countdown-meta-config.php:507
+#: admin/includes/cmb2-countdown-meta-config.php:694
+msgid "10"
+msgstr "10"
+
+#: admin/includes/cmb2-countdown-meta-config.php:514
+msgid "Discount Amount is"
+msgstr "Kortingsbedrag is"
+
+#: admin/includes/cmb2-countdown-meta-config.php:519
+msgid "5"
+msgstr "5"
+
+#: admin/includes/cmb2-countdown-meta-config.php:530
+msgid "Discount Type"
+msgstr "Kortingstype"
+
+#: admin/includes/cmb2-countdown-meta-config.php:534
+#, fuzzy, php-format
+msgid "Percentage % on Regular Price"
+msgstr "Van normale prijs"
+
+#: admin/includes/cmb2-countdown-meta-config.php:535
+#, fuzzy, php-format
+msgid "Percentage % on Sale Price"
+msgstr "Procentueel %"
+
+#: admin/includes/cmb2-countdown-meta-config.php:536
+#: admin/includes/cmb2-countdown-meta-config.php:537
+msgid "Fixed Amount "
+msgstr "Vaste hoeveelheid "
+
+#: admin/includes/cmb2-countdown-meta-config.php:538
+#, fuzzy
+msgid "Flat Amount "
+msgstr "Vaste hoeveelheid "
+
+#: admin/includes/cmb2-countdown-meta-config.php:547
+msgid "Override Discount"
+msgstr "Korting negeren"
+
+#: admin/includes/cmb2-countdown-meta-config.php:549
+msgid "Override this discount if Sale Price is set locally."
+msgstr "Negeer deze korting als de verkoopprijs lokaal is ingesteld."
+
+#: admin/includes/cmb2-countdown-meta-config.php:560
+msgid ""
+"<i class=\"flicon flicon-text-file-filled-interface-paper-sheet\"></i> "
+"Inventory"
+msgstr ""
+"<i class=“flicon flicon-text-file-filled-interface-paper-sheet”></i> "
+"Inventaris"
+
+#: admin/includes/cmb2-countdown-meta-config.php:578
+msgid "Inventory Goal"
+msgstr "Voorraaddoel"
+
+#: admin/includes/cmb2-countdown-meta-config.php:588
+msgid "Quantity to be Sold"
+msgstr "Te verkopen hoeveelheid"
+
+#: admin/includes/cmb2-countdown-meta-config.php:592
+msgid "Custom Stock Quantity"
+msgstr "Aangepaste voorraadhoeveelheid"
+
+#: admin/includes/cmb2-countdown-meta-config.php:593
+msgid "Existing Stock Quantity"
+msgstr "Bestaande voorraadhoeveelheid"
+
+#: admin/includes/cmb2-countdown-meta-config.php:602
+msgid "Same Inventory Label"
+msgstr "Hetzelfde inventarislabel"
+
+#: admin/includes/cmb2-countdown-meta-config.php:604
+msgid ""
+"This will pick up stock quantity of individual product and applicable when "
+"Manage Stock in product is ON."
+msgstr ""
+"Hiermee wordt de voorraadhoeveelheid van het individuele product opgehaald "
+"en van toepassing wanneer Voorraad beheren in product AAN is."
+
+#: admin/includes/cmb2-countdown-meta-config.php:615
+#: admin/includes/cmb2-countdown-meta-config.php:624
+msgid "Inventory Mode"
+msgstr "Voorraadmodus"
+
+#: admin/includes/cmb2-countdown-meta-config.php:619
+#: admin/includes/wcct-post-table.php:152 admin/wcct-admin.php:2468
+#: includes/wcct-common.php:1738
+msgid "Basic"
+msgstr "Basis"
+
+#: admin/includes/cmb2-countdown-meta-config.php:620
+#: admin/includes/wcct-post-table.php:154
+#: admin/includes/wcct-post-table.php:167 admin/wcct-admin.php:2469
+#: includes/wcct-common.php:1740
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: admin/includes/cmb2-countdown-meta-config.php:633
+#: admin/includes/cmb2-countdown-meta-config.php:636
+#: rules/inputs/cart-category-select.php:29
+#: rules/inputs/cart-product-select.php:26
+msgid "Quantity"
+msgstr "Aantal stuks"
+
+#: admin/includes/cmb2-countdown-meta-config.php:670
+msgid "Add Inventory Range"
+msgstr "Voorraadbereik toevoegen"
+
+#: admin/includes/cmb2-countdown-meta-config.php:677
+msgid "For Total Quantity"
+msgstr "Voor totale hoeveelheid"
+
+#: admin/includes/cmb2-countdown-meta-config.php:701
+msgid "Set Custom Quantity"
+msgstr "Stel de Aangepaste hoeveelheid in"
+
+#: admin/includes/cmb2-countdown-meta-config.php:706
+msgid "8"
+msgstr "8"
+
+#: admin/includes/cmb2-countdown-meta-config.php:715
+msgid "From Quantity"
+msgstr "Van hoeveelheid"
+
+#: admin/includes/cmb2-countdown-meta-config.php:718
+msgid "Randomly picks up quantity from range"
+msgstr "Willekeurig neemt de hoeveelheid van het bereik op"
+
+#: admin/includes/cmb2-countdown-meta-config.php:738
+msgid "To Quantity"
+msgstr "Naar hoeveelheid"
+
+#: admin/includes/cmb2-countdown-meta-config.php:741
+msgid "To"
+msgstr "Naar"
+
+#: admin/includes/cmb2-countdown-meta-config.php:762
+msgid "Inventory Advcnaced HTML"
+msgstr "Voorraad Geavanceerde HTML"
+
+#: admin/includes/cmb2-countdown-meta-config.php:764
+msgid ""
+"In case of variable products, 'Total Quantity' is overall stock quantity "
+"available for purchase."
+msgstr ""
+"In het geval van variabele producten is ‘Totale hoeveelheid’ de algehele "
+"voorraadhoeveelheid die kan worden gekocht."
+
+#: admin/includes/cmb2-countdown-meta-config.php:782
+msgid "Calculate Sold Units (for counter bar)"
+msgstr "Bereken verkochte eenheden (voor counter bar)"
+
+#: admin/includes/cmb2-countdown-meta-config.php:786
+msgid "Overall Campaign"
+msgstr "Gehele campagne"
+
+#: admin/includes/cmb2-countdown-meta-config.php:787
+msgid "Current Occurrence"
+msgstr "Huidige gebeurtenis"
+
+#: admin/includes/cmb2-countdown-meta-config.php:789
+msgid "Inventory Sold Units Help"
+msgstr "Inventaris verkochte eenheden help"
+
+#: admin/includes/cmb2-countdown-meta-config.php:789
+#: admin/includes/cmb2-countdown-meta-config.php:804
+msgid "Learn More"
+msgstr "Leer meer"
+
+#: admin/includes/cmb2-countdown-meta-config.php:797
+msgid "Setup campaign on Out of Stock Products"
+msgstr "Setup-campagne op Out of Stock Producten"
+
+#: admin/includes/cmb2-countdown-meta-config.php:804
+msgid "Setup campaign on Out of Stock Products Help"
+msgstr "Setup-campagne op Out of Stock Producten help"
+
+#: admin/includes/cmb2-countdown-meta-config.php:814
+msgid "End Campaign"
+msgstr "Eind campagne"
+
+#: admin/includes/cmb2-countdown-meta-config.php:821
+msgid "When all the units set up in the campaign are sold."
+msgstr ""
+"Wanneer alle eenheden die in de campagne zijn ingesteld, worden verkocht."
+
+#: admin/includes/cmb2-countdown-meta-config.php:832
+msgid "<i class=\"flicon flicon-giftbox\"></i> Coupons"
+msgstr "<i class=“flicon flicon-giftbox”></i> Kortingsbonnen"
+
+#: admin/includes/cmb2-countdown-meta-config.php:855
+msgid "Select Coupon"
+msgstr "Selecteer kortingsbon"
+
+#: admin/includes/cmb2-countdown-meta-config.php:858
+#: includes/wcct-common.php:1582
+msgid "Choose a Coupon"
+msgstr "Kies een kortingsbon"
+
+#: admin/includes/cmb2-countdown-meta-config.php:868
+msgid "Apply Coupon "
+msgstr "Kortingsbon gebruiken "
+
+#: admin/includes/cmb2-countdown-meta-config.php:873
+msgid "Automatically"
+msgstr "Automatisch"
+
+#: admin/includes/cmb2-countdown-meta-config.php:874
+msgid "Manually"
+msgstr "Handmatig"
+
+#: admin/includes/cmb2-countdown-meta-config.php:882
+msgid "Coupons are automatically applied when products are added to cart."
+msgstr ""
+"Coupons worden automatisch toegepast wanneer producten aan winkelwagen "
+"worden toegevoegd."
+
+#: admin/includes/cmb2-countdown-meta-config.php:900
+msgid "Coupons need to be manually revealed and applied."
+msgstr "Coupons moeten handmatig worden onthuld en toegepast."
+
+#: admin/includes/cmb2-countdown-meta-config.php:918
+msgid "Expire Coupon"
+msgstr "Verlopen kortingsbon"
+
+#: admin/includes/cmb2-countdown-meta-config.php:921
+msgid "When campaign is not running."
+msgstr "Waneer de campagne niet loopt."
+
+#: admin/includes/cmb2-countdown-meta-config.php:933
+msgid "Hide Coupon Errors"
+msgstr "Verberg kortingsbon errors"
+
+#: admin/includes/cmb2-countdown-meta-config.php:946
+msgid "Coupon Success Message"
+msgstr "Kortingsbon succes bericht"
+
+#: admin/includes/cmb2-countdown-meta-config.php:949
+msgid "Display this text when coupon is successfully applied."
+msgstr "Geef deze tekst weer wanneer de kortingsbon met succes is toegepast."
+
+#: admin/includes/cmb2-countdown-meta-config.php:961
+msgid "Enable 'Checkout link' in coupon success message"
+msgstr "Schakel ‘Checkout-link’ in het succesbericht van de kortingsbon in"
+
+#: admin/includes/cmb2-countdown-meta-config.php:968
+msgid "Coupon Success Message Visibility"
+msgstr "Kortingsbon succes bericht"
+
+#: admin/includes/cmb2-countdown-meta-config.php:973
+msgid ""
+"Native WooCommerce Pages (Shop, Archives, Single Product, Cart & Checkout)"
+msgstr ""
+"Native WooCommerce Pages (Winkel, Archieven, Eén product, Winkelwagen & "
+"Afrekenen)"
+
+#: admin/includes/cmb2-countdown-meta-config.php:974
+msgid "Specific Products & Pages"
+msgstr "Specifieke producten en pagina’s"
+
+#: admin/includes/cmb2-countdown-meta-config.php:983
+msgid "Select Products"
+msgstr "Selecteer producten"
+
+#: admin/includes/cmb2-countdown-meta-config.php:996
+msgid "Search For a Product..."
+msgstr "Zoek voor een product…"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1002
+msgid "Select Page"
+msgstr "Selecteer pagina"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1015
+msgid "Choose Pages"
+msgstr "Kies pagina’s"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1019
+msgid "Show Coupon Success Message After Add To Cart"
+msgstr "Toon succesbericht van coupon na toevoegen aan winkelwagentje"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1022
+msgid ""
+"Choose 'Yes' to show success message (One Time). It will appear right after "
+"user has added product to the cart."
+msgstr ""
+"Kies ‘Ja’ om het succesbericht te tonen (één keer). Het verschijnt direct "
+"nadat de gebruiker het product aan het winkelwagentje heeft toegevoegd."
+
+#: admin/includes/cmb2-countdown-meta-config.php:1036
+msgid "Coupon Expiry Message"
+msgstr "Kortingsbon verkopen bericht"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1039
+msgid "Display this text when coupon expires."
+msgstr "Geef deze tekst weer als de coupon vervalt."
+
+#: admin/includes/cmb2-countdown-meta-config.php:1047
+msgid "Coupon Cart Table Message"
+msgstr "Coupon winkelmand bericht"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1050
+msgid "Display this text in Cart Totals on Cart/ Checkout page."
+msgstr ""
+"Laat deze tekst zien bij totalen bij het uitchecken van de Winkelwagen."
+
+#: admin/includes/cmb2-countdown-meta-config.php:1058
+msgid "Empty Cart Error Message"
+msgstr "Lege winkelwagen fout melding"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1061
+msgid "Display this text when cart is empty and coupon tries to apply."
+msgstr ""
+"Deze tekst weergeven wanneer de Winkelwagen leeg is en iemand de coupon "
+"probeert toe te passen."
+
+#: admin/includes/cmb2-countdown-meta-config.php:1072
+msgid "<i class=\"flicon flicon-old-elevator-levels-tool\"></i> Elements"
+msgstr "<i class=\"flicon flicon-old-elevator-levels-tool\"></i> Elementen"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1077
+#: admin/includes/cmb2-countdown-meta-config.php:1423
+#: admin/includes/cmb2-countdown-meta-config.php:1717
+#: admin/includes/cmb2-countdown-meta-config.php:2244
+#: admin/includes/cmb2-countdown-meta-config.php:2771
+msgid "Visibility"
+msgstr ""
+
+#: admin/includes/cmb2-countdown-meta-config.php:1082
+#: admin/includes/cmb2-countdown-meta-config.php:1428
+#: admin/includes/cmb2-countdown-meta-config.php:1722
+#: admin/includes/cmb2-countdown-meta-config.php:2249
+#: admin/includes/cmb2-countdown-meta-config.php:2776
+#: admin/includes/cmb2-countdown-meta-config.php:3106
+#: admin/includes/cmb2-countdown-meta-config.php:3142
+msgid "Show"
+msgstr "Toon"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1083
+#: admin/includes/cmb2-countdown-meta-config.php:1429
+#: admin/includes/cmb2-countdown-meta-config.php:1723
+#: admin/includes/cmb2-countdown-meta-config.php:2250
+#: admin/includes/cmb2-countdown-meta-config.php:2777
+#: admin/includes/cmb2-countdown-meta-config.php:3107
+#: admin/includes/cmb2-countdown-meta-config.php:3143
+msgid "Hide"
+msgstr "Verberg"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1086
+#: admin/includes/wcct-post-table.php:223 includes/wcct-common.php:163
+#: includes/wcct-common.php:164
+msgid "Countdown Timer"
+msgstr "Aftel  klok"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1101
+#: admin/includes/cmb2-countdown-meta-config.php:1448
+#: admin/includes/cmb2-countdown-meta-config.php:2796
+#: includes/wcct-appearance.php:419
+msgid "Above the Title"
+msgstr "Boven de titel"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1102
+#: admin/includes/cmb2-countdown-meta-config.php:1449
+#: admin/includes/cmb2-countdown-meta-config.php:2797
+#: includes/wcct-appearance.php:420
+msgid "Below the Title"
+msgstr "Onder de titel"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1103
+#: admin/includes/cmb2-countdown-meta-config.php:1450
+#: admin/includes/cmb2-countdown-meta-config.php:2798
+#: includes/wcct-appearance.php:421
+msgid "Below the Review Rating"
+msgstr "Beneden de review telling"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1104
+#: admin/includes/cmb2-countdown-meta-config.php:1451
+#: admin/includes/cmb2-countdown-meta-config.php:2799
+#: includes/wcct-appearance.php:422
+msgid "Below the Price"
+msgstr "Onder de prijs"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1105
+#: admin/includes/cmb2-countdown-meta-config.php:1452
+#: admin/includes/cmb2-countdown-meta-config.php:2800
+#: includes/wcct-appearance.php:423
+msgid "Below Short Description"
+msgstr "Onder korte omschrijving"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1106
+#: admin/includes/cmb2-countdown-meta-config.php:1453
+#: admin/includes/cmb2-countdown-meta-config.php:2801
+#: includes/wcct-appearance.php:424
+msgid "Below Add to Cart Button"
+msgstr "Onder toevoegen aan de winkelwagen knop"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1107
+#: admin/includes/cmb2-countdown-meta-config.php:1346
+#: admin/includes/cmb2-countdown-meta-config.php:1454
+#: admin/includes/cmb2-countdown-meta-config.php:1613
+#: admin/includes/cmb2-countdown-meta-config.php:2071
+#: admin/includes/cmb2-countdown-meta-config.php:2598
+#: admin/includes/cmb2-countdown-meta-config.php:2802
+#: admin/includes/cmb2-countdown-meta-config.php:2877
+msgid "None"
+msgstr "Geen"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1131
+#: admin/includes/cmb2-countdown-meta-config.php:1912
+#: admin/includes/cmb2-countdown-meta-config.php:2439
+msgid "Highlight"
+msgstr "Uitgelicht"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1132
+#: admin/includes/cmb2-countdown-meta-config.php:1913
+#: admin/includes/cmb2-countdown-meta-config.php:2440
+msgid "Round Fill"
+msgstr "Rong gevuld"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1133
+#: admin/includes/cmb2-countdown-meta-config.php:1914
+#: admin/includes/cmb2-countdown-meta-config.php:2441
+msgid "Round Ghost"
+msgstr "Ronde geest"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1134
+#: admin/includes/cmb2-countdown-meta-config.php:1915
+#: admin/includes/cmb2-countdown-meta-config.php:2442
+msgid "Square Fill"
+msgstr "Vierkant gevuld"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1135
+#: admin/includes/cmb2-countdown-meta-config.php:1916
+#: admin/includes/cmb2-countdown-meta-config.php:2443
+msgid "Square Ghost"
+msgstr "Vierkante geest"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1136
+#: admin/includes/cmb2-countdown-meta-config.php:1917
+#: admin/includes/cmb2-countdown-meta-config.php:2444
+msgid "Default"
+msgstr "Stadaard"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1216
+msgid ""
+"Note: You may need to adjust the default appearance settings in case you "
+"switch the skin."
+msgstr ""
+"Notitie: Misschien moet je de standaard vertoning-settings aanpassen als je "
+"van thema wisselt."
+
+#: admin/includes/cmb2-countdown-meta-config.php:1226
+#: admin/includes/cmb2-countdown-meta-config.php:1947
+#: admin/includes/cmb2-countdown-meta-config.php:2474
+msgid "Timer Color"
+msgstr "Timer kleur"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1237
+#: admin/includes/cmb2-countdown-meta-config.php:1960
+#: admin/includes/cmb2-countdown-meta-config.php:2487
+#: admin/includes/cmb2-countdown-meta-config.php:2842
+msgid "Text Color"
+msgstr "Tekst kleur"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1248
+#: admin/includes/cmb2-countdown-meta-config.php:1973
+#: admin/includes/cmb2-countdown-meta-config.php:2500
+msgid "Timer Font Size (px)"
+msgstr "Timer letter type grootte"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1262
+#: admin/includes/cmb2-countdown-meta-config.php:1989
+#: admin/includes/cmb2-countdown-meta-config.php:2516
+#: admin/includes/cmb2-countdown-meta-config.php:2853
+msgid "Font Size"
+msgstr "Letter type grootte"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1276
+#: admin/includes/cmb2-countdown-meta-config.php:2005
+#: admin/includes/cmb2-countdown-meta-config.php:2532
+msgid "Timer Days"
+msgstr "Timer dagen"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1288
+#: admin/includes/cmb2-countdown-meta-config.php:2019
+#: admin/includes/cmb2-countdown-meta-config.php:2546
+#: admin/includes/cmb2-countdown-meta-config.php:3236
+msgid "Timer Hours"
+msgstr "Timer uren"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1300
+#: admin/includes/cmb2-countdown-meta-config.php:2033
+#: admin/includes/cmb2-countdown-meta-config.php:2560
+#: admin/includes/cmb2-countdown-meta-config.php:3244
+msgid "Timer Minutes"
+msgstr "Timer minuten"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1312
+#: admin/includes/cmb2-countdown-meta-config.php:2047
+#: admin/includes/cmb2-countdown-meta-config.php:2574
+#: admin/includes/cmb2-countdown-meta-config.php:3252
+msgid "Timer Seconds"
+msgstr "Timer seonden"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1324
+msgid "Display Single Product"
+msgstr "Laat enkel product zien"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1327
+msgid "Outputs the countdown timer."
+msgstr "Schakel dit in om Countdown Timer te tonen."
+
+#: admin/includes/cmb2-countdown-meta-config.php:1327
+#: admin/includes/cmb2-countdown-meta-config.php:1833
+#: admin/includes/cmb2-countdown-meta-config.php:2360
+#: admin/includes/cmb2-countdown-meta-config.php:2823
+msgid "Merge Tags"
+msgstr "Samenvoegen tags"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1327
+msgid ""
+"Click here to learn to set up more dynamic merge tags in countdown timer"
+msgstr "Klik hier om the leren doe je dynamic samenvoegen in aftel timer"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1336
+msgid "Single Border Style"
+msgstr "Enkele border style"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1342
+#: admin/includes/cmb2-countdown-meta-config.php:1609
+#: admin/includes/cmb2-countdown-meta-config.php:2067
+#: admin/includes/cmb2-countdown-meta-config.php:2594
+#: admin/includes/cmb2-countdown-meta-config.php:2873
+msgid "Dotted"
+msgstr "Punten"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1343
+#: admin/includes/cmb2-countdown-meta-config.php:1610
+#: admin/includes/cmb2-countdown-meta-config.php:2068
+#: admin/includes/cmb2-countdown-meta-config.php:2595
+#: admin/includes/cmb2-countdown-meta-config.php:2874
+msgid "Dashed"
+msgstr "Gestippeld"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1344
+#: admin/includes/cmb2-countdown-meta-config.php:1611
+#: admin/includes/cmb2-countdown-meta-config.php:2069
+#: admin/includes/cmb2-countdown-meta-config.php:2596
+#: admin/includes/cmb2-countdown-meta-config.php:2875
+msgid "Solid"
+msgstr "Solide"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1345
+#: admin/includes/cmb2-countdown-meta-config.php:1612
+#: admin/includes/cmb2-countdown-meta-config.php:2070
+#: admin/includes/cmb2-countdown-meta-config.php:2597
+#: admin/includes/cmb2-countdown-meta-config.php:2876
+msgid "Double"
+msgstr "Dubbel"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1354
+msgid "Single Border Width"
+msgstr "Enkele border breedte"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1368
+msgid "Single Border Color"
+msgstr "Enkele border kleur"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1383
+#: admin/includes/cmb2-countdown-meta-config.php:2114
+#: admin/includes/cmb2-countdown-meta-config.php:2641
+#, fuzzy
+msgid "Reduce Countdown Timer Size on Mobile (%)"
+msgstr "Aftel Timer: Yes (%s)"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1397
+msgid "Enable this to delay showing Countdown Timer"
+msgstr "Zet dit aan om de afteltijd te vertragen"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1410
+msgid "hrs left"
+msgstr "uren te gaan"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1432
+#: admin/includes/cmb2-countdown-meta-config.php:1474
+#: admin/includes/cmb2-countdown-meta-config.php:1555
+#: admin/includes/wcct-post-table.php:226
+msgid "Counter Bar"
+msgstr "Aftel balk"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1500
+msgid "Edges"
+msgstr "Kanten"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1504
+msgid "Rounded"
+msgstr "Ronde"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1505
+msgid "Smooth"
+msgstr "Smooth"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1506
+msgid "Sharp"
+msgstr "Scherp"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1516
+msgid "Direction"
+msgstr "Directie"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1520
+msgid "Left to Right"
+msgstr "Links naar rechts"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1521
+msgid "Right to Left"
+msgstr "Rechts naar links"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1531
+msgid ""
+"This moves counter bar left to right. Use this when you want to indicate "
+"increase in sales."
+msgstr ""
+"Deze beweegt de teller van links naar rechts. Gebruik deze als u de verkoop "
+"wilt verhogen."
+
+#: admin/includes/cmb2-countdown-meta-config.php:1543
+msgid ""
+"This moves counter bar right to left. Use this when you want to indicate "
+"decrease in stocks."
+msgstr ""
+"Deze beweegt de teller van rechts naar links. Gebruik deze als u de verkoop "
+"wilt verlagen."
+
+#: admin/includes/cmb2-countdown-meta-config.php:1566
+msgid "Bar Active Color"
+msgstr "Actieve balk kleur"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1577
+msgid "Bar Height"
+msgstr "Balk hoogte"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1591
+msgid "Bar Display"
+msgstr "Balk display"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1594
+msgid "Outputs the counter bar."
+msgstr "Uitvoer naar de teller balk."
+
+#: admin/includes/cmb2-countdown-meta-config.php:1603
+msgid "Bar Border Style"
+msgstr "Balk rand style"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1621
+msgid "Bar Border Width"
+msgstr "Balk rand breedte"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1635
+msgid "Bar Border Color"
+msgstr "Balk rand kleur"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1650
+msgid "Enable this to delay showing Counter Bar"
+msgstr "Activeer deze om het zien van de teller bar te vertragen"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1662
+msgid "item(s) sold"
+msgstr "artikelen verkocht"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1675
+msgid ""
+"<strong>Example:</strong> If set to 2 and product stock is 10 then the "
+"counter bar will display after 2 product units are sold."
+msgstr ""
+
+#: admin/includes/cmb2-countdown-meta-config.php:1692
+#, fuzzy
+msgid "item(s) left in stock"
+msgstr "artikelen verkocht"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1705
+msgid ""
+"<strong>Example:</strong> If set to 5 and product stock is 10 then the "
+"counter bar will display when only 5 product units are left."
+msgstr ""
+
+#: admin/includes/cmb2-countdown-meta-config.php:1726
+#: admin/includes/wcct-post-table.php:229
+msgid "Sticky Header"
+msgstr "Sticky header"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1740
+msgid "Hide Sticky Header on Mobile"
+msgstr "Verberg sticky header op mobile"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1751
+msgid "Hide Sticky Header on Tablet"
+msgstr "Verberg sticky header op tablet"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1762
+msgid "Hide Sticky Header on Desktop"
+msgstr "Verberg sticky header op desktop"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1790
+#: admin/includes/cmb2-countdown-meta-config.php:2317
+msgid "Headline"
+msgstr "Hoofdlijn"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1804
+#: admin/includes/cmb2-countdown-meta-config.php:2331
+msgid "Headline Color"
+msgstr "Hoofdlijn kleur"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1815
+#: admin/includes/cmb2-countdown-meta-config.php:2342
+msgid "Headline Alignment"
+msgstr "Hoofdlijn uitlijning"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1819
+#: admin/includes/cmb2-countdown-meta-config.php:1872
+#: admin/includes/cmb2-countdown-meta-config.php:2132
+#: admin/includes/cmb2-countdown-meta-config.php:2346
+#: admin/includes/cmb2-countdown-meta-config.php:2399
+#: admin/includes/cmb2-countdown-meta-config.php:2659
+msgid "Left"
+msgstr "Links"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1820
+#: admin/includes/cmb2-countdown-meta-config.php:1873
+#: admin/includes/cmb2-countdown-meta-config.php:2133
+#: admin/includes/cmb2-countdown-meta-config.php:2347
+#: admin/includes/cmb2-countdown-meta-config.php:2400
+#: admin/includes/cmb2-countdown-meta-config.php:2660
+msgid "Center"
+msgstr "Centreer"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1821
+#: admin/includes/cmb2-countdown-meta-config.php:1874
+#: admin/includes/cmb2-countdown-meta-config.php:2134
+#: admin/includes/cmb2-countdown-meta-config.php:2348
+#: admin/includes/cmb2-countdown-meta-config.php:2401
+#: admin/includes/cmb2-countdown-meta-config.php:2661
+msgid "Right"
+msgstr "Rechts"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1833
+msgid "Click here to learn to set up more dynamic merge tags in sticky header"
+msgstr ""
+"Klik hier om te leren hoe je meer dynamische tags samenvoegt in sticky header"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1843
+msgid "Description Font Size"
+msgstr "Omschrijving Letter type grootte"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1857
+#: admin/includes/cmb2-countdown-meta-config.php:2384
+msgid "Description Color"
+msgstr "Omschrijvings kleur"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1868
+#: admin/includes/cmb2-countdown-meta-config.php:2395
+msgid "Description Alignment"
+msgstr "Omschrijvings uitlijning"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1888
+#: admin/includes/cmb2-countdown-meta-config.php:2415
+msgid "Hide Sub Headline on Mobile"
+msgstr "Verberg sticky header op mobile"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1899
+#: admin/includes/cmb2-countdown-meta-config.php:2426
+msgid "Disable Countdown Timer"
+msgstr "Verberg aftel timer"
+
+#: admin/includes/cmb2-countdown-meta-config.php:1935
+#: admin/includes/cmb2-countdown-meta-config.php:2462
+msgid ""
+"Note: You may need to adjust the default appearance settings in case you "
+"switch the default skin."
+msgstr ""
+"Notitie: Misschien moet je de standaard vertoning-settings aanpassen als je "
+"van thema wisselt."
+
+#: admin/includes/cmb2-countdown-meta-config.php:2061
+#: admin/includes/cmb2-countdown-meta-config.php:2588
+msgid "Timer Border Style"
+msgstr "Balk rand style"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2081
+#: admin/includes/cmb2-countdown-meta-config.php:2608
+msgid "Timer Border Width"
+msgstr "Balk rand breedte"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2097
+#: admin/includes/cmb2-countdown-meta-config.php:2624
+msgid "Timer Border Color"
+msgstr "Balk rand kleur"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2228
+msgid "Show this header after "
+msgstr "Toon deze header na "
+
+#: admin/includes/cmb2-countdown-meta-config.php:2231
+#: admin/includes/cmb2-countdown-meta-config.php:2758
+msgid " seconds."
+msgstr " seconden."
+
+#: admin/includes/cmb2-countdown-meta-config.php:2253
+#: admin/includes/wcct-post-table.php:232
+msgid "Sticky Footer"
+msgstr "Sticky footer"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2267
+msgid "Hide Sticky Footer on Mobile"
+msgstr "Verberg sticky header op mobile"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2278
+msgid "Hide Sticky Footer on Tablet"
+msgstr "Verberg sticky header op tablet"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2289
+msgid "Hide Sticky Footer on Desktop"
+msgstr "Verberg sticky header op desktop"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2360
+msgid "Click here to learn to set up more dynamic merge tags in sticky footer"
+msgstr ""
+"Klik hier om te leren hoe je meer dynamische tags samenvoegt in sticky footer"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2370
+msgid "Description"
+msgstr "Omschrijving"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2755
+msgid "Show this footer after "
+msgstr "Toon deze footer na "
+
+#: admin/includes/cmb2-countdown-meta-config.php:2780
+#: admin/includes/wcct-post-table.php:236
+msgid "Custom Text"
+msgstr "Vrije tekst"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2823
+msgid "Click here to learn to set up more dynamic merge tags in custom text"
+msgstr "Klik hier om the leren doe je dynamic samenvoegen in custom tekst"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2831
+msgid "BG Color"
+msgstr "Achtergrond kleur"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2867
+msgid "Border Style"
+msgstr "Balk rand style"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2885
+msgid "Border Width"
+msgstr "Balk rand breedte"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2899
+msgid "Border Color"
+msgstr "Balk rand kleur"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2912
+msgid "CSS"
+msgstr "CSS"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2916
+#: admin/includes/wcct-post-table.php:239
+msgid "Custom CSS"
+msgstr "Aangepast CSS"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2919
+msgid "Enter Custom CSS to modify the visual."
+msgstr "Pas custom CSS toe voor het visuele."
+
+#: admin/includes/cmb2-countdown-meta-config.php:2926
+msgid "<i class=\"flicon flicon-speaker\"></i> Events"
+msgstr "<i class=“flicon flicon-money-bill-of-one”></i> Evenement"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2930
+msgid "Enable Events"
+msgstr "Aanzetten  Evenementen"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2952
+msgid "Event"
+msgstr "Evenement"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2953
+msgid "Add New Event"
+msgstr "Maak nieuw event"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2960
+msgid "<span class=\"wcct_option_entity\"></span>"
+msgstr "<span class=“wcct_option_entity”></span>"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2965
+msgid "Regular Price"
+msgstr "Reguliere prijs"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2966
+#: admin/includes/wcct-post-table.php:156
+msgid "Discount"
+msgstr "Korting"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2967
+msgid "Available Units"
+msgstr "Aanwezige eenheden"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2968
+msgid "Sold Units"
+msgstr "Verkochte eenheden"
+
+#: admin/includes/cmb2-countdown-meta-config.php:2972
+#: admin/includes/cmb2-countdown-meta-config.php:2991
+msgid "Operator"
+msgstr "Schijdingsteken"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3015
+msgid "By"
+msgstr "Bij"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3024
+msgid "5 or 5%"
+msgstr "5 of 5%"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3028
+msgid "When"
+msgstr "Waneer"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3033
+msgid "Unit(s) Left"
+msgstr "Eenheden over"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3034
+msgid "Unit(s) Sold"
+msgstr "Eenheden verkocht"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3035
+msgid "Day(s) Left"
+msgstr "Dagen te gaan"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3036
+msgid "Hours Left"
+msgstr "Uren te gaan"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3043
+msgid "between"
+msgstr "tussen"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3052
+msgid "Min"
+msgstr "Mi"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3056
+msgid "and"
+msgstr "en"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3064
+msgid "Max"
+msgstr "Max"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3073
+msgid "<i class=\"flicon flicon-shuffle-crossing-arrows\"></i> Actions"
+msgstr "<i class=“flicon flicon-shuffle-crossing-arrows”></i> Aktie"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3079
+#, fuzzy
+msgid ""
+"Set below actions to change Stock Status & Add to Cart Button Visibility "
+"<strong>after campaign ends</strong>.<br/>Choose \"Do Nothing\" if you don't "
+"want to set any actions."
+msgstr ""
+"Stel onderstaande acties in om de status van de voorraad, de zichtbaarheid "
+"van producten en de zichtbaarheid van de zichtbare winkelwagen <strong> "
+"tijdens de campagne </ strong> te wijzigen. <br/> Kies ‘Doe niets’ als u "
+"geen acties wilt instellen."
+
+#: admin/includes/cmb2-countdown-meta-config.php:3088
+msgid "After Campaign Ends"
+msgstr "Nadat de Campagne eindigt"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3096
+#: admin/includes/cmb2-countdown-meta-config.php:3132
+msgid "In Stock"
+msgstr "Op voorraad"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3097
+#: admin/includes/cmb2-countdown-meta-config.php:3133
+msgid "Out of Stock"
+msgstr "Geen voorraad"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3098
+#: admin/includes/cmb2-countdown-meta-config.php:3108
+#: admin/includes/cmb2-countdown-meta-config.php:3134
+#: admin/includes/cmb2-countdown-meta-config.php:3144
+msgid "Do Nothing"
+msgstr "Doe niets"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3115
+#, fuzzy
+msgid ""
+"Set below actions to change Stock Status & Add to Cart Button Visibility "
+"<strong>during campaign</strong>.<br/>Choose \"Do Nothing\" if you don't "
+"want to set any actions."
+msgstr ""
+"Stel onderstaande acties in om de status van de voorraad, de zichtbaarheid "
+"van producten en de zichtbaarheid van de zichtbare winkelwagen <strong> "
+"tijdens de campagne </ strong> te wijzigen. <br/> Kies ‘Doe niets’ als u "
+"geen acties wilt instellen."
+
+#: admin/includes/cmb2-countdown-meta-config.php:3124
+msgid "During Campaign"
+msgstr "Tijdens de campagne"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3149
+msgid "Actions Help"
+msgstr "Aktie help"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3152
+msgid "Need Help? See docs on"
+msgstr "Help nodig? Zie dokumenten op"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3157
+msgid "Actions Management"
+msgstr "Aktie beheer"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3164
+msgid "<i class=\"flicon flicon-gear-configuration-interface\"></i> Advanced"
+msgstr "<i class=“flicon flicon-gear-configuration-interface”></i> Geavanceerd"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3174
+msgid "Add to Cart Button Text"
+msgstr "Toevoegen aan de winkelwagen knop"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3176
+msgid "Enable this to change `Add to Cart` button text during campaign."
+msgstr ""
+"Zet dit aan om ‘Toevoegen aan winkelwagen’ aan te passen tijdens de campagne."
+
+#: admin/includes/cmb2-countdown-meta-config.php:3181
+msgid "Text"
+msgstr "Tekst"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3191
+#, fuzzy
+msgid "Exclude Product Types"
+msgstr "Product Type"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3194
+msgid ""
+"Some product types such as variable products require product selection "
+"before they can be added to cart. Usually their grids would show \"Select "
+"Options\"."
+msgstr ""
+
+#: admin/includes/cmb2-countdown-meta-config.php:3194
+msgid ""
+"Excluding such product types from grid will NOT change the text of buttons "
+"on the grid, even though their product page will show entered text."
+msgstr ""
+
+#: admin/includes/cmb2-countdown-meta-config.php:3194
+msgid ""
+"Example: If you change button text to say \"Buy Now\" and exclude variable "
+"products on grid. Button for this product on grid will show \"Select Options"
+"\" while button of product will show \"Buy Now\"."
+msgstr ""
+
+#: admin/includes/cmb2-countdown-meta-config.php:3197
+msgid ""
+"Don't change above 'Add to Cart' text on following Product Types in Shop/ "
+"Grid"
+msgstr ""
+
+#: admin/includes/cmb2-countdown-meta-config.php:3203
+#, fuzzy
+msgid "Choose Product Types"
+msgstr "Product Type"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3208
+msgid "Countdown Timer Expiry Text"
+msgstr "Tekst voor aftel timer"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3211
+msgid "Display text in place of Countdown Timer after the campaign ends."
+msgstr "Laat de tekst zien op de plaats van de countdown teller."
+
+#: admin/includes/cmb2-countdown-meta-config.php:3215
+msgid "Show Sticky Header (or Footer) after"
+msgstr "Laat sticky header (or footer) na"
+
+#: admin/includes/cmb2-countdown-meta-config.php:3219
+msgid "seconds once user closes it. Ex: 3600 secs = 1 hour."
+msgstr "seconden dat de gebruiker sluit vb: 3600 seconden = 1 uur."
+
+#: admin/includes/cmb2-countdown-meta-config.php:3228
+msgid "Timer Labels"
+msgstr "Tijd labels"
+
+#: admin/includes/wcct-admin-cmb2-support.php:60
+msgid "Untitled"
+msgstr "Unlimited"
+
+#: admin/includes/wcct-admin-cmb2-support.php:95
+msgid "All"
+msgstr "Alles"
+
+#: admin/includes/wcct-admin-cmb2-support.php:140
+msgid "Select an Option"
+msgstr "Selecteer een optie"
+
+#: admin/includes/wcct-admin-cmb2-support.php:178
+msgid ""
+"Don't forget to check this coupon's <a href=\"{coupon_link}\">usage "
+"restrictions</a>. Finale applies these coupons during the campaign, it does "
+"not restrict coupons based on campaign rules. This responsibility lies with "
+"native coupon settings."
+msgstr ""
+"Vergeet niet om de <a href=“{coupon_link}”> gebruiksbeperkingen </a> van "
+"deze kortingsbon te controleren. Finale past deze kortingsbonnen toe tijdens "
+"de campagne, het beperkt de kortingsbonnen niet op basis van campagneregels. "
+"Deze verantwoordelijkheid ligt bij native couponinstellingen."
+
+#: admin/includes/wcct-admin-cmb2-support.php:181
+#, fuzzy
+msgid "No coupons available"
+msgstr "Geen campagne beschikbaar"
+
+#: admin/includes/wcct-admin-cmb2-support.php:181
+#, fuzzy
+msgid "Add a Coupon"
+msgstr "Kies een kortingsbon"
+
+#: admin/includes/wcct-admin-countdown-options.php:41
+msgid "Campaign Settings"
+msgstr "Campagne Instellingen"
+
+#: admin/includes/wcct-admin-countdown-options.php:88
+#, fuzzy
+msgid "How Have You Built Single Product Pages?"
+msgstr "Selecteer positie voor een enkele product pagina."
+
+#: admin/includes/wcct-admin-countdown-options.php:89
+msgid ""
+"Note: If you previously got snippets from the support team that supported "
+"custom product pages, it is strongly advised to remove those snippets before "
+"you select a setting."
+msgstr ""
+
+#: admin/includes/wcct-admin-countdown-options.php:93
+msgid "Select this if you are using native WooCommerce product pages"
+msgstr ""
+
+#: admin/includes/wcct-admin-countdown-options.php:94
+msgid ""
+"Select this is you are using custom Woocommerce product pages ( built using "
+"page builders such as Elementor, Divi Builder, UX-Builder, Beaver Builder "
+"etc)"
+msgstr ""
+
+#: admin/includes/wcct-admin-countdown-options.php:100
+msgid "Hide Days"
+msgstr "Verstop dagen"
+
+#: admin/includes/wcct-admin-countdown-options.php:101
+msgid ""
+"Hide Days in Countdown Timer if the time for the campaign to end is less "
+"than 24 hrs or 1 day"
+msgstr ""
+
+#: admin/includes/wcct-admin-countdown-options.php:111
+#, fuzzy
+msgid "Hide Hours"
+msgstr "Timer uren"
+
+#: admin/includes/wcct-admin-countdown-options.php:112
+msgid ""
+"Hide Hours in Countdown Timer if the time for the campaign to end is less "
+"than 60 mins or 1 hour"
+msgstr ""
+
+#: admin/includes/wcct-admin-countdown-options.php:122
+#, fuzzy
+msgid "Hide Multiple Countdown Timers"
+msgstr "Verberg aftel timer"
+
+#: admin/includes/wcct-admin-countdown-options.php:123
+msgid "If more than 1 countdown timers for a Product then show only first one"
+msgstr ""
+
+#: admin/includes/wcct-admin-countdown-options.php:133
+#, fuzzy
+msgid "Reload Page"
+msgstr "Selecteer pagina"
+
+#: admin/includes/wcct-admin-countdown-options.php:134
+msgid "The current page will reload when countdown timer hits zero."
+msgstr ""
+
+#: admin/includes/wcct-admin-countdown-options.php:156
+msgid "Element Shortcodes"
+msgstr "Element Shortcodes"
+
+#: admin/includes/wcct-admin-countdown-options.php:198
+msgid "Campaign Priority"
+msgstr "Campagne Prioriteit"
+
+#: admin/includes/wcct-admin-countdown-options.php:214
+msgid ""
+"Priority works in ascending order. Lower the priority, higher the chance for "
+"campaign to work. <br/> For Eg: If there are two campaigns A & B with "
+"respective priority of 1 & 2, then campaign A will be executed before "
+"campaign B.  "
+msgstr ""
+"Prioriteit werkt in alfabetische volgoorde. Hoe lager de prioriteit, De "
+"hoger de kans dat de campagne werkt. <br/> Voorbeeld: Als er 2 campagnes "
+"zijn A & B met respectievelijk prioriteit 1 & 2, Dan campagne A wordt "
+"uitgevoerd voor campagne B.  "
+
+#: admin/includes/wcct-admin-countdown-options.php:238
+msgid "Quick View"
+msgstr "Snel bekijken"
+
+#: admin/includes/wcct-admin-countdown-options.php:277
+msgid "Finale Insights"
+msgstr "Finale stats"
+
+#: admin/includes/wcct-post-table.php:42
+msgid "No Campaign Available"
+msgstr "Geen campagne beschikbaar"
+
+#: admin/includes/wcct-post-table.php:95 includes/wcct-common.php:1719
+msgid "Fixed Date"
+msgstr "Vaste datum"
+
+#: admin/includes/wcct-post-table.php:105
+msgid "Starts On"
+msgstr "Start op"
+
+#: admin/includes/wcct-post-table.php:110
+msgid "Expires On"
+msgstr "Verloopt op"
+
+#: admin/includes/wcct-post-table.php:162 includes/wcct-common.php:1757
+msgid "Product Stock"
+msgstr "Product voorraad"
+
+#: admin/includes/wcct-post-table.php:164
+msgid "Custom Stock: "
+msgstr "Aangepaste voorraad: "
+
+#: admin/includes/wcct-post-table.php:174
+msgid "Basic "
+msgstr "Basis "
+
+#: admin/includes/wcct-post-table.php:182
+msgid "Inventory"
+msgstr "Inventaris"
+
+#: admin/includes/wcct-post-table.php:193 includes/wcct-common.php:1770
+msgid "Auto"
+msgstr "Automatisch"
+
+#: admin/includes/wcct-post-table.php:196 includes/wcct-common.php:1772
+msgid "Manual"
+msgstr "Handmatig"
+
+#: admin/includes/wcct-post-table.php:205
+#: admin/includes/wcct-post-table.php:207
+msgid "Coupons"
+msgstr "Coupons"
+
+#: admin/includes/wcct-post-table.php:221
+msgid " (Delay"
+msgstr " (Vertraging"
+
+#: admin/includes/wcct-post-table.php:221
+msgid " hrs)"
+msgstr " uur)"
+
+#: admin/includes/wcct-post-table.php:258 includes/wcct-common.php:468
+msgid "Deactivated"
+msgstr "Gedeactiveerd"
+
+#: admin/includes/wcct-post-table.php:343
+msgid "Title"
+msgstr "Titel"
+
+#: admin/includes/wcct-post-table.php:344
+msgid "Campaign"
+msgstr "Campagne"
+
+#: admin/includes/wcct-post-table.php:345
+msgid "Deal"
+msgstr "Transactie"
+
+#: admin/includes/wcct-post-table.php:346
+msgid "Elements"
+msgstr "Element"
+
+#: admin/includes/wcct-post-table.php:347
+msgid "Status"
+msgstr "Status"
+
+#: admin/includes/wcct-post-table.php:348
+msgid "Priority"
+msgstr "Prioriteit"
+
+#: admin/includes/wcct-post-table.php:418
+msgid "Select All"
+msgstr "Selecteer alles"
+
+#: admin/includes/xl-wcct-reports.php:165
+msgid "Following campaigns were running during this order."
+msgstr "Gevolgde campagnes welke draaien tijdens deze order."
+
+#: admin/views/metabox-rules-rule-template.php:25
+#: admin/views/metabox-rules.php:86
+msgid "Loading..."
+msgstr "Laden…"
+
+#: admin/views/metabox-rules-rule-template.php:26
+#: admin/views/metabox-rules.php:88
+msgid "AND"
+msgstr "EN"
+
+#: admin/views/metabox-rules.php:26
+msgid "Rules"
+msgstr "Regels"
+
+#: admin/views/metabox-rules.php:27
+msgid ""
+"Create a set of rules to determine when the campaign defined above will be "
+"displayed."
+msgstr ""
+"Maak een set van regels waneer de gedefinieerde campagne boven wordt getoond."
+
+#: admin/views/metabox-rules.php:29
+msgid ""
+"<i class='dashicons dashicons-editor-help'></i> Need Help with setting up "
+"Rules? <a href='https://xlplugins.com/documentation/finale-woocommerce-sales-"
+"countdown-timer-scheduler-documentation/rules/?utm_source=finale-pro&amp;"
+"utm_campaign=doc&amp;utm_medium=text-click&amp;utm_term=rules' "
+"target='_blank'>Watch Video or Read Docs</a>"
+msgstr ""
+
+#: admin/views/metabox-rules.php:46
+msgid "Apply this Campaign when these conditions are matched:"
+msgstr "Pas deze campagne toe wanneer aan deze voorwaarden is voldaan:"
+
+#: admin/views/metabox-rules.php:48 admin/wcct-admin.php:693
+msgid "or"
+msgstr "of"
+
+#: admin/views/metabox-rules.php:91
+msgid "Remove condition"
+msgstr "Verwijder conditie"
+
+#: admin/views/metabox-rules.php:102
+msgid "or when these conditions are matched"
+msgstr "or wanneer aan deze voorwaarden is voldaan"
+
+#: admin/views/metabox-rules.php:103
+msgid "Add a set of conditions"
+msgstr "Voeg een set van condities toe"
+
+#: admin/views/metabox-rules.php:103
+msgid "OR"
+msgstr "OF"
+
+#: admin/wcct-admin.php:378 admin/wcct-admin.php:765
+msgid "Back to <a href=\""
+msgstr "Terug naar <a href=“"
+
+#: admin/wcct-admin.php:381 admin/wcct-admin.php:455
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/wcct-admin.php:451 includes/wcct-common.php:166
+msgid "Add New Campaign"
+msgstr "Voeg nieuwe campagne toe"
+
+#: admin/wcct-admin.php:651
+msgid "Finale: XLPlugins"
+msgstr "Finale: XLPlugins"
+
+#: admin/wcct-admin.php:694
+msgid "Apply this Campaign when these conditions are matched"
+msgstr "Pas deze campagne toe wanneer aan deze voorwaarden is voldaan"
+
+#: admin/wcct-admin.php:695
+msgid "Remove"
+msgstr "Verwijder"
+
+#: admin/wcct-admin.php:775
+msgid "Countdown timer updated."
+msgstr "Aftel timer geupdate."
+
+#: admin/wcct-admin.php:776
+msgid "Custom field updated."
+msgstr "Aangepast veld bijgewerkt."
+
+#: admin/wcct-admin.php:777
+msgid "Custom field deleted."
+msgstr "Aangepast veld verwijderd."
+
+#: admin/wcct-admin.php:778 admin/wcct-admin.php:780 admin/wcct-admin.php:782
+#: admin/wcct-admin.php:785
+msgid "Countdown timer updated. "
+msgstr "Aftel timer geupdate. "
+
+#: admin/wcct-admin.php:779
+#, php-format
+msgid "Trigger restored to revision from %s"
+msgstr "Trigger hersteld van revisie naar %s"
+
+#: admin/wcct-admin.php:781
+msgid "Trigger saved. "
+msgstr "Trigger opgeslagen. "
+
+#: admin/wcct-admin.php:783
+#, php-format
+msgid "Trigger scheduled for: <strong>%1$s</strong>."
+msgstr "Trigger gepland voor: <strong>%1$s</strong>."
+
+#: admin/wcct-admin.php:784
+msgid "Trigger draft updated."
+msgstr "Trigger concept bijgewerkt."
+
+#: admin/wcct-admin.php:819
+msgid "Unable to Activate"
+msgstr "Activeren mislukt"
+
+#: admin/wcct-admin.php:853
+msgid "Unable to Deactivate"
+msgstr "Kan niet deactiveren"
+
+#: admin/wcct-admin.php:2218
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: admin/wcct-admin.php:2301
+msgid "Unable to Duplicate"
+msgstr "Dupliceren niet gelukt"
+
+#: admin/wcct-admin.php:2335
+msgid ""
+"Finale Deal Pages needs to be updated to work with latest version of Finale. "
+"<a class=\"button\" href=\""
+msgstr ""
+"Finale Deal-pagina’s moeten worden bijgewerkt om te werken met de nieuwste "
+"versie van Finale. <a class = “button” href = “"
+
+#: finale-woocommerce-sales-countdown-timer-discount-plugin.php:311
+#, fuzzy, php-format
+msgid ""
+"<strong> Attention: </strong>Finale requires WooCommerce version %1$s or "
+"greater. Kindly update the WooCommerce plugin."
+msgstr ""
+"Finale vereist WooCommerce-versie %1$s of hoger. Werk de WooCommerce-plug-in "
+"alstublieft bij."
+
+#: finale-woocommerce-sales-countdown-timer-discount-plugin.php:323
+#, fuzzy
+msgid ""
+"<strong> Attention: </strong>WooCommerce is not installed or activated. "
+"Finale is a WooCommerce Extension and would only work if WooCommerce is "
+"activated. Please install the WooCommerce Plugin first."
+msgstr ""
+"WooCommerce is niet geïnstalleerd of geactiveerd. Finale is een WooCommerce-"
+"extensie en zou alleen werken als WooCommerce is geactiveerd. Installeer "
+"eerst de WooCommerce-plug-in."
+
+#: includes/wcct-appearance.php:425
+msgid "Below Category and SKU"
+msgstr "Onder Categorie en SKU"
+
+#: includes/wcct-cart.php:151
+#, php-format
+msgid ""
+"Sorry, \"%s\" is not in stock. Please edit your cart and try again. We "
+"apologise for any inconvenience caused."
+msgstr ""
+"Sorry, “%s” is niet op voorraad. Bewerk je winkelwagentje en probeer het "
+"opnieuw. Onze excuses voor het ongemak."
+
+#: includes/wcct-cart.php:178 includes/wcct-cart.php:185
+#, fuzzy, php-format
+msgid ""
+"Sorry, we do not have enough \"%1$s\" in stock to fulfill your order (%2$s "
+"in stock). Please edit your cart and try again. We apologise for any "
+"inconvenience caused."
+msgstr ""
+"Sorry, we hebben niet genoeg “%s” op voorraad om uw bestelling uit te voeren "
+"(%s op voorraad). Bewerk je winkelwagentje en probeer het opnieuw. Onze "
+"excuses voor het ongemak."
+
+#: includes/wcct-cart.php:221
+#, fuzzy, php-format
+msgid ""
+"Sorry, we do not have enough \"%1$s\" in stock to fulfill your order right "
+"now. Please try again in %2$d minutes or edit your cart and try again. We "
+"apologise for any inconvenience caused."
+msgstr ""
+"Sorry, we hebben niet genoeg “%s” op voorraad om uw bestelling nu te "
+"vervullen. Probeer het opnieuw in %d minuten of bewerk je winkelwagentje en "
+"probeer het opnieuw. Onze excuses voor het ongemak."
+
+#: includes/wcct-common.php:165
+msgid "Add Campaign"
+msgstr "Toevoegen Campagne"
+
+#: includes/wcct-common.php:167 includes/wcct-common.php:937
+msgid "Edit"
+msgstr "Edit"
+
+#: includes/wcct-common.php:168
+msgid "Edit Campaign"
+msgstr "Edit Campaign"
+
+#: includes/wcct-common.php:169
+msgid "New Campaign"
+msgstr "Nieuwe Campagne"
+
+#: includes/wcct-common.php:170 includes/wcct-common.php:171
+msgid "View Campaign"
+msgstr "Beijk Campagne"
+
+#: includes/wcct-common.php:172
+msgid "Search Campaign"
+msgstr "Zoek Campagne"
+
+#: includes/wcct-common.php:173
+msgid "No Campaign"
+msgstr "Geen Campagne"
+
+#: includes/wcct-common.php:174
+msgid "No Campaign found in trash"
+msgstr "Geen Campagne gevonden in de vuilnisbak"
+
+#: includes/wcct-common.php:175
+msgid "Parent Campaign"
+msgstr "Vorige Campagne"
+
+#: includes/wcct-common.php:448 includes/wcct-common.php:1874
+#: includes/wcct-common.php:2382
+msgid "Running"
+msgstr "Actief"
+
+#: includes/wcct-common.php:453 includes/wcct-common.php:1877
+#: includes/wcct-common.php:2385
+msgid "Paused"
+msgstr "Gepauseerd"
+
+#: includes/wcct-common.php:458 includes/wcct-common.php:1883
+#: includes/wcct-common.php:2391
+msgid "Scheduled"
+msgstr "Planning"
+
+#: includes/wcct-common.php:463 includes/wcct-common.php:1880
+#: includes/wcct-common.php:2388
+msgid "Finished"
+msgstr "Geeindigd"
+
+#: includes/wcct-common.php:647
+msgid ""
+"Instant Offer: Congratulations you just unlocked a lower price. Claim this "
+"offer in {{countdown_timer}}"
+msgstr ""
+"Onmiddellijke aanbieding: Gefeliciteerd, u hebt zojuist een lagere prijs "
+"ontgrendeld. Claim deze aanbieding in {{countdown_timer}}"
+
+#: includes/wcct-common.php:648
+msgid "Sorry! Instant Offer has expired."
+msgstr "Sorry! Onmiddellijke aanbieding is verlopen."
+
+#: includes/wcct-common.php:649
+msgid "Instant Offer Expires in {{countdown_timer}}"
+msgstr "Onmiddellijke aanbieding verloopt over {{countdown_timer}}"
+
+#: includes/wcct-common.php:650
+#, fuzzy
+msgid "Please add the product(s) in your cart to avail Instant Offer."
+msgstr ""
+"Voeg product (en) toe aan uw winkelwagentje om te profiteren van een directe "
+"aanbieding."
+
+#: includes/wcct-common.php:944
+msgid "Deactivate"
+msgstr "Gedeactiveerd"
+
+#: includes/wcct-common.php:951
+msgid "Duplicate Campaign"
+msgstr "Copieer Campagne"
+
+#: includes/wcct-common.php:957
+msgid "Delete Permanently"
+msgstr "Verwijder voorgoed"
+
+#: includes/wcct-common.php:1072 rules/rules/stock.php:173
+msgid "Disabled"
+msgstr "Uitgezet"
+
+#: includes/wcct-common.php:1652
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/wcct-common.php:1755
+msgid "Custom Stock"
+msgstr "Aangepaste voorraad"
+
+#: includes/wcct-common.php:2103
+#, php-format
+msgid "Product #%1$d %2$s"
+msgstr "Produkt #%1$d %2$s"
+
+#: includes/wcct-common.php:2124
+#, php-format
+msgid "Running Campaigns:  %s"
+msgstr "Campagnes uitvoeren: %s"
+
+#: includes/wcct-common.php:2127
+msgid "Running Campaigns:  None"
+msgstr "Campagnes uitvoeren:  Geen"
+
+#: includes/wcct-common.php:2139
+#, php-format
+msgid "Non-running Campaigns:  %s"
+msgstr "Geen-lopende Campagnes: %s"
+
+#: includes/wcct-common.php:2141
+msgid "Non-running Campaigns:  None"
+msgstr "Geen-lopende Campagnes: Geen"
+
+#: includes/wcct-common.php:2146
+#, php-format
+msgid "Discounts : Yes (%s)"
+msgstr "Korting: Ja (%s)"
+
+#: includes/wcct-common.php:2148
+msgid "Discounts: No"
+msgstr "Korting:  Nee"
+
+#: includes/wcct-common.php:2153
+#, php-format
+msgid "Inventory: Yes (%s)"
+msgstr "Inventaris: Ja (%s)"
+
+#: includes/wcct-common.php:2155
+msgid "Inventory: No"
+msgstr "Inventaris: Nee"
+
+#: includes/wcct-common.php:2163
+#, php-format
+msgid "Coupons: Yes (%s)"
+msgstr "Coupon: Ja (%s)"
+
+#: includes/wcct-common.php:2165
+msgid "Coupons: No"
+msgstr "Coupon: Nee"
+
+#: includes/wcct-common.php:2173
+#, php-format
+msgid "CountDown Timer: Yes (%s)"
+msgstr "Aftel Timer: Yes (%s)"
+
+#: includes/wcct-common.php:2175
+msgid "CountDown Timer: No"
+msgstr "Aftel Timer: Nee"
+
+#: includes/wcct-common.php:2186
+#, php-format
+msgid "Counter Bar: Yes (%s)"
+msgstr "Counter Bar: JA (%s)"
+
+#: includes/wcct-common.php:2188
+msgid "Counter Bar: No"
+msgstr "Counter Bar: Nee"
+
+#: includes/wcct-common.php:2197
+#, php-format
+msgid "Sticky Header: Yes (%s)"
+msgstr "Sticky Header: Ja (%s)"
+
+#: includes/wcct-common.php:2199
+msgid "Sticky Header: No"
+msgstr "Sticky Header: Nee"
+
+#: includes/wcct-common.php:2209
+#, php-format
+msgid "Sticky Footer : Yes (%s)"
+msgstr "Sticky Footer: Ja (%s)"
+
+#: includes/wcct-common.php:2211
+msgid "Sticky Footer : No"
+msgstr "Sticky Footer: Nee"
+
+#: includes/wcct-common.php:2221
+#, php-format
+msgid "Custom Text: Yes (%s)"
+msgstr "Aangepaste tekst: Ja (%s)"
+
+#: includes/wcct-common.php:2223
+msgid "Custom Text: No"
+msgstr "Aangepaste tekst: Nee"
+
+#: includes/wcct-common.php:2232
+#, php-format
+msgid "Events:  %s"
+msgstr "Evenementen: %s"
+
+#: includes/wcct-common.php:2234
+msgid "Events:  None"
+msgstr "Evenementen: Geen"
+
+#: includes/wcct-common.php:2267
+#, php-format
+msgid "Actions (During Campaign):  %1$s -  %2$s"
+msgstr "Aktie (Tijdens Campagne):  %1$s -  %2$s"
+
+#: includes/wcct-common.php:2269
+msgid "Actions (During Campaign): None"
+msgstr "Aktie (Tijdens Campagne): Geen"
+
+#: includes/wcct-common.php:2302
+#, php-format
+msgid "Actions (After Campaign):  %1$s -  %2$s"
+msgstr "Aktie (Na Campagne):  %1$s -  %2$s"
+
+#: includes/wcct-common.php:2304
+msgid "Actions (After Campaign): None"
+msgstr "Aktie (Na Campagne): Geen"
+
+#: includes/wcct-common.php:2311
+#, php-format
+msgid "Custom Add to Cart Text: Yes (%s)"
+msgstr "Aangepast Aan winkelwagen toevoegen Tekst: Ja (%s)"
+
+#: includes/wcct-common.php:2314
+msgid "Custom Add to Cart Text: None"
+msgstr "Aangepast Aan winkelwagen toevoegen Tekst: Geen"
+
+#: includes/wcct-common.php:2326
+#, php-format
+msgid "Unable to see Finale elements? %s"
+msgstr ""
+
+#: includes/wcct-common.php:2339
+#, php-format
+msgid "Protected: %s"
+msgstr ""
+
+#: includes/wcct-common.php:2342
+#, php-format
+msgid "Private: %s"
+msgstr ""
+
+#: includes/wcct-common.php:2503
+msgid "User's Membership"
+msgstr "Gebruikers Lidmaatschap"
+
+#: includes/wcct-common.php:2542
+msgid "Product (suitable when campaign has discounts, inventory etc)"
+msgstr ""
+"Product (geschikt wanneer de campagne kortingen heeft, inventaris enz.)"
+
+#: includes/wcct-common.php:2543
+msgid "Page (these rules would work for sticky header or footer only)"
+msgstr ""
+
+#: includes/wcct-common.php:2545
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/wcct-common.php:2546
+msgid "Always"
+msgstr "Altijd"
+
+#: includes/wcct-common.php:2549
+msgid "All Products"
+msgstr "Alle Producten"
+
+#: includes/wcct-common.php:2550 rules/inputs/cart-product-select.php:27
+msgid "Products"
+msgstr "Producten"
+
+#: includes/wcct-common.php:2551
+msgid "Product Type"
+msgstr "Product Type"
+
+#: includes/wcct-common.php:2552
+msgid "Product Category"
+msgstr "Product Categorie"
+
+#: includes/wcct-common.php:2553
+msgid "Product Tags"
+msgstr "Product Tags"
+
+#: includes/wcct-common.php:2554
+msgid "Product Price"
+msgstr "Product Prijs"
+
+#: includes/wcct-common.php:2555
+msgid "Sale Status"
+msgstr "Verkoop Status"
+
+#: includes/wcct-common.php:2556
+msgid "Stock Status"
+msgstr "Voorraadstatus"
+
+#: includes/wcct-common.php:2557
+msgid "Stock Quantity"
+msgstr "Voorraad Hoeveelheid"
+
+#: includes/wcct-common.php:2560
+#, fuzzy
+msgid "All Site Pages"
+msgstr "Alle Pagina’s"
+
+#: includes/wcct-common.php:2561
+#, fuzzy
+msgid "Post Type"
+msgstr "Product Type"
+
+#: includes/wcct-common.php:2562
+msgid "Specific Page(s)"
+msgstr "Specifieke Pagina’s"
+
+#: includes/wcct-common.php:2563
+msgid "Home Page (Front Page)"
+msgstr "Home Page (Start Pagina)"
+
+#: includes/wcct-common.php:2564
+msgid "All Product Category Pages"
+msgstr "Alle productcategoriepagina’s"
+
+#: includes/wcct-common.php:2565
+msgid "Specific Product Category Page(s)"
+msgstr "Specifieke productcategoriepagina (’s)"
+
+#: includes/wcct-common.php:2566
+msgid "All Product Tags Pages"
+msgstr "Alle pagina’s met productcodes"
+
+#: includes/wcct-common.php:2567
+msgid "Specific Product Tags Page(s)"
+msgstr "Specifieke producttags pagina (’s)"
+
+#: includes/wcct-common.php:2569
+msgid "Geography"
+msgstr "Geografisch"
+
+#: includes/wcct-common.php:2570
+msgid "Country"
+msgstr "Land"
+
+#: includes/wcct-common.php:2572
+msgid "Date/Time"
+msgstr "Datum/Tijd"
+
+#: includes/wcct-common.php:2573
+msgid "Day"
+msgstr "Dag"
+
+#: includes/wcct-common.php:2574
+msgid "Date"
+msgstr "Datum"
+
+#: includes/wcct-common.php:2575
+msgid "Time"
+msgstr "Tijd"
+
+#: includes/wcct-common.php:2577
+msgid "Membership"
+msgstr "Lidmaatschap"
+
+#: includes/wcct-common.php:2578
+msgid "User"
+msgstr "Gebruiker"
+
+#: includes/wcct-common.php:2579
+msgid "Guest Users"
+msgstr ""
+
+#: includes/wcct-common.php:2580
+msgid "Role"
+msgstr "Rol"
+
+#: includes/wcct-common.php:2585
+msgid "Learndash"
+msgstr ""
+
+#: includes/wcct-common.php:2586
+#, fuzzy
+msgid "Course"
+msgstr "Uren te gaan"
+
+#: includes/wcct-common.php:2587
+msgid "Lesson"
+msgstr ""
+
+#: includes/wcct-common.php:2588
+msgid "Topic"
+msgstr ""
+
+#: includes/wcct-common.php:2603
+msgid "On backorder"
+msgstr ""
+
+#: includes/wcct-merge-tags.php:295
+msgid "tomorrow"
+msgstr "morgen"
+
+#: includes/wcct-merge-tags.php:311
+msgid "today"
+msgstr "vadaag"
+
+#: includes/wcct-merge-tags.php:333
+msgid "<div class=\"wcct_countdown_timer_admin\" data-timer=\"3600\"></div>"
+msgstr "<div class=“wcct_countdown_timer_admin” data-timer=“3600”></div>"
+
+#: includes/wcct-merge-tags.php:366
+msgid "Please mention cutoff details in custom countdown timer"
+msgstr ""
+
+#: includes/wcct-shortcodes.php:104
+msgid "Unable to show shortcode, Campaign ID/Product ID attribute missing."
+msgstr ""
+"Kon shortcode niet weergeven, kenmerk Campagne-ID / Product-ID ontbreekt."
+
+#: includes/wcct-shortcodes.php:150
+msgid ""
+"Unable to show shortcode, Go to Elements > Custom Text and check visibility "
+"settings. "
+msgstr ""
+"Kon geen shortcode weergeven. Ga naar Elementen> Aangepaste tekst en "
+"controleer de zichtbaarheidsinstellingen. "
+
+#: includes/wcct-shortcodes.php:250
+msgid "Unable to show shortcode, Product ID given is missing/invalid."
+msgstr "Kan shortcode niet weergeven, product-ID is niet aanwezig/ongeldig."
+
+#: includes/wcct-shortcodes.php:404 includes/wcct-shortcodes.php:424
+#: includes/wcct-shortcodes.php:544
+msgid "Unable to get the product to show discounted price"
+msgstr ""
+
+#: includes/wcct-shortcodes.php:458
+#, fuzzy
+msgid "Unable to get campaign to show coupon name"
+msgstr "Schakel dit in om Countdown Timer te tonen."
+
+#: includes/wcct-shortcodes.php:462
+#, fuzzy
+msgid "Unable to get coupons in the campaign to show coupon name"
+msgstr ""
+"Schakel dit in om kortingsbonnen voor de duur van de campagne in te stellen."
+
+#: includes/wcct-shortcodes.php:504
+msgid "Unable to get campaign to show coupon value"
+msgstr ""
+
+#: includes/wcct-shortcodes.php:508
+#, fuzzy
+msgid "Unable to get coupons in the campaign to show coupon value"
+msgstr ""
+"Schakel dit in om kortingsbonnen voor de duur van de campagne in te stellen."
+
+#: includes/wcct-triggers-data.php:371
+msgid "Unable to Show. Inventory should be enabled to show counter bar."
+msgstr ""
+"Kan niet weergeven. Voorraad moet worden ingeschakeld om de tegenbalk weer "
+"te geven."
+
+#: includes/wcct-triggers-data.php:520 includes/wcct-triggers-data.php:654
+msgid ""
+"Unable to Show. Go to Elements > Single Product Countdown Timer and check "
+"visibility settings."
+msgstr ""
+"Kan niet weergeven. Ga naar Elements> Single Product Countdown Timer en "
+"controleer de zichtbaarheidsinstellingen."
+
+#: includes/wcct-triggers-data.php:688
+msgid ""
+"Unable to Show. Go to Elements > Single Product Counter Bar and check "
+"visibility settings."
+msgstr ""
+"Kan niet weergeven. Ga naar Elementen> Enkele producttellerbalk en "
+"controleer de zichtbaarheidsinstellingen."
+
+#: includes/wcct-triggers-data.php:743
+msgid "Unable to Show. Campaign may not be running, check your settings."
+msgstr ""
+"Kan niet weergeven. Campagne is mogelijk niet actief, controleer uw "
+"instellingen."
+
+#: includes/wcct-xl-coupons.php:253
+msgid "Coupon usage limit has been reached."
+msgstr ""
+
+#: includes/wcct-xl-support.php:123
+#, php-format
+msgid ""
+"<p>You are <strong>not receiving</strong> Latest Updates, New Features, "
+"Security Updates &amp; Bug Fixes for <strong>%s</strong>. <a href=\"%s"
+"\">Click Here To Fix This</a>.</p>"
+msgstr ""
+"<p>U ontvangt <strong> geen </strong> nieuwste updates, nieuwe functies, "
+"beveiligingsupdates &amp; Bugfixes voor <strong>%s</strong>. <a href=“%s”> "
+"Klik hier om dit te verhelpen </a>. </p>"
+
+#: includes/wcct-xl-support.php:320
+msgid "XLPlugins"
+msgstr "XLPlugins"
+
+#: includes/wcct-xl-support.php:324
+msgid "Licenses"
+msgstr "Licenties"
+
+#: includes/wcct-xl-support.php:324
+msgid "License"
+msgstr "Licentie"
+
+#: includes/wcct-xl-support.php:462 includes/wcct-xl-support.php:464
+msgid "Other"
+msgstr "Ander"
+
+#: includes/wcct-xl-support.php:497
+msgid ""
+"Countdown Timer or Counter Bar didn't show even while campaign was running"
+msgstr ""
+"Aftel Timer of Counter Bar is niet weergegeven, zelfs niet terwijl de "
+"campagne werd uitgevoerd"
+
+#: includes/wcct-xl-support.php:500
+msgid ""
+"There could be multiple reasons for this. Take 2 mins and read <a href=\""
+msgstr ""
+"Hier kunnen meerdere redenen voor zijn. Neem 2 minuten en lees <a href = “"
+
+#: includes/wcct-xl-support.php:504
+msgid "Expected discount amount didn't appear"
+msgstr "Het verwachte kortingsbedrag is niet verschenen"
+
+#: includes/wcct-xl-support.php:507
+msgid ""
+"There could be a caching plugin, try clearing Cache.<br/>OR you could be "
+"using other plugins that modify pricing such as currency switcher, "
+"discounting plugin, etc. Then Raise a <a href=\""
+msgstr ""
+"Er kan een caching-plug-in zijn, probeer Cache te wissen. <br/> OF u zou "
+"andere plug-ins kunnen gebruiken die de prijs wijzigen, zoals "
+"valutawisselaar, verdisconteren-plugin, enz. Verhoog dan een <a href = “"
+
+#: includes/wcct-xl-support.php:511
+msgid "Campaigns were not restricted as per rules"
+msgstr "Campagnes waren niet beperkt volgens regels"
+
+#: includes/wcct-xl-support.php:514
+msgid "Raise a <a href=\""
+msgstr "Verhoog een <a href = “"
+
+#: includes/wcct-xl-support.php:518
+msgid "Countdown Timer or Counter Bar didn't appear at right positions"
+msgstr "Countdown Timer of Counter Bar verscheen niet op de juiste posities"
+
+#: includes/wcct-xl-support.php:521
+msgid ""
+"It seems your theme modified the native WooCommerce positions. Take 2 mins "
+"and read <a href=\""
+msgstr ""
+"Het lijkt erop dat je thema de native WooCommerce-posities heeft gewijzigd. "
+"Neem 2 minuten en lees <a href = “"
+
+#: includes/wcct-xl-support.php:525
+msgid "Finale Activation caused PHP Errors or blank white screen"
+msgstr "Finale activering veroorzaakte PHP-fouten of een leeg wit scherm"
+
+#: includes/wcct-xl-support.php:528
+msgid ""
+"Ensure you have the latest version of WooCommerce & Finale. There could be a "
+"possibility of conflict with other plugins. Raise a <a href=\""
+msgstr ""
+"Zorg ervoor dat je de nieuwste versie van WooCommerce & Finale hebt. Er kan "
+"een conflict zijn met andere plug-ins. Verhoog een <a href = “"
+
+#: includes/wcct-xl-support.php:532
+msgid "Add to Cart wasn't working"
+msgstr "Toevoegen aan winkelmandje werkte niet"
+
+#: includes/wcct-xl-support.php:535
+msgid ""
+"Check Finale's Inventory settings or see if you have order with 'Pending "
+"Payment' state. As they may block product inventory."
+msgstr ""
+"Controleer de inventarisinstellingen van Finale of kijk of je een bestelling "
+"hebt met de status ‘Betaling in behandeling’. Omdat ze de "
+"productinventarisatie kunnen blokkeren."
+
+#: includes/wcct-xl-support.php:539
+msgid "Troubleshooting conflicts with other plugins"
+msgstr "Problemen oplossen met conflicten met andere plug-ins"
+
+#: includes/wcct-xl-support.php:542
+msgid "Hope you could resolve conflicts soon."
+msgstr "Ik hoop dat je binnenkort conflicten kunt oplossen."
+
+#: includes/wcct-xl-support.php:546
+msgid "Doing Testing"
+msgstr "Aan het testen"
+
+#: includes/wcct-xl-support.php:549
+msgid "Hope to see you using it again."
+msgstr "Ik hoop dat je het weer gebruikt."
+
+#: includes/wcct-xl-support.php:553
+msgid "I no longer need the plugin"
+msgstr "Ik heb de plug-in niet meer nodig"
+
+#: includes/wcct-xl-support.php:556
+msgid ""
+"Sorry to know that! How can we better your experience? We may be able to fix "
+"what we are aware of. Please <a href=\""
+msgstr ""
+"Sorry dat ik dat weet! Hoe kunnen we je ervaring verbeteren? We kunnen "
+"misschien repareren waarvan we ons bewust zijn. Please <a href = “"
+
+#: includes/wcct-xl-support.php:647
+msgid "Finale"
+msgstr "Finale"
+
+#: includes/wcct-xl-support.php:657
+msgid "Export Finale Campaign"
+msgstr "Exportweer Finale Campagne"
+
+#: includes/wcct-xl-support.php:658
+msgid "Export Settings"
+msgstr "Export instellingen"
+
+#: rules/inputs/cart-category-select.php:30
+msgid "Categories"
+msgstr "Categoeies"
+
+#: rules/inputs/cart-category-select.php:37 rules/inputs/chosen-select.php:27
+#: rules/inputs/page-select.php:64 rules/inputs/term-select.php:46
+msgid "Search..."
+msgstr "Zoek…"
+
+#: rules/inputs/cart-product-select.php:35 rules/inputs/product-select.php:24
+#, fuzzy
+msgid "Search for a product&hellip;"
+msgstr "Zoek for een product&hellip;"
+
+#: rules/inputs/geo-postal-code-entry.php:28
+msgid "Distance ( km )"
+msgstr "Afstand ( km )"
+
+#: rules/inputs/geo-postal-code-entry.php:29
+msgid "Zip/Postalcode ( One per line )"
+msgstr "Zip/Postcode ( Een per regel )"
+
+#: rules/inputs/html-description.php:16
+msgid "Campaign would render on complete site."
+msgstr "Campagne wordt weergegeven op de volledige site."
+
+#: rules/inputs/html-description.php:35
+msgid ""
+"Campaign would render on All Single Product Iterations (ex: single product "
+"page, product grid etc)."
+msgstr ""
+"Campagne zou worden weergegeven op alle afzonderlijke product-iteraties "
+"(bijv .: enkele productpagina, productraster, enz.)."
+
+#: rules/inputs/html-description.php:54
+msgid "Campaign would render on Home Page."
+msgstr "Campagne wordt weergegeven op de startpagina."
+
+#: rules/inputs/html-description.php:72
+msgid "Campaign would render on All pages."
+msgstr "Campagne wordt weergegeven op alle pagina’s."
+
+#: rules/inputs/html-description.php:90
+msgid "Campaign would render on All Product Category Pages."
+msgstr "Campagne zou worden weergegeven op alle productcategoriepagina’s."
+
+#: rules/inputs/html-description.php:108
+msgid "Campaign would render on All Product Tag Pages."
+msgstr "Campagne wordt weergegeven op alle pagina’s met producttags."
+
+#: rules/inputs/html-description.php:126
+#, fuzzy
+msgid "Campaign would render on Guest users."
+msgstr "Campagne wordt weergegeven op de volledige site."
+
+#: rules/rules/archive-pages.php:14 rules/rules/archive-pages.php:77
+#: rules/rules/date-time.php:13 rules/rules/geo.php:12
+#: rules/rules/learndash.php:66 rules/rules/learndash.php:119
+#: rules/rules/page.php:11 rules/rules/page.php:87 rules/rules/products.php:13
+#: rules/rules/products.php:67 rules/rules/products.php:137
+#: rules/rules/products.php:490 rules/rules/products.php:558
+#: rules/rules/sales.php:12 rules/rules/single-post.php:12
+#: rules/rules/single-post.php:67 rules/rules/stock.php:11
+#: rules/rules/stock.php:163 rules/rules/users.php:11 rules/rules/users.php:65
+msgid "is"
+msgstr "is"
+
+#: rules/rules/archive-pages.php:15 rules/rules/archive-pages.php:78
+#: rules/rules/date-time.php:14 rules/rules/geo.php:13
+#: rules/rules/learndash.php:67 rules/rules/learndash.php:120
+#: rules/rules/page.php:12 rules/rules/page.php:88 rules/rules/products.php:14
+#: rules/rules/products.php:68 rules/rules/products.php:138
+#: rules/rules/products.php:491 rules/rules/products.php:559
+#: rules/rules/sales.php:13 rules/rules/single-post.php:13
+#: rules/rules/single-post.php:68 rules/rules/stock.php:12
+#: rules/rules/users.php:12 rules/rules/users.php:66
+msgid "is not"
+msgstr "is niet"
+
+#: rules/rules/base.php:31 rules/rules/cart.php:11 rules/rules/date-time.php:74
+#: rules/rules/date-time.php:148 rules/rules/products.php:286
+#: rules/rules/stock.php:68
+msgid "is equal to"
+msgstr "is gelijk aan"
+
+#: rules/rules/base.php:32 rules/rules/cart.php:12 rules/rules/date-time.php:75
+#: rules/rules/date-time.php:149 rules/rules/products.php:287
+#: rules/rules/stock.php:69
+msgid "is not equal to"
+msgstr "is niet gelijk aan"
+
+#: rules/rules/cart.php:13 rules/rules/date-time.php:76
+#: rules/rules/date-time.php:150 rules/rules/products.php:288
+#: rules/rules/stock.php:70
+msgid "is greater than"
+msgstr "is groter dan"
+
+#: rules/rules/cart.php:14 rules/rules/date-time.php:77
+#: rules/rules/date-time.php:151 rules/rules/products.php:289
+#: rules/rules/stock.php:71
+msgid "is less than"
+msgstr "is kleinder dan"
+
+#: rules/rules/cart.php:15 rules/rules/date-time.php:78
+#: rules/rules/date-time.php:152 rules/rules/products.php:290
+#: rules/rules/stock.php:72
+msgid "is greater or equal to"
+msgstr "is groter of gelijk aan"
+
+#: rules/rules/cart.php:16 rules/rules/date-time.php:79
+#: rules/rules/date-time.php:153 rules/rules/products.php:291
+#: rules/rules/stock.php:73
+msgid "is less or equal to"
+msgstr "is minder of gelijk aan"
+
+#: rules/rules/cart.php:76 rules/rules/cart.php:138
+msgid "contains less than"
+msgstr "bevat minder dan"
+
+#: rules/rules/cart.php:77 rules/rules/cart.php:139
+msgid "contains at least"
+msgstr "bevat op zijn minst"
+
+#: rules/rules/cart.php:78 rules/rules/cart.php:140
+msgid "contains exactly"
+msgstr "bevat exact"
+
+#: rules/rules/date-time.php:22
+msgid "Sunday"
+msgstr "Zondag"
+
+#: rules/rules/date-time.php:23
+msgid "Monday"
+msgstr "Maandag"
+
+#: rules/rules/date-time.php:24
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: rules/rules/date-time.php:25
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: rules/rules/date-time.php:26
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: rules/rules/date-time.php:27
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: rules/rules/date-time.php:28
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: rules/rules/products.php:203
+msgid "has"
+msgstr "heeft"
+
+#: rules/rules/products.php:204
+msgid "does not have"
+msgstr "heft het niet"
+
+#: rules/rules/sales.php:21
+msgid "On Sale"
+msgstr "In aanbieding"
+
+#: rules/rules/sales.php:60
+msgid "starts"
+msgstr "start"
+
+#: rules/rules/sales.php:61
+msgid "ends"
+msgstr "eindigd"
+
+#: rules/rules/stock.php:20
+#, fuzzy
+msgid "Out of stock"
+msgstr "Geen voorraad"
+
+#: rules/rules/stock.php:21
+#, fuzzy
+msgid "In stock"
+msgstr "Op voorraad"
+
+#: rules/rules/stock.php:172
+#, fuzzy
+msgid "Enabled"
+msgstr "Aan"
+
+#: rules/rules/users.php:134
+msgid "matches any of"
+msgstr "komt overeen met een van"
+
+#: rules/rules/users.php:135
+msgid "matches none of"
+msgstr "komt overeen met geen van"
+
+#~ msgid "Link to Apply Coupon using Sticky Header/ Footer Button"
+#~ msgstr ""
+#~ "Link naar coupon toe te passen met behulp van Sticky Header/Footer knop"
+
+#~ msgid "<p>Note: This setting won't work for logged-in admin users.</p>"
+#~ msgstr ""
+#~ "<p>Notitie: Deze setting werkt niet for ingelogde admin gebruikers.</p>"
+
+#~ msgid ""
+#~ "<p class=\"cmb2-metabox-description\" style=\"margin-top: 5px;\"> No "
+#~ "coupons available <a href=\"#\">Add a Coupon</a> </p>"
+#~ msgstr ""
+#~ "<p class=“cmb2-metabox-description” style=“margin-top: 5px;”> Geen "
+#~ "coupons beschikbaar <a href=“#”>Voeg Coupon toe</a> </p>"
+
+#~ msgid "Single Product Page Positions"
+#~ msgstr "Enkele Product Pagina Positie"
+
+#~ msgid ""
+#~ "Select Old approach if you are building single product page using any "
+#~ "Page Builder."
+#~ msgstr ""
+#~ "Selecteer oude benadering als je een enkel product page door elke pagina "
+#~ "bouwer."
+
+#~ msgid ""
+#~ "WooCommerce New approach of calling Product data (using "
+#~ "'woocommerce_single_product_summary' handle)"
+#~ msgstr ""
+#~ "WooCommerce Nieuwe benadering van calling product data (gebruik "
+#~ "‘woocommerce_single_product_summery’ handle)"
+
+#~ msgid ""
+#~ "WooCommerce Old approach (Suitables for Page Builders like Visual "
+#~ "Composer, Beaver etc)"
+#~ msgstr ""
+#~ "WooCommerce oude benadering (Geschikt voor Page Builders zoals Visual "
+#~ "Composer, Beaver etc)"
+
+#~ msgid "If 0 Days in Countdown Timer"
+#~ msgstr "Als 0 Dagen in Aftel klok"
+
+#~ msgid "Docs"
+#~ msgstr "Docs"
+
+#~ msgid "Support"
+#~ msgstr "Support"
+
+#~ msgctxt "timezone date format"
+#~ msgid "Y-m-d H:i:s"
+#~ msgstr "d-m-Y H:i:s"
+
+#~ msgid "Page"
+#~ msgstr "Pagina"
+
+#~ msgid "Disabled <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Uitgezet <span class=“count”>(%s)</span>"
+#~ msgstr[1] "Uitgezet <span class=“count”>(%s)</span>"
+
+#~ msgid "Proceed to Checkout"
+#~ msgstr "Doorgaan naar uitchecken"
+
+#~ msgid ""
+#~ "<p> Unable to submit your request.All fields are required. Please ensure "
+#~ "that all the fields are filled out.</p>"
+#~ msgstr ""
+#~ "<p> Kan uw verzoek niet indienen. Alle velden zijn verplicht. Zorg ervoor "
+#~ "dat alle velden zijn ingevuld.</p>"

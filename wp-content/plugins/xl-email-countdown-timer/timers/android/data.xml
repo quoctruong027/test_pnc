@@ -1,0 +1,10 @@
+<banner>
+	<font>
+		<size>72</size>
+		<x>60</x>
+		<y>120</y>
+		<color>#000000</color>
+		<format>%a:%H:%I:%S</format>
+		<end_format>00:00:00:00</end_format>		
+	</font>
+</banner>

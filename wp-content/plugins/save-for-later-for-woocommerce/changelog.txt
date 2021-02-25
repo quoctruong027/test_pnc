@@ -1,0 +1,75 @@
+2020.06.20 - version 1.5.0
+* New: WooCommerce 3.8.1, 3.9.3, 4.0.1, 4.1.1, 4.2.0 compatible
+* New: Compatibility with latest version of WordPress (v5.4.2)
+* Update: StoreApps Connector
+* Update: POT File
+
+2019.12.05 - version 1.4.1
+* New: WooCommerce 3.7.1 & 3.8.1 compatible
+* New: Added settings page (For WooCommerce 3.0.0+)
+* New: Added Quick Help widget (Fastest access to plugin documentation) - available within the plugin admin panel
+* Fix: Admin notice layout
+* Update: CSS for saved items on cart
+* Update: Plugin action links
+* Update: StoreApps Connector
+* Update: POT File
+
+2019.04.30 - version 1.4.0
+* New: Option to display 'Save for later' link on each cart item (For WooCommerce 3.0.0+)
+* New: WordPress coding standard
+* New: Tested upto WordPress 5.1.1
+* New: Tested upto WooCommerce 3.6.2
+* Tweaks: Code Cleanup
+* Update: Singleton implementation
+* Update: StoreApps Connector
+* Update: POT File
+
+2018.10.26 - version 1.3.2
+* New: Tested upto WooCommerce 3.5.0
+* Update: Text domain
+* Update: StoreApps Connector
+* Update: POT File
+
+2018.05.22 - version 1.3.1
+* Update: More detail in Eraser notification
+* Update: POT File
+
+2018.05.21 - version 1.3.0
+* New: WooCommerce 3.4.0 Compatible
+* New: [GDPR] Privacy Policy Content
+* New: [GDPR] Personal Data Export (WordPress 4.9.6+)
+* New: [GDPR] Personal Data Erase (WordPress 4.9.6+)
+* Update: StoreApps Connector
+* Update: POT file
+
+2018.05.09 - version 1.2.0
+* New: WordPress VIP Compatibility (in progress)
+* Fix: Save For Later link broken if product is deleted from cart using cross (x) button
+* Update: POT file
+
+2018.03.15 - version 1.1.0
+* New: WooCommerce 3.3.3 compatible
+* New: Added WooCommerce version check meta
+* New: Compatibility files for WooCommerce 3.1, WooCommerce 3.2 & WooCommerce 3.3
+* New: StoreApps Connector
+* Update: POT file
+
+2017.04.18 - version 1.0.3
+* New: WooCommerce 3.0.0+ compatible
+* Update: Will now support only WooCommerce 2.5+
+* Update: POT file
+
+2016.10.10 - version 1.0.2
+* Update: Important changes replated to automatic updates of this plugin
+* Update: Minor change in CSS
+
+2016.06.16 - version 1.0.1
+* Update: Show "Save For Later" action in touch devices
+* Update: Tested with WooCommerce 2.6
+* Update: Change in logic for saving products in cookie & retrieving as well
+* Update: Option for modifying life of cookie
+* Update: Responsive
+* Tweak: Code cleanup
+
+2016.05.25 - version 1.0.0
+* First release

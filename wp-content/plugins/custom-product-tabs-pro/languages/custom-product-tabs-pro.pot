@@ -1,0 +1,362 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the custom-product-tabs-pro package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: custom-product-tabs-pro 1.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-19 11:06-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: classes/admin.php:134
+msgid ""
+"Warning: this plugin can have unpredictable results when applying global "
+"tabs to over 7,000 products."
+msgstr ""
+
+#: classes/admin.php:137 partials/page-settings.php:36
+#: partials/page-settings.php:45 partials/page-settings.php:103
+#: partials/page-settings.php:112 partials/page-support.php:27
+#: partials/page-support.php:36 partials/page-support.php:45
+msgid "Dismiss this notice."
+msgstr ""
+
+#: classes/EDD_SL_Plugin_Updater.php:206
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: classes/EDD_SL_Plugin_Updater.php:214
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: classes/EDD_SL_Plugin_Updater.php:401
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: classes/EDD_SL_Plugin_Updater.php:401
+msgid "Error"
+msgstr ""
+
+#: classes/licensing.php:57 classes/licensing.php:122 classes/licensing.php:171
+msgid "API Call Failed."
+msgstr ""
+
+#: classes/licensing.php:63 classes/licensing.php:128
+msgid ""
+"The license was invalid. Please wait a few minutes and try again. If the "
+"issue persists, please contact us at support@yikesinc.com"
+msgstr ""
+
+#: classes/licensing.php:177
+msgid ""
+"Something went wrong. Please wait a few minutes and try again. If the issue "
+"persists, please contact us at support@yikesinc.com"
+msgstr ""
+
+#: classes/saved-tabs-list.php:135
+msgid "Custom Product Tabs Pro"
+msgstr ""
+
+#: classes/saved-tabs-list.php:144
+msgid "Taxonomy"
+msgstr ""
+
+#: classes/saved-tabs-list.php:205
+msgid "Global"
+msgstr ""
+
+#: classes/saved-tabs-single.php:69
+msgid "Products Using this Tab"
+msgstr ""
+
+#: classes/saved-tabs-single.php:72
+msgid "There are no products using this tab."
+msgstr ""
+
+#: classes/saved-tabs-single.php:78
+#, php-format
+msgid "This tab is currently used on %1s product."
+msgid_plural "This tab is currently used on %1s products."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/saved-tabs-single.php:246
+msgid "Global Tab"
+msgstr ""
+
+#: classes/saved-tabs-single.php:250
+msgid "Check to add this tab to all of your products."
+msgstr ""
+
+#: classes/settings.php:265
+msgid "Before Custom Tabs"
+msgstr ""
+
+#: classes/settings.php:266
+msgid "After Custom Tabs"
+msgstr ""
+
+#: classes/settings.php:267
+msgid "Last"
+msgstr ""
+
+#: classes/settings.php:332 classes/settings.php:333
+#: custom-product-tabs-pro.php:188
+msgid "Settings"
+msgstr ""
+
+#: custom-product-tabs-pro.php:53
+msgid ""
+"Custom Product Tabs Pro could not be activated because Custom Product Tabs "
+"is not installed and active."
+msgstr ""
+
+#: custom-product-tabs-pro.php:189
+msgid "Support"
+msgstr ""
+
+#: custom-product-tabs-pro.php:190
+msgid "Knowledge Base"
+msgstr ""
+
+#: node_modules/grunt-pot/test/fixtures/some-file.php:3
+msgid "I'm a translatable string."
+msgstr ""
+
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php:4
+msgid "Me too"
+msgstr ""
+
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php:7
+#, php-format
+msgid "I have %d apple"
+msgid_plural "I have %d apples"
+msgstr[0] ""
+msgstr[1] ""
+
+#. / TRANSLATORS: This should be translated as a shorthand for YEAR-MONTH-DAY using 4, 2 and 2 digits.
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php:16
+msgid "yyyy-mm-dd"
+msgstr ""
+
+#: partials/page-settings.php:25
+msgid "Custom Product Tabs Pro | Settings"
+msgstr ""
+
+#: partials/page-settings.php:29
+msgid "License"
+msgstr ""
+
+#: partials/page-settings.php:35
+msgid "Your license has been successfully activated."
+msgstr ""
+
+#: partials/page-settings.php:36 partials/page-settings.php:45
+#: partials/page-settings.php:103 partials/page-settings.php:112
+#: partials/page-support.php:27 partials/page-support.php:36
+#: partials/page-support.php:45
+msgid "Dismiss"
+msgstr ""
+
+#: partials/page-settings.php:44
+msgid ""
+"Your license is not valid. Please try again in a few minutes. If the issue "
+"persists, please email us at support@yikesinc.com."
+msgstr ""
+
+#: partials/page-settings.php:54
+msgid "To receive updates and premium support, please enter your license key."
+msgstr ""
+
+#: partials/page-settings.php:58
+msgid "Enter your license key."
+msgstr ""
+
+#: partials/page-settings.php:59
+msgid "Your license is active"
+msgstr ""
+
+#: partials/page-settings.php:60
+msgid "Your license is not yet active"
+msgstr ""
+
+#: partials/page-settings.php:85
+msgid "Activate License"
+msgstr ""
+
+#: partials/page-settings.php:90
+msgid "Deactivate License"
+msgstr ""
+
+#: partials/page-settings.php:96
+msgid "Tab Settings"
+msgstr ""
+
+#: partials/page-settings.php:102
+msgid "Your settings have been successfully saved."
+msgstr ""
+
+#: partials/page-settings.php:111
+msgid "Something went wrong..."
+msgstr ""
+
+#: partials/page-settings.php:121
+msgid "Tab Titles"
+msgstr ""
+
+#: partials/page-settings.php:126
+msgid "Remove tab title from tab content."
+msgstr ""
+
+#: partials/page-settings.php:129
+msgid "Remove the tab title from being repeated in the tab content area."
+msgstr ""
+
+#: partials/page-settings.php:138
+msgid "Tab Order"
+msgstr ""
+
+#: partials/page-settings.php:143
+msgid "Apply ordering to custom product tabs."
+msgstr ""
+
+#: partials/page-settings.php:147
+msgid ""
+"Enable drag-and-drop ordering of saved tabs and conditional ordering of "
+"default tabs."
+msgstr ""
+
+#: partials/page-settings.php:154
+msgid "Description tab should appear:"
+msgstr ""
+
+#: partials/page-settings.php:163
+msgid "Additional information tab should appear:"
+msgstr ""
+
+#: partials/page-settings.php:172
+msgid "Reviews tab should appear:"
+msgstr ""
+
+#: partials/page-settings.php:182
+msgid "Disable Default Tabs"
+msgstr ""
+
+#: partials/page-settings.php:187
+msgid "Disable the description tab on all products."
+msgstr ""
+
+#: partials/page-settings.php:194
+msgid "Disable the additional information tab on all products."
+msgstr ""
+
+#: partials/page-settings.php:201
+msgid "Disable the reviews tab on all products."
+msgstr ""
+
+#: partials/page-settings.php:207
+msgid "Search"
+msgstr ""
+
+#: partials/page-settings.php:210
+msgid ""
+"By default, custom tab content is not included in WordPress or WooCommerce "
+"search, adjust those settings below."
+msgstr ""
+
+#: partials/page-settings.php:216
+msgid "Include custom tab content in the WordPress search."
+msgstr ""
+
+#: partials/page-settings.php:223
+msgid "Include custom tab content in the WooCommerce search widget."
+msgstr ""
+
+#: partials/page-settings.php:228
+msgid "Save Settings"
+msgstr ""
+
+#: partials/page-support.php:18
+#, php-format
+msgid ""
+"Making a support ticket requires a valid, active license. Please enter your "
+"license on the %1$1ssettings page%2$2s. If you have any issues, email us at "
+"%3$3s"
+msgstr ""
+
+#: partials/page-support.php:35
+msgid "Your support request has been successfully sent."
+msgstr ""
+
+#: partials/page-support.php:44
+msgid "A required field is missing."
+msgstr ""
+
+#: partials/page-support.php:53
+#, php-format
+msgid ""
+"If you have any problems with the form, send an email to %1s and a ticket "
+"will be created."
+msgstr ""
+
+#: partials/page-support.php:63
+#, php-format
+msgid ""
+"Before submitting a support request, please visit our %1$1sknowledge base"
+"%2$2s where we have step-by-step guides and troubleshooting help."
+msgstr ""
+
+#: partials/page-support.php:79
+msgid "Name:  "
+msgstr ""
+
+#: partials/page-support.php:88
+msgid "Email: "
+msgstr ""
+
+#: partials/page-support.php:97
+msgid "Topic: "
+msgstr ""
+
+#: partials/page-support.php:106
+msgid "Enter your issue below, please be as detailed as possible."
+msgstr ""
+
+#: partials/page-support.php:114
+msgid "Priority: "
+msgstr ""
+
+#: partials/page-support.php:118
+msgid "Low"
+msgstr ""
+
+#: partials/page-support.php:122
+msgid "Medium"
+msgstr ""
+
+#: partials/page-support.php:126
+msgid "High"
+msgstr ""
+
+#: partials/page-support.php:130
+msgid "Urgent"
+msgstr ""
+
+#: partials/page-support.php:135
+msgid "Send Support Request"
+msgstr ""

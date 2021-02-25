@@ -1,0 +1,126 @@
+*** WooCommerce Product Recommendations ***
+
+2020.10.01 - version 1.4.7
+* Feature - Introduced debugging tool for clearing the recommendations regeneration queue.
+* Fix - Adding a product to cart through AJAX causes a page refresh when using AJAX rendering.
+* Fix - Fixed a bug in 'Highest Converting' products table when using custom DB prefixes.
+
+2020.08.20 - version 1.4.6
+* Fix - Use jQuery 'prop' instead of 'attr' to prevent issues under WordPress 5.5.
+* Fix - Fixed broken meta-boxes in edit-engine screen under WordPress 5.5.
+* Tweak - Update checkout table contents after AJAX add-to-cart in the Checkout page.
+* Tweak - Stopped using nonces to validate requests when rendering recommendations via ajax.
+
+2020.07.05 - version 1.4.5
+* Fix - Stock status filter 'not-in' modifier not working properly in WC < 3.6.
+
+2020.07.31 - version 1.4.4
+* Fix - Passing glue string after array is depracated in implode function.
+* Fix - AJAX rendering not working when tracking is disabled.
+* Fix - Regeneration queue full combined with an 'Uncaught Exception: Missing record attributes' error, caused by order lookup table rows with product ID = 0.
+
+2020.07.14 - version 1.4.3
+* Fix - Add-to-cart action not working properly when tracking is disabled.
+
+2020.07.09 - version 1.4.2
+* Fix - Product permalinks not working properly when tracking is disabled.
+
+2020.07.08 - version 1.4.1
+* Fix - WooCommerce Product Vendors integration.
+* Fix - Prevent 'WC_PRL_Admin_Notices' from adding messages to the Inbox when WooCommerce Admin is disabled.
+
+2020.07.03 - version 1.4.0
+* Introduced 'Bought Together' and 'Others Also Bought' amplifiers.
+
+2020.06.25 - version 1.3.5
+* Fix - 'Relative Price' filter not producing predictable results. Regression introduced in version 1.3.0.
+* Fix - Minor CSS tweaks in Engine Configuration UI.
+
+2020.06.25 - version 1.3.4
+* Fix - Error when deploying new engines.
+
+2020.06.24 - version 1.3.3
+* Feature - Introduced a new test to detect whether catalog pages are served from a page cache.
+* Tweak - Added a notice and tooltip to let store managers know that dynamic/personalized recommendations may fail to display correctly on cached pages.
+* Tweak - Added test results in Status Report.
+
+2020.06.19 - version 1.3.2
+* Fix - Fatal error in new engine's deploy notice.
+
+2020.06.19 - version 1.3.1
+* Fix - Fatal error in loopback test handler when running an older version WordPress.
+
+2020.06.18 - version 1.3.0
+* Feature - Added a small helper to make 'Engine Type => Location' relationships clearer when creating an Engine.
+* Feature - Added 'Attribute' and 'Current Attribute' filter to generate recommendations by global attributes, such as "More from this Brand".
+* Feature - Made it possible to limit results of 'Current Category', 'Current Tag' and 'Current Attribute' filters to specific subsets.
+* Feature - Check if the server is able to perform loopback requests and display a warning if the test fails.
+* Tweak - Renamed 'Relative Category' and 'Relative Tag' filters to 'Current Category' and 'Current Tag'.
+* Tweak - Revised button, tab, and empty state styles for a more "native" feel.
+
+2020.04.17 - version 1.2.4
+* Fix - Declared support for WooCommerce 4.1.
+* Fix - Limit visibility of dependency notices to users with the 'manage_woocommerce' cap.
+* Tweak - Ensure that the 'swselect' script is registered before checking its version.
+* Tweak - Added 'WC_PRL()->is_plugin_initialized' function.
+
+2020.03.12 - version 1.2.3
+* Feature - Pages are now connected with the WC Navigation bar.
+* Feature - Introduced `Random` amplifier.
+
+2020.01.10 - version 1.2.2
+* Fix - Unique Clicks are not recorded properly when using AJAX rendering.
+
+2019.11.28 - version 1.2.1
+* Fix - Fatal error when using Composite Products 3.X.X.
+* Fix - Update in-house WP 5.3+ select2 styles for WC 3.8.1 compatibility.
+
+2019.11.25 - version 1.2.0
+* Fix - Catalog only visibility not working on order Locations.
+* Fix - Incorrect results when using multiple filters of the same taxonomy type.
+* Tweak - Replaced selectWoo with self-maintained flavor of select2.
+* Tweak - Minor styling tweaks for WordPress 5.3.
+* Tweak - Improved recently viewed filters and conditions performance.
+
+2019.10.29 - version 1.1.1
+* Feature - Customizable block heading level and class.
+* Tweak - Removed unnecessary debug logs.
+
+2019.09.13 - version 1.1.0
+* Feature - Introduced AJAX rendering for cases of HTML cache or other HTTP proxies.
+* Compatibility - Added 'Elementor PRO' WooCommerce widgets integration.
+* Tweak - Refactored the JS script.
+
+2019.08.06 - version 1.0.7
+* Fix - Fixed fatal error due to a default database prefix reference in Popularity amplifier.
+
+2019.07.29 - version 1.0.6
+* Compatibility - Added 'Composite Products' integration.
+* Compatibility - Added 'Product Bundles' integration.
+* Feature - Introduced 'Product Bundle' Filter for recommending Bundles that contain the currently viewed product.
+* Fix - Gross/net Revenue reported for converted Product Bundles now includes both parent + bundled item totals.
+* Fix - Gross/net Revenue reported for converted Composite Products now includes both parent + child item totals.
+* Tweak - Renamed 'Clicks' to 'Unique Clicks'.
+
+2019.07.22 - version 1.0.5
+* Fix - Cached reports are now invalidated when new tracking data arrives.
+* Fix - Fixed incorrect (+1) end date for all reports.
+
+2019.07.19 - version 1.0.4
+* Tweak - Reduced default number of deployments per location from 10 to 3.
+* Fix - Filter and amplifier post boxes not working with some themes due to missing dependencies.
+
+2019.07.08 - version 1.0.3
+* Tweak - Maintain original "Published" post status name, instead of renaming it to "Created".
+* Tweak - Introduced incl/excl tax filters in Order Total condition.
+* Tweak - Introduced filter to include/exclude shipping totals in Cart Total condition.
+* Fix - Resolved fatal errors when orphaned custom locations exist in the database.
+
+2019.07.03 - version 1.0.2
+* Fix - Fixed fatal error due to incorrect file include path in WP CLI context.
+
+2019.07.03 - version 1.0.1
+* Tweak - Updated Woo header.
+
+2019.07.02 - version 1.0.0
+* Initial release.

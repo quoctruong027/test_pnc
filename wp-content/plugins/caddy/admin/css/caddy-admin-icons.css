@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Caddy-Admin-Icons';
+  src:  url('../fonts/Caddy-Admin-Icons.eot?to4pwj');
+  src:  url('../fonts/Caddy-Admin-Icons.eot?to4pwj#iefix') format('embedded-opentype'),
+    url('../fonts/Caddy-Admin-Icons.ttf?to4pwj') format('truetype'),
+    url('../fonts/Caddy-Admin-Icons.woff?to4pwj') format('woff'),
+    url('../fonts/Caddy-Admin-Icons.svg?to4pwj#Caddy-Admin-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="cc-admin-icon-"], [class*=" cc-admin-icon-"] {
+  /* use !important to prevent issues with browser extensions that change ../fonts */
+  font-family: 'Caddy-Admin-Icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cc-admin-icon-pencil:before {
+  content: "\e905";
+}
+.cc-admin-icon-droplet:before {
+  content: "\e90b";
+}
+.cc-admin-icon-book:before {
+  content: "\e91f";
+}
+.cc-admin-icon-ticket:before {
+  content: "\e939";
+}
+.cc-admin-icon-lifebuoy:before {
+  content: "\e941";
+}
+.cc-admin-icon-equalizer:before {
+  content: "\e992";
+}
+.cc-admin-icon-stats-bars:before {
+  content: "\e99c";
+}
+.cc-admin-icon-truck:before {
+  content: "\e9b0";
+}
+.cc-admin-icon-power-cord:before {
+  content: "\e9b7";
+}
+.cc-admin-icon-star-full:before {
+  content: "\e9d9";
+}

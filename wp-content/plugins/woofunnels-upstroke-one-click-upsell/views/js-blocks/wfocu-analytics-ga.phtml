@@ -1,0 +1,88 @@
+<?php $get_hash = $this->get_localstorage_hash( 'ga' ); ?>
+    var wfocuGAHash = '<?php echo $get_hash; ?>';
+    var wfocuGAResult = false;
+    try {
+
+    if ('1' === localStorage.getItem("wfocuH_" + wfocuGAHash)) {
+      wfocuGAResult = true;
+    }
+
+    } catch (exception) {
+
+    }
+
+    if(false === wfocuGAResult) {
+<?php
+if ( isset( $data['ga']['transaction']['offer'] ) ) {
+	?>
+    ga('require', 'ec');
+	<?php
+	foreach ( $data['ga']['products'] as $pro ) {
+		?>
+        ga('ec:addProduct', {
+        'id': '<?php echo esc_js( $pro['id'] ); ?>',
+        'name': '<?php echo esc_attr( $pro['name'] ); ?>',
+        'sku': '<?php echo esc_attr( $pro['sku'] ); ?>',
+        'category': "<?php echo esc_attr( $pro['category'] ); ?>",
+        'price': '<?php echo esc_js( $pro['price'] ); ?>',
+        'quantity': '<?php echo esc_js( $pro['quantity'] ); ?>'
+        });
+		<?php
+	}
+	?>
+	ga('set', 'currencyCode','<?php echo $data['ga']['transaction']['currency']; ?>');
+    ga('ec:setAction', 'purchase', <?php echo wp_json_encode( $data['ga']['transaction'] ); ?>);
+
+    ga('send', 'pageview');
+		var wfocuGAanalyticsData = {
+	eventCategory: 'ecommerce',
+	eventAction: 'purchase',
+	eventValue: <?php echo esc_js( absint( $data['ga']['transaction']['revenue'] ) ); ?>
+	};
+	wfocuGAanalyticsData = (typeof wfocuAddTrafficParamsToEvent !== "undefined")?wfocuAddTrafficParamsToEvent(wfocuGAanalyticsData,'ga','<?php echo wp_json_encode( $this->get_generic_event_params() ); ?>'):wfocuGAanalyticsData;
+	ga('send', 'event',wfocuGAanalyticsData );<?php
+} else {
+	if ( $this->do_track_ga_view() ) {
+		?>
+
+        ga('send', 'pageview');
+		<?php
+	}
+	?>
+    ga( 'require', 'ecommerce' );
+    ga( 'ecommerce:addTransaction', <?php echo wp_json_encode( $data['ga']['transaction'] ); ?>);
+	<?php
+	foreach ( $data['ga']['products'] as $pro ) {
+		?>
+        ga('ecommerce:addItem', {
+        'id': '<?php echo esc_js( $data['ga']['transaction']['id'] ); ?>',
+        'name': '<?php echo esc_attr( $pro['name'] ); ?>',
+        'sku': '<?php echo esc_attr( $pro['sku'] ); ?>',
+        'category': "<?php echo esc_attr( $pro['category'] ); ?>",
+        'price': '<?php echo esc_js( $pro['price'] ); ?>',
+        'quantity': '<?php echo esc_js( $pro['quantity'] ); ?>'
+        });
+		<?php
+	}
+	?>
+	var wfocuGAanalyticsData = {
+	hitType: 'event',
+	eventCategory: 'ecommerce',
+	eventAction: 'purchase',
+	eventValue: <?php echo esc_js( absint( $data['ga']['transaction']['revenue'] ) ); ?>
+	};
+
+	wfocuGAanalyticsData = (typeof wfocuAddTrafficParamsToEvent !== "undefined")?wfocuAddTrafficParamsToEvent(wfocuGAanalyticsData,'fb','<?php echo wp_json_encode( $this->get_generic_event_params() ); ?>'):wfocuGAanalyticsData;
+
+	ga('send', wfocuGAanalyticsData);
+    ga('ecommerce:send');
+	<?php
+} ?>
+try {
+
+	localStorage.setItem( "wfocuH_" + wfocuGAHash, "1" );
+
+} catch ( exception ) {
+
+}
+}

@@ -1,0 +1,10 @@
+<?php
+
+return array(
+	'{{{PROPERTIES}}}'         => '',
+	'{{{AFTER_CONSTRUCT}}}'    => '',
+	'{{{IS_LICENSE_PRESENT}}}' => '',
+	'{{{WOOFUNNELS_PAGE}}}'    => '',
+	'{{{CLASS_FUNCTIONS}}}'    => '',
+
+);

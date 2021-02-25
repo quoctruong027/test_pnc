@@ -1,0 +1,37 @@
+/* Smart Offers Dashboard Widget CSS */
+#smart_offers_dashboard_widget .inside ul.woocommerce_stats strong {
+	font-size: 2.2em !important;
+}
+#so-seen .so.dashicons.dashicons-visibility .offers-seen,
+#so-skipped .so.dashicons.dashicons.dashicons-thumbs-down .offers-skipped,
+#so-accepted .so.dashicons.dashicons.dashicons-thumbs-up .offers-accepted,
+#so-paid .so.dashicons.dashicons.dashicons-awards .offers-paid {
+	position: relative;
+	bottom: 2em;
+	left: 1.5em;
+	visibility: hidden;
+}
+#so-seen .so.dashicons.dashicons-visibility:hover .offers-seen,
+#so-skipped .so.dashicons.dashicons.dashicons-thumbs-down:hover .offers-skipped,
+#so-accepted .so.dashicons.dashicons.dashicons-thumbs-up:hover .offers-accepted,
+#so-paid .so.dashicons.dashicons.dashicons-awards:hover .offers-paid {
+	visibility: visible;
+}
+.so.dashicons.dashicons-visibility {
+	color: #12adC2;
+}
+.so.dashicons.dashicons.dashicons-thumbs-down {
+	color: #ff0000;
+}
+.so.dashicons.dashicons.dashicons-thumbs-up {
+	color: #f37b53;
+}
+.so.dashicons.dashicons.dashicons-awards {
+	color: #12b41f;
+}
+.so-revenue,
+.so-conversion-rate {
+	color: #12b41f;
+	text-align: center;
+	font-size: 1.2em!important;
+}

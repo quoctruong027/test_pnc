@@ -1,0 +1,2 @@
+<input type="checkbox" <?php echo $this->get_render_attribute_string( $field_key ); ?> value="1"<?php echo 'yes' == $field['default_checked'] ? ' checked="checked"' : ''; ?> />
+<label for="<?php echo 'field-' . $field['_id']; ?>" class="pp-rf-field-label"><?php echo $field['field_label']; ?></label>

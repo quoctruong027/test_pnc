@@ -1,0 +1,49 @@
+.xtfw-admin-tabs-wrap {
+  .tablenav {
+
+    margin: 0;
+
+    .actions {
+
+      overflow: inherit;
+      display: block;
+      padding: 0;
+
+      .select2-container .select2-selection--single {
+        height: 30px;
+      }
+
+      .select2-container .select2-selection--single .select2-selection__rendered {
+        line-height: 30px;
+      }
+
+      .select2-container .select2-selection--single .select2-selection__arrow {
+        height: 30px
+      }
+    }
+
+    &.top {
+      margin-bottom: 10px;
+    }
+
+    &.bottom {
+      margin-top: 10px;
+    }
+
+  }
+
+  .wp-list-table {
+
+    .update {
+      input{
+        max-width: 90px;
+      }
+    }
+
+    @media screen and (max-width: 782px) {
+      .column-event a {
+        display: block;
+      }
+    }
+  }
+}

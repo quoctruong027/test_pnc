@@ -1,0 +1,88 @@
+#so_this_offer {
+	padding: unset;
+	margin: 25px 0;
+}
+#so_this_offer .so-order-bump {
+	border: 3px dashed red;
+	padding: .7em;
+}
+#so_this_offer .so-order-bump-lead .so-order-bump-checkbox-wrapper input[type="checkbox"] {
+	display: none;
+}
+#so_this_offer .so-order-bump-lead .so-order-bump-checkbox-wrapper .so-order-bump-checkmark {
+	display: inline-block;
+	position: absolute;
+	box-sizing: border-box;
+	width: 22px;
+	height: 22px;
+	margin-right: 1em;
+	border: 2px solid lightgrey;
+	top: 50%;
+	transform: translate(0, -50%);
+	background: #ecf0f1;
+}
+#so_this_offer .so-order-bump-lead .so-order-bump-checkbox-wrapper input[type="checkbox"]:checked+label span.so-order-bump-checkmark:after {
+	content: '';
+	position: absolute;
+	top: 7px;
+	left: 4px;
+	width: 3px;
+	height: 8px;
+	background: #a5c25c;
+	-webkit-transform: rotate(-44deg);
+	-moz-transform: rotate(-44deg);
+	transform: rotate(-44deg)
+}
+#so_this_offer .so-order-bump-lead .so-order-bump-checkbox-wrapper input[type="checkbox"]:checked+label span.so-order-bump-checkmark:before {
+	content: '';
+	position: absolute;
+	top: 2px;
+	right: 6px;
+	width: 3px;
+	height: 14px;
+	background: #a5c25c;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg)
+}
+#so_this_offer .so-order-bump-lead .so-order-bump-checkbox-wrapper input[type="checkbox"]+label .so-order-bump-lead-text{
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	left: 30px;
+}
+#so_this_offer .so-order-bump-checkbox-wrapper {
+	background: #fff995;
+	padding: 10px;
+}
+#so_this_offer .so-order-bump-body {
+	color: #3c3c3c;
+}
+#so_this_offer .so-no-order-bump-image .so-order-bump-body {
+	width: 100%;
+}
+#so_this_offer .so-order-bump-intro {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 5px 0;
+}
+#so_this_offer .so-order-bump p.price {
+	margin: 5px 0;
+}
+#so_this_offer .so-order-bump label.so-order-bump-lead-label {
+	margin: 0;
+	position: relative;
+	padding-bottom: 20px;
+	display: block;
+}
+@media only screen and (min-width: 768px) {
+	#so_this_offer .so-order-bump:not(.so-no-order-bump-image) p.price {
+		float: right;
+		width: 60%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	#so_this_offer .so-order-bump p.price {
+		text-align: center;
+	}
+}

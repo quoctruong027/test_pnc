@@ -1,0 +1,14 @@
+/* Smart Offers CSS For Orders Dashboard */
+.so_contribution {
+	color: #03a025;
+}
+.so_contribution img.so_trendline {
+	height: 24px;
+	width: 24px;
+	vertical-align: middle;
+	transform: rotate(-10deg);
+}
+.so_contribution em {
+	margin-left: -0.2em;
+	font-style: unset;
+}

@@ -1,0 +1,52 @@
+/**1.1.0 - 2021.01.26**/
+- Added: Link to pro
+- Added: Exclude products which are not applied ajax add to cart
+- Added: Hide the notification of adding products to cart successfully after adding to cart by Ajax
+- Added: Set text of cart total on Sidebar Cart Footer
+- Added: Quantity border color on Sidebar Cart List Products
+- Added: Quantity border radius on Sidebar Cart List Products
+- Added: Font size of Trash Icon on Sidebar Cart List Products
+- fixed: Slide of Product Plus on Sidebar Cart Footer
+- fixed: Menu cart doesn't show
+- fixed: Responsible on mobile if the address bar is visible
+- Updated: Remove all 'Sidebar Trigger Event Style' and add 8 others
+- Updated: Shake cart when add products to cart.
+- Updated: New style of product quantity on Sidebar Cart
+- Updated: Assign pages to show Sidebar Cart
+- Updated: Link to documentation
+
+/**1.0.9.1 - 2020.04.23**/
+- Update: support class
+
+/*1.0.9 - 2020.04.11*/
+- fixed: Menu cart style
+– Updated: Compatible with WP 5.4 and WC4.0
+
+/*1.0.8.3 - 2020.03.23*/
+- updated: declare text domain
+
+/*1.0.8.2 - 2020.03.16*/
+- updated: declare text domain
+
+/*1.0.8.1 - 2020.02.10*/
+- fixed: Subtotals not visible in cart
+
+/*1.0.8 - 2020.01.30*/
+- fixed: Add variation to cart with popup
+- added: Hide popup after add variation to cart
+
+/*1.0.7 - 2019.12.30*/
+- fixed: Disabling variation popup
+- fixed: Changing variation “add to cart”
+- fixed: Able to add items to cart When Ajax add to cart is enabled
+- fixed: Add variation to cart When Ajax add to cart is enabled
+- fixed: Fly to cart doesn’t work when adding the first item to cart
+- fixed: Not calculating shipping in the final price when “total” is selected
+- added: Show meta data of cart item
+- added: Reduce size of sidebar cart icon
+
+/*1.0.6 - 2019.11.16*/
+- Updated: Sanitize input data
+
+/*1.0.0  - 2019.*/
+- Release version 1.0.0

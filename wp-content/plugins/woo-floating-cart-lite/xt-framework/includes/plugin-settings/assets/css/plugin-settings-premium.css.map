@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGE,mEACe,CACb,OAAO,CAAE,GAAG,CAGd,sCAAiB,CACf,OAAO,CAAE,+DAA+D,CACxE,UAAU,CAAC,IAAI,CACf,OAAO,CAAC,KAAK,CACb,KAAK,CAAC,OAAO,CACb,OAAO,CAAE,EAAE,CACX,SAAS,CAAC,IAAI,CACd,WAAW,CAAC,GAAG",
+"sources": ["../scss/plugin-settings-premium.scss"],
+"names": [],
+"file": "plugin-settings-premium.css"
+}

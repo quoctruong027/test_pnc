@@ -1,0 +1,87 @@
+#so_this_offer {
+	margin: 25px 0;
+	border: 1px solid #ccc !important;
+	padding: 15px;
+}
+#so_this_offer .so-order-bump-body {
+	color: #3c3c3c;
+}
+#so_this_offer .so-order-bump-intro {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 5px 0;
+}
+#so_this_offer .so-order-bump p.price {
+	margin: 5px 0;
+}
+#so_this_offer .so-order-bump-intro,
+#so_this_offer .so-order-bump-product-price {
+	display: inline-block;
+}
+#so_this_offer .so-order-bump-lead,
+#so_this_offer .so-show-offer-price,
+#so_this_offer .variations .label {
+	display: none;
+}
+#so_this_offer .so-container {
+	width: 77%;
+	margin: 0 auto;
+	float: left;
+}
+#so_this_offer .so-container .so-order-bump-variation-options-container {
+	width: 20%;
+	float: left;
+	min-width: 12.5em;
+	box-sizing: border-box;
+}
+#so_this_offer .so-container .so-order-bump-cta-wrapper {
+	width: 20%;
+	float: right;
+	min-width: 12.5em;
+	padding-top: .9em;
+	text-align: right;
+}
+#so_this_offer .so-no-order-bump-image .so-container {
+	width: 100%;
+}
+#so_this_offer .so-no-order-bump-image .so-container .so-order-bump-variation-options-container,
+#so_this_offer .so-no-order-bump-image .so-container .so-order-bump-cta-wrapper {
+	min-width: 15em;
+	width: 25%;
+}
+#so_this_offer .so-order-bump-image-wrapper {
+	min-width: 8em;
+	width: 20%;
+}
+#so_this_offer .so-order-bump-body {
+	width: 40%;
+}
+#so_this_offer .so-no-order-bump-image .so-order-bump-body {
+	width: 50%;
+	min-width: 15em;
+}
+#so_this_offer .so-order-bump-cta-wrapper .so-order-bump-cta {
+	background-color: #4fad43;
+	border-radius: 5px;
+	color: #ffffff;
+	text-transform: none;
+	font-size: 1em;
+}
+#so_this_offer .so-order-bump-image-wrapper,
+#so_this_offer .so-order-bump-body,
+#so_this_offer .so-order-bump-variation-options,
+#so_this_offer .so-order-bump-cta-wrapper {
+	min-height: 1px;
+}
+@media only screen and (max-width: 768px) {
+	#so_this_offer .so-order-bump-body,
+	#so_this_offer .so-container .so-order-bump-variation-options-container,
+	#so_this_offer .so-container .so-order-bump-cta-wrapper,
+	#so_this_offer .so-order-bump-image-wrapper {
+		width: 100%;
+		text-align: center;
+	}
+	#so_this_offer .so-container {
+		float: none;
+	}
+}

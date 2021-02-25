@@ -1,0 +1,240 @@
+/* added to show images in the offer - start */
+.so-offer .images,
+.so_product_image {
+	opacity: 1 !important;
+}
+.so-offer-content .so_product_image,
+.so-offer-content .so-offer .so_product_image {
+	display: inline-block;
+	width: 35%;
+	margin-bottom: 30px;
+	margin-right: 1em;
+}
+.so-offer-content .so_product_image .thumbnails {
+	display: inline-block;
+	width: 102%;
+}
+.so-offer-content .so_product_image .thumbnails img {
+	padding: 5px 5px 0 0;
+	max-width: 25%;
+}
+/* added to show images in the offer - end */
+.so-offer-content table.variations {
+	margin: 0 20px 20px 0;
+	vertical-align: top;
+}
+/* for magnific popup - start */
+div[id^="so-entry-content"] {
+	background: #FFF;
+	padding: 2em;
+}
+.so-offer-content.white-popup {
+	display: block !important;
+	position: relative;
+	width: auto;
+	height: auto;
+	margin: 1.250em auto;
+	overflow: hidden;
+}
+.mfp-inline-holder .mfp-content {
+	/*width: auto !important;*/
+	max-width: 60%;
+}
+/* for magnific popup - end */
+
+/* Order Bump CSS - start */
+/* Make order bump offer visible through CSS instead of JS since they get refreshed in wc checkout order review ajax request.*/
+.so-order-bump * {
+    box-sizing: border-box;
+}
+.so-offer-content.order_bump {
+    display: block !important;
+    clear: both;
+}
+.so-offer-content.order_bump p:empty {
+    display: none;
+}
+.so-order-bump-image-wrapper {
+    width: 40%;
+    float: left;
+    padding: .3em;
+}
+.so-order-bump-body {
+    width: 60%;
+    float: left;
+}
+.so-order-bump-content-wrapper::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.so_product_image.so-order-bump-image {
+    margin: 0;
+    width: auto;
+}
+.so-order-bump-checkbox-wrapper .so-order-bump-checkmark {
+    cursor: pointer;
+    pointer-events: all;
+}
+.so-order-bump-lead-label {
+	pointer-events: none;
+}
+.so-order-bump-checkbox-wrapper input[type="checkbox"][disabled="disabled"] + label.so-order-bump-lead-label,
+.so-order-bump-checkbox-wrapper input[type="checkbox"][disabled="disabled"] + label.so-order-bump-lead-label > span {
+    cursor: not-allowed;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes so_blinking_animation {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+/* Standard syntax */
+@keyframes so_blinking_animation {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes so_nudging_animation {
+  0%, 100% {
+    padding-left: .1em;
+  }
+  50% {
+    padding-left: .3em
+  }
+}
+/* Standard syntax */
+@keyframes so_nudging_animation {
+  0%, 100% {
+    padding-left: .1em;
+  }
+  50% {
+    padding-left: .5em
+  }
+}
+/* Order Bump CSS - end */
+
+/* Responsiveness - start */
+@media only screen and (max-width: 1024px) {
+	.mfp-inline-holder .mfp-content {
+		max-width: 90%;
+	}
+	.so-offer-content .so_accept {
+		width: 60%;
+	}
+	.so-offer-content .so_product_image:not(.so-order-bump-image) {
+		width: 40% !important;
+		margin-right: 2em !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.mfp-inline-holder .mfp-content {
+		max-width: 75%;
+	}
+	.so-offer-content .so_accept {
+		width: 60%;
+	}
+	.so-offer-content .so_product_image {
+		width: unset !important;
+		margin: auto !important;
+	}
+	.so-order-bump-image-wrapper,
+	.so-order-bump-body {
+	    width: 100% !important;
+	    text-align: center;
+	    float: none !important;
+	}
+	.so-order-bump-image {
+	    margin: 0 auto;
+	    display: block;
+	}
+	.so-order-bump-intro {
+	    text-align: center;
+	}
+	.so-order-bump-product-info {
+	    width: 100% !important;
+	    float: none !important;
+	    text-align: center;
+	}
+	.so-order-bump .so-show-offer-price {
+	    text-align: center;
+	}
+	.so-order-bump .so-container .so-order-bump-variation-options-container,
+	.so-order-bump .so-container .so-order-bump-cta-wrapper {
+	    width: 100% !important;
+	    float: none !important;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.so-offer-content .so_accept {
+		width: 75%;
+	}
+	.so-offer-content.white-popup h1 {
+		font-size: 2.4em;
+	}
+	.so-offer-content .so_product_image {
+		width: unset !important;
+		margin: auto !important;
+	}
+}
+@media only screen and (max-width: 425px) {
+	.mfp-inline-holder .mfp-content {
+		max-width: 90%;
+	}
+	.so-offer-content.white-popup h1 {
+		font-size: 2.3em;
+	}
+	.so-offer-content.white-popup td {
+		float: left;
+		padding-left: 0;
+		padding-bottom: 0; 
+	}
+	.so-offer-content .so_accept {
+		width: 90%;
+	}
+	.so-offer-content .so_product_image {
+		width: unset !important;
+		margin: auto !important;
+	}
+	.so-order-bump-product-price {
+	    width: 100% !important;
+	    text-align: center !important;
+	}
+	.so-order-bump-style-1 .so-order-bump-lead {
+	    text-align: left !important;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.so-offer-content .so_accept {
+		width: 100%;
+	}
+	.so-offer-content .so_product_image {
+		width: unset !important;
+		margin: auto !important;
+	}
+}
+/* Responsiveness - end */
+/* Showing specific color for accept and skip link */
+.so_accept a {
+	color: #ffffff;
+}
+.so_skip a {
+	color: #000000;
+}
+/* New classes for ready offer layout - v3.5.0 onwards */
+.so-show-offer-price {
+	font-size: 1.3em;
+}
+.so-show-prod-desc {
+	margin-bottom: 0.5em;
+}
+.so-popup.white-popup .so-show-offer-price {
+	text-align: center;
+}

@@ -1,0 +1,818 @@
+# Copyright (C) 2016 locomotive
+# This file is distributed under the same license as the locomotive package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: locomotive\n"
+"Report-Msgid-Bugs-To: https://github.com/reaktivstudios/locomotive/issues\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Andrew Norcross <norcross@reaktivstudios.com>\n"
+"Language-Team: Reaktiv Studios <dev@reaktivstudios.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-wcct-deal-license-handler.php:143
+#, php-format
+msgid "<p> Plugin <strong>%s</strong> successfully activated. </p>"
+msgstr ""
+
+#: class-wcct-deal-plugin-updater.php:203
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: class-wcct-deal-plugin-updater.php:205
+#, php-format
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: class-wcct-deal-plugin-updater.php:392
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: class-wcct-deal-plugin-updater.php:392
+msgid "Error"
+msgstr ""
+
+#: finale-woocommerce-deal-pages.php:88 finale-woocommerce-deal-pages.php:121
+msgid "Batch process not specified."
+msgstr ""
+
+#: finale-woocommerce-deal-pages.php:94
+msgid "Step must be defined."
+msgstr ""
+
+#: finale-woocommerce-deal-pages.php:169
+msgid "Finale WooCommerce Deal Pages"
+msgstr ""
+
+#: includes/abstracts/abstract-batch.php:175
+msgid "Batch name must be defined."
+msgstr ""
+
+#: includes/abstracts/abstract-batch.php:187
+msgid "Batch type must be defined."
+msgstr ""
+
+#: includes/abstracts/abstract-batch.php:199
+msgid "A callback must be defined."
+msgstr ""
+
+#: includes/abstracts/abstract-batch.php:265
+msgid "No results found."
+msgstr ""
+
+#: includes/class-wcct-deal-xl-support.php:95
+#, php-format
+msgid "<p>You are <strong>not receiving</strong> Latest Updates, New Features, Security Updates &amp; Bug Fixes for <strong>%s</strong>. <a href=\"%s\">Click Here To Fix This</a>.</p>"
+msgstr ""
+
+#: includes/class-wcct-deal-xl-support.php:193
+msgid "<p> Unable to submit your request.All fields are required. Please ensure that all the fields are filled out.</p>"
+msgstr ""
+
+#: includes/class-wcct-deal-xl-support.php:281
+msgid "XLPlugins"
+msgstr ""
+
+#: includes/class-wcct-deal-xl-support.php:285
+msgid "Licenses"
+msgstr ""
+
+#: includes/class-wcct-deal-xl-support.php:285
+msgid "License"
+msgstr ""
+
+#: includes/class-wcct-deal-xl-support.php:309
+#: includes/class-wcct-deal-xl-support.php:311
+msgid "Other"
+msgstr ""
+
+#: includes/class-wcct-deal-xl-support.php:337
+msgid "I am unable to locate Deal Shortcode."
+msgstr ""
+
+#: includes/class-wcct-deal-xl-support.php:343
+msgid "Campaign Indexing is taking too much time and slowing the site."
+msgstr ""
+
+#: includes/class-wcct-deal-xl-support.php:349
+msgid "Deal Shortcode showing blank output."
+msgstr ""
+
+#: includes/class-wcct-deal-xl-support.php:355
+msgid "Countdown Timer or Inventory Bar Position is incorrect on Deal Page."
+msgstr ""
+
+#: includes/functions.php:39
+#, php-format
+msgctxt "amount of time that has passed"
+msgid "%s ago"
+msgstr ""
+
+#: includes/functions.php:130
+msgid "Sorry! This Campaign is not running at the moment."
+msgstr ""
+
+#: includes/functions.php:146
+msgid "Deal Ends In"
+msgstr ""
+
+#: includes/functions.php:154
+msgid "Hurry! only {{remaining_units}} at this price."
+msgstr ""
+
+#: includes/functions.php:156
+msgid "Add to cart"
+msgstr ""
+
+#: includes/functions.php:176
+msgid "Sale!"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:12
+#: includes/wcct-cmb2-shortcode-fields.php:752
+msgid "Settings"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:24
+msgid "<i class=\"flicon flicon-weekly-calendar\"></i> Campaign"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:28
+#: includes/wcct-cmb2-shortcode-fields.php:40
+msgid "Select Campaign"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:33
+msgid "Choose Campaign"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:34
+msgid "All Indexed Camapigns"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:44
+msgid "Index the campaigns to generate the shortcodes. All the indexed campaigns are available for generating shortcodes."
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:52
+msgid "Choose Campaigns"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:60
+msgid "<i class=\"flicon flicon-giftbox\"></i> Template"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:64
+msgid "Select Template Layout"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:69
+msgid "Grid"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:70
+msgid "List"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:71
+msgid "Native Theme"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:75
+msgid "Help Text Native Theme"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:80
+msgid "This is an experimental feature.<br/>Finale Deal Pages will try to show countdown timer, counter bar or savings text on theme's native grid.<br/>But themes may modify the native woocommerce grid code so that could result in misaligned visual output."
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:87
+msgid "Grid Size"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:103
+msgid "Grid Layout"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:117
+msgid "List Layout"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:135
+msgid "<i class=\"flicon flicon-old-elevator-levels-tool\"></i> Countdown Timer"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:140
+#: includes/wcct-cmb2-shortcode-fields.php:325
+msgid "Visibility"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:146
+#: includes/wcct-cmb2-shortcode-fields.php:330
+msgid "Show"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:147
+#: includes/wcct-cmb2-shortcode-fields.php:331
+msgid "Hide"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:155
+msgid "Enable this to show Countdown Timer."
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:166
+msgid "Highlight"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:167
+msgid "Round Fill"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:168
+msgid "Round Ghost"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:169
+msgid "Square Fill"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:170
+msgid "Square Ghost"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:171
+msgid "Default"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:187
+msgid "Note: You may need to adjust the default appearance settings in case you switch the skin."
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:197
+msgid "Timer Color"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:208
+#: includes/wcct-cmb2-shortcode-fields.php:548
+#: includes/wcct-cmb2-shortcode-fields.php:551
+#: includes/wcct-cmb2-shortcode-fields.php:627
+#: includes/wcct-cmb2-shortcode-fields.php:651
+msgid "Text Color"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:219
+msgid "Timer Font Size (px)"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:233
+msgid "Font Size"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:247
+msgid "Timer Days"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:259
+msgid "Timer Hours"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:271
+msgid "Timer Minutes"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:283
+msgid "Timer Seconds"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:295
+#: includes/wcct-cmb2-shortcode-fields.php:299
+msgid "Before Timer Text"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:306
+#: includes/wcct-cmb2-shortcode-fields.php:310
+msgid "After Timer Text"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:320
+msgid "<i class=\"flicon flicon-old-elevator-levels-tool\"></i> Inventory bar"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:336
+msgid "Enable this to show Inventory Bar.<br/><strong>Inventory</strong> should be enabled for a product to show counter bar."
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:341
+#: includes/wcct-cmb2-shortcode-fields.php:413
+msgid "Counter Bar"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:358
+msgid "Edges"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:362
+msgid "Rounded"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:363
+msgid "Smooth"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:364
+msgid "Sharp"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:374
+msgid "Direction"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:378
+msgid "Left to Right"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:379
+msgid "Right to Left"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:389
+msgid "This moves counter bar left to right. Use this when you want to indicate increase in sales."
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:401
+msgid "This moves counter bar right to left. Use this when you want to indicate decrease in stocks."
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:424
+msgid "Bar Active Color"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:435
+msgid "Bar Height"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:449
+#: includes/wcct-cmb2-shortcode-fields.php:454
+msgid "Before Bar Text"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:461
+#: includes/wcct-cmb2-shortcode-fields.php:466
+msgid "After Bar Text"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:476
+msgid "<i class=\"flicon flicon-old-elevator-levels-tool\"></i> Appearance"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:480
+#: includes/wcct-index-campaigns-table.php:72
+msgid "Action"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:483
+msgid "Campaign Expired Action"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:486
+msgid "Hide Products"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:487
+msgid "Display Text"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:488
+msgid "Continue Showing Products"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:493
+msgid "Campaign Expired Text"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:496
+#: includes/wcct-cmb2-shortcode-fields.php:529
+msgid "Text"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:497
+msgid "This text would come up when <strong>none</strong> of the selected Campaigns are running."
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:513
+msgid "<p class=\"cmb2-metabox-description\" style=\"padding-left: 180px;\">Hide products for the campaigns which have expired.</p>"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:523
+msgid "<p class=\"cmb2-metabox-description\" style=\"padding-left: 180px;\">Continue to show products for the campaigns which have expired.</p>"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:526
+msgid "Button"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:530
+msgid "Add to Cart Button"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:534
+msgid "Button BG Color"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:537
+msgid "Background Color"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:541
+msgid "Button BG Hover Color"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:544
+msgid "Background Hover Color"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:555
+#: includes/wcct-cmb2-shortcode-fields.php:558
+msgid "Text Font Size"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:567
+#: includes/wcct-cmb2-shortcode-fields.php:570
+msgid "Width"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:579
+msgid "Don't change above 'Add to Cart' text on following Product Types"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:582
+msgid "Exclude Product Types"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:583
+msgid "Some product types such as variable products require product selection before they can be added to cart. Usually their grids would show \"Select Options\"."
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:583
+msgid "Excluding such product types from grid will NOT change the text of buttons on the grid, even though their product page will show entered text."
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:583
+msgid "Example: If you change button text to say \"Buy Now\" and exclude variable products on grid. Button for this product on grid will show \"Select Options\" while button of product will show \"Buy Now\"."
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:589
+msgid "Choose Product Types"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:596
+msgid "Style"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:599
+msgid "Pagination"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:602
+msgid "Round"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:603
+msgid "Square"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:611
+msgid "Active State"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:619
+#: includes/wcct-cmb2-shortcode-fields.php:643
+msgid "BG Color"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:635
+msgid "Default State"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:659
+msgid "Sale Badge Background Color"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:663
+msgid "Other "
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:666
+msgid "Sale Badge Text Color"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:672
+msgid "Sale Badge Text"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:679
+msgid "You Save"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:686
+msgid "You Save Value"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:690
+msgid "Saving Value"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:691
+msgid "Saving Percentage"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:692
+msgid "Both"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:698
+msgid "Hide on Grid/ Timer"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:699
+msgid "Description (Only appear in the List layout)"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:705
+msgid "Hide Rating"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:706
+msgid "Rating"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:712
+msgid "Hide Sale Badge"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:713
+msgid "Sale Badge"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:720
+msgid "Product Description Length"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:730
+msgid "Products Grid/List Thumbnail Size"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:733
+msgid "That's the product image size used in Product list related components"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:787
+msgid "ShortCode"
+msgstr ""
+
+#: includes/wcct-cmb2-shortcode-fields.php:799
+msgid ""
+"Arguments: <br/><strong>id</strong>: ID of the current Deal Page <br/><strong>count</strong>: Number of products to show\n"
+"<br/><strong>pagination</strong>: Allow pagination using pagination='yes'<br/><strong>orderby</strong>: Modify order of products, it could be 'date', 'price', 'sales','rating', 'title', 'rand' or 'campaign_priority'.<br/><strong>order</strong>: ASC or DESC"
+msgstr ""
+
+#: includes/wcct-deal-shortcode-table.php:62
+msgid "No Deal Page Available"
+msgstr ""
+
+#: includes/wcct-deal-shortcode-table.php:104
+msgid "All"
+msgstr ""
+
+#: includes/wcct-deal-shortcode-table.php:205
+msgid "Title"
+msgstr ""
+
+#: includes/wcct-deal-shortcode-table.php:206
+#: includes/wcct-index-campaigns-table.php:68
+msgid "Campaign"
+msgstr ""
+
+#: includes/wcct-deal-shortcode-table.php:207
+msgid "Shortcode"
+msgstr ""
+
+#: includes/wcct-deal-shortcode-table.php:221
+msgid "Campaign No longer available"
+msgstr ""
+
+#: includes/wcct-deal-shortcode-table.php:224
+#: includes/wcct-index-campaigns-table.php:265
+msgid "<span class=\"deactivated\">Deactivated</span>"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:58
+msgid "Index All"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:67
+msgid "<input class=\"cb-select-xlwcctbatch\" type=\"checkbox\">"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:69
+msgid "Activity"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:70
+#: includes/xl-finale-batch-admin.php:76
+#: includes/xl-finale-batch-post-table.php:10
+#: includes/xl-finale-batch-process.php:119
+#: includes/xl-finale-batch-process.php:144
+#: includes/xl-finale-batch-shortcode.php:6
+msgid "Deal Pages"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:71
+msgid "Status"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:142
+msgid "none"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:171
+msgid "Campaign modified, needs re-indexing"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:174
+msgid "Campaign is indexed."
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:174
+msgid "Generate a Deal Page"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:187
+msgid "Needs Re-Indexing"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:190
+msgid "Ready to Index"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:193
+msgid "Good"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:212
+#: includes/wcct-index-campaigns-table.php:217
+msgid "Index"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:215
+msgid "Re-Index"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:223
+msgid "Recommend re-indexing"
+msgstr ""
+
+#: includes/wcct-index-campaigns-table.php:225
+msgid "Ready to index"
+msgstr ""
+
+#: includes/xl-finale-batch-admin.php:64 includes/xl-finale-batch-admin.php:76
+msgid "Back to <a href=\""
+msgstr ""
+
+#: includes/xl-finale-batch-admin.php:320
+msgid "Copy"
+msgstr ""
+
+#: includes/xl-finale-batch-admin.php:398
+msgid "Unable to Duplicate"
+msgstr ""
+
+#: includes/xl-finale-batch-post-table.php:6
+#: includes/xl-finale-batch-process.php:114
+#: includes/xl-finale-batch-shortcode.php:10
+msgid "Index Campaigns"
+msgstr ""
+
+#: includes/xl-finale-batch-post-table.php:8
+#: includes/xl-finale-batch-shortcode.php:8
+msgid "Finale Campaigns"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:160
+msgid "Generate A Deal Page"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:558
+msgid "Finale Deal Shortcodes"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:559
+msgid "Finale Deal Shortcode"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:560
+msgid "Add Finale Deal Shortcode"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:561
+msgid "Add New Finale Deal Shortcode"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:562
+msgid "Edit"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:563
+msgid "Edit Finale Deal Shortcode"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:564
+msgid "New Finale Deal Shortcode"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:565
+#: includes/xl-finale-batch-process.php:566
+msgid "View Finale Deal Shortcode"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:567
+msgid "Search Finale Deal Shortcode"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:568
+msgid "No Finale Deal Shortcode"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:569
+msgid "No Finale Deal Shortcode found in trash"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:570
+msgid "Parent Finale Deal Shortcode"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:625
+msgid "<div class=\"wcct_deal_error\">Shortcode Error : 'id' attribute is missing or empty.<br/> <span>(This error is only visible to Administrator (user role))</div>"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:631
+msgid "<div class=\"wcct_deal_error\">Shortcode Error : Unable to find any shortcode for the given ID.<br/> <span>(This error is only visible to Administrator (user role)) </div>"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:709
+msgid "Running"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:709
+msgid "Activated"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:760
+#: includes/xl-finale-batch-process.php:770
+msgid "<div class=\"wcct_deal_error\">Shortcode Error : Rules does not match for the provided campaign.<br/> <span>(This error is only visible to Administrator (user role))</div>"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:808
+msgid "<div class=\"wcct_deal_error\">Shortcode Error : We are unable to find any associated products for selected campaign(s). <br/> <span>(This error is only visible to Administrator (user role)) </div>"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:883
+msgid "<div class=\"wcct_deal_error\">Shortcode Error : We are unable to find any associated products for this campaign. <br/> <span>(This error is only visible to Administrator (user role))</div>"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:959
+msgid "<div class=\"wcct_deal_error\">Shortcode Error : No campaign is associated with this shortcode.<br/> <span>(This error is only visible to Administrator (user role))</div>"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:1113
+msgid "Batch Size"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:1117
+msgid "Save"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:1122
+msgid "Batch Size Help"
+msgstr ""
+
+#: includes/xl-finale-batch-process.php:1122
+msgid "Click here"
+msgstr ""
+
+#: includes/xl-finale-batch-shortcode.php:21
+msgid "Add New"
+msgstr ""

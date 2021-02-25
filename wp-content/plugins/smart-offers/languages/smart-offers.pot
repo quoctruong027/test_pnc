@@ -1,0 +1,2347 @@
+# Copyright (C) 2020 Smart Offers
+# This file is distributed under the same license as the Smart Offers package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Offers 3.13.3\n"
+"Report-Msgid-Bugs-To: https://www.storeapps.org/support/contact-us/\n"
+"POT-Creation-Date: 2020-09-19 11:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: smart-offers.php:112
+#, php-format
+msgid ""
+"%s Smart Offers is active but it will only work with WooCommerce 3.0+. %s."
+msgstr ""
+
+#: smart-offers.php:112
+msgid "Important"
+msgstr ""
+
+#: smart-offers.php:112
+msgid "Please update WooCommerce to the latest version"
+msgstr ""
+
+#: templates/so-order-bump-default.php:39
+#: templates/so-order-bump-style-1.php:44
+#: templates/so-order-bump-style-2.php:42
+#: templates/so-order-bump-style-3.php:79
+#: templates/so-order-bump-style-4.php:40
+#: templates/so-order-bump-style-4.php:86
+#: includes/admin/class-so-admin-offer.php:1078
+msgid "Yes! I want it"
+msgstr ""
+
+#: templates/so-order-bump-default.php:44
+#: templates/so-order-bump-style-3.php:39
+#: templates/so-order-bump-style-4.php:62
+msgid "ONE TIME OFFER!"
+msgstr ""
+
+#: templates/so-order-bump-default.php:62
+#: templates/so-order-bump-style-1.php:50
+#: templates/so-order-bump-style-2.php:68
+#: templates/so-order-bump-style-3.php:85
+#: templates/so-order-bump-style-4.php:76
+#: includes/admin/class-so-admin-offer.php:1105
+msgid ""
+"You can have access to this exclusive offer by ticking the box above. Click "
+"and add it to your order now. This offer is available only now."
+msgstr ""
+
+#: includes/admin/class-so-admin-dashboard-widget.php:36
+msgid "Smart Offers Statistics"
+msgstr ""
+
+#: includes/admin/class-so-admin-dashboard-widget.php:148
+msgid "Revenue from Offers"
+msgstr ""
+
+#: includes/admin/class-so-admin-dashboard-widget.php:149
+#: includes/admin/class-so-admin-offers.php:555
+msgid "Conversion Rate"
+msgstr ""
+
+#: includes/admin/class-so-admin-dashboard-widget.php:152
+msgid "Seen"
+msgstr ""
+
+#: includes/admin/class-so-admin-dashboard-widget.php:153
+msgid "Skipped"
+msgstr ""
+
+#: includes/admin/class-so-admin-dashboard-widget.php:154
+msgid "Accepted"
+msgstr ""
+
+#: includes/admin/class-so-admin-dashboard-widget.php:155
+msgid "Paid Through"
+msgstr ""
+
+#: includes/admin/class-so-admin-notifications.php:56
+msgid "View Smart Offers Settings"
+msgstr ""
+
+#: includes/admin/class-so-admin-notifications.php:56
+#: includes/admin/class-so-admin-setting.php:82
+#: includes/admin/class-so-admin-welcome.php:216
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-so-admin-notifications.php:57
+#: includes/admin/class-so-admin-offers.php:65
+#: includes/admin/class-so-admin-offers.php:65
+#: includes/admin/class-so-admin-offers.php:627
+#: includes/admin/class-so-admin-welcome.php:229
+msgid "FAQ's"
+msgstr ""
+
+#: includes/admin/class-so-admin-notifications.php:81
+msgid ""
+"Thank you for using <span style=\"color: #5850EC;\">Smart Offers</span>. A "
+"huge thank you from <span style=\"color: #5850EC;\">StoreApps</span>!"
+msgstr ""
+
+#. %s: Current version of Smart Offers
+#: includes/admin/class-so-admin-notifications.php:110
+#, php-format
+msgid ""
+"Smart Offers version: <span style=\"color: #5850EC;\">%s</span></strong>"
+msgstr ""
+
+#: includes/admin/class-so-admin-notifications.php:237
+#, php-format
+msgid "Using our %1$1sBuy Now%2$2s plugin!"
+msgstr ""
+
+#: includes/admin/class-so-admin-notifications.php:238
+#, php-format
+msgid "One-time offer - %1$1s"
+msgstr ""
+
+#: includes/admin/class-so-admin-notifications.php:238
+#, php-format
+msgid "Flat 50% off on Annual License"
+msgstr ""
+
+#: includes/admin/class-so-admin-notifications.php:239
+msgid "Hide"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:111
+#: includes/admin/class-so-admin-offer.php:598
+#: includes/admin/class-so-admin-offer.php:748
+msgid "All Products"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:264
+#: includes/admin/class-so-admin-offer-rule.php:859
+#: includes/admin/class-so-admin-offer.php:307
+#: includes/admin/class-so-admin-offer.php:744
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:266
+#: includes/admin/class-so-admin-offer-rule.php:886
+msgid "Search for a category&hellip;"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:268
+#: includes/admin/class-so-admin-offer-rule.php:1005
+msgid "Search for a term&hellip;"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:272
+#: includes/admin/class-so-admin-offer-rule.php:798
+msgid "Type:"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:274
+#: includes/admin/class-so-admin-offer-rule.php:800
+msgid "Cart/Order"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:275
+#: includes/admin/class-so-admin-offer-rule.php:801
+msgid "User"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:276
+msgid "Offer Valid"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:278
+#: includes/admin/class-so-admin-offer-rule.php:804
+msgid "Action:"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:280
+#: includes/admin/class-so-admin-offer-rule.php:806
+msgid "Contains products"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:281
+#: includes/admin/class-so-admin-offer-rule.php:807
+msgid "Does not contains products"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:282
+#: includes/admin/class-so-admin-offer-rule.php:808
+msgid "Total is less than or equal to"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:283
+#: includes/admin/class-so-admin-offer-rule.php:809
+msgid "Total is more than or equal to"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:284
+#: includes/admin/class-so-admin-offer-rule.php:810
+msgid "Grand total is less than or equal to"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:285
+#: includes/admin/class-so-admin-offer-rule.php:811
+msgid "Grand total is more than or equal to"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:286
+#: includes/admin/class-so-admin-offer-rule.php:812
+msgid "Contains number of products less than or equal to"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:287
+#: includes/admin/class-so-admin-offer-rule.php:813
+msgid "Contains number of products more than or equal to"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:288
+#: includes/admin/class-so-admin-offer-rule.php:814
+msgid "Contain product from category"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:289
+#: includes/admin/class-so-admin-offer-rule.php:815
+msgid "Does not contain product from category"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:290
+#: includes/admin/class-so-admin-offer-rule.php:816
+msgid "Contains product with attribute"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:291
+#: includes/admin/class-so-admin-offer-rule.php:817
+msgid "Does not contain product with attribute"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:292
+#: includes/admin/class-so-admin-offer-rule.php:818
+msgid "Has purchased"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:293
+#: includes/admin/class-so-admin-offer-rule.php:819
+msgid "Has not purchased"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:294
+#: includes/admin/class-so-admin-offer-rule.php:820
+msgid "Is"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:295
+#: includes/admin/class-so-admin-offer-rule.php:821
+msgid "Is a"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:296
+#: includes/admin/class-so-admin-offer-rule.php:822
+msgid "Is not a"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:297
+#: includes/admin/class-so-admin-offer-rule.php:823
+msgid "Is registered for"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:298
+#: includes/admin/class-so-admin-offer-rule.php:824
+msgid "Has previously purchased less than or equal to"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:299
+#: includes/admin/class-so-admin-offer-rule.php:825
+msgid "Has previously purchased more than or equal to"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:300
+#: includes/admin/class-so-admin-offer-rule.php:826
+msgid "Has previously purchased from category"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:301
+#: includes/admin/class-so-admin-offer-rule.php:827
+msgid "Has not previously purchased from category"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:302
+#: includes/admin/class-so-admin-offer-rule.php:828
+msgid "Has placed number of orders less than or equal to"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:303
+#: includes/admin/class-so-admin-offer-rule.php:829
+msgid "Has placed number of orders more than or equal to"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:314
+#: includes/admin/class-so-admin-offer-rule.php:908
+msgid "registered user action:"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:316
+#: includes/admin/class-so-admin-offer-rule.php:913
+msgid "Registered"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:317
+msgid "A visitor"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:319
+#: includes/admin/class-so-admin-offer-rule.php:919
+msgid "registered period action:"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:321
+#: includes/admin/class-so-admin-offer-rule.php:921
+msgid "Less than 1 month"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:322
+#: includes/admin/class-so-admin-offer-rule.php:922
+msgid "Less than 3 months"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:323
+#: includes/admin/class-so-admin-offer-rule.php:923
+msgid "Less than 6 months"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:324
+#: includes/admin/class-so-admin-offer-rule.php:924
+msgid "Less than 1 year"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:325
+#: includes/admin/class-so-admin-offer-rule.php:925
+msgid "More than 1 year"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:339
+#: includes/admin/class-so-admin-offer-rule.php:965
+msgid "offer_valid_between:"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:344
+#: includes/admin/class-so-admin-offer-rule.php:982
+msgid "AND"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:360
+#: includes/admin/class-so-admin-offer-rule.php:954
+msgid "No attributes found..."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:371
+#: includes/admin/class-so-admin-offer-rule.php:989
+msgid "Subtotal is more than or equal to (of products in this category)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:372
+#: includes/admin/class-so-admin-offer-rule.php:990
+msgid "Subtotal is less than or equal to (of products in this category)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:374
+msgid "Enter price(Optional)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:378
+#: includes/admin/class-so-admin-offer-rule.php:998
+msgid "Quantity is more than or equal to"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:379
+#: includes/admin/class-so-admin-offer-rule.php:999
+msgid "Quantity is less than or equal to"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:381
+msgid "Enter Quantity(Optional)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:396
+#: includes/admin/class-so-admin-offer-rule.php:728
+#: includes/admin/class-so-admin-offer-rule.php:787
+msgid "OR"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:704
+msgid "Are you sure you want delete this rule?"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:730
+#: includes/admin/class-so-admin-offer-rule.php:1054
+msgid "+ Add New Rule"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:767
+msgid "When to show this offer?"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:768
+msgid ""
+"(This offer will be shown only if the rules mentioned below are satisfied)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:802
+msgid "Offer Valid "
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:914
+msgid "A Visitor"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:992
+msgid "Enter price (Optional)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer-rule.php:1001
+msgid "Enter quantity (Optional)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:55
+msgid "Setup your Order Bump offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:55
+msgid "Setup your offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:58
+msgid "Custom style (CSS)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:59
+msgid "Offer priority"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:60
+msgid "Available shortcodes"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:64
+msgid "Must Read Links"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:77
+#: includes/admin/class-so-admin-offers.php:549
+msgid "Offer Title"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:105
+msgid "What to offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:110
+msgid "Offer rules"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:122
+msgid "Offer position"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:127
+msgid "Order bump style"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:132
+msgid "Offer content"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:143
+msgid "Show offer on page"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:148
+msgid "Show offer as"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:153
+msgid "Accept actions"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:158
+msgid "Skip actions"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:222
+msgid ""
+"Are you sure you want to link all variations? This will create a new "
+"variation for each and every possible combination of variation attributes "
+"(max 50 per run)."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:223
+msgid "Enter a value"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:224
+msgid "Enter a value (fixed or %)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:225
+msgid "Are you sure you want to delete all variations? This cannot be undone."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:226
+msgid "Last warning, are you sure?"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:227
+msgid "Choose an image"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:228
+msgid "Set variation image"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:229
+msgid "variation added"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:230
+msgid "variations added"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:231
+msgid "No variations added"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:232
+msgid "Are you sure you want to remove this variation?"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:233
+msgid "Sale start date (YYYY-MM-DD format or leave blank)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:234
+msgid "Sale end date  (YYYY-MM-DD format or leave blank)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:249
+msgctxt "enhanced select"
+msgid "One result is available, press enter to select it."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:250
+msgctxt "enhanced select"
+msgid "%qty% results are available, use up and down arrow keys to navigate."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:251
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:252
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:253
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:254
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:255
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:256
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:257
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:258
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:259
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:260
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:271
+#, php-format
+msgid "Please enter in decimal (%s) format without thousand separators."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:272
+#, php-format
+msgid ""
+"Please enter in monetary decimal (%s) format without thousand separators and "
+"currency symbols."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:273
+msgid "Please enter in country code with two capital letters."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:274
+msgid "Please enter in a value less than the regular price."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:301
+msgid "Which product to offer?"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:302
+msgid "(Add the product and set price to offer the product)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:306
+msgid "Offered Product"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:321
+msgid ""
+"This product would be shown as an offer and on accepting this offer, this "
+"product would be added to the cart"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:325
+msgid "Offer At"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:328
+#: includes/admin/class-so-admin-offer.php:342
+msgid "Fixed Price"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:329
+msgid "Fixed Price Discount"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:330
+msgid "% Discount"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:343
+msgid "Recurring Product Discount"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:344
+msgid "Recurring Product % Discount"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:357
+msgid ""
+"Enter an amount/discount as a promotional price for the above offered "
+"product e.g. 2.99."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:385
+msgid "Where to show this offer?"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:386
+msgid ""
+"(When multiple pages are checked, offer will be shown only on that page "
+"which the user visits first)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:393
+msgid "Home page as a Popup"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:398
+msgid "Cart page"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:403
+msgid "Checkout page"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:408
+msgid "Before Order Complete"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:409
+msgid "On click of Place Order button on the checkout page"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:414
+msgid "WooCommerce Order Complete page"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:419
+msgid "My Account page"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:425
+msgid "Anywhere shortcode is added"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:426
+#, php-format
+msgid "(Offer added via shortcode will always show, %s)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:426
+msgid "know more"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:431
+#, php-format
+msgid ""
+"Insert shortcode %1$1s when you select %2$2sAnywhere shortcode is added%3$3s "
+"page option."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:455
+msgid "Show this offer..."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:472
+msgid "As Inline with page content"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:477
+msgid "As a Popup"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:730
+msgid "Actions to take when this offer is accepted:"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:736
+msgid "Add the offered product to cart"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:742
+msgid "Remove these products from cart"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:772
+msgid "Apply coupons"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:774
+msgid "Search for a coupon&hellip;"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:803
+msgid ""
+"Do not apply any coupon on this offered product when added via this offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:806
+msgid ""
+"If a coupon is applied to the cart/checkout, that coupon's discount will not "
+"be applied on the offered product added via this offer."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:815
+msgid "Show another (Upsell) offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:817
+#: includes/admin/class-so-admin-offer.php:915
+msgid "Search for an offer&hellip;"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:835
+msgid ""
+"Offer to be shown if this offer is accepted. If multiple offers are chosen, "
+"one will be shown based on your settings."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:841
+#: includes/admin/class-so-admin-offer.php:953
+msgid "Redirect to a URL"
+msgstr ""
+
+#. Author URI of the plugin
+#: includes/admin/class-so-admin-offer.php:843
+#: includes/admin/class-so-admin-offer.php:956
+msgid "https://www.storeapps.org/"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:858
+#: includes/admin/class-so-admin-offer.php:881
+#: includes/admin/class-so-admin-offer.php:965
+#: includes/admin/class-so-admin-offer.php:988
+#, php-format
+msgid "Instantly checkout with %s plugin"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:858
+#: includes/admin/class-so-admin-offer.php:872
+#: includes/admin/class-so-admin-offer.php:881
+#: includes/admin/class-so-admin-offer.php:965
+#: includes/admin/class-so-admin-offer.php:979
+#: includes/admin/class-so-admin-offer.php:988
+#: includes/admin/class-so-admin-welcome.php:361
+msgid "Buy Now"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:872
+#: includes/admin/class-so-admin-offer.php:979
+#, php-format
+msgid "Enable one click checkout with %s plugin"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:901
+msgid "Actions to take when this offer is skipped:"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:907
+msgid "Hide this offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:913
+msgid "Show another (Downsell) offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:934
+msgid ""
+"Offer to be shown if this offer is skipped. If multiple offers are chosen, "
+"one will be shown based on your settings."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:940
+msgid "Redirect to page"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:997
+msgid ""
+"<strong>&nbsp;&nbsp;Hide Forever From This User</strong> - Never show this "
+"offer to a customer again if skipped once"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1021
+msgid "Show this offer on checkout page at"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1033
+msgid "position"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1036
+msgid "Before place order button"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1037
+msgid "After place order button"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1069
+msgid "Add content for order bump offer..."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1076
+msgid "CTA"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1080
+msgid ""
+"Enter text to show next to the checkbox. This will be shown as accept CTA. "
+"Leaving it blank will show placeholder as the default text."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1088
+msgid "Headline"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1089
+msgid "ONE TIME OFFER!."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1092
+msgid "This style does not support headline."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1096
+msgid ""
+"Enter headline for the order bump offer. Leaving it blank will show "
+"placeholder as the default text."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1104
+msgid "Content"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1107
+msgid ""
+"Enter content for the order bump offer. Leaving it blank will show "
+"placeholder as the default text."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1123
+msgid "Offer Image"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1140
+msgid "Set Image"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1145
+msgid "This style does not support image."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1172
+msgid "Choose style for order bump offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1279
+msgid "Write custom CSS for this offer "
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1280
+msgid ""
+"(Use <b>#so_this_offer</b> selector before any other selector when writing "
+"custom CSS)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1329
+msgid "Default style"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1332
+msgid "Style 1"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1335
+msgid "Style 2"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1338
+msgid "Style 3"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1341
+msgid "Style 4"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1342
+msgid ""
+"This style is recommended for single column checkout page. Not recommended "
+"if you have two column checkout page."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1374
+msgid "Select priority for offer:"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1378
+msgid "Highest"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1379
+msgid "High"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1380
+msgid "Low"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1381
+msgid "Lowest"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1382
+msgid "Default"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1392
+msgid ""
+"Sometimes offer rules can be set up in a way that multiple offers get "
+"displayed on a page. In such cases, \"Offer Priority\" is used to determine "
+"offers will show in which order."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1393
+msgid "Offers with priority:"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1396
+msgid "Highest => Show first"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1399
+#, php-format
+msgid "Default => Show as per setting in %s."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1399
+msgid "Multiple Offers on page? Show offer with..."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1468
+msgid ""
+"To use the following shortcodes, copy and paste them in the Offer content > "
+"Content."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1470
+msgid ""
+"To use the following shortcodes, copy and paste them in the offer content."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1476
+#: includes/admin/class-so-admin-welcome.php:562
+#: includes/admin/class-so-admin-welcome.php:572
+msgid "[so_product_name]"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1477
+msgid "To show product name in the offer."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1480
+#: includes/admin/class-so-admin-welcome.php:579
+#: includes/admin/class-so-admin-welcome.php:589
+msgid "[so_product_short_description]"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1481
+msgid "To show short description of the product in the offer."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1484
+#: includes/admin/class-so-admin-welcome.php:497
+msgid "[so_quantity allow_change=true]"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1485
+msgid ""
+"To show quantity box in the offer, allowing your customer's to select "
+"multiple quantities of the offered product."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1491
+#: includes/admin/class-so-admin-welcome.php:508
+#: includes/admin/class-so-admin-welcome.php:518
+msgid "[so_price]"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1492
+msgid ""
+"To show the original price & the new price of the offered product in the "
+"offer. Add only if offered product is a simple product. For the variable "
+"product, this gets automatically added."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1495
+#: includes/admin/class-so-admin-welcome.php:528
+msgid "[so_product_image]"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1496
+msgid "To show offered product image in the offer."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1501
+#, php-format
+msgid "%s to know in detail how to use these shortcodes in the offer content."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1501
+msgid "Click here"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1517
+msgid "Here are a few links that explains types of offers you can create:"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1524
+msgid "Create Giveaway offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1529
+msgid "Create Upsells, Downsell offers"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1534
+msgid "Create BOGO offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1539
+msgid "Setup One Click Upsell"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1544
+msgid "Create offer to target customers based on bulk purchase / user roles"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1551
+msgid ""
+"To know more, click on orange icon (Quick Help) at the bottom of the page."
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1640
+#, php-format
+msgid " ( Type: %s )"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1984
+msgid "Offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1985
+#: includes/admin/class-so-admin-offer.php:1986
+#: includes/admin/class-so-admin-offers.php:178
+msgid "Order Bump"
+msgstr ""
+
+#: includes/admin/class-so-admin-offer.php:1987
+msgid ""
+"Do you really want to change order bump layout? Changing layout will reset "
+"custom CSS back to default for that style."
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:62
+msgid "Setting & Styles"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:63
+msgid "Docs & Support"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:64
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:216
+#, php-format
+msgid "%s Seen: %d"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:217
+#, php-format
+msgid "%s Skipped: %d"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:218
+#, php-format
+msgid "%s Accepted: %d"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:219
+#, php-format
+msgid "%s Paid: %d"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:244
+msgid "No offer to duplicate has been supplied!"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:266
+msgid "Offer creation failed, could not find original product:"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:320
+msgid "(Duplicate)"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:447
+msgid "Reset All Quick Stats"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:520
+msgid "Smart Offers Statistics have been reset successfully"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:536
+msgid "Shortcode to show Product Variations is added in the Offer Description."
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:550
+msgid "Product"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:551
+msgid "Offer Type"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:552
+msgid "Upsell Offers"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:553
+msgid "Downsell Offers"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:554
+msgid "Quick Stats"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:556
+msgid "Earnings"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:626
+#: includes/admin/class-so-admin-welcome.php:226
+msgid "Available Shortcodes"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:628
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:628
+#: includes/admin/class-so-admin-welcome.php:217
+msgid "Docs"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:738
+msgid "Your current theme is not compatible with Smart Offers."
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:739
+msgid "."
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:740
+msgid "Fix this automatically"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:740
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:740
+msgid "Take to me the Documentation"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:765
+#, php-format
+msgid "ID: %d"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:774
+msgid "Preview offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:774
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:776
+msgid "Duplicate offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:776
+msgid "Duplicate"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:778
+msgid "Get embed code"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:778
+msgid "HTML"
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:824
+msgid "Embed code for this offer: "
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:824
+msgid ""
+"copy following HTML code and paste it on email or your website or however as "
+"you like."
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:830
+#: includes/frontend/class-so-init.php:245
+#: includes/frontend/class-so-init.php:838
+#: includes/frontend/class-so-offer.php:127
+msgid "The content could not be loaded."
+msgstr ""
+
+#: includes/admin/class-so-admin-offers.php:856
+msgid "Reset Quick Stats?"
+msgstr ""
+
+#: includes/admin/class-so-admin-order-contribution.php:64
+msgid "Smart Offers contribution in this order."
+msgstr ""
+
+#: includes/admin/class-so-admin-pointers.php:54
+msgid "After Checkout might not work with your Payment Gateway."
+msgstr ""
+
+#: includes/admin/class-so-admin-pointers.php:55
+msgid ""
+"This may not work with all your payment gateways. It may not work if your "
+"site accepts on-site payments like with Paypal Pro or Stripe. It works with "
+"default Paypal."
+msgstr ""
+
+#. Name of the plugin
+#: includes/admin/class-so-admin-post-type.php:41
+#: includes/admin/class-so-privacy.php:32
+msgid "Smart Offers"
+msgstr ""
+
+#: includes/admin/class-so-admin-post-type.php:42
+msgid "Smart Offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-post-type.php:43
+#: includes/admin/class-so-admin-post-type.php:44
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/class-so-admin-post-type.php:45
+msgid "Edit Offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-post-type.php:46
+msgid "New Offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-post-type.php:47
+msgid "Search Offers"
+msgstr ""
+
+#: includes/admin/class-so-admin-post-type.php:48
+msgid "No offers found"
+msgstr ""
+
+#: includes/admin/class-so-admin-post-type.php:49
+msgid "No offers found in Trash"
+msgstr ""
+
+#: includes/admin/class-so-admin-post-type.php:50
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-so-admin-post-type.php:51
+msgid "Parent offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-post-type.php:52
+msgid "All Offers"
+msgstr ""
+
+#: includes/admin/class-so-admin-post-type.php:53
+msgid "Smart Offers "
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:76
+msgid "Smart Offers Settings & Styles"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:86
+msgid "Show offers for hidden product"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:89
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:90
+msgid "No"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:95
+msgid "Multiple offers on page? Maximum offers to show..."
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:101
+msgid "Multiple offers on page? Show offer with..."
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:105
+msgid "Higher price"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:109
+msgid "Lower price"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:113
+msgid "Pick one randomly"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:118
+msgid "Update offered product's quantity"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:123
+msgid ""
+"Allow updating offered product's quantity in the cart after an offer is "
+"accepted."
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:125
+msgid "Disabling this will set fixed quantity as 1."
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:129
+msgid "Styles"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:133
+msgid "Styles for accept button"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:148
+msgid "Button Style 1"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:164
+msgid "Button Style 2"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:180
+msgid "Button Style 3"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:196
+msgid "Custom style"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:216
+msgid "Styles for skip link"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:227
+msgid "Save Settings"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:279
+msgid "Re-import ready offers?"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:284
+msgid ""
+"Smart Offers has 5 designed and ready-to-use offers. By default, those "
+"offers are already added."
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:285
+msgid "Incase you have deleted them and want to re-import, click this button"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:289
+msgid "Import offers now"
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:338
+msgid "Your settings have been saved.."
+msgstr ""
+
+#: includes/admin/class-so-admin-setting.php:341
+msgid "Oops, unable to update."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:166
+#, php-format
+msgid "Thank you for installing Smart Offers %s!"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:168
+msgid ""
+"Glad to have you onboard. We hope Smart Offers adds to your desired success 🏆"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:181
+#, php-format
+msgid "Hey %s 😊"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:184
+msgid ""
+"To get you started quickly, we have created <b>some amazing offer designs</b>"
+" for you."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:185
+msgid ""
+"They are ready to use. All you need to do is fill in the product and offer "
+"rules and then you are good to go."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:187
+#: includes/admin/class-so-admin-welcome.php:203
+msgid "Click to view these offers"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:195
+msgid "New Offer Designs 😊"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:198
+#, php-format
+msgid "Hey %s,"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:199
+msgid "We have created some amazing offer designs for you."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:200
+msgid ""
+"They are ready to use. So all you need to do is fill in the product & rules "
+"and you are good to go."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:209
+msgid "Go to All Offers"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:223
+msgid "Get to Know"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:247
+msgid "What is Smart Offers?"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:249
+msgid ""
+"Smart Offers is a WooCommerce extension that lets you create powerful, "
+"profit boosting sales funnels. Sell more to customers while they are making "
+"another purchase. Use <code>upsells, cross-sells, downsells, one time offers "
+"and backend promotions</code> for targeted customers."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:252
+msgid ""
+"If the customer does not accept your upsell offer, you can give them another "
+"offer – either a lower priced downsell or another offer that better suits "
+"your customers needs. You can link as many offers as you want like this.."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:257
+msgid "Getting Started"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:259
+msgid "How to create your first offer?"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:261
+#: includes/admin/class-so-admin-welcome.php:267
+msgid "Click here to know"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:265
+msgid "See Smart Offers in Action"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:272
+msgid "Designing offers"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:273
+msgid ""
+"Want to design your offers like professionals? Check out following links:"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:277
+msgid "Smart Offers took away your biggest obstacle – Designing Offers"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:282
+msgid "Create Awesome Looking Offers In Few Minutes"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:289
+msgid "Types of offers you can create using Smart Offers"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:293
+msgid "Giveaway offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:298
+msgid "Upsells & Downsell offers"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:303
+msgid "BOGO offer"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:308
+msgid "Offer to target customers based on bulk purchase / user roles"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:312
+msgid "and many more..."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:318
+msgid "Must have plugins to use with Smart Offers:"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:322
+msgid "WooCommerce Buy Now"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:327
+msgid "WooCommerce Custom Thank You Pages"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:332
+msgid "WooCommerce Marketing Bundle"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:337
+msgid "WooCommerce Chained Products"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:343
+msgid "Use Smart Offers with Popular Page Builders"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:347
+msgid "Smart Offers now Integrates with Beaver Builder"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:352
+msgid "Smart Offers now Integrates with Elementor"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:358
+msgid "How to do <code>one-click purchase/upsell</code>?"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:360
+msgid "Use Smart Offers with our "
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:362
+msgid " plugin. Know more:"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:368
+msgid "Create one-click Upsells in WooCommerce"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:373
+msgid "One click requirements"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:382
+msgid "Explore all 20+ plugins from StoreApps"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:385
+msgid "Yes, show me"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:407
+msgid ""
+"Smart Offer has a few custom shortcodes that you can use anywhere in the "
+"offer content while designing an offer."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:412
+msgid "1) "
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:413
+#: includes/admin/class-so-admin-welcome.php:446
+msgid "[so_show_offers]"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:416
+msgid ""
+"In addition to default page option i.e Home, Cart, Checkout, Order Received, "
+"My Account, you can show offers on any other page by using the shortcode "
+"[so_show_offers]"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:419
+#: includes/admin/class-so-admin-welcome.php:460
+msgid "Shortcode Attributes"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:424
+#: includes/admin/class-so-admin-welcome.php:465
+msgid "Attributes"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:425
+#: includes/admin/class-so-admin-welcome.php:466
+msgid "Values"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:426
+#: includes/admin/class-so-admin-welcome.php:467
+msgid "Description"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:431
+msgid "display_as"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:432
+msgid "inline"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:432
+msgid "popup"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:433
+msgid ""
+"It determines how to display the offer. If no value is passed then value "
+"would be taken from the option saved in “Which page/pages to show offer on ->"
+" Show offer as” of the offer that will be shown."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:436
+msgid "offer_ids"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:437
+msgid "Comma separated offer_ids"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:438
+msgid ""
+"It will show one of the offer from the ids mentioned in this argument. If no "
+"value is passed, then Smart Offers will fetch all offers having option “Any "
+"other page where shortcode is added” ticked under “Which page/pages to show "
+"offer on -> Show offer on” and show one of the offer satisfying Offer rules "
+"and Smart Offers Settings."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:443
+#: includes/admin/class-so-admin-welcome.php:494
+#: includes/admin/class-so-admin-welcome.php:514
+#: includes/admin/class-so-admin-welcome.php:548
+#: includes/admin/class-so-admin-welcome.php:568
+#: includes/admin/class-so-admin-welcome.php:585
+#: includes/admin/class-so-admin-welcome.php:605
+#: includes/admin/class-so-admin-welcome.php:622
+#: includes/admin/class-so-admin-welcome.php:645
+msgid "Example Usage,"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:447
+msgid "[so_show_offers offer_ids=\"10\"]"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:448
+msgid "[so_show_offers display_as=\"popup\" offer_ids=\"1,2,3\"]"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:453
+msgid "2) "
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:454
+msgid "[so_quantity]"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:457
+msgid ""
+"Shortcode [so_quantity] will show quantity box in the offer, allowing your "
+"customer to select the quantity of the offered product."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:472
+msgid "value"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:473
+#: includes/admin/class-so-admin-welcome.php:478
+#: includes/admin/class-so-admin-welcome.php:483
+msgid "-"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:474
+msgid "It defines what should be the quantity value. Default is 1."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:477
+msgid "min"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:479
+msgid ""
+"It defines what should be the minimum quantity that your customer can select."
+" Default is 1."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:482
+msgid "max"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:484
+msgid ""
+"It defines what should be the maximum quantity that your customer can select."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:487
+msgid "allow_change"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:488
+msgid "true"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:488
+msgid "false"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:489
+msgid ""
+"It defines whether you want to allow your customer to change the quantity or "
+"not and indirectly determining whether to show quantity in the offer or not. "
+"Default is false."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:498
+msgid "[so_quantity value=2 max=10 allow_change=true]"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:499
+msgid "[so_quantity min=2 allow_change=true max=6]"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:507
+msgid "3) "
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:511
+msgid ""
+"Shortcode [so_price] will show the original price & the new price of the "
+"offered product in the offer."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:522
+msgid ""
+"<b>Note</b>: This shortcode is to be used only if offered product is a <b>"
+"Simple</b> product. If offered product is a Variable product, the price will "
+"be included and shown by default i.e. you do not need to write this "
+"shortcode if offered product is a Variable product."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:527
+msgid "4) "
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:531
+msgid ""
+"Shortcode [so_product_image] will show default image of the product in the "
+"offer."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:536
+msgid "Attribute"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:537
+msgid "Default Value"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:542
+msgid "image"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:543
+msgid "yes"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:552
+msgid "[so_product_image image=\"yes\"]"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:561
+msgid "5) "
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:565
+msgid ""
+"Shortcode [so_product_name] will show offered product name in the offer."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:578
+msgid "6) "
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:582
+msgid ""
+"Shortcode [so_product_short_description] will show short description of the "
+"offered product in the offer."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:598
+msgid "7) "
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:599
+msgid "[so_acceptlink]"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:602
+msgid ""
+"Shortcode [so_acceptlink] will generate an accept url for the offer. You "
+"need to pass offer id in the shortcode to generate offer specific link."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:609
+msgid "&lta href=\"[so_acceptlink offer_id=23]\"&gtYes, Add to Cart&lt/a&gt"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:615
+msgid "8) "
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:616
+msgid "[so_skiplink]"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:619
+msgid ""
+"Shortcode [so_skiplink] will generate an skip url for the offer. You need to "
+"pass offer id in the shortcode to generate offer specific link."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:626
+msgid "&lta href=\"[so_skiplink offer_id=23]\"&gtNo, Skip this&lt/a&gt"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:635
+msgid "9) "
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:636
+#: includes/admin/class-so-admin-welcome.php:649
+msgid "[so_product_variants]"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:639
+msgid ""
+"Shortcode [so_product_variants] will show the variation option for the "
+"parent variable product."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:642
+msgid ""
+"If you want to let your customer select which variation product they would "
+"want as an offer, then add parent variable product in Offered product and "
+"shortcode [so_product_variants] in the offer description."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:658
+#, php-format
+msgid "It is explained in detail here: %s."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:658
+msgid "Shortcode Reference"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:674
+msgid "FAQ / Common Problems"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:679
+msgid ""
+"1. When I click on accept or skip link in the offer, I get a 404 page not "
+"found error and nothing is added to the cart."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:680
+msgid ""
+"Edit that offer and go to offer content. Switch to Text tab and check if the "
+"accept and skip shortcodes are in the following format:<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t<code>For accept: &lta href=”[so_acceptlink "
+"offer_id=23]”&gt</code><br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t<code>For skip: &lta href=”[so_skiplink offer_id=23]"
+"”&gt</code><br><br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\tIf not in above format, convert if and then save the "
+"offer (Here offer_id is the id of the current offer). Then check the offer. "
+"Accept & Skip link will work correctly now."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:686
+msgid "2. I can’t see offer preview when I click on ‘Preview Changes’ button."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:687
+msgid ""
+"De-activate and re-activate Smart Offers once and then have a check if it is "
+"working. If it is still not working, save your permalinks once i.e. go to "
+"WordPress Dashboard -> Settings > Permalinks and click on ‘Save Changes‘. It "
+"will work after that."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:690
+msgid "3. Offer is not showing up / I can't see the offer."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:691
+msgid ""
+"Please check:<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t1. if you are not using the <a href=\"https://www."
+"storeapps.org/docs/so-changelog/?"
+"utm_source=so&utm_medium=in_app&utm_campaign=view_docs_welcome_page\" "
+"target=\"_blank\">latest version</a> of Smart Offers<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t2. if the Offered Product field while creating an "
+"offer is empty<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t3. if the Offered Product is Hidden and option Show "
+"Offer for hidden products in Woocommerce -> Settings -> Smart Offers is set "
+"to No<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t4. if the Offered Product is out of stock<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t5. if none of the option is ticked in Which page/s "
+"to show this offer on<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t6. if the Offer does not satisfy the offer rules<br>"
+"\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t7. try switching from Inline to Popup and vice-"
+"versa<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t8. if you have multiple rules in the offer, then "
+"make sure all offer rules are getting satisfied as all rules use AND "
+"operation (check more from <a href=\"https://www.storeapps.org/docs/so-when-"
+"to-show-this-offer/?"
+"utm_source=so&utm_medium=in_app&utm_campaign=view_docs_welcome_page\" "
+"target=\"_blank\">here</a>)<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t9. if a customer has already accepted or skipped "
+"that offer because an offer is visible only once to a customer in that "
+"particular session. The customer can again see the same offer when they log "
+"in again (registered users). For guest users, the same offer will be visible "
+"again when they close the browser and open it again i.e. upon visiting your "
+"site next next time<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t10. if there is any error in browser’s console (open "
+"browser console in Chrome using Ctrl+Shift+j). Check from where those errors "
+"are coming from (most of the time it is your theme or any other plugin "
+"activated) and resolve them\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t11. if you are using any caching plugin, clear cache "
+"from that plugin. Also clear cache from your browser and then have a "
+"check<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t12. conflict with any other plugin or your theme. "
+"Check our <a href=\"https://www.storeapps.org/docs/self-service-guide/?"
+"utm_source=so&utm_medium=in_app&utm_campaign=view_docs_welcome_page\" "
+"target=\"_blank\">Self Service Guide</a> to find and resolve conflict with "
+"other plugins/theme<br>"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:706
+msgid ""
+"4. For Variable Product, I’m not able to select Variations (or not visible / "
+"or broken) from the drop down in the Offer."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:707
+msgid ""
+"Please make sure:<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t1. you have saved Variations correctly in the "
+"Variable Product<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t2. if you can select the Variations on the Variable "
+"Product Page<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t3. you have shortcode [so_product_variants] written "
+"inside the offer content<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t4. <b>you have not added any custom attributes for "
+"that variable product, as currently Smart Offers doesn't support custom "
+"attributes</b><br><br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\tIf you still can’t see Variations even after "
+"performing above steps, then it might be possible that Smart Offer is either "
+"conflicting with your theme or any other plugin. To verify, de-activate all "
+"your plugins except WooCommerce & Smart Offers and switch your current theme "
+"to default WordPress theme ( Storefront / 2017 ) and then have a check with "
+"the functionality (Refer <a href=\"https://www.storeapps.org/docs/self-"
+"service-guide/?"
+"utm_source=so&utm_medium=in_app&utm_campaign=view_docs_welcome_page\" "
+"target=\"_blank\">Self Service Guide</a> for detailed steps).<br><br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t\tIf you can then select Variations from the drop down,"
+" then keep on activating other plugins one-by-one to find the conflicting "
+"plugin and then theme at the end and then check if it is working.<br>"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:716
+msgid ""
+"5. Even after accepting / skipping an offer, the same offer is showing? / "
+"Offer keeps on showing up?"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:717
+msgid ""
+"Are you using Smart Offers shortcode with offer_ids i.e. example, "
+"[so_show_offers offer_ids=\"109\"]?<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\tIf yes, then that is the reason for re-execution of "
+"the same offer. On accepting / skipping the offer, page is getting refreshed."
+" WordPress then re-executes the content written in the editor and since "
+"shortcode is written inside editor, show offer shortcode also gets executed "
+"along with it and hence you are seeing same offer again.<br><br>\n"
+"\t\t\t\t\t\t\t\t\t\t\tTo overcome this, in your offer you can configure any "
+"of the following setting,<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t– set a unique rule in the offer which will prevent "
+"the showing up of the offer.<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t– under Actions to take when offer is Accepted , "
+"select option Redirect to a URL and redirect your customers to any other "
+"page on your site after accepting the offer.<br>\n"
+"\t\t\t\t\t\t\t\t\t\t\t– under Actions to take when offer is Skipped , select "
+"option Skip & Redirect to and redirect your customers to any other page on "
+"your site after skipping the offer.<br>"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:725
+msgid ""
+"6. Once I accept / skip an offer, why I'm not able to see the same offer "
+"again?"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:726
+msgid ""
+"By default in Smart Offers if an offer is accepted / skipped, then the same "
+"offer won’t be visible until the customer logs in again (registered users) i."
+"e. an offer will be visible only once in that particular session. For guest "
+"users, the same offer will be visible again when they close the browser and "
+"open it again i.e. upon visiting your site next next time."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:729
+msgid ""
+"7. I have setup offer to display as Popup but it shows as an Inline Offer."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:730
+msgid ""
+"Have you selected multiple offers to show on that same page? If yes, then it "
+"is behaving correctly i.e. when you show multiple offers on one page, all "
+"offers will be shown as “Inline”."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:733
+msgid ""
+"8. I have added shortcode <code>[so_quantity]</code> but quantity box "
+"doesn't appear in offer."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:734
+msgid ""
+"That is because you haven't added any parameter to the shortcode. To show "
+"quantity in the offer, add <code>[so_quantity allow_change=true]</code>, "
+"this will show quantity box in the offer."
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:737
+msgid "9. How can I check Conversion rate of my offers?"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:738
+#, php-format
+msgid "Refer this: %s"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:738
+msgid "How to check Earnings from Smart Offers"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:741
+msgid "10. I still have questions?"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:742
+#, php-format
+msgid ""
+"<span style=\"font-size: 1.5em;\">Check more FAQ's from %1s or %2s </span>"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:742
+msgid "here"
+msgstr ""
+
+#: includes/admin/class-so-admin-welcome.php:742
+msgid "Contact Us"
+msgstr ""
+
+#: includes/admin/class-so-privacy.php:39
+msgid "What we store?"
+msgstr ""
+
+#: includes/admin/class-so-privacy.php:40
+msgid "If an offer is shown and accepted or skipped, we save the offer ids."
+msgstr ""
+
+#: includes/admin/class-so-privacy.php:41
+msgid "Where we store?"
+msgstr ""
+
+#: includes/admin/class-so-privacy.php:43
+msgid "If you are logged in: We store it in your WooCommerce session."
+msgstr ""
+
+#: includes/admin/class-so-privacy.php:44
+msgid "If you are a visitor: We add a cookie in your browser."
+msgstr ""
+
+#: includes/admin/class-so-privacy.php:46
+msgid "Delete Personal Data"
+msgstr ""
+
+#: includes/admin/class-so-privacy.php:48
+msgid ""
+"For deleting personal data for logged in, logout from your WooCommerce "
+"account and close your browser."
+msgstr ""
+
+#: includes/admin/class-so-privacy.php:49
+msgid ""
+"For deleting personal data of a visitor, a visitor can simply delete cookies "
+"from their browser."
+msgstr ""
+
+#: includes/frontend/class-so-init.php:315
+msgid "An error has occured. Please try again later."
+msgstr ""
+
+#: includes/frontend/class-so-init.php:455
+#: includes/frontend/class-so-init.php:565
+#, php-format
+msgid "Product %s is removed, because it is not valid for your cart contents."
+msgstr ""
+
+#: includes/frontend/class-so-init.php:823
+msgid "Unable to save checkout form data."
+msgstr ""
+
+#: includes/frontend/class-so-init.php:970
+msgid "This offer is not valid for you."
+msgstr ""
+
+#: includes/frontend/class-so-shortcodes.php:235
+msgid "Choose an option"
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:65
+msgid "Quick Feedback for Smart Offers plugin"
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:66
+msgid "Take a moment to let us know why you are deactivating"
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:67
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:68
+msgid "Deactivate"
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:69
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:70
+msgid "Yes - Deactivate"
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:71
+msgid "Submit a reason to deactivate"
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:72
+msgid "Please select an option"
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:101
+msgid "This plugin is not working for me."
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:103
+msgid "Kindly share what did not work for you so we can fix it..."
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:107
+msgid ""
+"This plugin is not compatible / conflicting with another plugin that I use."
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:109
+msgid ""
+"Kindly let us know with which other plugin it is the not compatible / "
+"conflicting with..."
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:113
+msgid ""
+"The plugin is great, but I need specific feature that you don't support."
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:115
+msgid "Kindly let us know what specific feature you need."
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:119
+msgid "I found another plugin for my needs."
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:121
+msgid "Kindly let us know which is that other plugin."
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:125
+msgid "It is a temporary deactivation. I am just debugging an issue."
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:131
+msgid "Other"
+msgstr ""
+
+#: includes/admin/deactivation-survey/class-so-admin-deactivation.php:133
+msgid "Please mention..."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"<strong>WooCommerce Smart Offers</strong> lets you earn more by creating a "
+"powerful sales funnel of upsells, downsells, backend and order bump offers. "
+"Show special offers on any page of your choice."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.storeapps.org/product/smart-offers/"
+msgstr ""
+
+#. Author of the plugin
+msgid "StoreApps"
+msgstr ""

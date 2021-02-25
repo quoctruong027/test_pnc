@@ -1,0 +1,18 @@
+div#etcpf_colorbox {
+	width: 460px !important;
+	margin: auto;
+	right: 0;
+	border-radius: 4px;
+	top: 50% !important;
+	transform: translateY(-50%);
+}
+div#etcpf_cboxWrapper {
+    width: 100% !important;
+}
+div#etcpf_cboxContent {
+    width: 100% !important;
+    padding-left: 15px;
+}
+div#etcpf_cboxLoadedContent {
+    width: 100% !important;
+}

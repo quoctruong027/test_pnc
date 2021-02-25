@@ -1,0 +1,31 @@
+
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error {
+
+  .xt_woofc & {
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 0 !important;
+    border: 0 !important;
+
+    &:empty{
+      display:none;
+    }
+
+    &::before {
+      top: 50% !important;
+      transform: translateY(-50%);
+    }
+  }
+
+  .xt_woofc-body-header &,
+  .xt_woofc-list-wrap &{
+    margin: 0 0 2px !important;
+  }
+
+  .xt_woofc-body-footer &{
+    margin: 0 0 var(--xt-woofc-list-gutter);
+  }
+}
+

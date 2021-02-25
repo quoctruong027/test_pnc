@@ -1,0 +1,70 @@
+== Tracking Per item Add-on Changelog ==
+
+November 11, 2020 - version 1.3.8
+* Enhancement - Updated Licensing system design
+* Enhancement - Updated settings page design
+
+October 7, 2020 - version 1.3.7
+* Dev - Update REST API functionality so user can add multiple products in single api call
+
+October 2, 2020 - version 1.3.6
+* Fix - Hide product table if Enable the Tracking Per Item option by default is not checked
+* Dev - Change text domain from 'woo-advanced-shipment-tracking' to 'tpi'
+* Dev - Added options on a seperate panel in AST general settings
+* Enhancement - Updated design of Tracking per item table in add tracking form
+
+September 10, 2020 - version 1.3.5
+* Fix - Call to a member function get_sku() on bool in ast-tracking-per-order-items/ast-tracking-per-order-items.php:307
+* Dev - Added options in AST general settings
+
+September 1, 2020 - version 1.3.4
+* Enhancement - Update License tab design
+* Enhancement - Added SKU in product list in add tracking form
+
+July 27, 2020 - version 1.3.3
+* Dev - Update Trackship class when adding tracking info
+
+July 03, 2020 - version 1.3.2
+* Dev - Add Tracking Per Item Addon license form code here
+* Dev - Optimize licensing system
+* Fix - Fixed issue when deacativate license from User's My Account it automatically deactivate from here
+
+June 28, 2020 - version 1.3.1
+* Dev - Moved Licence activation code in Tracking Per Item Addon
+
+June 26, 2020 - version 1.3.0
+* Dev - Updated plugin code for better security and optimize
+
+May 11, 2020 - version 1.2.9
+* Fix - Fixed vlidation issue when Tracking Per Item checkbox is unchecked 
+
+April 22, 2020 - version 1.2.8
+* Fix - Fixed warning - Undefined index: tracking_per_item_hide_tracking_order_line_items in /wp-content/plugins/ast-tracking-per-order-items/ast-tracking-per-order-items.php on line 908
+
+April 20, 2020 - version 1.2.7
+* Dev - If tracking info added for all product in same tracking than not show tracking per item
+* Enhancement - Added checkbox in tracking info form to remove tracking per item
+
+March 25, 2020 - version 1.2.6
+* Added functionality for display tracking info in order line item details in email and my account
+* Added option in Tracking display customizer for hiding tracking info in email and my account order line items
+
+March 20, 2020 - version 1.2.4
+* Added functionality for display tracking info in single order line item details
+
+March 02, 2020 - version 1.2.3
+* Fixed error - Call to a member function get_name() on bool in ast-tracking-per-order-items.php:657
+* Update code for ast plugin version check
+
+February 26, 2020 - version 1.2.2
+* Fixed issue with variable product in order items
+
+February 19, 2020 - version 1.2.1
+* Fixed warning - Undefined variable: table_content_font_size in ast-tracking-per-order-items/ast-tracking-per-order-items.php on line 651
+
+December 20, 2019 - version 1.1.0
+* New - removed the checkbox for the line items and added quantity selection to allow attach tracking numbers to line item quantities.
+* Tweak - added validation for the Add Tracking form in case 0 products selected
+
+December 01, 2019 - version 1.0.0
+* Launch it!

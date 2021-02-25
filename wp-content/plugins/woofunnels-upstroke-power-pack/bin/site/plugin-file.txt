@@ -1,0 +1,26 @@
+<?php
+return array(
+	'{{{PLUGIN_HEADERS}}}'  => '/**
+ * Plugin Name: UpStroke PowerPack
+ * Plugin URI: https://buildwoofunnels.com
+ * Description: This provides UpStroke dynamic shipping, subscriptions, multiple products and reporting features to your store.
+ * Version: {{{VERSION}}}
+ * Author: {{{AUTHOR}}}
+ * Author URI: {{{AUTHOR_URI}}}
+ * Text Domain: woofunnels-upstroke-power-pack
+ * Domain Path: /languages/
+ *
+ * Requires at least: 5.0.0
+ * Tested up to: 5.5.4
+ * WC requires at least: 4.5.0
+ * WC tested up to: 4.8.0
+ * WooFunnels: true
+ */',
+	'{{{VERSION}}}'         => '1.6.0',
+	'{{{AUTHOR}}}'          => 'WooFunnels',
+	'{{{AUTHOR_URI}}}'      => 'https://buildwoofunnels.com/',
+	'{{{LOAD_COMMONS}}}'    => '',
+	'{{{LOAD_HOOKS}}}'      => '',
+	'{{{INCLUDE_CLASSES}}}' => '',
+	'{{{END_PLUGIN_FILE}}}' => '',
+);

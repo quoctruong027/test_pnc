@@ -1,0 +1,110 @@
+<?php
+
+/** 
+ * Plugin Name: Next-Cart Product Data Feed
+ * Description: Keep Product Data Feed updated in real-time.
+ * Version: 1.0.0
+ * Author: Next-Cart
+ * Author URI: https://next-cart.com
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * 
+ * WC requires at least: 3.0
+ * WC tested up to: 4.2
+ */
+
+defined('ABSPATH') or die();
+
+if (!defined('NCF_PLUGIN_URL')) {
+    define('NCF_PLUGIN_URL', plugins_url() . '/' . trim(dirname(plugin_basename(__FILE__)), '/'));
+}
+if (!defined('NCF_PLUGIN_PATH')) {
+    define('NCF_PLUGIN_PATH', dirname(__FILE__) . '/');
+}
+
+class NcFeed {
+    
+    protected static $_instance = null;
+    
+    public static function instance() {
+        if (is_null(self::$_instance)) {
+            self::$_instance = new self();
+        }
+        return self::$_instance;
+    }
+    
+    public function __construct() {
+        if (is_admin()) {
+            include_once NCF_PLUGIN_PATH . 'includes/class-nc-admin.php';
+        }
+        $this->define_constants();
+		$this->includes();
+        $this->init_hooks();
+    }
+    
+    private function define_constants() {
+        $upload_dir = wp_upload_dir( null, false );
+        if (!defined('NC_LOG_DIR')) {
+            define('NC_LOG_DIR', $upload_dir['basedir'] . '/nc-logs/');
+        }
+    }
+	
+	private function includes() {
+        include_once NCF_PLUGIN_PATH . 'includes/class-nc-template.php';
+    }
+    
+    private function init_hooks() {
+        register_activation_hook(__FILE__, array(&$this, 'install'));
+		add_action('wp_head', array('NCF_Template', 'add_base_pixel'));
+		add_action('woocommerce_after_single_product', array('NCF_Template', 'product_page'));
+		add_action('woocommerce_single_product_lightbox_summary', array('NCF_Template', 'product_quickview'));
+		add_action('woocommerce_after_cart', array('NCF_Template', 'cart_page'));
+		add_action('woocommerce_after_checkout_form', array('NCF_Template', 'checkout_page'));
+		add_action('woocommerce_thankyou', array('NCF_Template', 'thankyou_page'));
+		add_action('wc_ajax_nc_add_to_cart_event', array('NCF_Template', 'nc_add_to_cart_event' ));
+		add_action('woocommerce_add_to_cart', array('NCF_Template', 'nc_echo_add_to_cart_event' ));
+		add_action('woocommerce_after_cart', array('NCF_Template', 'nc_echo_add_to_cart_event' ));
+    }
+    
+    public function install() {
+        $this->create_files();
+        $this->create_options();
+    }
+    
+    private static function create_files() {
+        $files = array(
+            array(
+                'base' => NC_LOG_DIR,
+                'file' => 'product_data_feed.log',
+                'content' => '',
+            ),
+            array(
+                'base' => NC_LOG_DIR,
+                'file' => '.htaccess',
+                'content' => 'deny from all',
+            ),
+            array(
+                'base' => NC_LOG_DIR,
+                'file' => 'index.html',
+                'content' => '',
+            ),
+        );
+        foreach ($files as $file) {
+            if (wp_mkdir_p($file['base']) && !file_exists(trailingslashit($file['base']) . $file['file'])) {
+                $file_handle = @fopen(trailingslashit($file['base']) . $file['file'], 'w'); // phpcs:ignore Generic.PHP.NoSilencedErrors.Discouraged, WordPress.WP.AlternativeFunctions.file_system_read_fopen
+                if ($file_handle) {
+                    fwrite($file_handle, $file['content']); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_read_fwrite
+                    fclose($file_handle); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_read_fclose
+                }
+            }
+        }
+    }
+    
+    private static function create_options() {
+        add_option('nextcart_feed_id', '');
+        add_option('nextcart_feed_license', '');
+        add_option('nextcart_feed_custom_id', '');
+    }
+}
+
+NcFeed::instance();

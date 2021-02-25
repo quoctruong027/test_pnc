@@ -1,0 +1,184 @@
+@font-face{font-family:'pseoicons';src:url(fonts/pseoicons.eot?20200704001);src:url(fonts/pseoicons.eot?20200704001#iefix) format("embedded-opentype"),url(fonts/pseoicons.ttf?20200704001) format("truetype"),url(fonts/pseoicons.woff?20200704001) format("woff"),url(fonts/pseoicons.svg?20200704001#pseoicons) format("svg");font-weight:400;font-style:normal;font-display:block}
+#wpfooter{display:none}
+#wp-admin-bar-wpraiser_menu > a.ab-item{padding-left:10px!important;padding-right:10px!important}
+#wpraiser-wrapper a:focus,#wpraiser-wrapper a:active,#wpraiser-wrapper textarea:focus,#wpraiser-wrapper textarea:active,#wpraiser-wrapper input[type=text],#wpraiser-wrapper input[type=number],#wpraiser-wrapper select{outline:none!important;box-shadow:none!important}
+#wpraiser-wrapper{box-sizing:border-box;display:flex;margin:0 -6px;padding:6px 0;color:#121116;font-size:.875rem;line-height:1.5}
+#wpraiser-wrapper *{box-sizing:border-box;outline:none}
+#wpraiser-top-notices{box-sizing:border-box;display:block;clear:both;margin:0 -6px}
+#wpraiser-top-notices div:first-of-type{margin-top:22px!important}
+#wpraiser-wrapper-out .h3icon{cursor:pointer}
+.wpraiser-hidden{display:none!important}
+.wpraiser-new-row-hidden{display:none}
+.wpraiser-logo{margin-top:2px}
+.wpraiser-logo-mobile{display:none}
+.wpraiser-menu{display:flex;flex-direction:column;flex:0 0 225px;color:#121116;font-size:.875rem;line-height:1.5}
+.wpraiser-header-logo{padding:32px 0 24px;text-align:center}
+.wpraiser-menu-item{position:relative;display:block;padding:16px 44px 18px 20px;text-decoration:none;color:#121116;border-top:1px solid #E0E4E9;border-left:2px solid transparent;overflow:hidden;-webkit-transition:all 100ms ease-out}
+.wpraiser-menu-item::before{position:absolute;top:calc(50% - 12px);right:18px;text-align:center;font-size:1.4375rem;line-height:1;transition:all 150ms ease-out}
+.wpraiser-menu-item:hover::before,.wpraiser-menu-item.wpraiser-menu-active::before{color:#0D92BA;opacity:1}
+.wpraiser-menu-item-title{color:#121116;font-size:.8125rem;line-height:1.46154;font-weight:700;letter-spacing:-.08px;text-transform:uppercase}
+.wpraiser-menu-item-description{margin-top:2px;color:#72777C;font-size:.8125rem;line-height:1.23077;-webkit-transition:all 150ms ease-out}
+.wpraiser-menu .wpraiser-menu-active{color:#0D92BA;background:#fff;border-left:4px solid #0D92BA;padding-left:18px}
+[class^="wpraiser-icon-"]::before,[class*=" wpraiser-icon-"]::after,[class^="wpraiser-icon-"]::after,[class*=" wpraiser-icon-"]::before,[id^="wpraiser-nav-"]::before,[id*=" wpraiser-nav-"]::after,[id^="wpraiser-nav-"]::after,[id*=" wpraiser-nav-"]::before{font-family:'pseoicons';speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;color:#989799;text-align:center;width:1.25em;letter-spacing:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.wpraiser-icon-dashboard::before,#wpraiser-nav-dashboard::before{content:"\e900"}
+.wpraiser-icon-settings::before,#wpraiser-nav-settings::before{content:"\e947"}
+.wpraiser-icon-html::before,#wpraiser-nav-html::before{content:"\e94f"}
+.wpraiser-icon-css::before,#wpraiser-nav-css::before{content:"\e915"}
+.wpraiser-icon-js::before,#wpraiser-nav-js::before{content:"\e913"}
+.wpraiser-icon-unused::before,#wpraiser-nav-unused::before{content:"\e94e"}
+.wpraiser-icon-lazy::before,#wpraiser-nav-lazy::before{content:"\e904"}
+.wpraiser-icon-cdn::before,#wpraiser-nav-cdn::before{content:"\e930"}
+.wpraiser-icon-cache::before,#wpraiser-nav-cache::before{content:"\e92b"}
+.wpraiser-icon-fragment::before,#wpraiser-nav-fragment::before{content:"\e901"}
+.wpraiser-icon-network::before,#wpraiser-nav-network::before{content:"\e902"}
+.wpraiser-icon-tools::before,#wpraiser-nav-tools::before{content:"\e94d"}
+.wpraiser-icon-status::before,#wpraiser-nav-status::before{content:"\e936"}
+.wpraiser-icon-roles::before,#wpraiser-nav-roles::before{content:"\e951"}
+.wpraiser-icon-plugins::before,#wpraiser-nav-plugins::before{content:"\e94c"}
+.wpraiser-icon-refresh::before{content:"\e941"}
+.wpraiser-icon-add-row::before{content:"\f067"}
+
+.wpraiser-notice-info,.wpraiser-notice-success,.wpraiser-notice-danger,.wpraiser-notice-warn,.wpraiser-notice-neutral { box-shadow:0px 2px 8px 0px #EEEEEE;}
+
+.wpraiser-notice-info{position:relative;color:#444;background:#F3FAFB;margin-top:24px;border-radius:4px;overflow:hidden;border: 1px solid #b8daff; border-left: 5px solid #0D92BA;}
+.wpraiser-notice-success{position:relative;color:#444;background:#F9FDFC;margin-top:24px;border-radius:4px;overflow:hidden;border: 1px solid #c3e6cb; border-left: 5px solid #46b450;}
+.wpraiser-notice-danger{position:relative;color:#444;background:#FEFBFB;margin-top:24px;border-radius:4px;overflow:hidden;border: 1px solid #F7D6D9; border-left: 5px solid #dc3232;}
+.wpraiser-notice-warn{position:relative;color:#444;background:#fff8e5;margin-top:24px;border-radius:4px;overflow:hidden;border: 1px solid #ffeeba; border-left: 5px solid #ffb900;}
+.wpraiser-notice-neutral{position:relative;color:#444;background:#FAFAFA;margin-top:24px;border-radius:4px;overflow:hidden;border: 1px solid #D8CDE9; border-left: 5px solid #535353; }
+.wpraiser-notice-info .wpraiser-notice-title,.wpraiser-notice-info .wpraiser-notice-continue,.wpraiser-notice-info ul li{color:#0D92BA}
+.wpraiser-notice-success .wpraiser-notice-title,.wpraiser-notice-success .wpraiser-notice-continue,.wpraiser-notice-success ul li{color:#46b450}
+.wpraiser-notice-danger .wpraiser-notice-title,.wpraiser-notice-danger .wpraiser-notice-continue,.wpraiser-notice-danger ul li{color:#dc3232}
+.wpraiser-notice-warn .wpraiser-notice-title,.wpraiser-notice-warn .wpraiser-notice-continue,.wpraiser-notice-warn ul li{color:#ffb900}
+.wpraiser-notice-neutral .wpraiser-notice-title,.wpraiser-notice-neutral .wpraiser-notice-continue,.wpraiser-notice-neutral ul li{color:#535353}
+.wpraiser-page .wpraiser-notice-title{font-size:1.3rem;line-height:1.5;margin-top:10px;font-weight:700}
+.wpraiser-page .wpraiser-notice-container{padding:34px 40px 24px 40px}
+.wpraiser-page .wpraiser-notice-suptitle, .wpraiser-page .wpraiser-notice-description h3{font-weight:700;font-size:1rem;margin-bottom:6px}
+.wpraiser-page .wpraiser-notice-description h3{font-weight:700;font-size:1rem;margin-bottom:6px}
+.wpraiser-page .wpraiser-notice-description{font-size:.875rem;line-height:1.6;margin:16px 0}
+.wpraiser-page .wpraiser-notice-description ul {padding-left: 24px;padding-top: 6px;}
+.wpraiser-page .wpraiser-notice-description ul li {list-style-type: circle; list-style-position: inside; padding-left: 6px;}
+.wpraiser-page .wpraiser-notice-notes, .wpraiser-page .wpraiser-notice-continue { padding-top: 6px; }
+.wpraiser-page .wpraiser-notice-continue { padding-bottom: 14px; }
+
+.wpraiser-content{position:relative;background:#fff;padding:32px 23px 25px;flex:1 1 auto;max-width:calc(960px + 270px);border-top:1px solid #E0E4E9;border-right:1px solid #E0E4E9;border-bottom:1px solid #E0E4E9}
+.wpraiser-content h1,.wpraiser-content h2,.wpraiser-content h3,.wpraiser-content h4{margin:0;font-weight:400}
+.wpraiser-page{display:block}
+.wpraiser-section-header{position:relative;border-bottom:1px solid #E0E4E9;padding-bottom:24px}
+.wpraiser-section-header::before{content:'';position:absolute;display:block;width:48px;height:2px;bottom:-1px;left:0;background:#0D92BA}
+.wpraiser-section-header .wpraiser-title1{line-height:48px;font-size:1.625rem;font-weight:600;letter-spacing:.01em}
+.wpraiser-section-header .wpraiser-title1::before{display:inline-block;width:48px;height:48px;margin-right:24px;background:#F3FAFB;color:#0D92BA;text-align:center;border-radius:5px}
+.wpraiser-page .wpraiser-title2{line-height:24px;color:#0D92BA;padding-right:40px;font-size:1rem;font-weight:700;}
+.wpraiser-page .wpraiser-page-row{display:flex;flex-direction:row;min-height:180px}
+.wpraiser-page .wpraiser-page-col{flex:1 1 auto}
+.wpraiser-page .wpraiser-page-col-fixed{margin-left:24px;flex:0 0 325px}
+.wpraiser-page .wpraiser-option-header{position:relative;display:flex;justify-content:space-between;margin-top:48px;padding-bottom:9px;border-bottom:1px solid #E0E4E9}
+.wpraiser-page .wpraiser-fields-container{margin-top:8px}
+.wpraiser-page .wpraiser-fields-description{color:#666}
+.wpraiser-page .wpraiser-fields-container-fieldset{margin-top:16px;background:#FAFAFA;padding:20px;border:1px solid #EEEEEE;border-radius:5px;}
+.wpraiser-page .wpraiser-fields-container-fieldset-alt{padding:20px;}
+.wpraiser-field .wpraiser-field{border-top:1px solid #E0E4E9}
+.wpraiser-page .wpraiser-field-noborder{border-top:none!important;padding:0}
+.wpraiser-page .wpraiser-field{padding:20px 0;transition:opacity 150ms ease-out;border-bottom:1px dashed #CCC;}
+.wpraiser-page .wpraiser-field:first-child{padding-top:2px}
+.wpraiser-page .wpraiser-field:last-child{padding-bottom:2px;border-bottom:none;}
+.wpraiser-page .wpraiser-field h4{font-size:.875rem;line-height:1.71429}
+#wpraiser-wrapper input[type="submit"]{cursor:pointer;border:none}
+#wpraiser-wrapper .wpraiser-button{position:relative;display:block;margin-top:24px;color:#fff!important;position:relative;width:auto;padding:8px 24px;text-align:center;background:#0D92BA;box-shadow:0 4px 6px rgba(50,50,93,0.11),0 1px 3px rgba(0,0,0,0.08);text-transform:uppercase;text-decoration:none;letter-spacing:-.08px;font-weight:700;border-radius:4px;white-space:nowrap;transition:all 200ms ease-out;font-size:.8125rem;line-height:1.53846}
+.wpraiser-button:hover,.wpraiser-button:focus{background-color:#096884!important;image-rendering:optimizequality;text-rendering:optimizelegibility}
+#wpraiser-wrapper .wpraiser-page{position:relative;min-height:100vh}
+#wpraiser-wrapper .wpraiser-save-changes{position:absolute;bottom:26px;left:20px}
+#wpraiser-wrapper .wpraiser-before-saving{height:62px}
+.wpraiser-page .wpraiser-option-header .wpraiser-info-action{margin-right:8px;position:relative;height:24px;font-size:.8125rem;line-height:1.84615;letter-spacing:-.03em;font-weight:500;color:#666;white-space:nowrap;text-decoration:none;transition:all 200ms ease-out}
+.wpraiser-page .wpraiser-option-header .wpraiser-info-action::before{position:absolute;margin-left:-26px;font-size:1.125rem;line-height:1.33333}
+#wpraiser-action-refresh_account::before{transition:all 200ms ease-out;opacity:1;transform:translateY(0)}
+.wpraiser-checkbox{display:block;position:relative;padding-left:33px;margin:0;cursor:pointer}
+.wpraiser-checkbox :hover input ~ .wpraiser-checkmark{border:2px solid #121116}
+.wpraiser-checkbox input:checked ~ .wpraiser-checkmark{background-color:#0D92BA;border:2px solid #0D92BA}
+.wpraiser-checkbox input{position:absolute;left:-9999px;opacity:0;height:0;width:0}
+.wpraiser-checkbox input:checked ~ .wpraiser-checkmark:after{display:block}
+.wpraiser-checkmark:after{content:"";position:absolute;display:none;left:4px;top:0;width:4px;height:10px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(30deg)}
+.wpraiser-field label{font-weight:500}
+.wpraiser-checkmark-label{font-size:.875rem;float:left}
+.wpraiser-checkmark{position:absolute;top:2px;left:0;height:18px;width:18px;background-color:#FFF;border:2px solid #121116;border-radius:3px}
+.wpraiser-fields-container-description{clear:both;color:#666;line-height:1.5;padding:8px 0 4px}
+.wpraiser-field-description{clear:both;color:#666;font-size:.8125rem;line-height:1.5;padding:8px 0 0 34px}
+.wpraiser-field-description-left{padding-left:1px}
+.wpraiser-field-title{font-size:1rem;font-weight:500;line-height:1.5}
+.wpraiser-field-description{clear:both;color:#666;font-size:0.9rem;line-height:1.5;padding-top:4px;}
+.wpraiser-textarea .wpraiser-field-description { padding:4px 0 12px 0 }
+.wpraiser-field-description-helper {font-size:.85rem;line-height:1.5;padding:8px 0 0}
+
+.wpraiser-textarea{padding:2px 0}
+.wpraiser-textarea textarea{padding:3px 8px;resize:vertical;width:100%;min-height:210px;border:2px solid #c2cad4;font-family:monospace}
+.wpraiser-textarea textarea:focus{border:2px solid #758294}
+.wpraiser-textarea input[type=text]{padding:2px 8px;border:2px solid #c2cad4;width:100%;max-width:50%;margin:0;font-family:monospace}
+.wpraiser-textarea input[type=text]:focus{border:2px solid #758294}
+.wpraiser-textarea .wpraiser-text-limited{width:100%}
+.wpraiser-number,.wpraiser-select{display:inline-block;padding:0;width:auto;padding-bottom:0;font-weight:700}
+#wpraiser-wrapper-out .wpraiser-number{float:left;width:82px;margin:0 15px 0 0}
+#wpraiser-wrapper-out .wpraiser-select{overflow:auto}
+#wpraiser-wrapper-out .wpraiser-number,#wpraiser-wrapper-out .wpraiser-select{margin-top:6px}
+#wpraiser-wrapper-out .wpraiser-number input[type=number]{width:100%;padding:0 8px;height:36px;border:2px solid #E0E4E9;color:#121116;line-height:1.5;font-family:monospace}
+#wpraiser-wrapper-out .wpraiser-select select{color:#121116;margin:0;padding:0 30px 0 8px;height:36px;border:2px solid #E0E4E9;cursor:pointer;vertical-align:middle;max-width:100%}
+#wpraiser-wrapper-out .wpraiser-select-lifespan select{width:100px}
+#wpraiser-wrapper-out .wpraiser-select select:focus{color:#121116;border:2px solid #E0E4E9}
+#wpraiser-wrapper-out .wpraiser-select select > option{border:none}
+.wpraiser-remove-row{cursor:pointer;font-size:.8125rem;color:#dc3232;margin-right:20px}
+.wpraiser-save-row{cursor:pointer;font-size:.8125rem;color:#46b450;margin-right:20px}
+.wpraiser-icon-add-row::before{font-size:20px;color:#46b450}
+#status .wpraiser-cache-stats{margin:10px 0 0}
+#status .row-log{display:block;max-width:100%;margin:0;padding:10px 0}
+#status .row-log textarea{display:block;margin:0;padding:6px;border:none;background:#23282d;color:#ccc;height:300px;max-width:100%;overflow:auto;line-height:1.5;font-size:.8125rem;white-space:pre;font-family:monospace}
+#status .row-log textarea::-webkit-scrollbar{width:8px;height:8px;background-color:#222}
+#status .row-log textarea::-webkit-scrollbar-thumb{background-color:#000}
+#status .row-log textarea::-webkit-scrollbar-track{background-color:#999}
+.wpraiser-license-row{width:100%;max-width:100%}
+.wpraiser-license-row:first-child{margin-top:5px}
+.wpraiser-license-row:last-child{margin:20px 0 10px}
+.wpraiser-license-row .wpraiser-field-title{margin-bottom:8px}
+.wpraiser-license-row .wpraiser-text-limited{width:auto;overflow:hidden}
+.wpraiser-license-row .wpraiser-field-description-helper{clear:both}
+.wpraiser-license-row input[type=text]{max-width:100%;}
+.wpraiser-license-row .filled{background:#f0f0f0}
+#license_serial:focus{background:#FFF}
+#license_identifier:focus{background:#FFF}
+.wpraiser-footer-text { margin-top: 40px; color: #AAA; }
+
+/* jQuery UI */
+.wpraiser-page .accordion { margin-top: 16px; }
+.accordion h3.ui-accordion-header,.accordion h3.ui-accordion-header-active { color: #0D92BA; }
+.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}
+.ui-icon{display:inline-block;vertical-align:middle;margin-top:-.25em;position:relative;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}
+.ui-accordion .ui-accordion-header{display:block;cursor:pointer;position:relative;margin:8px 0 0;padding:.5em .5em .5em .7em;font-size:100%}
+.ui-accordion .ui-accordion-content{padding:0;border-top:0;overflow:auto}
+.ui-widget{font-size:1em}
+.ui-widget-content{background:#fff;color:#333;margin:0 0 16px 0;}
+.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default,.ui-button,html .ui-button.ui-state-disabled:hover,html .ui-button.ui-state-disabled:active{border:1px solid #EEEEEE;background:#FAFAFA;font-weight:400;color:#454545}
+.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus,.ui-button:hover,.ui-button:focus,.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active,a.ui-button:active,.ui-button:active,.ui-button.ui-state-active:hover{border:1px solid #EEEEEE;background:#F5F5F5;font-weight:400;color:#2b2b2b}
+.ui-icon{width:16px;height:16px}
+.ui-accordion-header-icon {margin-right: 8px; }
+.ui-icon,.ui-widget-content .ui-icon{background-image:url(images/ui-icons_444444_256x240.png)}
+.ui-state-hover .ui-icon,.ui-state-focus .ui-icon,.ui-button:hover .ui-icon,.ui-button:focus .ui-icon{background-image:url(images/ui-icons_555555_256x240.png)}
+.ui-icon-triangle-1-e{background-position:-32px -16px}
+.ui-icon-triangle-1-s{background-position:-65px -16px}
+.ui-corner-all,.ui-corner-top,.ui-corner-left,.ui-corner-tl{border-radius:4px}
+.ui-corner-all,.ui-corner-top,.ui-corner-right,.ui-corner-tr{border-radius:4px}
+.ui-corner-all,.ui-corner-bottom,.ui-corner-left,.ui-corner-bl{border-radius:4px}
+.ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br{border-radius:4px}
+.ui-state-focus:focus{outline:none}
+
+@media (max-width: 960px) {
+.wpraiser-textarea input[type=text]{max-width:100%}
+.wpraiser-license-row input[type=text]{max-width:100%;border:1px solid #c2cad4}
+}
+
+@media (max-width: 767px) {
+.wpraiser-logo{display:none}
+.wpraiser-logo-mobile{display:block;margin:10px auto 0}
+#wpraiser-wrapper-out{box-sizing:border-box;float:left;margin-top:-10px;width:100%!important}
+#wpraiser-wrapper{margin:0 4px}
+.wpraiser-menu .wpraiser-menu-active{border-left:2px solid #0D92BA}
+#wpraiser-wrapper .wpraiser-menu{flex:0 0 50px;overflow:hidden}
+#wpraiser-wrapper .wpraiser-menu-item{width:57px;height:50px;padding:0}
+.wpraiser-menu-item-title,.wpraiser-menu-item-description{display:none!important}
+}

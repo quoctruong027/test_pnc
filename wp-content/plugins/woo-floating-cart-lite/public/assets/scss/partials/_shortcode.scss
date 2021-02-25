@@ -1,0 +1,103 @@
+.xt_woofc-shortcode{
+  position: relative;
+  display: inline-block;
+
+}
+
+.xt_woofc-shortcode-link{
+
+  color: var(--xt-woofc-shortcode-text-color);
+  font-size: var(--xt-woofc-shortcode-size);
+
+  > span{
+    color: var(--xt-woofc-shortcode-text-color);
+  }
+}
+
+.xt_woofc-shortcode-icon {
+  margin: 0 0.40em 0 0;
+  &:before {
+    display: inline-block;
+    color: var(--xt-woofc-shortcode-icon-scale);
+    transform: scale(var(--xt-woofc-shortcode-icon-scale));
+  }
+}
+
+.xt_woofc-shortcode-count {
+
+  text-transform: capitalize;
+
+  + .xt_woofc-shortcode-amount:before{
+    content: '-';
+    margin: 0 0.25em;
+  }
+
+  &.xt_woofc-counter-type-badge {
+    position: absolute;
+    top: 50%;
+    background: var(--xt-woofc-shortcode-badge-bg-color);
+    color: var(--xt-woofc-shortcode-badge-color);
+    font-weight: 700;
+    width: calc(var(--xt-woofc-shortcode-size) * 0.95);
+    height: calc(var(--xt-woofc-shortcode-size) * 0.95);
+    font-size: calc(var(--xt-woofc-shortcode-size) * 0.6);
+    border-radius: 50%;
+    text-indent: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 15px;
+    transform: translateY(-50%);
+    transition: transform 0.2s, width 0.2s, height 0.2s;
+    will-change: width, height;
+    margin-top: -1px;
+
+    &.xt_woofc-counter-position-above{
+      transform: translateY(-100%) scale(var(--xt-woofc-shortcode-scale));
+    }
+
+    &.xt_woofc-counter-position-inline{
+      transform: translateY(-50%) scale(var(--xt-woofc-shortcode-scale));
+    }
+
+    &.xt_woofc-count-big{
+
+      width: calc(var(--xt-woofc-shortcode-size) * 1.5);
+      height: calc(var(--xt-woofc-shortcode-size) * 1);
+
+      + .xt_woofc-shortcode-amount:before{
+        margin: 0 0 0 2.2em;
+      }
+    }
+
+    &.xt_woofc-count-bigger{
+
+      width: calc(var(--xt-woofc-shortcode-size) * 1.8);
+      height: calc(var(--xt-woofc-shortcode-size) * 1.2);
+
+      + .xt_woofc-shortcode-amount:before{
+        margin: 0 0 0 3.2em;
+      }
+    }
+
+    span {
+      list-style: none;
+      position: absolute;
+      margin: 0;
+      left: 50%;
+      top: 50%;
+      bottom: auto;
+      right: auto;
+      transform: translateX(-50%) translateY(-50%);
+
+      &:last-child{
+        display:none;
+      }
+    }
+
+    + .xt_woofc-shortcode-amount:before{
+      content: '';
+      margin: 0 0 0 1.3em;
+    }
+
+  }
+}

@@ -1,0 +1,1 @@
+goog.provide("webfont.FontModule");webfont.FontModule=function(){};goog.scope(function(){var FontModule=webfont.FontModule;FontModule.prototype.load=function(onReady){}});

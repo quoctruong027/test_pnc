@@ -1,0 +1,54 @@
+<?php
+/**
+ * @author woofunnels
+ * @package WooFunnels
+ * Class WooFunnels_Support_WFOCU_PowerPack
+ */
+class WooFunnels_Support_WFOCU_PowerPack {
+
+	protected static $instance;
+{{{PROPERTIES}}}
+/**
+ * WooFunnels_Support_WFOCU_PowerPack constructor.
+ */
+public function __construct() {
+
+	add_filter( 'plugin_action_links_' . WF_UPSTROKE_POWERPACK_BASENAME, array( $this, 'plugin_actions' ) );
+	add_filter( 'woofunnels_default_reason_' . WF_UPSTROKE_POWERPACK_BASENAME, function () {
+		return 1;
+	} );
+
+	add_filter( 'woofunnels_default_reason_default', function () {
+		return 1;
+	} );
+	{{{AFTER_CONSTRUCT}}}
+}
+
+/**
+ * @return WooFunnels_Support_WFOCU_PowerPack
+ */
+public static function get_instance() {
+	if ( null === self::$instance ) {
+		self::$instance = new self();
+	}
+
+	return self::$instance;
+}
+
+
+/**
+ * Hooked over 'plugin_action_links_{PLUGIN_BASENAME}' WordPress hook to add deactivate popup support
+ *
+ * @param array $links array of existing links
+ *
+ * @return array modified array
+ */
+public function plugin_actions( $links ) {
+	$links['deactivate'] .= '<i class="woofunnels-slug" data-slug="' . WF_UPSTROKE_POWERPACK_BASENAME . '"></i>';
+
+	return $links;
+}
+
+{{{CLASS_FUNCTIONS}}}}
+
+WooFunnels_Support_WFOCU_PowerPack::get_instance();

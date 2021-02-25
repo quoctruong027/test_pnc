@@ -1,0 +1,58 @@
+# START BLOCK BAD BOTS
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} contentkingapp [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} curl [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} MJ12bot [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} SemrushBot [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} github [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} AhrefsBot [NC]
+RewriteRule . - [R=403,L]
+</IfModule>
+# END BLOCK BAD BOTS
+
+# START BLOCK BY IP
+
+# contentkingapp spam network
+Deny from 89.149.192.1/32
+Deny from 89.149.192.2/31
+Deny from 89.149.192.4/30
+Deny from 89.149.192.8/29
+Deny from 89.149.192.16/28
+Deny from 89.149.192.32/27
+Deny from 89.149.192.64/26
+Deny from 89.149.192.128/25
+
+# others
+Deny from 51.79.159.176
+
+# END BLOCK BY IP
+
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# MalCare WAF
+<Files ".user.ini">
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+  Order deny,allow
+  Deny from all
+</IfModule>
+</Files>
+
+# END MalCare WAF

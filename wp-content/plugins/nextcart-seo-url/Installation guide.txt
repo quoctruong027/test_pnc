@@ -1,0 +1,14 @@
+### You should install this plugin before performing the migration in order to migrate the old URLs
+
+There are 2 ways to install this plugin:
+
+1. Install using WordPress built-in Add New Plugin installer:
+- In the admin panel, go to Plugins > Add New.
+- Click "Upload Plugin" button at the top.
+- Select the zip file you have downloaded, then click "Install Now"
+- Activate the plugin
+
+2. Install via FTP
+- Upload plugin files to wp-content/plugins folder.
+- In the admin panel, go to Plugins > Installed Plugins.
+- Activate the plugin "Next-Cart SEO URLs".

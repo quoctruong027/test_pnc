@@ -1,0 +1,35 @@
+/**1.0.2.4 - 2020.08.15**/
+- Added: Compatibility with WP 5.5 and WC 4.3
+– Fixed: 'Out of stock' Swatches - namesake
+- Fixed: Check update request
+
+/**1.0.2.3 - 2020.07.01**/
+– Fixed: Design 'Filter Products by Attribute' WooCommerce
+
+/**1.0.2.2 - 2020.06.29**/
+– Updated: Class support
+– Added: Add Quantity field in Product list
+– Added: Add default Swatches profile
+– Added: Add ajax variation threshold
+– Added: Select multi value for global in the product edit page
+– Added: Custom design Global Attribute for Product category
+– Added: Design 'Filter Products by Attribute' WooCommerce
+– Added: Carousel format for a large number of variations in Product list
+– Added: filter 'viwpvs_variation_option_tooltip' to change content of the tooltip
+
+/**1.0.2.1 - 2020.05.09**/
+- Fixed: 'Out of stock' Swatches in single product page
+- Fixed: Show in product list for custom attribute
+- Fixed: Display color type and image type for custom attribute
+
+/**1.0.2 - 2020.04.18**/
+- Fixed: 'out of stock' Swatches in Product list
+- Added: Text of 'add to cart' button in Product list
+- Added: Hide 'out of stock' variation item
+
+/**1.0.1 - 2020.04.04**/
+- Fixed: Function prefix
+- Fixed: Horizontal style
+
+/**1.0.0 - 2020.04.02**/
+~ The first released

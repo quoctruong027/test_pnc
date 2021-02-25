@@ -1,0 +1,1 @@
+var xirki={initialized:false,initialize:function(){var self=this;if(self.initialized){return}setTimeout(function(){xirki.util.webfonts.standard.initialize();xirki.util.webfonts.google.initialize()},150);self.initialized=true}};xirki.initialize();

@@ -1,0 +1,11 @@
+#poststuff .product-table-header{
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    margin: 10px 0 0;
+    padding: 15px 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.ASTProduct_sku{
+	font-size: 12px;
+}

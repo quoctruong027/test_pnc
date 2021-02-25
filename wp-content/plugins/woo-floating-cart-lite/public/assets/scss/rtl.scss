@@ -1,0 +1,74 @@
+.rtl{
+	
+	.xt_woofc-inner {
+	
+		.xt_woofc-product-image{
+			float:right;
+		}
+		
+		.xt_woofc-price{
+			float:left;
+			text-align: left;
+		}
+		
+		.xt_woofc-product-details {
+		    padding: 12px 1em 0 0;
+		}
+		
+		.xt_woofc-product-title{
+			float:right;
+		}
+
+		.xt_woofc-quantity {
+			float:right;
+			input{
+		    	float:right;
+				padding: 0 0 0 49px;
+			}	
+			.xt_woofc-quantity-changer {
+			    float:right;
+			}
+			.xt_woofc-quantity-button.xt_woofc-quantity-up{
+			    right:inherit;
+			    left:-25px;
+			    -webkit-transform: translateX(100%);
+			    transform: translateX(100%);
+			    border-left: 0;
+			}
+			.xt_woofc-quantity-button.xt_woofc-quantity-down{
+			    right:inherit;
+			    left:0;
+			    -webkit-transform: translateX(100%);
+			    transform: translateX(100%);
+			    border-right: 1px solid #eee;
+			}
+		}
+		.xt_woofc-delete-item{
+			float:right;
+		}
+		.xt_woofc-actions{
+		    float:left;
+		}
+		.xt_woofc-undo{
+		    float:left;
+		}
+		
+		.xt_woofc-checkout em::after{
+		    right:inherit;
+		    left:0;
+		    bottom: 50%;
+		    top: auto;
+		    -webkit-transform: translateY(50%) rotate(180deg);
+		    transform: translateY(50%) rotate(180deg);
+		    
+		}
+	}
+	
+	.xtfw-no-touchevents .xt_woofc-cart-open .xt_woofc-inner .xt_woofc-checkout:hover em, 
+	.xtfw-touchevents .xt_woofc-cart-open .xt_woofc-inner .xt_woofc-checkout:focus em{
+	    padding-right:inherit;
+	    padding-left:30px;
+	}
+
+}
+

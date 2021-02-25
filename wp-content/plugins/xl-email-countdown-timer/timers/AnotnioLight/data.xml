@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<banner>
+	<font>
+		<size>72</size>
+		<x>160</x>
+		<y>100</y>
+		<color>#000000</color>
+		<format>%a:%H:%I:%S</format>
+		<end_format>00:00:00:00</end_format>
+	</font>
+</banner>

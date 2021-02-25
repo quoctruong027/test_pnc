@@ -1,0 +1,1 @@
+wp.customize.controlConstructor["xirki-date"]=wp.customize.xirkiDynamicControl.extend({initXirkiControl:function(){var control=this,selector=control.selector+" input.datepicker";jQuery(selector).datepicker({dateFormat:"yy-mm-dd"});this.container.on("change keyup paste","input.datepicker",function(){control.setting.set(jQuery(this).val())})}});

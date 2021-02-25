@@ -1,0 +1,2370 @@
+# Copyright (C) 2020 WooFunnels
+# This file is distributed under the same license as the UpStroke PowerPack plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: UpStroke PowerPack 1.6.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woofunnels-upstroke-power-pack\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-11-20T12:07:52+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: woofunnels-upstroke-power-pack\n"
+
+#. Plugin Name of the plugin
+#: class-woofunnels-support-wfocu-power-pack.php:29
+msgid "UpStroke PowerPack"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://buildwoofunnels.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "This provides UpStroke dynamic shipping, subscriptions, multiple products and reporting features to your store."
+msgstr ""
+
+#. Author of the plugin
+msgid "WooFunnels"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://buildwoofunnels.com/"
+msgstr ""
+
+#: addons/multiple-products/class-woofunnels-upstroke-multiple-products.php:115
+msgid "To work \"UpStroke PowerPack -Multi Product Offers- module\", \"UpStroke: WooCommerce One Click Upsells\" version should not be lower than 1.7.2"
+msgstr ""
+
+#: addons/multiple-products/includes/class-wfocu-mp.php:26
+msgid "Multi Product Grid"
+msgstr ""
+
+#: addons/multiple-products/includes/class-wfocu-mp.php:34
+msgid "Multi Product List"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:130
+#: addons/multiple-products/templates/mp-list/template.php:127
+msgid "Click here to learn about merge tags available for this area."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:149
+#: addons/multiple-products/templates/mp-grid/template.php:344
+#: addons/multiple-products/templates/mp-grid/template.php:853
+#: addons/multiple-products/templates/mp-grid/template.php:2901
+#: addons/multiple-products/templates/mp-grid/template.php:3131
+#: addons/multiple-products/templates/mp-grid/template.php:4278
+#: addons/multiple-products/templates/mp-list/template.php:146
+#: addons/multiple-products/templates/mp-list/template.php:341
+#: addons/multiple-products/templates/mp-list/template.php:850
+#: addons/multiple-products/templates/mp-list/template.php:2899
+#: addons/multiple-products/templates/mp-list/template.php:3129
+msgid "Layout"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:154
+#: addons/multiple-products/templates/mp-list/template.php:151
+msgid "Mode"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:157
+#: addons/multiple-products/templates/mp-list/template.php:154
+msgid "Fullwidth"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:158
+#: addons/multiple-products/templates/mp-list/template.php:155
+msgid "Boxed"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:164
+#: addons/multiple-products/templates/mp-list/template.php:161
+msgid "Site Boxed Width (px)"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:195
+#: addons/multiple-products/templates/mp-list/template.php:192
+msgid "Sections"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:200
+#: addons/multiple-products/templates/mp-list/template.php:197
+msgid "Order & Visibility"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:201
+#: addons/multiple-products/templates/mp-list/template.php:198
+msgid "Drag and Drop Sections to modify its position. <br>Click on Eye icon to turn ON/OFF visibility of the section."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:214
+#: addons/multiple-products/templates/mp-list/template.php:211
+msgid "Header"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:215
+#: addons/multiple-products/templates/mp-list/template.php:212
+msgid "Progress Bar"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:216
+#: addons/multiple-products/templates/mp-list/template.php:213
+msgid "Pattern Interrupt"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:217
+#: addons/multiple-products/templates/mp-grid/template.php:4642
+#: addons/multiple-products/templates/mp-list/template.php:214
+#: addons/multiple-products/templates/mp-list/template.php:4618
+msgid "Product"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:218
+#: addons/multiple-products/templates/mp-grid/template.php:2011
+#: addons/multiple-products/templates/mp-list/template.php:215
+#: addons/multiple-products/templates/mp-list/template.php:2009
+msgid "Reviews"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:219
+#: addons/multiple-products/templates/mp-grid/template.php:1662
+#: addons/multiple-products/templates/mp-grid/template.php:1667
+#: addons/multiple-products/templates/mp-list/template.php:216
+#: addons/multiple-products/templates/mp-list/template.php:1660
+#: addons/multiple-products/templates/mp-list/template.php:1665
+msgid "Features"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:220
+#: addons/multiple-products/templates/mp-grid/template.php:2555
+#: addons/multiple-products/templates/mp-grid/template.php:2558
+#: addons/multiple-products/templates/mp-list/template.php:217
+#: addons/multiple-products/templates/mp-list/template.php:2553
+#: addons/multiple-products/templates/mp-list/template.php:2556
+msgid "Guarantee"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:221
+#: addons/multiple-products/templates/mp-list/template.php:218
+msgid "Urgency Bar"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:222
+#: addons/multiple-products/templates/mp-list/template.php:219
+msgid "Footer"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:249
+#: addons/multiple-products/templates/mp-list/template.php:246
+msgid "Logo"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:254
+#: addons/multiple-products/templates/mp-list/template.php:251
+msgid "Logo Image"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:264
+#: addons/multiple-products/templates/mp-list/template.php:261
+msgid "Max Width"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:283
+#: addons/multiple-products/templates/mp-grid/template.php:1720
+#: addons/multiple-products/templates/mp-grid/template.php:2202
+#: addons/multiple-products/templates/mp-grid/template.php:2684
+#: addons/multiple-products/templates/mp-grid/template.php:4346
+#: addons/multiple-products/templates/mp-list/template.php:280
+#: addons/multiple-products/templates/mp-list/template.php:1718
+#: addons/multiple-products/templates/mp-list/template.php:2200
+#: addons/multiple-products/templates/mp-list/template.php:2682
+#: addons/multiple-products/templates/mp-list/template.php:4322
+msgid "Align"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:301
+#: addons/multiple-products/templates/mp-list/template.php:298
+msgid "Page Title"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:302
+#: addons/multiple-products/templates/mp-grid/template.php:395
+#: addons/multiple-products/templates/mp-list/template.php:299
+#: addons/multiple-products/templates/mp-list/template.php:392
+msgid "Special Offer"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:314
+#: addons/multiple-products/templates/mp-grid/template.php:531
+#: addons/multiple-products/templates/mp-grid/template.php:774
+#: addons/multiple-products/templates/mp-grid/template.php:1751
+#: addons/multiple-products/templates/mp-grid/template.php:2310
+#: addons/multiple-products/templates/mp-grid/template.php:2715
+#: addons/multiple-products/templates/mp-grid/template.php:3043
+#: addons/multiple-products/templates/mp-grid/template.php:3363
+#: addons/multiple-products/templates/mp-grid/template.php:3472
+#: addons/multiple-products/templates/mp-grid/template.php:3709
+#: addons/multiple-products/templates/mp-grid/template.php:3916
+#: addons/multiple-products/templates/mp-grid/template.php:4433
+#: addons/multiple-products/templates/mp-grid/template.php:5144
+#: addons/multiple-products/templates/mp-list/template.php:311
+#: addons/multiple-products/templates/mp-list/template.php:528
+#: addons/multiple-products/templates/mp-list/template.php:771
+#: addons/multiple-products/templates/mp-list/template.php:1749
+#: addons/multiple-products/templates/mp-list/template.php:2308
+#: addons/multiple-products/templates/mp-list/template.php:2713
+#: addons/multiple-products/templates/mp-list/template.php:3041
+#: addons/multiple-products/templates/mp-list/template.php:3361
+#: addons/multiple-products/templates/mp-list/template.php:3470
+#: addons/multiple-products/templates/mp-list/template.php:3706
+#: addons/multiple-products/templates/mp-list/template.php:3913
+#: addons/multiple-products/templates/mp-list/template.php:4409
+#: addons/multiple-products/templates/mp-list/template.php:5102
+msgid "Colors"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:319
+#: addons/multiple-products/templates/mp-grid/template.php:646
+#: addons/multiple-products/templates/mp-grid/template.php:814
+#: addons/multiple-products/templates/mp-grid/template.php:1333
+#: addons/multiple-products/templates/mp-grid/template.php:1401
+#: addons/multiple-products/templates/mp-grid/template.php:1765
+#: addons/multiple-products/templates/mp-grid/template.php:2356
+#: addons/multiple-products/templates/mp-grid/template.php:2737
+#: addons/multiple-products/templates/mp-grid/template.php:3092
+#: addons/multiple-products/templates/mp-grid/template.php:3594
+#: addons/multiple-products/templates/mp-grid/template.php:3662
+#: addons/multiple-products/templates/mp-grid/template.php:3955
+#: addons/multiple-products/templates/mp-grid/template.php:4463
+#: addons/multiple-products/templates/mp-grid/template.php:5273
+#: addons/multiple-products/templates/mp-list/template.php:316
+#: addons/multiple-products/templates/mp-list/template.php:643
+#: addons/multiple-products/templates/mp-list/template.php:811
+#: addons/multiple-products/templates/mp-list/template.php:1331
+#: addons/multiple-products/templates/mp-list/template.php:1399
+#: addons/multiple-products/templates/mp-list/template.php:1763
+#: addons/multiple-products/templates/mp-list/template.php:2354
+#: addons/multiple-products/templates/mp-list/template.php:2735
+#: addons/multiple-products/templates/mp-list/template.php:3090
+#: addons/multiple-products/templates/mp-list/template.php:3591
+#: addons/multiple-products/templates/mp-list/template.php:3659
+#: addons/multiple-products/templates/mp-list/template.php:3952
+#: addons/multiple-products/templates/mp-list/template.php:4439
+#: addons/multiple-products/templates/mp-list/template.php:5214
+msgid "Background Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:349
+#: addons/multiple-products/templates/mp-grid/template.php:858
+#: addons/multiple-products/templates/mp-grid/template.php:4283
+#: addons/multiple-products/templates/mp-list/template.php:346
+#: addons/multiple-products/templates/mp-list/template.php:855
+msgid "Style"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:353
+#: addons/multiple-products/templates/mp-grid/template.php:862
+#: addons/multiple-products/templates/mp-grid/template.php:3140
+#: addons/multiple-products/templates/mp-grid/template.php:4287
+#: addons/multiple-products/templates/mp-list/template.php:350
+#: addons/multiple-products/templates/mp-list/template.php:859
+#: addons/multiple-products/templates/mp-list/template.php:3138
+msgid "Style 1"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:357
+#: addons/multiple-products/templates/mp-grid/template.php:3144
+#: addons/multiple-products/templates/mp-grid/template.php:4291
+#: addons/multiple-products/templates/mp-list/template.php:354
+#: addons/multiple-products/templates/mp-list/template.php:3142
+msgid "Style 2"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:366
+#: addons/multiple-products/templates/mp-list/template.php:363
+msgid "Steps"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:371
+#: addons/multiple-products/templates/mp-list/template.php:368
+msgid "Step 1 Text"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:372
+#: addons/multiple-products/templates/mp-list/template.php:369
+msgid "Order Submitted"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:394
+#: addons/multiple-products/templates/mp-list/template.php:391
+msgid "Step 2 Text"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:414
+#: addons/multiple-products/templates/mp-list/template.php:411
+msgid "Step 3 Text"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:415
+#: addons/multiple-products/templates/mp-list/template.php:412
+msgid "Order Receipt"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:434
+#: addons/multiple-products/templates/mp-list/template.php:431
+msgid "Step Text"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:435
+#: addons/multiple-products/templates/mp-list/template.php:432
+msgid "Step 2 of 3: Customize your order"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:457
+#: addons/multiple-products/templates/mp-list/template.php:454
+msgid "Step Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:482
+#: addons/multiple-products/templates/mp-list/template.php:479
+msgid "Progress Percentage"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:510
+#: addons/multiple-products/templates/mp-list/template.php:507
+msgid "Progress Bar Text"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:511
+#: addons/multiple-products/templates/mp-list/template.php:508
+msgid "{{percentage}} Complete"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:536
+#: addons/multiple-products/templates/mp-list/template.php:533
+msgid "Step Text Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:558
+#: addons/multiple-products/templates/mp-list/template.php:555
+msgid "Step Base Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:587
+#: addons/multiple-products/templates/mp-list/template.php:584
+msgid "Step Active Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:622
+#: addons/multiple-products/templates/mp-list/template.php:619
+msgid "Step Border Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:685
+#: addons/multiple-products/templates/mp-grid/template.php:2927
+#: addons/multiple-products/templates/mp-grid/template.php:3796
+#: addons/multiple-products/templates/mp-grid/template.php:4169
+#: addons/multiple-products/templates/mp-list/template.php:682
+#: addons/multiple-products/templates/mp-list/template.php:2925
+#: addons/multiple-products/templates/mp-list/template.php:3793
+#: addons/multiple-products/templates/mp-list/template.php:4166
+msgid "Content"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:690
+#: addons/multiple-products/templates/mp-list/template.php:687
+msgid "Headline"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:692
+msgid "Wait <span class=\"wfocu-highlight\">{{customer_first_name}}</span>! We've got a special offer for you that complements your purchase."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:701
+#: addons/multiple-products/templates/mp-list/template.php:698
+msgid "Headline Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:731
+#: addons/multiple-products/templates/mp-list/template.php:728
+msgid "Sub Headline"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:733
+#: addons/multiple-products/templates/mp-list/template.php:730
+msgid "Check these out!"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:745
+#: addons/multiple-products/templates/mp-list/template.php:742
+msgid "Sub Headline Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:779
+#: addons/multiple-products/templates/mp-list/template.php:776
+msgid "Headline Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:796
+#: addons/multiple-products/templates/mp-list/template.php:793
+msgid "Sub Headline Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:870
+#: addons/multiple-products/templates/mp-grid/template.php:1739
+#: addons/multiple-products/templates/mp-grid/template.php:2221
+#: addons/multiple-products/templates/mp-grid/template.php:2703
+#: addons/multiple-products/templates/mp-list/template.php:867
+#: addons/multiple-products/templates/mp-list/template.php:1737
+#: addons/multiple-products/templates/mp-list/template.php:2219
+#: addons/multiple-products/templates/mp-list/template.php:2701
+msgid "Buy Block"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:876
+#: addons/multiple-products/templates/mp-list/template.php:873
+msgid "Accept Button Text"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:877
+#: addons/multiple-products/templates/mp-list/template.php:874
+msgid "Yes, Add To My Order"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:893
+#: addons/multiple-products/templates/mp-list/template.php:890
+msgid "Accept Button Text Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:931
+#: addons/multiple-products/templates/mp-list/template.php:928
+msgid "Accept Button Sub Text"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:932
+#: addons/multiple-products/templates/mp-grid/template.php:991
+#: addons/multiple-products/templates/mp-list/template.php:929
+#: addons/multiple-products/templates/mp-list/template.php:989
+msgid "We will ship it out in same package."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:951
+#: addons/multiple-products/templates/mp-list/template.php:948
+msgid "Accept Button Sub Text Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:990
+#: addons/multiple-products/templates/mp-list/template.php:988
+msgid "Text Below Button"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1003
+#: addons/multiple-products/templates/mp-list/template.php:1001
+msgid "Text Below Button Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1033
+#: addons/multiple-products/templates/mp-list/template.php:1031
+msgid "Decline Offer Link Text"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1034
+#: addons/multiple-products/templates/mp-list/template.php:1032
+msgid "No thanks, I don’t want to take advantage of this one-time offer >"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1053
+#: addons/multiple-products/templates/mp-list/template.php:1051
+msgid "Decline Offer Link Text Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1089
+#: addons/multiple-products/templates/mp-list/template.php:1087
+msgid "Dispay Decline Offer Link  As A Button"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1109
+#: addons/multiple-products/templates/mp-grid/template.php:3903
+#: addons/multiple-products/templates/mp-list/template.php:1107
+#: addons/multiple-products/templates/mp-list/template.php:3900
+msgid "Payment Icons"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1114
+#: addons/multiple-products/templates/mp-grid/template.php:3908
+#: addons/multiple-products/templates/mp-list/template.php:1112
+#: addons/multiple-products/templates/mp-list/template.php:3905
+msgid "Display Payment Icons"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1115
+#: addons/multiple-products/templates/mp-grid/template.php:3909
+#: addons/multiple-products/templates/mp-list/template.php:1113
+#: addons/multiple-products/templates/mp-list/template.php:3906
+msgid "Manage settings from Other->Payment Icons Section."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1121
+#: addons/multiple-products/templates/mp-grid/template.php:2234
+#: addons/multiple-products/templates/mp-grid/template.php:3020
+#: addons/multiple-products/templates/mp-grid/template.php:3525
+#: addons/multiple-products/templates/mp-grid/template.php:4365
+#: addons/multiple-products/templates/mp-grid/template.php:5132
+#: addons/multiple-products/templates/mp-list/template.php:1119
+#: addons/multiple-products/templates/mp-list/template.php:2232
+#: addons/multiple-products/templates/mp-list/template.php:3018
+#: addons/multiple-products/templates/mp-list/template.php:3522
+#: addons/multiple-products/templates/mp-list/template.php:4341
+#: addons/multiple-products/templates/mp-list/template.php:5089
+msgid "Advanced"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1126
+#: addons/multiple-products/templates/mp-list/template.php:1124
+msgid "Button Style"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1129
+#: addons/multiple-products/templates/mp-list/template.php:1127
+msgid "Full"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1130
+#: addons/multiple-products/templates/mp-list/template.php:1128
+msgid "Flexible"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1144
+#: addons/multiple-products/templates/mp-list/template.php:1142
+msgid "Button Width (%)"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1172
+#: addons/multiple-products/templates/mp-list/template.php:1170
+msgid "Button Top/Bottom Padding"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1196
+#: addons/multiple-products/templates/mp-list/template.php:1194
+msgid "Button Left/Right Padding"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1220
+#: addons/multiple-products/templates/mp-list/template.php:1218
+msgid "Button Radius"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1239
+#: addons/multiple-products/templates/mp-list/template.php:1237
+msgid "Enable Accept Button Icon"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1246
+#: addons/multiple-products/templates/mp-list/template.php:1244
+msgid "Accept Button Icon"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1250
+#: addons/multiple-products/templates/mp-grid/template.php:4964
+#: addons/multiple-products/templates/mp-list/template.php:1248
+#: addons/multiple-products/templates/mp-list/template.php:4940
+msgid "<span class=\"dashicons dashicons-cart\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1251
+#: addons/multiple-products/templates/mp-grid/template.php:4965
+#: addons/multiple-products/templates/mp-list/template.php:1249
+#: addons/multiple-products/templates/mp-list/template.php:4941
+msgid "<span class=\"dashicons dashicons-yes\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1252
+#: addons/multiple-products/templates/mp-grid/template.php:4966
+#: addons/multiple-products/templates/mp-list/template.php:1250
+#: addons/multiple-products/templates/mp-list/template.php:4942
+msgid "<span class=\"dashicons dashicons-arrow-up\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1253
+#: addons/multiple-products/templates/mp-grid/template.php:4967
+#: addons/multiple-products/templates/mp-list/template.php:1251
+#: addons/multiple-products/templates/mp-list/template.php:4943
+msgid "<span class=\"dashicons dashicons-arrow-down\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1254
+#: addons/multiple-products/templates/mp-grid/template.php:4968
+#: addons/multiple-products/templates/mp-list/template.php:1252
+#: addons/multiple-products/templates/mp-list/template.php:4944
+msgid "<span class=\"dashicons dashicons-arrow-right\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1255
+#: addons/multiple-products/templates/mp-grid/template.php:4969
+#: addons/multiple-products/templates/mp-list/template.php:1253
+#: addons/multiple-products/templates/mp-list/template.php:4945
+msgid "<span class=\"dashicons dashicons-arrow-left\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1256
+#: addons/multiple-products/templates/mp-grid/template.php:4970
+#: addons/multiple-products/templates/mp-list/template.php:1254
+#: addons/multiple-products/templates/mp-list/template.php:4946
+msgid ""
+"<span class=\"dashicons \n"
+"\t\t\t\t\t\t\t\t\tdashicons-arrow-up-alt\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1258
+#: addons/multiple-products/templates/mp-grid/template.php:4972
+#: addons/multiple-products/templates/mp-list/template.php:1256
+#: addons/multiple-products/templates/mp-list/template.php:4948
+msgid "<span class=\"dashicons dashicons-arrow-down-alt\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1259
+#: addons/multiple-products/templates/mp-grid/template.php:4973
+#: addons/multiple-products/templates/mp-list/template.php:1257
+#: addons/multiple-products/templates/mp-list/template.php:4949
+msgid "<span class=\"dashicons dashicons-arrow-right-alt\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1260
+#: addons/multiple-products/templates/mp-grid/template.php:4974
+#: addons/multiple-products/templates/mp-list/template.php:1258
+#: addons/multiple-products/templates/mp-list/template.php:4950
+msgid "<span class=\"dashicons dashicons-arrow-left-alt\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1261
+#: addons/multiple-products/templates/mp-grid/template.php:4975
+#: addons/multiple-products/templates/mp-list/template.php:1259
+#: addons/multiple-products/templates/mp-list/template.php:4951
+msgid ""
+"<span class=\"dashicons \n"
+"\t\t\t\t\t\t\t\t\tdashicons-arrow-up-alt2\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1263
+#: addons/multiple-products/templates/mp-grid/template.php:4977
+#: addons/multiple-products/templates/mp-list/template.php:1261
+#: addons/multiple-products/templates/mp-list/template.php:4953
+msgid "<span class=\"dashicons dashicons-arrow-down-alt2\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1264
+#: addons/multiple-products/templates/mp-grid/template.php:4978
+#: addons/multiple-products/templates/mp-list/template.php:1262
+#: addons/multiple-products/templates/mp-list/template.php:4954
+msgid "<span class=\"dashicons dashicons-arrow-right-alt2\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1265
+#: addons/multiple-products/templates/mp-grid/template.php:4979
+#: addons/multiple-products/templates/mp-list/template.php:1263
+#: addons/multiple-products/templates/mp-list/template.php:4955
+msgid "<span class=\"dashicons dashicons-arrow-left-alt2\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1266
+#: addons/multiple-products/templates/mp-grid/template.php:4980
+#: addons/multiple-products/templates/mp-list/template.php:1264
+#: addons/multiple-products/templates/mp-list/template.php:4956
+msgid "<span class=\"dashicons dashicons-heart\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1267
+#: addons/multiple-products/templates/mp-grid/template.php:4981
+#: addons/multiple-products/templates/mp-list/template.php:1265
+#: addons/multiple-products/templates/mp-list/template.php:4957
+msgid "<span class=\"dashicons dashicons-star-filled\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1268
+#: addons/multiple-products/templates/mp-grid/template.php:4982
+#: addons/multiple-products/templates/mp-list/template.php:1266
+#: addons/multiple-products/templates/mp-list/template.php:4958
+msgid "<span class=\"dashicons dashicons-plus-alt\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1269
+#: addons/multiple-products/templates/mp-grid/template.php:4983
+#: addons/multiple-products/templates/mp-list/template.php:1267
+#: addons/multiple-products/templates/mp-list/template.php:4959
+msgid "<span class=\"dashicons dashicons-awards\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1270
+#: addons/multiple-products/templates/mp-grid/template.php:4984
+#: addons/multiple-products/templates/mp-list/template.php:1268
+#: addons/multiple-products/templates/mp-list/template.php:4960
+msgid "<span class=\"dashicons dashicons-shield\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1271
+#: addons/multiple-products/templates/mp-grid/template.php:4985
+#: addons/multiple-products/templates/mp-list/template.php:1269
+#: addons/multiple-products/templates/mp-list/template.php:4961
+msgid "<span class=\"dashicons dashicons-shield-alt\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1272
+#: addons/multiple-products/templates/mp-grid/template.php:4986
+#: addons/multiple-products/templates/mp-list/template.php:1270
+#: addons/multiple-products/templates/mp-list/template.php:4962
+msgid "<span class=\"dashicons dashicons-thumbs-up\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1273
+#: addons/multiple-products/templates/mp-grid/template.php:4987
+#: addons/multiple-products/templates/mp-list/template.php:1271
+#: addons/multiple-products/templates/mp-list/template.php:4963
+msgid "<span class=\"dashicons dashicons-thumbs-down\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1274
+#: addons/multiple-products/templates/mp-grid/template.php:4988
+#: addons/multiple-products/templates/mp-list/template.php:1272
+#: addons/multiple-products/templates/mp-list/template.php:4964
+msgid "<span class=\"dashicons dashicons-smiley\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1275
+#: addons/multiple-products/templates/mp-grid/template.php:4989
+#: addons/multiple-products/templates/mp-list/template.php:1273
+#: addons/multiple-products/templates/mp-list/template.php:4965
+msgid "<span class=\"dashicons dashicons-tickets-alt\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1276
+#: addons/multiple-products/templates/mp-grid/template.php:4990
+#: addons/multiple-products/templates/mp-list/template.php:1274
+#: addons/multiple-products/templates/mp-list/template.php:4966
+msgid "<span class=\"dashicons dashicons-tag\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1277
+#: addons/multiple-products/templates/mp-grid/template.php:4991
+#: addons/multiple-products/templates/mp-list/template.php:1275
+#: addons/multiple-products/templates/mp-list/template.php:4967
+msgid "<span class=\"dashicons dashicons-cloud\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1278
+#: addons/multiple-products/templates/mp-grid/template.php:4992
+#: addons/multiple-products/templates/mp-list/template.php:1276
+#: addons/multiple-products/templates/mp-list/template.php:4968
+msgid "<span class=\"dashicons dashicons-controls-forward\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1279
+#: addons/multiple-products/templates/mp-grid/template.php:4993
+#: addons/multiple-products/templates/mp-list/template.php:1277
+#: addons/multiple-products/templates/mp-list/template.php:4969
+msgid "<span class=\"dashicons dashicons-controls-back\"></span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1294
+#: addons/multiple-products/templates/mp-list/template.php:1292
+msgid "Button Hover Effect"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1297
+#: addons/multiple-products/templates/mp-list/template.php:1295
+msgid "No effect"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1298
+#: addons/multiple-products/templates/mp-list/template.php:1296
+msgid "Pulse Grow"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1299
+#: addons/multiple-products/templates/mp-list/template.php:1297
+msgid "Bounce In"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1300
+#: addons/multiple-products/templates/mp-list/template.php:1298
+msgid "Wobble"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1316
+#: addons/multiple-products/templates/mp-list/template.php:1314
+msgid "Accept Button Colors"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1325
+#: addons/multiple-products/templates/mp-grid/template.php:1477
+#: addons/multiple-products/templates/mp-grid/template.php:3586
+#: addons/multiple-products/templates/mp-list/template.php:1323
+#: addons/multiple-products/templates/mp-list/template.php:1475
+#: addons/multiple-products/templates/mp-list/template.php:3583
+msgid "Normal"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1326
+#: addons/multiple-products/templates/mp-grid/template.php:1478
+#: addons/multiple-products/templates/mp-grid/template.php:3587
+#: addons/multiple-products/templates/mp-list/template.php:1324
+#: addons/multiple-products/templates/mp-list/template.php:1476
+#: addons/multiple-products/templates/mp-list/template.php:3584
+msgid "Hover"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1355
+#: addons/multiple-products/templates/mp-grid/template.php:1424
+#: addons/multiple-products/templates/mp-grid/template.php:1524
+#: addons/multiple-products/templates/mp-grid/template.php:1583
+#: addons/multiple-products/templates/mp-grid/template.php:3048
+#: addons/multiple-products/templates/mp-grid/template.php:3616
+#: addons/multiple-products/templates/mp-grid/template.php:3685
+#: addons/multiple-products/templates/mp-grid/template.php:3921
+#: addons/multiple-products/templates/mp-list/template.php:1353
+#: addons/multiple-products/templates/mp-list/template.php:1422
+#: addons/multiple-products/templates/mp-list/template.php:1522
+#: addons/multiple-products/templates/mp-list/template.php:1581
+#: addons/multiple-products/templates/mp-list/template.php:3046
+#: addons/multiple-products/templates/mp-list/template.php:3613
+#: addons/multiple-products/templates/mp-list/template.php:3682
+#: addons/multiple-products/templates/mp-list/template.php:3918
+msgid "Text Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1378
+#: addons/multiple-products/templates/mp-grid/template.php:3639
+#: addons/multiple-products/templates/mp-list/template.php:1376
+#: addons/multiple-products/templates/mp-list/template.php:3636
+msgid "Bottom Shadow Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1447
+#: addons/multiple-products/templates/mp-list/template.php:1445
+msgid "Text Below Button Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1462
+#: addons/multiple-products/templates/mp-list/template.php:1460
+msgid "Decline Offer Colors"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1492
+#: addons/multiple-products/templates/mp-grid/template.php:1551
+#: addons/multiple-products/templates/mp-list/template.php:1490
+#: addons/multiple-products/templates/mp-list/template.php:1549
+msgid "Button Background Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1632
+#: addons/multiple-products/templates/mp-grid/template.php:1637
+#: addons/multiple-products/templates/mp-grid/template.php:1928
+#: addons/multiple-products/templates/mp-grid/template.php:1933
+#: addons/multiple-products/templates/mp-grid/template.php:2054
+#: addons/multiple-products/templates/mp-grid/template.php:2520
+#: addons/multiple-products/templates/mp-grid/template.php:2525
+#: addons/multiple-products/templates/mp-grid/template.php:2590
+#: addons/multiple-products/templates/mp-grid/template.php:4111
+#: addons/multiple-products/templates/mp-grid/template.php:4299
+#: addons/multiple-products/templates/mp-grid/template.php:4304
+#: addons/multiple-products/templates/mp-grid/template.php:4647
+#: addons/multiple-products/templates/mp-list/template.php:1630
+#: addons/multiple-products/templates/mp-list/template.php:1635
+#: addons/multiple-products/templates/mp-list/template.php:1926
+#: addons/multiple-products/templates/mp-list/template.php:1931
+#: addons/multiple-products/templates/mp-list/template.php:2052
+#: addons/multiple-products/templates/mp-list/template.php:2518
+#: addons/multiple-products/templates/mp-list/template.php:2523
+#: addons/multiple-products/templates/mp-list/template.php:2588
+#: addons/multiple-products/templates/mp-list/template.php:4108
+#: addons/multiple-products/templates/mp-list/template.php:4275
+#: addons/multiple-products/templates/mp-list/template.php:4280
+#: addons/multiple-products/templates/mp-list/template.php:4623
+msgid "Heading"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1639
+#: addons/multiple-products/templates/mp-list/template.php:1637
+msgid "Add this awesome item to your cart with all its amazing benefits"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1648
+#: addons/multiple-products/templates/mp-grid/template.php:1944
+#: addons/multiple-products/templates/mp-grid/template.php:2536
+#: addons/multiple-products/templates/mp-grid/template.php:4140
+#: addons/multiple-products/templates/mp-grid/template.php:4316
+#: addons/multiple-products/templates/mp-grid/template.php:4690
+#: addons/multiple-products/templates/mp-list/template.php:1646
+#: addons/multiple-products/templates/mp-list/template.php:1942
+#: addons/multiple-products/templates/mp-list/template.php:2534
+#: addons/multiple-products/templates/mp-list/template.php:4137
+#: addons/multiple-products/templates/mp-list/template.php:4292
+#: addons/multiple-products/templates/mp-list/template.php:4666
+msgid "Sub Heading"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1650
+#: addons/multiple-products/templates/mp-list/template.php:1648
+msgid "Order Now and You’ll Get.."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1671
+#: addons/multiple-products/templates/mp-list/template.php:1669
+msgid "Feature"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1693
+#: addons/multiple-products/templates/mp-list/template.php:1691
+msgid "Feature Text"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1700
+#: addons/multiple-products/templates/mp-grid/template.php:2182
+#: addons/multiple-products/templates/mp-grid/template.php:2664
+#: addons/multiple-products/templates/mp-list/template.php:1698
+#: addons/multiple-products/templates/mp-list/template.php:2180
+#: addons/multiple-products/templates/mp-list/template.php:2662
+msgid "Additional Description"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1705
+#: addons/multiple-products/templates/mp-grid/template.php:2187
+#: addons/multiple-products/templates/mp-grid/template.php:2669
+#: addons/multiple-products/templates/mp-list/template.php:1703
+#: addons/multiple-products/templates/mp-list/template.php:2185
+#: addons/multiple-products/templates/mp-list/template.php:2667
+msgid "Additional Text"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1707
+#: addons/multiple-products/templates/mp-list/template.php:1705
+msgid "Handle an objection or answer an important question. Use this text section here to let them know why they should click the button below."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1744
+#: addons/multiple-products/templates/mp-grid/template.php:2226
+#: addons/multiple-products/templates/mp-grid/template.php:2708
+#: addons/multiple-products/templates/mp-list/template.php:1742
+#: addons/multiple-products/templates/mp-list/template.php:2224
+#: addons/multiple-products/templates/mp-list/template.php:2706
+msgid "Display Buy Block"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1745
+#: addons/multiple-products/templates/mp-grid/template.php:2227
+#: addons/multiple-products/templates/mp-grid/template.php:2709
+#: addons/multiple-products/templates/mp-list/template.php:1743
+#: addons/multiple-products/templates/mp-list/template.php:2225
+#: addons/multiple-products/templates/mp-list/template.php:2707
+msgid "Enable if you want to display buy block."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1756
+#: addons/multiple-products/templates/mp-grid/template.php:3477
+#: addons/multiple-products/templates/mp-list/template.php:1754
+#: addons/multiple-products/templates/mp-list/template.php:3475
+msgid "Icon Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1782
+#: addons/multiple-products/templates/mp-grid/template.php:2754
+#: addons/multiple-products/templates/mp-list/template.php:1780
+#: addons/multiple-products/templates/mp-list/template.php:2752
+msgid "Override Global Color Settings"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1783
+#: addons/multiple-products/templates/mp-grid/template.php:2374
+#: addons/multiple-products/templates/mp-grid/template.php:2755
+#: addons/multiple-products/templates/mp-grid/template.php:4481
+#: addons/multiple-products/templates/mp-list/template.php:1781
+#: addons/multiple-products/templates/mp-list/template.php:2372
+#: addons/multiple-products/templates/mp-list/template.php:2753
+#: addons/multiple-products/templates/mp-list/template.php:4457
+msgid "Enable if you want to change Heading, Sub Heading, Content color specifically for this section."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1789
+#: addons/multiple-products/templates/mp-grid/template.php:2380
+#: addons/multiple-products/templates/mp-grid/template.php:2761
+#: addons/multiple-products/templates/mp-grid/template.php:4009
+#: addons/multiple-products/templates/mp-grid/template.php:4487
+#: addons/multiple-products/templates/mp-list/template.php:1787
+#: addons/multiple-products/templates/mp-list/template.php:2378
+#: addons/multiple-products/templates/mp-list/template.php:2759
+#: addons/multiple-products/templates/mp-list/template.php:4006
+#: addons/multiple-products/templates/mp-list/template.php:4463
+msgid "Heading Text Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1813
+#: addons/multiple-products/templates/mp-grid/template.php:2404
+#: addons/multiple-products/templates/mp-grid/template.php:2785
+#: addons/multiple-products/templates/mp-grid/template.php:4027
+#: addons/multiple-products/templates/mp-grid/template.php:4511
+#: addons/multiple-products/templates/mp-list/template.php:1811
+#: addons/multiple-products/templates/mp-list/template.php:2402
+#: addons/multiple-products/templates/mp-list/template.php:2783
+#: addons/multiple-products/templates/mp-list/template.php:4024
+#: addons/multiple-products/templates/mp-list/template.php:4487
+msgid "Sub Heading Text Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1837
+#: addons/multiple-products/templates/mp-grid/template.php:2428
+#: addons/multiple-products/templates/mp-grid/template.php:2809
+#: addons/multiple-products/templates/mp-grid/template.php:4045
+#: addons/multiple-products/templates/mp-grid/template.php:4535
+#: addons/multiple-products/templates/mp-grid/template.php:5297
+#: addons/multiple-products/templates/mp-list/template.php:1835
+#: addons/multiple-products/templates/mp-list/template.php:2426
+#: addons/multiple-products/templates/mp-list/template.php:2807
+#: addons/multiple-products/templates/mp-list/template.php:4042
+#: addons/multiple-products/templates/mp-list/template.php:4511
+#: addons/multiple-products/templates/mp-list/template.php:5238
+msgid "Content Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1896
+#: addons/multiple-products/templates/mp-grid/template.php:2487
+#: addons/multiple-products/templates/mp-grid/template.php:2868
+#: addons/multiple-products/templates/mp-list/template.php:1894
+#: addons/multiple-products/templates/mp-list/template.php:2485
+#: addons/multiple-products/templates/mp-list/template.php:2866
+msgid "Display Product Variation Selection"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1897
+#: addons/multiple-products/templates/mp-grid/template.php:2488
+#: addons/multiple-products/templates/mp-grid/template.php:2869
+#: addons/multiple-products/templates/mp-list/template.php:1895
+#: addons/multiple-products/templates/mp-list/template.php:2486
+#: addons/multiple-products/templates/mp-list/template.php:2867
+msgid "Enable if you want to display product variation selection form."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1935
+#: addons/multiple-products/templates/mp-list/template.php:1933
+msgid "Trusted and Raved about by 1000s of our customers..."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1946
+#: addons/multiple-products/templates/mp-list/template.php:1944
+msgid "You'll love it too..."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1958
+#: addons/multiple-products/templates/mp-list/template.php:1956
+msgid "Review Box"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1963
+#: addons/multiple-products/templates/mp-list/template.php:1961
+msgid "Product Reviews"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1974
+#: addons/multiple-products/templates/mp-list/template.php:1972
+msgid "Show Reviews With Ratings"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1975
+#: addons/multiple-products/templates/mp-list/template.php:1973
+msgid "Greater than or equal to"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:1993
+#: addons/multiple-products/templates/mp-list/template.php:1991
+msgid "No. Of Reviews To Show "
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2015
+#: addons/multiple-products/templates/mp-list/template.php:2013
+msgid "Review"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2019
+#: addons/multiple-products/templates/mp-list/template.php:2017
+msgid "Best Solution For A Major Problem"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2027
+#: addons/multiple-products/templates/mp-list/template.php:2025
+msgid "Best Solution For A Major Problem2"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2035
+#: addons/multiple-products/templates/mp-list/template.php:2033
+msgid "Best Solution For A Major Problem3"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2043
+#: addons/multiple-products/templates/mp-list/template.php:2041
+msgid "Best Solution For A Major Problem4"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2058
+#: addons/multiple-products/templates/mp-list/template.php:2056
+msgid "Testimonial"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2062
+#: addons/multiple-products/templates/mp-grid/template.php:3863
+#: addons/multiple-products/templates/mp-list/template.php:2060
+#: addons/multiple-products/templates/mp-list/template.php:3860
+msgid "Name"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2066
+#: addons/multiple-products/templates/mp-list/template.php:2064
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:336
+#: addons/reports/reports/class-wfocu-upsells-by-product.php:421
+msgid "Date"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2067
+#: addons/multiple-products/templates/mp-list/template.php:2065
+msgid "Date Format"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2071
+#: addons/multiple-products/templates/mp-list/template.php:2069
+msgid "Rating"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2074
+#: addons/multiple-products/templates/mp-list/template.php:2072
+msgid "1"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2075
+#: addons/multiple-products/templates/mp-list/template.php:2073
+msgid "2"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2076
+#: addons/multiple-products/templates/mp-list/template.php:2074
+msgid "3"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2077
+#: addons/multiple-products/templates/mp-list/template.php:2075
+msgid "4"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2078
+#: addons/multiple-products/templates/mp-list/template.php:2076
+msgid "5"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2083
+#: addons/multiple-products/templates/mp-list/template.php:2081
+msgid "Image"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2096
+#: addons/multiple-products/templates/mp-list/template.php:2094
+msgid "Review Title Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2132
+#: addons/multiple-products/templates/mp-list/template.php:2130
+msgid "Review Meta Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2161
+#: addons/multiple-products/templates/mp-list/template.php:2159
+msgid "Display Star Ratings"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2162
+#: addons/multiple-products/templates/mp-list/template.php:2160
+msgid "Display Ratings inside Review Box"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2168
+#: addons/multiple-products/templates/mp-list/template.php:2166
+msgid "Display Image"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2169
+#: addons/multiple-products/templates/mp-list/template.php:2167
+msgid "Display image inside Review Box"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2175
+#: addons/multiple-products/templates/mp-list/template.php:2173
+msgid "Display Author With Date"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2176
+#: addons/multiple-products/templates/mp-list/template.php:2174
+msgid "Display author with date inside Review Box"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2189
+#: addons/multiple-products/templates/mp-list/template.php:2187
+msgid "Use this section to tell them what other users are saying…."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2239
+#: addons/multiple-products/templates/mp-list/template.php:2237
+msgid "Review Box Border Type"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2260
+#: addons/multiple-products/templates/mp-list/template.php:2258
+msgid "Review Box Border Width"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2286
+#: addons/multiple-products/templates/mp-list/template.php:2284
+msgid "Review Box Border Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2315
+#: addons/multiple-products/templates/mp-list/template.php:2313
+msgid "Review Box Title Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2339
+#: addons/multiple-products/templates/mp-list/template.php:2337
+msgid "Review Box Meta Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2373
+#: addons/multiple-products/templates/mp-grid/template.php:4480
+#: addons/multiple-products/templates/mp-grid/template.php:5290
+#: addons/multiple-products/templates/mp-list/template.php:2371
+#: addons/multiple-products/templates/mp-list/template.php:4456
+#: addons/multiple-products/templates/mp-list/template.php:5231
+msgid "Override Global Colors"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2527
+#: addons/multiple-products/templates/mp-list/template.php:2525
+msgid "We Standby Our Product"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2537
+#: addons/multiple-products/templates/mp-list/template.php:2535
+msgid "Got a guarantee or a solid return/refund policy? Highlight them all here to arrest your buyer's last-minute objections. Reinforce the trust."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2550
+#: addons/multiple-products/templates/mp-list/template.php:2548
+msgid "Guarantee Box"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2563
+#: addons/multiple-products/templates/mp-list/template.php:2561
+msgid "100% Secure Checkout"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2569
+#: addons/multiple-products/templates/mp-list/template.php:2567
+msgid "Free Shipping"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2575
+#: addons/multiple-products/templates/mp-list/template.php:2573
+msgid "Refund Guarantee"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2581
+#: addons/multiple-products/templates/mp-list/template.php:2579
+msgid "Complete Satisfaction"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2594
+#: addons/multiple-products/templates/mp-grid/template.php:2933
+#: addons/multiple-products/templates/mp-grid/template.php:3802
+#: addons/multiple-products/templates/mp-grid/template.php:4330
+#: addons/multiple-products/templates/mp-grid/template.php:4889
+#: addons/multiple-products/templates/mp-grid/template.php:4947
+#: addons/multiple-products/templates/mp-list/template.php:2592
+#: addons/multiple-products/templates/mp-list/template.php:2931
+#: addons/multiple-products/templates/mp-list/template.php:3799
+#: addons/multiple-products/templates/mp-list/template.php:4306
+#: addons/multiple-products/templates/mp-list/template.php:4865
+#: addons/multiple-products/templates/mp-list/template.php:4923
+msgid "Text"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2598
+#: addons/multiple-products/templates/mp-list/template.php:2596
+msgid "Built-in Icon"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2619
+#: addons/multiple-products/templates/mp-grid/template.php:3465
+#: addons/multiple-products/templates/mp-list/template.php:2617
+#: addons/multiple-products/templates/mp-list/template.php:3463
+msgid "Custom Icon"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2621
+#: addons/multiple-products/templates/mp-list/template.php:2619
+msgid "Custom will override built-in selected icon."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2628
+#: addons/multiple-products/templates/mp-grid/template.php:4661
+#: addons/multiple-products/templates/mp-list/template.php:2626
+#: addons/multiple-products/templates/mp-list/template.php:4637
+msgid "Heading Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2657
+#: addons/multiple-products/templates/mp-list/template.php:2655
+msgid "Display Icon"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2658
+#: addons/multiple-products/templates/mp-list/template.php:2656
+msgid "Display icon inside Guarantee Box"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2671
+msgid "Got a guarantee or a solid return/refun policy? Highlight them all here to arrest your buyers's last-minute objections. Reinforce the trust."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2720
+#: addons/multiple-products/templates/mp-list/template.php:2718
+msgid "Guarantee Box Heading Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2906
+#: addons/multiple-products/templates/mp-grid/template.php:3003
+#: addons/multiple-products/templates/mp-list/template.php:2904
+#: addons/multiple-products/templates/mp-list/template.php:3001
+msgid "Position"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2910
+#: addons/multiple-products/templates/mp-list/template.php:2908
+msgid "Inline"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2914
+#: addons/multiple-products/templates/mp-list/template.php:2912
+msgid "Sticky Header"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2918
+#: addons/multiple-products/templates/mp-list/template.php:2916
+msgid "Sticky Footer"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2934
+#: addons/multiple-products/templates/mp-list/template.php:2932
+msgid "Act Fast: Grab this one-time exclusive offer before time runs out. This offer is not available elsewhere on the site."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2943
+#: addons/multiple-products/templates/mp-grid/template.php:3812
+#: addons/multiple-products/templates/mp-list/template.php:2941
+#: addons/multiple-products/templates/mp-list/template.php:3809
+msgid "Text Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2972
+#: addons/multiple-products/templates/mp-list/template.php:2970
+msgid "Height"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2991
+#: addons/multiple-products/templates/mp-grid/template.php:3153
+#: addons/multiple-products/templates/mp-list/template.php:2989
+#: addons/multiple-products/templates/mp-list/template.php:3151
+msgid "Countdown Timer"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2996
+#: addons/multiple-products/templates/mp-list/template.php:2994
+msgid "Display Countdown timer"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:2997
+#: addons/multiple-products/templates/mp-list/template.php:2995
+msgid "Manage settings from Other->Countdown Timer Section."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3025
+#: addons/multiple-products/templates/mp-list/template.php:3023
+msgid "Show Urgency Bar"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3026
+#: addons/multiple-products/templates/mp-list/template.php:3024
+msgid "After x Seconds."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3033
+#: addons/multiple-products/templates/mp-list/template.php:3031
+msgid "Display On"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3036
+#: addons/multiple-products/templates/mp-list/template.php:3034
+msgid "Desktop"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3037
+#: addons/multiple-products/templates/mp-list/template.php:3035
+msgid "Mobile"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3065
+#: addons/multiple-products/templates/mp-list/template.php:3063
+msgid "Bar Shadow Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3136
+#: addons/multiple-products/templates/mp-list/template.php:3134
+msgid "Skin"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3158
+#: addons/multiple-products/templates/mp-grid/template.php:3206
+#: addons/multiple-products/templates/mp-list/template.php:3156
+#: addons/multiple-products/templates/mp-list/template.php:3204
+msgid "Hours"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3169
+#: addons/multiple-products/templates/mp-grid/template.php:3219
+#: addons/multiple-products/templates/mp-list/template.php:3167
+#: addons/multiple-products/templates/mp-list/template.php:3217
+msgid "Minutes"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3181
+#: addons/multiple-products/templates/mp-list/template.php:3179
+msgid "Hide Hours"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3188
+#: addons/multiple-products/templates/mp-list/template.php:3186
+msgid "Action if Timer Hits Zero"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3199
+#: addons/multiple-products/templates/mp-list/template.php:3197
+msgid "Show Labels"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3200
+#: addons/multiple-products/templates/mp-list/template.php:3198
+msgid "Enable if you want to display lables."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3232
+#: addons/multiple-products/templates/mp-list/template.php:3230
+msgid "Seconds"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3245
+#: addons/multiple-products/templates/mp-list/template.php:3243
+msgid "Text Above Timer"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3265
+#: addons/multiple-products/templates/mp-list/template.php:3263
+msgid "Text Above Timer Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3291
+#: addons/multiple-products/templates/mp-list/template.php:3289
+msgid "Timer Digit Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3327
+#: addons/multiple-products/templates/mp-list/template.php:3325
+msgid "Timer Label Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3368
+#: addons/multiple-products/templates/mp-list/template.php:3366
+msgid "Text Above Timer Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3392
+#: addons/multiple-products/templates/mp-list/template.php:3390
+msgid "Timer Digit Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3401
+#: addons/multiple-products/templates/mp-list/template.php:3399
+msgid "Timer Label Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3411
+#: addons/multiple-products/templates/mp-list/template.php:3409
+msgid "Timer Background Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3428
+#: addons/multiple-products/templates/mp-list/template.php:3426
+msgid "Icons"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3433
+#: addons/multiple-products/templates/mp-list/template.php:3431
+msgid "Order"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3442
+#: addons/multiple-products/templates/mp-list/template.php:3440
+msgid "Amazon"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3443
+#: addons/multiple-products/templates/mp-list/template.php:3441
+msgid "American Express"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3444
+#: addons/multiple-products/templates/mp-list/template.php:3442
+msgid "Authorize"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3445
+#: addons/multiple-products/templates/mp-list/template.php:3443
+msgid "Briantree"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3446
+#: addons/multiple-products/templates/mp-list/template.php:3444
+msgid "Cirrus"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3447
+#: addons/multiple-products/templates/mp-list/template.php:3445
+msgid "Dinners Club"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3448
+#: addons/multiple-products/templates/mp-list/template.php:3446
+msgid "Direct Debit"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3449
+#: addons/multiple-products/templates/mp-list/template.php:3447
+msgid "Discover"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3450
+#: addons/multiple-products/templates/mp-list/template.php:3448
+msgid "Ebay"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3451
+#: addons/multiple-products/templates/mp-list/template.php:3449
+msgid "Jcb"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3452
+#: addons/multiple-products/templates/mp-list/template.php:3450
+msgid "Maestro"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3453
+#: addons/multiple-products/templates/mp-list/template.php:3451
+msgid "Master Card"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3454
+#: addons/multiple-products/templates/mp-list/template.php:3452
+msgid "PayPal"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3455
+#: addons/multiple-products/templates/mp-list/template.php:3453
+msgid "Solo"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3456
+#: addons/multiple-products/templates/mp-list/template.php:3454
+msgid "Stripe"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3457
+#: addons/multiple-products/templates/mp-list/template.php:3455
+msgid "Switch"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3458
+#: addons/multiple-products/templates/mp-list/template.php:3456
+msgid "Visa"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3459
+#: addons/multiple-products/templates/mp-list/template.php:3457
+msgid "Visa Electron"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3467
+#: addons/multiple-products/templates/mp-list/template.php:3465
+msgid "Image size must not be greater than 60px."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3480
+#: addons/multiple-products/templates/mp-list/template.php:3478
+msgid "Original"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3481
+#: addons/multiple-products/templates/mp-list/template.php:3479
+msgid "Greyscale"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3505
+#: addons/multiple-products/templates/mp-list/template.php:3503
+msgid "Badge"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3511
+#: addons/multiple-products/templates/mp-list/template.php:3509
+msgid "Badge Text"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3530
+#: addons/multiple-products/templates/mp-grid/template.php:4377
+#: addons/multiple-products/templates/mp-list/template.php:3527
+#: addons/multiple-products/templates/mp-list/template.php:4353
+msgid "Border Type"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3551
+#: addons/multiple-products/templates/mp-grid/template.php:4405
+#: addons/multiple-products/templates/mp-list/template.php:3548
+#: addons/multiple-products/templates/mp-list/template.php:4381
+msgid "Border Width"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3577
+#: addons/multiple-products/templates/mp-list/template.php:3574
+msgid "Button Colors"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3714
+#: addons/multiple-products/templates/mp-list/template.php:3711
+msgid "Badge Text Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3731
+#: addons/multiple-products/templates/mp-list/template.php:3728
+msgid "Badge Background Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3750
+#: addons/multiple-products/templates/mp-grid/template.php:4438
+#: addons/multiple-products/templates/mp-list/template.php:3747
+#: addons/multiple-products/templates/mp-list/template.php:4414
+msgid "Border Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3803
+#: addons/multiple-products/templates/mp-list/template.php:3800
+msgid "Secure checkout - 100% protected & safe."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3841
+#: addons/multiple-products/templates/mp-list/template.php:3838
+msgid "Bottom Links"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3844
+#: addons/multiple-products/templates/mp-list/template.php:3841
+msgid "Footer Link"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3848
+#: addons/multiple-products/templates/mp-list/template.php:3845
+msgid "Disclaimer"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3852
+#: addons/multiple-products/templates/mp-list/template.php:3849
+msgid "Terms & Conditions"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3856
+#: addons/multiple-products/templates/mp-list/template.php:3853
+msgid "Privacy Policy"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3867
+#: addons/multiple-products/templates/mp-list/template.php:3864
+msgid "Link"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3874
+#: addons/multiple-products/templates/mp-list/template.php:3871
+msgid "Bottom Links Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3938
+#: addons/multiple-products/templates/mp-list/template.php:3935
+msgid "Bottom Links Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:3992
+#: addons/multiple-products/templates/mp-list/template.php:3989
+msgid "Site Background Color "
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4081
+#: addons/multiple-products/templates/mp-list/template.php:4078
+msgid "Highlight Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4106
+#: addons/multiple-products/templates/mp-list/template.php:4103
+msgid "Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4249
+#: addons/multiple-products/templates/mp-list/template.php:4246
+msgid "Custom CSS"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4306
+#: addons/multiple-products/templates/mp-list/template.php:4282
+msgid "Pick one of these offers and pocket instant savings of up to <span class=\"wfocu-highlight\">XX% off</span>"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4318
+#: addons/multiple-products/templates/mp-list/template.php:4294
+msgid "This offer is time sensitive and only available for next few minutes..."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4370
+#: addons/multiple-products/templates/mp-list/template.php:4346
+msgid "Enable Border"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4371
+#: addons/multiple-products/templates/mp-list/template.php:4347
+msgid "Enable if you want to wrap Product setcion with border"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4621
+#: addons/multiple-products/templates/mp-list/template.php:4597
+msgid "Gallery"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4626
+#: addons/multiple-products/templates/mp-list/template.php:4602
+msgid "Product Image"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4627
+#: addons/multiple-products/templates/mp-list/template.php:4603
+msgid "This will override default product image."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4703
+#: addons/multiple-products/templates/mp-list/template.php:4679
+msgid "Sub Heading Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4732
+#: addons/multiple-products/templates/mp-list/template.php:4708
+msgid "Product Title"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4746
+#: addons/multiple-products/templates/mp-list/template.php:4722
+msgid "Product Title Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4775
+#: addons/multiple-products/templates/mp-list/template.php:4751
+msgid "Regular Price Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4804
+#: addons/multiple-products/templates/mp-list/template.php:4780
+msgid "Sale Price Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4833
+#: addons/multiple-products/templates/mp-list/template.php:4809
+msgid "Text Below Price"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4850
+#: addons/multiple-products/templates/mp-list/template.php:4826
+msgid "Text Below Price Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4886
+#: addons/multiple-products/templates/mp-list/template.php:4862
+msgid "Product Description Style"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4890
+#: addons/multiple-products/templates/mp-list/template.php:4866
+msgid "List"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4898
+#: addons/multiple-products/templates/mp-list/template.php:4874
+msgid "Product Description"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4923
+#: addons/multiple-products/templates/mp-list/template.php:4899
+msgid "Description List"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4927
+#: addons/multiple-products/templates/mp-list/template.php:4903
+msgid "Check List"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:4960
+#: addons/multiple-products/templates/mp-list/template.php:4936
+msgid "List Icon"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:5007
+#: addons/multiple-products/templates/mp-list/template.php:4983
+msgid "Description List Icon Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:5042
+#: addons/multiple-products/templates/mp-list/template.php:5018
+msgid "Description Font Size"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:5113
+msgid "Description Alignment"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:5137
+#: addons/multiple-products/templates/mp-list/template.php:5094
+msgid "Highlight This Product"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:5138
+#: addons/multiple-products/templates/mp-list/template.php:5095
+msgid "Enable if you want to highlight this product. Manage settings from Other->Highlight Product Section."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:5149
+#: addons/multiple-products/templates/mp-list/template.php:5107
+msgid "Heading Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:5166
+#: addons/multiple-products/templates/mp-list/template.php:5124
+msgid "Sub Heading Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:5183
+msgid "Header Background Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:5200
+#: addons/multiple-products/templates/mp-list/template.php:5141
+msgid "Product Title Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:5217
+#: addons/multiple-products/templates/mp-list/template.php:5158
+msgid "Regular Price Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:5234
+#: addons/multiple-products/templates/mp-list/template.php:5175
+msgid "Sale Price Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:5251
+msgid "Text Below Price Color"
+msgstr ""
+
+#: addons/multiple-products/templates/mp-grid/template.php:5291
+#: addons/multiple-products/templates/mp-list/template.php:5232
+msgid "Enable if you want to change Content color specifically for this section."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-list/template.php:2669
+msgid "Got a guarantee or a solid return/refun policy? Highlight them all here to arrest your buyer's last-minute objections. Reinforce the trust."
+msgstr ""
+
+#: addons/multiple-products/templates/mp-list/template.php:5192
+msgid "Text below Price Color"
+msgstr ""
+
+#: addons/reports/class-woofunnels-upstroke-reports.php:85
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:430
+msgid "Upsells"
+msgstr ""
+
+#: addons/reports/class-woofunnels-upstroke-reports.php:88
+msgid "Upsells by Date"
+msgstr ""
+
+#: addons/reports/class-woofunnels-upstroke-reports.php:94
+msgid "Upsells by Funnel"
+msgstr ""
+
+#: addons/reports/class-woofunnels-upstroke-reports.php:100
+msgid "Upsells by Product"
+msgstr ""
+
+#: addons/reports/class-woofunnels-upstroke-reports.php:106
+msgid "Upsells by Customer"
+msgstr ""
+
+#: addons/reports/class-woofunnels-upstroke-reports.php:162
+msgid "WooCommerce"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-customer.php:42
+#: addons/reports/reports/class-wfocu-upsells-by-customer.php:44
+msgid "Total Upsells"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-customer.php:43
+msgid "Total Customers"
+msgstr ""
+
+#. translators: %s: help tip html
+#: addons/reports/reports/class-wfocu-upsells-by-customer.php:153
+msgid "Total Upsells %s"
+msgstr ""
+
+#. translators: %s: help tip html
+#: addons/reports/reports/class-wfocu-upsells-by-customer.php:153
+msgid "Total upsell amount ordered by this customer."
+msgstr ""
+
+#. translators: %s: help tip html
+#: addons/reports/reports/class-wfocu-upsells-by-customer.php:155
+msgid "Funnels Triggers %s"
+msgstr ""
+
+#. translators: %s: help tip html
+#: addons/reports/reports/class-wfocu-upsells-by-customer.php:155
+msgid "The funnels veiwed/seen by this customer."
+msgstr ""
+
+#. translators: %s: help tip html
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-customer.php:157
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:238
+msgid "Offers Accepted %s"
+msgstr ""
+
+#. translators: %s: help tip html
+#: addons/reports/reports/class-wfocu-upsells-by-customer.php:157
+msgid "Total offers accepted by this customer."
+msgstr ""
+
+#. translators: %s: help tip html
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-customer.php:159
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:240
+msgid "Offers Rejected %s"
+msgstr ""
+
+#. translators: %s: help tip html
+#: addons/reports/reports/class-wfocu-upsells-by-customer.php:159
+msgid "Total offers declined by this customer after viewing."
+msgstr ""
+
+#. translators: %s: help tip html
+#: addons/reports/reports/class-wfocu-upsells-by-customer.php:161
+msgid "Offers Expired  %s"
+msgstr ""
+
+#. translators: %s: help tip html
+#: addons/reports/reports/class-wfocu-upsells-by-customer.php:161
+msgid "Total offers expires after viewing by this customer."
+msgstr ""
+
+#. translators: %s: average gross daily upsells
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:39
+msgid "%s average gross daily upsells"
+msgstr ""
+
+#. translators: %s: average gross monthly upsells
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:43
+msgid "%s average gross monthly upsells"
+msgstr ""
+
+#. translators: %s: average gross monthly upsells
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:49
+msgid "%s Gross Upsells in this period"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:50
+msgid "The sum of revenue genereted through upsells product."
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:57
+msgid "Average revenue genereted though upsells product."
+msgstr ""
+
+#. translators: %s: average gross triggered
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:64
+msgid "%s Total number of times funnels are triggered in this period"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:65
+msgid "The number of funnels initiated."
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:72
+msgid "%s Total Offers Accepted in this period"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:74
+msgid "Total offers accepted."
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:80
+msgid "%s Total Offers Rejected in this period"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:82
+msgid "Total offers desclined."
+msgstr ""
+
+#. translators: %s: Overall conversion Rate
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:88
+msgid "%s Overall conversion rate"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:90
+msgid "Overall conversion rate."
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:379
+msgid "Funnels Triggered"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:395
+msgid "Offers Declined"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:412
+msgid "Offers Accepted"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-date.php:440
+msgid "Average gross upsells"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:27
+msgid "Funnel"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:28
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:234
+msgid "Funnels"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:56
+msgid "No funnels found."
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:130
+msgid "Funnel ID: %s*"
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:236
+msgid "Offers Viewed %s"
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:236
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:187
+msgid "Total offers viewed from this funnel."
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:238
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:189
+msgid "Total offers accepted from this funnel."
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:240
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:191
+msgid "Total offers rejected from this funnel"
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:242
+msgid "Offers Pending  %s"
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:242
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:193
+msgid "Total offers pending (Failed + Expired) from this funnel."
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:244
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:195
+msgid "Conversion Rate %s"
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:244
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:195
+msgid "Conversion Rate."
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:246
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:197
+msgid "Total Upsells  %s"
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:246
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:197
+msgid "Total upsells through this funnel."
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:248
+msgid "Offer Details  %s"
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:248
+msgid "Offer-wise details for this funnel."
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:292
+msgid "*These funnel(s) is/are deleted."
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-funnel.php:329
+msgid "View"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:30
+msgid "Offer"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:31
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:185
+msgid "Offers"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:56
+msgid "No offer found."
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:138
+msgid "Offer ID: %s*"
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:187
+msgid "Offer Viewed %s"
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:189
+msgid "Offer Accepted %s"
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:191
+msgid "Offer Rejected %s"
+msgstr ""
+
+#. translators: %s: average gross accepted
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:193
+msgid "Offer Pending  %s"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:207
+msgid "*These offer(s) is/are deleted."
+msgstr ""
+
+#. translators: %s: Funnels name
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:269
+msgid "Funnel Name: %s"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-offer.php:284
+msgid "Back to funnel reports"
+msgstr ""
+
+#. translators: %s: total upsells
+#: addons/reports/reports/class-wfocu-upsells-by-product.php:96
+msgid "%s Upsells for all the items from this funnel."
+msgstr ""
+
+#. translators: %s: total items accepted as offer
+#: addons/reports/reports/class-wfocu-upsells-by-product.php:98
+msgid "%s offer accepted for the products from this funnel"
+msgstr ""
+
+#. translators: %s: total upsells
+#: addons/reports/reports/class-wfocu-upsells-by-product.php:101
+msgid "%s Upsells for the selected items"
+msgstr ""
+
+#. translators: %s: total items accepted as offer
+#: addons/reports/reports/class-wfocu-upsells-by-product.php:103
+msgid "%s offer accepted for the selected product"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-product.php:191
+msgid "Top Upsells"
+msgstr ""
+
+#. translators: 1: total upsells 2: days
+#: addons/reports/reports/class-wfocu-upsells-by-product.php:380
+msgid "Upsells %1$s worth in the last %2$d days"
+msgstr ""
+
+#. translators: 1: total items sold 2: days
+#: addons/reports/reports/class-wfocu-upsells-by-product.php:384
+msgid "Accepted %1$d product as offer in the last %2$d days"
+msgid_plural "Accepted %1$d products as offers in the last %2$d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-product.php:422
+msgid "Export CSV"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-product.php:436
+msgid "Choose a product/funnel to view stats"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upsells-by-product.php:531
+msgid "Upsells amount"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upstroke-timeline.php:32
+msgid "UpStroke Timeline"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upstroke-timeline.php:87
+msgid "Funnel ({{funnel_name}}) initiated."
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upstroke-timeline.php:88
+msgid "Offer ({{offer_name}}) viewed."
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upstroke-timeline.php:89
+msgid "Offer ({{offer_name}}) converted."
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upstroke-timeline.php:90
+msgid "Product ({{product_name}}) {{qty}} in offer ({{offer_name}}) accepted."
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upstroke-timeline.php:91
+msgid "Offer ({{offer_name}}) rejected."
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upstroke-timeline.php:92
+msgid "Offer ({{offer_name}}) expired."
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upstroke-timeline.php:93
+msgid "Funnel ({{funnel_name}}) Terminated."
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upstroke-timeline.php:94
+msgid "Funnel ({{funnel_name}}) payment failed."
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upstroke-timeline.php:95
+msgid "Offer ({{offer_name}}) skipped. Reason: {{invalidation_reason_html}}"
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upstroke-timeline.php:96
+msgid "Funnel ({{funnel_name}}) Closed. Order Recieved Page Shown to User."
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upstroke-timeline.php:97
+msgid "Offer ({{offer_name}}) Refunded."
+msgstr ""
+
+#: addons/reports/reports/class-wfocu-upstroke-timeline.php:130
+msgid "No upstroke activity"
+msgstr ""
+
+#: addons/subscriptions/class-upstroke-subscriptions.php:107
+msgid "Subscription replaced by the UpStroke"
+msgstr ""
+
+#: addons/subscriptions/class-upstroke-subscriptions.php:1072
+msgid "Go to settings"
+msgstr ""
+
+#: addons/subscriptions/class-upstroke-subscriptions.php:1288
+msgid "Recurring Price Label"
+msgstr ""
+
+#: addons/subscriptions/class-upstroke-subscriptions.php:1302
+msgid "Signup Fee Label"
+msgstr ""
+
+#: addons/subscriptions/class-woofunnels-upstroke-subscriptions.php:57
+#: woofunnels-upstroke-power-pack.php:110
+#: woofunnels-upstroke-power-pack.php:132
+#: woofunnels-upstroke-power-pack.php:177
+msgid "Attention"
+msgstr ""
+
+#. translators: %1$s: Min required upstroke version
+#: addons/subscriptions/class-woofunnels-upstroke-subscriptions.php:60
+msgid "UpStroke Subscriptions requires  WooFunnels UpStroke: One Click Upsell version %1$s or greater. Kindly update the WooFunnels UpStroke: One Click Upsell plugin."
+msgstr ""
+
+#: woofunnels-upstroke-power-pack.php:78
+msgid "Dynamic Shipping"
+msgstr ""
+
+#: woofunnels-upstroke-power-pack.php:84
+msgid "Multiple Products"
+msgstr ""
+
+#: woofunnels-upstroke-power-pack.php:90
+msgid "Woocommerce Reports"
+msgstr ""
+
+#: woofunnels-upstroke-power-pack.php:96
+msgid "Subscriptions"
+msgstr ""
+
+#. translators: %1$s: Plugin name %2$s Plugin name
+#: woofunnels-upstroke-power-pack.php:113
+msgid "Old version of \"UpStroke: %1$s\" is installed and active. Please deactivate it to run updated \"Upstroke PowerPack - %2$s\" module"
+msgstr ""
+
+#. translators: %1$s: Min required upstroke version
+#: woofunnels-upstroke-power-pack.php:135
+msgid "UpStroke PowerPack requires  WooFunnels UpStroke: One Click Upsell version %1$s or greater. Kindly update the WooFunnels UpStroke: One Click Upsell plugin."
+msgstr ""
+
+#: woofunnels-upstroke-power-pack.php:179
+msgid "UpStroke PowerPack contains a \"UpStroke: WooCommerce One Click Upsells\" addons and would only work if it is installed and activated. Please install and activate it first."
+msgstr ""

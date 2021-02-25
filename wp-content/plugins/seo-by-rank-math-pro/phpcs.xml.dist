@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Coding Standards for Plugins">
+	<description>Sniffs for WordPress plugins, with minor modification for Rank Math</description>
+
+	<arg value="ps"/>
+	<arg name="extensions" value="php"/>
+	<file>.</file>
+
+	<!-- Exclude paths -->
+	<exclude-pattern>*/languages/*</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*/tests/*</exclude-pattern>
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+	<exclude-pattern>*/index.php</exclude-pattern>
+
+	<!-- Configs -->
+	<config name="minimum_supported_wp_version" value="4.5" />
+
+	<!-- Rules -->
+	<rule ref="WordPress-Core" />
+	<rule ref="WordPress-Docs" />
+
+	<rule ref="WordPress.WP.I18n"/>
+	<config name="text_domain" value="rank-math-pro,default"/>
+
+	<rule ref="WordPress.Files.FileName.InvalidClassFileName">
+		<exclude-pattern>includes/**/abstract-*.php</exclude-pattern>
+		<exclude-pattern>includes/**/interface-*.php</exclude-pattern>
+		<exclude-pattern>tests/*</exclude-pattern>
+	</rule>
+
+	<rule ref="WordPress.Files.FileName.NotHyphenatedLowercase">
+		<exclude-pattern>languages/</exclude-pattern>
+	</rule>
+
+	<rule ref="WordPress.NamingConventions.ValidHookName">
+		<properties>
+			<property name="additionalWordDelimiters" value="-/."/>
+		</properties>
+	</rule>
+
+	<rule ref="Generic.Commenting">
+		<exclude-pattern>tests/</exclude-pattern>
+		<exclude-pattern>tests/</exclude-pattern>
+	</rule>
+
+	<rule ref="Generic.Arrays.DisallowShortArraySyntax.Found">
+		<severity>0</severity>
+	</rule>
+
+	<rule ref="Squiz.Commenting">
+		<exclude-pattern>tests/</exclude-pattern>
+		<exclude name="Squiz.Commenting.LongConditionClosingComment" />
+		<exclude name="Squiz.Commenting.PostStatementComment" />
+	</rule>
+
+	<rule ref="PEAR.Functions.FunctionCallSignature">
+		<properties>
+			<property name="SpaceAfterCloseBracket" value="0"/>
+			<property name="ContentAfterOpenBracket" value="0"/>
+			<property name="MultipleArguments" value="0"/>
+			<property name="CloseBracketLine" value="0"/>
+		</properties>
+	</rule>
+
+</ruleset>

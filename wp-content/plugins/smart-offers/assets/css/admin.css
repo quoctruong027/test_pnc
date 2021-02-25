@@ -1,0 +1,566 @@
+/* SO Admin dashboard - start */
+td.column-offered_products img {
+	float: left;
+}
+td.column-offered_products p.offered_products_name {
+	vertical-align: top;
+	display: inline;
+}
+th.column-title,
+td.column-title {
+	width: 15%;
+}
+th.column-offered_products,
+td.column-offered_products {
+	width: 15%;
+}
+th.column-offer_type,
+td.column-offer_type {
+	width: 8%;
+}
+th.column-upsell_offers,
+td.column-upsell_offers {
+	width: 15%;
+}
+th.column-downsell_offers,
+td.column-downsell_offers {
+	width: 15%;
+}
+th.column-quick_stats,
+td.column-quick_stats {
+	width: 11%
+}
+th.column-conversion_rate,
+td.column-conversion_rate {
+	width: 11%;
+}
+th.column-earnings,
+td.column-earnings {
+	width: 10%;
+}
+/* Embed offer popup - start*/
+.mfp-inline-holder .mfp-content {
+	width: auto !important;
+}
+.embed_offer {
+	width: 55em;
+	height: 30.5em;
+	background-color: white;
+}
+.embed_head {
+	margin: 0;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+.embed_offer label {
+	padding-left: 0.6em;
+}
+.embed_offer hr {
+	padding: 0;
+	margin: 0;
+}
+.embed_text {
+	width: 51em;
+	height: 25em;
+	resize: none;
+}
+/* Embed offer popup - end*/
+/* SO Admin dashboard - end */
+/* Edit offer css - start */
+/* Hide permalink edit box */
+#edit-slug-box {
+	display: none;
+}
+div#so-offer-data .panel-wrap {
+	overflow: hidden;
+	background: #fff;
+}
+/* offer priority - start */
+#so_offer_priority label {
+	cursor: unset;
+	margin-left: -13.7em;
+	margin-top: 0.2em;
+}
+#so_offer_priority ul.priority-desc {
+	list-style: unset;
+	margin-left: 1.5em;
+	margin-top: 0.1em;
+}
+/* offer priority - end */
+div#so-offer-data ul.wc-tabs {
+	margin: 0;
+	width: 20%;
+	float: left;
+	line-height: 1em;
+	padding: 0 0 10px;
+	position: relative;
+	background-color: #fafafa;
+	border-right: 1px solid #eee;
+	box-sizing: border-box;
+}
+div#so-offer-data ul.wc-tabs::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 9999em;
+	position: absolute;
+	bottom: -9999em;
+	left: 0;
+	background-color: #fafafa;
+	border-right: 1px solid #eee;
+}
+div#so-offer-data ul.wc-tabs li {
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: relative;
+}
+div#so-offer-data ul.wc-tabs li a {
+	margin: 0;
+	padding: 10px;
+	display: block;
+	box-shadow: none;
+	text-decoration: none;
+	line-height: 20px !important;
+	border-bottom: 1px solid #eee;
+}
+div#so-offer-data ul.wc-tabs li a span {
+	margin-left: 0.618em;
+	margin-right: 0.618em;
+}
+div#so-offer-data .inside {
+	margin: 0;
+	padding: 0;
+}
+div#so-offer-data .active a {
+	color: #555;
+	position: relative;
+	background-color: #eee;
+}
+div#so-offer-data .offer_data {
+	width: 100%;
+}
+div#so-offer-data .woocommerce_options_panel {
+	float: left;
+	width: 80%;
+}
+.woocommerce_options_panel input[type=number].short {
+	width: 16%;
+	margin-right: 23px;
+}
+.woocommerce_options_panel input[type=text].short {
+	width: 28%;
+}
+.woocommerce_options_panel select.short {
+	width: 30%;
+}
+div#so-offer-data label.so_label_text {
+	margin-left: 12px;
+	width: 100%;
+}
+/* Offered product - start */
+li.offered_product_options a::before {
+	font-family: WooCommerce;
+	content: '\e006';
+	padding-right: inherit;
+	float: left;
+	font-size: inherit;
+}
+/* Offered product - end */
+/* Display rules - start */
+li.show_when_options a::before {
+	/*content: "\f108";*/
+	content: "\f177";
+	padding-right: inherit;
+	font-family: 'Dashicons';
+	float: left;
+	font-size: medium;
+}
+div#offer_rules div.woo_offer_rule {
+	overflow: visible;
+	background-color: #f1f1f1;
+	border: 1px dashed #dfdfdf;
+	margin: 10px;
+	opacity: 1;
+	zoom: 1;
+}
+div#offer_rules div.woo_offer_rule p.type select.action {
+	margin-right: 7px;
+	width: 27%;
+}
+div#offer_rules div.woo_offer_rule p.type select.role {
+	margin-right: 7px
+}
+div#offer_rules div.woo_offer_rule .price {
+	width: 42%;
+}
+div#offer_rules div.woo_offer_rule input[id^="_offer_valid_"] {
+	margin-right: 10px;
+}
+div#offer_rules p#add_new_rule_button {
+	margin: 2em 0;
+	text-align: center;
+}
+.so-offer-rule-group {
+	margin: 5px;
+	border: 1px solid #ccc;
+}
+.woo_offer_rule .so-button-group {
+	float: right;
+}
+.so-button-group .remove_rule_option {
+	margin-left: 6px;
+}
+.so-button-group .remove_rule_option:hover {
+	border-color: #dc3232;
+	background: #f55e4f;
+}
+.so-or-break {
+	border: 1px solid #aaa;
+	margin: .8em auto;
+	display: inline-table;
+	padding: .8em;
+	border-radius: 50%;
+	overflow: hidden;
+	color: #aaa;
+}
+.so-or-break-container {
+	display: table;
+	margin: 0 47%;
+	width: 50%;
+}
+.so-or-break-container:before,
+.so-or-break-container:after {
+	background-color: #aaa;
+	content: "" !important;
+	display: inline-block !important;
+	height: 1px !important;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+	visibility: visible !important;
+}
+.so-or-break-container:before {
+	right: 0.5em;
+	margin-left: -50%;
+}
+.so-or-break-container:after {
+	left: 0.5em;
+	margin-right: -50%;
+}
+/* Display rules - end */
+/* Show offer on page - start */
+li.show_on_page_options a::before {
+	content: '\f105';
+	padding-right: inherit;
+	font-family: 'Dashicons';
+	float: left;
+	font-size: medium;
+}
+fieldset.so_option_wrapper {
+	margin-top: 13px;
+}
+div.so_page_options {
+	margin-left: 15px;
+}
+.so_page_options label.page_checkbox {
+	margin: 0.25em 0;
+}
+.so_show_shortcode {
+	margin: 1.1em 0 1em 1.2em;
+}
+label.page_checkbox {
+	line-height: 24px;
+	margin: 2px 0;
+	display: block;
+	width: 50%;
+}
+div.so_page_options input {
+	vertical-align: middle;
+}
+div.so_page_options label span {
+	vertical-align: middle;
+}
+/* Show offer on page - end */
+/* Show offer as inline/popup - start */
+li.show_as_options a::before {
+	content: "\f472";
+	padding-right: inherit;
+	font-family: 'Dashicons';
+	float: left;
+	font-size:medium;
+}
+div#so_offer_as .description {
+	vertical-align: sub;
+	display: inline;
+	margin-left: 5px;
+}
+div#so_offer_as table {
+	width: 75%;
+	padding: 10px 0px 0px 20px;
+}
+div#so_offer_as table td {
+	width: 50%;
+	padding: 15px;
+}
+.sprite {
+	background: url('../images/offer-inline-lightbox-sprite.png') no-repeat top left;
+	width: 64px;
+	height: 64px;
+}
+.sprite.show-offer-inline {
+	background-position: 0px 0px;
+	margin-left: -5px;
+}
+.sprite.show-offer-as-lightbox {
+	background-position: 0px -74px;
+	margin-left: -6px;
+}
+/* Show offer as inline/popup - end */
+/* Accept/Skip actions - start */
+li.on_accept_options a::before {
+	content: "\f529";
+	padding-right: inherit;
+	font-family: 'Dashicons';
+	float: left;
+	font-size: medium;
+}
+li.on_skip_options a::before {
+	content: "\f542";
+	padding-right: inherit;
+	font-family: 'Dashicons';
+	float: left;
+	font-size:medium;
+}
+label.accept_input_checkboxes,
+label.skip_options_radio {
+	margin-left: 10px;
+	margin-right: auto;
+	width: 255px;
+}
+label.accept_input_checkboxes#sa_no_coupon {
+	width: 430px !important;
+}
+/* To show 3 checkbox as radio */
+#so-another-offer input[type="checkbox"],
+#so-another-url input[type="checkbox"],
+#so-accept-buy-now input[type="checkbox"] {
+	border-radius: 50%;
+}
+#so-another-offer input[type="checkbox"]:checked:before,
+#so-another-url input[type="checkbox"]:checked:before,
+#so-accept-buy-now input[type="checkbox"]:checked:before {
+	content: "\2022";
+	text-indent: -9999px;
+	border-radius: 50%;
+	font-size: 24px;
+	width: 6px;
+	height: 6px;
+	margin: 4px;
+	line-height: 16px;
+	background-color: #1e8cbe;
+}
+input#sa_smart_offer_if_denied_skip_permanently {
+	margin-left: 10px !important;
+}
+.so_skip_and_redirect_page_dropdown#page_id {
+	width: 44% !important;
+}
+/* For BN upsell */
+.bn_disabled {
+	background: #fbfbcd !important;
+	width: 42% !important;
+	padding: 0.4em !important;
+}
+/* Accept/Skip actions - end */
+.show_on_page p.form-field,
+.show_as p.form-field,
+.show_when p.form-field,
+.on_accept p.form-field,
+.on_skip p.form-field,
+.offer_position p.so_order_bump_position,
+.offer_content p.so_order_bump_content {
+	padding: 2px !important;
+}
+/* For Available Shortcodes to use in the Offer Content */
+code.so_shortcode_name {
+	font-size: 11px !important;
+}
+div.so_shortcode_name_desc {
+	margin-bottom: 0.4em;
+}
+/* Edit offer css - end */
+.CodeMirror {
+	border: 1px solid #ddd;
+}
+/* Add Order Bump Dropdown CSS - start */
+.so-dropdown-wrapper {
+    position: relative;
+}
+.so-dropdown-wrapper .so-dropdown {
+    display: none;
+    position: absolute;
+    left: 4px;
+    top: 100%;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    z-index: 9999;
+}
+.so-dropdown-wrapper:hover .so-dropdown {
+    display: block;
+}
+.so-dropdown a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    box-shadow: none;
+}
+.so-dropdown hr {
+    margin: 5px 0;
+}
+/* Add Order Bump Dropdown CSS - end*/
+/* Offer Position Tab CSS - start */
+li.offer_position_options a::before,
+li.offer_content_options a::before,
+li.order_bump_style_options a::before {
+	padding-right: inherit;
+	font-family: 'Dashicons';
+	float: left;
+	font-size:medium;
+}
+li.offer_position_options a::before {
+	content: "\f538";
+}
+li.offer_content_options a::before {
+	content: "\f121";
+}
+li.order_bump_style_options a::before {
+	content: "\f116";
+}
+/* Offer Position Tab CSS - end */
+/* Order Bump Content CSS - start */
+.so_order_bump_image_preview_wrapper {
+    display: inline-block;
+    position: relative;
+}
+.so_order_bump_remove_image {
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    color: #999;
+    cursor: pointer;
+    display: none;
+}
+.so_order_bump_image_preview ~ .so_order_bump_remove_image {
+    display: inline-block;
+}
+.so_order_bump_image_preview_wrapper.image_chosen + .so_order_bump_upload_button_wrapper {
+    display: block;
+}
+.so_order_bump_image_field_wrapper.disabled .so_order_bump_image_upload,
+.so_order_bump_image_field_wrapper:not(.disabled) .so_order_bump_no_image_text,
+.so_order_bump_intro_text_field.disabled #so_order_bump_intro_text,
+.so_order_bump_intro_text_field.disabled .woocommerce-help-tip,
+.so_order_bump_intro_text_field:not(.disabled) .so_order_bump_no_intro_text {
+    display:none;
+}
+.so_order_bump_style_field .select2-container {
+    min-width: 50%;
+}
+.so-order-bump-style-preview .style-text {
+    text-align: center;
+    display: block;
+}
+.so-order-bump-style-preview .style-image img {
+    max-width: 100%;
+}
+#so-offer-order-bump-style .style_wrapper img {
+    width: 100%;
+}
+#so-offer-order-bump-style .style_wrapper input.so_order_bump_style {
+    float: none;
+    display: inline-block;
+    margin: 0 !important;
+}
+#so-offer-order-bump-style label.description {
+    width: 100%;
+    margin: 0;
+    float: none;
+}
+#so-offer-order-bump-style .style_wrapper {
+    margin-bottom: 1em;
+    text-align: center;
+}
+#so-offer-order-bump-style .style_wrapper .forminp.forminp-checkbox::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.style-preview-img-wrapper {
+    display: inline-block;
+    margin-bottom: 5px;
+    max-width: 80%;
+}
+.style_wrapper.selected .style-preview-img-wrapper img {
+    outline: 2px solid #888;
+}
+.style_wrapper.new-style-selected .style-preview-img-wrapper{
+    -webkit-animation: glow linear .7s;
+	animation: glow linear .7s;
+}
+#so-offer-order-bump-style .style_wrapper.style-4 {
+    width: 100%;
+    margin-top: 10px;
+}
+.style_wrapper .woocommerce-help-tip {
+    margin-left: 0px;
+}
+/* Pulse class and keyframe animation */
+@keyframes glow {
+  0% { 
+		box-shadow: none;
+	} 
+	50% { 
+		box-shadow: 0 0 10px #ccc, 0 0 15px #ccc, 0 0 20px #ccc;
+	} 
+	100% { 
+		box-shadow:none; 
+	}
+}
+@-webkit-keyframes glow {
+  0% { 
+		box-shadow: none;
+	} 
+	50% { 
+		box-shadow: 0 0 10px #ccc, 0 0 15px #ccc, 0 0 20px #ccc;
+	} 
+	100% { 
+		box-shadow:none; 
+	}
+}
+/* Order Bump Content CSS - end */
+/* Responsiveness - start */
+@media only screen and (min-width: 768px) {
+	#so-offer-order-bump-style .style_wrapper {
+	    width: 50%;
+	    float: left;
+	}
+	.style_wrapper_row {
+	    display: flex;
+	    align-items: flex-end;
+	}
+}
+@media only screen and (max-width: 767px) {
+	#so-offer-order-bump-style .style_wrapper img {
+		width: 70%;
+	}
+	#so-offer-order-bump-style .style_wrapper.style-4 img {
+	    margin-top: 0;
+	    width: 100%;
+	}
+}
+/* Responsiveness - end */

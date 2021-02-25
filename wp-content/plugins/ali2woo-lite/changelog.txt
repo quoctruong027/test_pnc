@@ -1,0 +1,26 @@
+1.0.0 
+- Initial release
+
+1.0.2
+- Fixed issues with the chrome extension
+- Simpliy way to connect your store to the chrome extension
+
+1.0.3
+- Fixed the issue with an empty products description and attributes (item specifics data)
+
+1.1.0
+- Update plugin API
+- Fixed minor bugs
+
+2.0.0
+- Added a feature to import product variants
+- Added a feature to import unlimited products
+- Added a feature to split product variants
+- Added a feature to override product supplier
+- Support the latest Ali2Woo chrome extension
+- Support for WordPress 5.6
+- Support for WooCommerce 4.9
+- Fixed a lot of bugs
+
+2.0.1
+- Fixed minor bugs
